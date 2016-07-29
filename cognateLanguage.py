@@ -43,19 +43,17 @@ def respellWithAllophones(word):
                 word = word.replace(char,allophones[allo])
     return word
 
-def combineOverlappingWords():
-    for word in shortList:
-        for otherWord in shortList:
-            if word != otherWord and word != 'Eng' and otherWord != 'Eng':
-                a = shortList[word]
-                b = shortList[otherWord]
+def combineOverlappingWords(shortList):
+    for language in shortList:
+        for otherlanguage in shortList:
+            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
+                a = shortList[language]
+                b = shortList[otherlanguage]
                 for i in range(1, len(b)):
                     if a.endswith(b[:i]):
-                        shortList[otherWord] = ''
-                        shortList[word] = a+b[i:]
-    for word in shortList:
-        if word != 'Eng':
-            print word + '\t' + shortList[word]
+                        shortList[otherlanguage] = ''
+                        shortList[language] = a+b[i:]
+    return shortList
 
 #------------------------
 # main part of the program:
@@ -81,77 +79,71 @@ originalWords = words
 # show the words:
 print '\nshow the words:'
 
-for word in words:
-    if word != 'Eng':
-        print word + '\t' + words[word]
+for language in words:
+    if language != 'Eng':
+        print language + '\t' + words[language]
 
 # show the words spelt with just the initial vowel and consonants:
 print '\nshow the words spelt with just the initial vowel and consonants:'
 
-for word in words:
-    if word != 'Eng':
-        words[word] = respellWithInitialVowelAndConsonants(words[word])
-        print word + '\t' + words[word]
+for language in words:
+    if language != 'Eng':
+        words[language] = respellWithInitialVowelAndConsonants(words[language])
+        print language + '\t' + words[language]
 
 # show the words with allophonic spelling:
 print '\nshow the words with allophonic spelling:'
 
-for word in words:
-    if word != 'Eng':
-        words[word] = respellWithAllophones(words[word])
-        print word + '\t' + words[word]
+for language in words:
+    if language != 'Eng':
+        words[language] = respellWithAllophones(words[language])
+        print language + '\t' + words[language]
 
 # ignore repeats:
 print '\nignore repeats:'
 
 shortList = words
 
-for word in shortList:
-    for otherWord in shortList:
-        if word != otherWord:
-            if shortList[word] == shortList[otherWord]:
-                shortList[otherWord] = ''
+for language in shortList:
+    for otherlanguage in shortList:
+        if language != otherlanguage:
+            if shortList[language] == shortList[otherlanguage]:
+                shortList[otherlanguage] = ''
 
-for word in shortList:
-    if word != 'Eng':
-        print word + '\t' + shortList[word] # print the unique words
+for language in shortList:
+    if language != 'Eng':
+        print language + '\t' + shortList[language] # print the unique words
 
 # ignore words embedded in other words:
 print '\nignore words embedded in other words:'
 
-for word in shortList:
-    for otherWord in shortList:
-        if word != otherWord:
-            if shortList[word] in shortList[otherWord]:
-                shortList[word] = ''
+for language in shortList:
+    for otherlanguage in shortList:
+        if language != otherlanguage:
+            if shortList[language] in shortList[otherlanguage]:
+                shortList[language] = ''
 
-for word in shortList:
-    if word != 'Eng':
-        print word + '\t' + shortList[word]
+for language in shortList:
+    if language != 'Eng':
+        print language + '\t' + shortList[language]
 
 # find overlaps in words:
-print '\nfind overlaps in words:'
 
-combineOverlappingWords()
+for tries in range(5):
+    print '\nfind overlaps in words:  try #' + str(tries+1)
 
-# find overlaps in words, x2:
-print '\nfind overlaps in words, x2:'
-combineOverlappingWords()
+    shortList = combineOverlappingWords(shortList)
 
-# find overlaps in words, x3:
-print '\nfind overlaps in words, x3:'
-combineOverlappingWords()
-
-# find overlaps in words, x4:
-print '\nfind overlaps in words, x4:'
-combineOverlappingWords()
+    for language in shortList:
+        if language != 'Eng':
+            print language + '\t' + shortList[language]
 
 # append remaining words:
 print '\nappend remaining words:'
 
-for word in shortList:
-    if word != 'Eng':
-        newWord += shortList[word]
+for language in shortList:
+    if language != 'Eng':
+        newWord += shortList[language]
 
 print newWord
 
