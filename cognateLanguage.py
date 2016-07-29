@@ -73,7 +73,7 @@ for line in data:
     words['Spa'] = line.split(',')[4]
     words['Hin'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
-    if words['Eng'] == 'what':
+    if words['Eng'] == 'test2':
         break # get rid of this later
 
 originalWords = words

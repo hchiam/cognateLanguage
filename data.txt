@@ -10,3 +10,4 @@
 9,here,tceli,hena,aki,yaha,zdes,
 10,there,nali,henak,ai,vaha,tam,
 11,test,patc,huski,lap,pebl,bob,
+12,test2,yun,istemal,usa,istemal,potrebi,
