@@ -6,6 +6,8 @@ words = {'Eng' : '', 'Chi' : '', 'Ara' : '', 'Spa' : '', 'Hin' : '', 'Rus' : ''}
 
 originalWords = words
 
+wordsMinusNoninitialVowels = words
+
 shortList = []
 
 newWord = ''
@@ -74,7 +76,7 @@ for line in data:
     if words['Eng'] == 'test2':
         break # get rid of this later
 
-originalWords = words
+originalWords = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
 
 # show the words:
 print '\nshow the words:'
@@ -90,6 +92,8 @@ for language in words:
     if language != 'Eng':
         words[language] = respellWithInitialVowelAndConsonants(words[language])
         print language + '\t' + words[language]
+
+wordsMinusNoninitialVowels = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
 
 # show the words with allophonic spelling:
 print '\nshow the words with allophonic spelling:'
@@ -150,8 +154,9 @@ print newWord
 # put original consonants back in, using 1st letters of higher-priority words:
 print '\nput original consonants back in, using 1st letters of higher-priority words:'
 
-print originalWords
-print words
+print 'originalWords = \n', originalWords
+print 'wordsMinusNoninitialVowels = \n', wordsMinusNoninitialVowels
+print 'words = \n', words
 
 
 
