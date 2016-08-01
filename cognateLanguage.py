@@ -153,13 +153,19 @@ print newWord
 
 # put original consonants back in, using 1st letters of higher-priority words:
 print '\nput original consonants back in, using 1st letters of higher-priority words:'
+print
+print 'originalWords = \n', originalWords, '\n'
+print 'wordsMinusNoninitialVowels = \n', wordsMinusNoninitialVowels, '\n'
+print 'words = \n', words, '\n'
 
-print 'originalWords = \n', originalWords
-print 'wordsMinusNoninitialVowels = \n', wordsMinusNoninitialVowels
-print 'words = \n', words
+for language in wordsMinusNoninitialVowels:
+    if language != 'Eng':
+        pattern = respellWithAllophones(wordsMinusNoninitialVowels[language])
+        newWord = newWord.replace(pattern, wordsMinusNoninitialVowels[language])
 
+print "newWord = \n", newWord
 
-
-
+# put original vowels back in, using letters of higher-priority words:
+print '\nput original vowels back in, using letters of higher-priority words:'
 
 
