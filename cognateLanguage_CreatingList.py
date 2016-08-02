@@ -69,11 +69,9 @@ def createWord():
     
     # function variables:
 
-    originalWords = words
     wordsMinusNoninitialVowels = words
     shortList = []
     newWord = ''
-    originalWords = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
     
     # the words spelt with just the initial vowel and consonants:
 
@@ -175,10 +173,11 @@ for line in data:
     words['Spa'] = line.split(',')[4]
     words['Hin'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
+    originalWords = words.copy()
     if words['Eng'] != 'Eng':
         newWord = createWord() # here is the major function call!
         with open(outputFilename,'a') as f2:
-            f2.write(words['Eng'] + '\t' + newWord + '\n')
+            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Ara'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Rus'] + ',\n')
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')
