@@ -1,8 +1,16 @@
+from collections import OrderedDict
+
 #------------------------
 # variables:
 #------------------------
 
-words = {'Eng' : '', 'Chi' : '', 'Ara' : '', 'Spa' : '', 'Hin' : '', 'Rus' : ''}
+words = OrderedDict()
+words['Eng'] = ''
+words['Chi'] = ''
+words['Ara'] = ''
+words['Spa'] = ''
+words['Hin'] = ''
+words['Rus'] = ''
 
 originalWords = words
 

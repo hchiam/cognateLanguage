@@ -1,10 +1,17 @@
-import time;
+from collections import OrderedDict
+import time
 
 #------------------------
 # shared variables:
 #------------------------
 
-words = {'Eng' : '', 'Chi' : '', 'Ara' : '', 'Spa' : '', 'Hin' : '', 'Rus' : ''}
+words = OrderedDict()
+words['Eng'] = ''
+words['Chi'] = ''
+words['Ara'] = ''
+words['Spa'] = ''
+words['Hin'] = ''
+words['Rus'] = ''
 
 outputFilename = 'output.txt'
 
