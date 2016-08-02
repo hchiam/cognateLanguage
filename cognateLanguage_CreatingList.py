@@ -93,7 +93,7 @@ def createWord():
 
     for language in shortList:
         for otherlanguage in shortList:
-            if language != otherlanguage:
+            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
                 if shortList[language] == shortList[otherlanguage]:
                     shortList[otherlanguage] = ''
 
@@ -101,7 +101,7 @@ def createWord():
 
     for language in shortList:
         for otherlanguage in shortList:
-            if language != otherlanguage:
+            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
                 if shortList[language] in shortList[otherlanguage]:
                     shortList[language] = ''
 

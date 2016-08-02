@@ -12,3 +12,4 @@
 11,test,patc,huski,lap,pebl,bob,
 12,test2,yun,istemal,usa,istemal,potrebi,
 13,test3,ni,anta,tu,tum,ti,
+14,be,dzay,esta,ho,kana,bi,
