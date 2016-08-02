@@ -73,7 +73,7 @@ for line in data:
     words['Spa'] = line.split(',')[4]
     words['Hin'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
-    if words['Eng'] == 'test2':
+    if words['Eng'] == 'they':
         break # get rid of this later
 
 originalWords = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
@@ -153,19 +153,49 @@ print newWord
 
 # put original consonants back in, using 1st letters of higher-priority words:
 print '\nput original consonants back in, using 1st letters of higher-priority words:'
-print
-print 'originalWords = \n', originalWords, '\n'
-print 'wordsMinusNoninitialVowels = \n', wordsMinusNoninitialVowels, '\n'
-print 'words = \n', words, '\n'
-
-for language in wordsMinusNoninitialVowels:
+#print
+#print 'originalWords = \n', originalWords, '\n'
+#print 'wordsMinusNoninitialVowels = \n', wordsMinusNoninitialVowels, '\n'
+#print 'words = \n', words, '\n'
+print words
+for language in reversed(words.keys()):
     if language != 'Eng':
-        pattern = respellWithAllophones(wordsMinusNoninitialVowels[language])
-        newWord = newWord.replace(pattern, wordsMinusNoninitialVowels[language])
+        print wordsMinusNoninitialVowels[language],  '\t', newWord
+        if wordsMinusNoninitialVowels[language] not in newWord:
+            pattern = respellWithAllophones(wordsMinusNoninitialVowels[language])
+            newWord = newWord.replace(pattern, wordsMinusNoninitialVowels[language])
+            print ' ->\t', newWord, '<changed>'
 
-print "newWord = \n", newWord
+print "\nnewWord = ", newWord
 
-# put original vowels back in, using letters of higher-priority words:
-print '\nput original vowels back in, using letters of higher-priority words:'
+# put original vowels (& consonants) back in, favouring higher-priority words:
+print '\nput original vowels (& consonants) back in, favouring higher-priority words:'
+print originalWords
+for language in reversed(words.keys()):
+    if language != 'Eng':
+        if originalWords[language] not in newWord:
+            replacer = originalWords[language]
+            # types of patterns:  (priorities: original word in allophonic form > compressed word in allophonic form > compresse word, to enable vowel overwrites)
+            patternOrigAllo = respellWithAllophones(originalWords[language])
+            patternCompressedAllo = respellWithAllophones(wordsMinusNoninitialVowels[language])
+            patternOrigCompressed = wordsMinusNoninitialVowels[language]
+            tempWord = newWord
+            # check if allophones exist that can be replaced:
+            if patternOrigAllo in respellWithAllophones(newWord):
+                print 'replace alloWord:'
+                index = respellWithAllophones(newWord).find(patternOrigAllo)
+                newWord = newWord[:index] + replacer + newWord[index+len(patternOrigAllo):]
+            elif patternCompressedAllo in respellWithAllophones(newWord):
+                print 'replace alloPattern:'
+                index = respellWithAllophones(newWord).find(patternCompressedAllo)
+                newWord = newWord[:index] + replacer + newWord[index+len(patternCompressedAllo):]
+            else:
+                print 'replace pattern:', patternOrigCompressed
+                newWord = newWord.replace(patternOrigCompressed, replacer,1)
+            print '\t', replacer, '\t->\t', newWord, '<changed>'
+
+print "\nnewWord = ", newWord
+
+
 
 
