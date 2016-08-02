@@ -104,7 +104,7 @@ def evaluateScore1(word,chi,ara,spa,hin,rus):
     
     # get preliminary score for word length:
     scoreLen = (len(leastEfficientWord) - len(word)) # score increases with shorter word
-    scoreLen *= 1.6 # this is the weighting for length score
+    scoreLen *= 1.1 # this is the weighting for length score
     #print 'word length contribution', scoreLen
     score += scoreLen
 
