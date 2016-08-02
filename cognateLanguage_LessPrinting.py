@@ -155,4 +155,4 @@ for language in reversed(words.keys()):
             else:
                 newWord = newWord.replace(patternOrigCompressed, replacer,1)
 
-
+print newWord
