@@ -81,8 +81,8 @@ for line in data:
     words['Spa'] = line.split(',')[4]
     words['Hin'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
-    if words['Eng'] == 'test3':
-        break # get rid of this later
+    if words['Eng'] == 'be':
+        break # get rid of this break condition in later versions of code
 
 originalWords = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
 
@@ -118,7 +118,7 @@ shortList = words
 
 for language in shortList:
     for otherlanguage in shortList:
-        if language != otherlanguage:
+        if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
             if shortList[language] == shortList[otherlanguage]:
                 shortList[otherlanguage] = ''
 
@@ -131,7 +131,7 @@ print '\nignore words embedded in other words:'
 
 for language in shortList:
     for otherlanguage in shortList:
-        if language != otherlanguage:
+        if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
             if shortList[language] in shortList[otherlanguage]:
                 shortList[language] = ''
 
