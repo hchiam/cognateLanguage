@@ -1,5 +1,5 @@
 ____________________
-Tue Aug  2 09:55:50 2016
+Tue Aug  2 10:14:49 2016
 wonayo,I,wo,ana,yo,me,ya,
 enitam,you,ni,enta,tu,tum,ti,
 talvahowaon,he,ta,howa,el,vah,on,
@@ -14,5 +14,7 @@ huskipeblapatc,test,patc,huski,lap,pebl,bob,
 yunusatemalpotrebi,test2,yun,istemal,usa,istemal,potrebi,
 anitam,test3,ni,anta,tu,tum,ti,
 antum,testManual,ni,anta,tu,tum,ti,I added this line to compare my “manual” version
-estazyhokana,be,dzay,esta,ho,kana,bi,
+estazyhokanabi,be,dzay,esta,ho,kana,bi,
+zasthokab,be,dzay,esta,ho,kana,bi,
+abcd,be,dzay,esta,ho,kana,bi,
 ____________________
