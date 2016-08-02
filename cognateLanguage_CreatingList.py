@@ -1,7 +1,7 @@
 import time;
 
 #------------------------
-# variables:
+# shared variables:
 #------------------------
 
 words = {'Eng' : '', 'Chi' : '', 'Ara' : '', 'Spa' : '', 'Hin' : '', 'Rus' : ''}
@@ -14,20 +14,20 @@ localtime = time.asctime(time.localtime(time.time()))
 
 allophones = {
     'aeiou' : 'a',
-        'bp' : 'b',
-        'cjsz' : 'z',
-        'dt' : 'd',
-        'fv' : 'v',
-        'gkq' : 'g',
-        'hx' : 'h',
-        'lr' : 'l',
-        'mn' : 'm',
-        'w' : 'w',
-        'y' : 'y'
+    'bp' : 'b',
+    'cjsz' : 'z',
+    'dt' : 'd',
+    'fv' : 'v',
+    'gkq' : 'g',
+    'hx' : 'h',
+    'lr' : 'l',
+    'mn' : 'm',
+    'w' : 'w',
+    'y' : 'y'
     }
 
 #------------------------
-# methods:
+# functions:
 #------------------------
 
 def respellWithInitialVowelAndConsonants(word):
@@ -36,12 +36,14 @@ def respellWithInitialVowelAndConsonants(word):
             word = word[0] + word[1:].replace(char,'')
     return word
 
+
 def respellWithAllophones(word):
     for char in word:
         for allo in allophones:
             if char in allo:
                 word = word.replace(char,allophones[allo])
     return word
+
 
 def combineOverlappingWords(shortList):
     for language in shortList:
@@ -55,17 +57,17 @@ def combineOverlappingWords(shortList):
                         shortList[language] = a+b[i:]
     return shortList
 
+
 def createWord():
+    
+    # function variables:
+
     originalWords = words
-    
     wordsMinusNoninitialVowels = words
-
     shortList = []
-
     newWord = ''
-    
     originalWords = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
-
+    
     # the words spelt with just the initial vowel and consonants:
 
     for language in words:
@@ -144,9 +146,7 @@ def createWord():
                     newWord = newWord.replace(patternOrigCompressed, replacer,1)
 
     print newWord
-
-    with open(outputFilename,'a') as f2:
-        f2.write(originalWords['Eng'] + '\t' + newWord + '\n')
+    return newWord
 
 #------------------------
 # main part of the program:
@@ -169,7 +169,9 @@ for line in data:
     words['Hin'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
     if words['Eng'] != 'Eng':
-        createWord()
+        newWord = createWord() # here is the major function call!
+        with open(outputFilename,'a') as f2:
+            f2.write(words['Eng'] + '\t' + newWord + '\n')
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')
