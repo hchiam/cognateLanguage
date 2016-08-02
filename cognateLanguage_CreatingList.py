@@ -1,3 +1,5 @@
+import time;
+
 #------------------------
 # variables:
 #------------------------
@@ -12,7 +14,8 @@ shortList = []
 
 newWord = ''
 
-filename = 'data.txt'
+filename1 = 'data.txt'
+filename2 = 'output.txt'
 
 allophones = {
     'aeiou' : 'a',
@@ -26,7 +29,7 @@ allophones = {
     'mn' : 'm',
     'w' : 'w',
     'y' : 'y'
-}
+    }
 
 #------------------------
 # methods:
@@ -62,8 +65,8 @@ def combineOverlappingWords(shortList):
 #------------------------
 
 # get lines of file into a list:
-with open(filename,'r') as fh:
-    data = fh.readlines()
+with open(filename1,'r') as f1:
+    data = f1.readlines()
 
 # fill arrays:
 for line in data:
@@ -113,7 +116,7 @@ for language in shortList:
 # find overlaps in words:
 
 for tries in range(5):
-    
+
     shortList = combineOverlappingWords(shortList)
 
 # append remaining words:
@@ -156,3 +159,9 @@ for language in reversed(words.keys()):
                 newWord = newWord.replace(patternOrigCompressed, replacer,1)
 
 print newWord
+
+localtime = time.asctime(time.localtime(time.time()))
+
+with open(filename2,'a') as f2:
+    f2.write(localtime + '\n')
+    f2.write(originalWords['Eng'] + '\t' + newWord + '\n')
