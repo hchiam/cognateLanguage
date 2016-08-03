@@ -60,20 +60,16 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-def evaluateScore1(word,chi,ara,spa,hin,rus):
+def evaluateScore_AlloWithVowels(word,chi,ara,spa,hin,rus):
     score = 0
-    
     scoreLangs = [0,0,0,0,0]
     
     leastEfficientWord = chi+ara+spa+hin+rus
-    print '\n'
-    print 'Least Efficient Word = ', leastEfficientWord
-    print 'Evaluated Word = ', word
     
     # ABZDAVG allo w/ vowels
     
     alloWithVowels = respellWithAllophones(word)
-    print 'Allophone Form of Word, with Vowels: ', alloWithVowels
+    #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
     
     originalWords = [chi,ara,spa,hin,rus]
     alloOriginalWords = originalWords
@@ -81,7 +77,7 @@ def evaluateScore1(word,chi,ara,spa,hin,rus):
     for index, srcWord in enumerate(alloOriginalWords):
         alloOriginalWords[index] = respellWithAllophones(srcWord)
     
-    print alloOriginalWords
+    #print alloOriginalWords
 
     # get preliminary scores for each language:
     for lang, srcWordAllo in enumerate(alloOriginalWords):
@@ -99,7 +95,7 @@ def evaluateScore1(word,chi,ara,spa,hin,rus):
     scoreLangs.reverse()
 
     for wt, lang in enumerate(scoreLangs):
-        score += lang + lang * (wt/10.0) # make weightings like these to make gradient of influence:  0.1, 0.2, 0.3, 0.4, 0.5
+        score += lang + lang * ((wt+1)/10.0) # make weightings like these to make gradient of influence:  0.1, 0.2, 0.3, 0.4, 0.5
     #print 'language score contribution: ', score
     
     # get preliminary score for word length:
@@ -111,10 +107,51 @@ def evaluateScore1(word,chi,ara,spa,hin,rus):
     return score
 
 
-def evaluateScore2(word,chi,ara,spa,hin,rus):
+def evaluateScore_ConsonantsInOrder(word,chi,ara,spa,hin,rus):
     score = 0
-    # insert code here
-    # ABZDVG
+    scoreLangs = [0,0,0,0,0]
+    
+    leastEfficientWord = chi+ara+spa+hin+rus
+    
+    originalWords = [chi,ara,spa,hin,rus]
+    alloConsonants = originalWords
+    alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
+    
+    #print alloOfNewWord
+    
+    for index, srcWord in enumerate(alloConsonants):
+        alloConsonants[index] = respellWithAllophones(srcWord).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
+    
+    #print alloConsonants
+    
+    # BZDVG
+    
+    # go through each language's test pattern:
+    for lang, testPattern in enumerate(alloConsonants):
+        currentLetterPos = 0
+        # go through as many letters of that test pattern as possible:
+        for i in range(1,len(testPattern)):
+            # if that letter is found in new word then update current letter position (= index+1 since list indices start at 0):
+            if testPattern[i] in alloOfNewWord:
+                #print testPattern[i]
+                currentLetterPos = i+1
+        # use full word length - the current letter into the test pattern as the score for that language
+        scoreLangs[lang] = currentLetterPos - len(originalWords[lang])
+        currentLetterPos = 0
+        #print scoreLangs
+
+    # language scores are weighted in reverse order
+    scoreLangs.reverse()
+
+    for wt, lang in enumerate(scoreLangs):
+        score += lang + lang * ((wt+1)/10.0) # make weightings like these to make gradient of influence:  0.1, 0.2, 0.3, 0.4, 0.5
+
+    # get preliminary score for word length:
+    scoreLen = (len(leastEfficientWord) - len(word)) # score increases with shorter word
+    scoreLen *= 1.1 # this is the weighting for length score
+    #print 'word length contribution', scoreLen
+    score += scoreLen
+    
     return score
 
 #------------------------
@@ -128,15 +165,22 @@ with open(outputFilename,'r') as f1:
 # fill arrays:
 for line in data:
     if ',' in line:
-        word = line.split(',')[0]
+        newWord = line.split(',')[0]
         words['Chi'] = line.split(',')[2]
         words['Ara'] = line.split(',')[3]
         words['Spa'] = line.split(',')[4]
         words['Hin'] = line.split(',')[5]
         words['Rus'] = line.split(',')[6]
-        score = evaluateScore1(word,words['Chi'],words['Ara'],words['Spa'],words['Hin'],words['Rus']) # here is the major function call!
-        print word, '-> evaluator 1: ', score
-        score = evaluateScore2(word,words['Chi'],words['Ara'],words['Spa'],words['Hin'],words['Rus']) # here is the major function call!
-        print word, '-> evaluator 2: ', score
+        originalWords = [words['Chi'], words['Ara'], words['Spa'], words['Hin'], words['Rus']]
+        leastEfficientWord = words['Chi'] + words['Ara'] + words['Spa'] + words['Hin'] + words['Rus']
+        print '\n'
+        print newWord.upper() + ' vs. "' + leastEfficientWord + '":'
+        print originalWords
+        score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Ara'],words['Spa'],words['Hin'],words['Rus'])
+        print '  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels'
+        score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Ara'],words['Spa'],words['Hin'],words['Rus'])
+        print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
+        avgScore = (score1 + score2)/2
+        print 'Average score: ' + str(avgScore)
 
 
