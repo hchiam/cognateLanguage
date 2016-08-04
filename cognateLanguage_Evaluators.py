@@ -183,4 +183,10 @@ for line in data:
         avgScore = (score1 + score2)/2
         print 'Average score: ' + str(avgScore)
 
+#
+from difflib import SequenceMatcher
 
+def similarity(a, b):
+    return SequenceMatcher(None, a, b).ratio()*100
+
+print similarity('abcde','abc')
