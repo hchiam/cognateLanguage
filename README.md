@@ -9,10 +9,13 @@ Basically, each word is created by combining words from the source languages, wh
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage conciseness.  
 You can test your own "manually-created" words by entering them into ```output.txt```, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word.
 ##File Descriptions:
+
 * The Python file ```cognateLanguage_CreatingList.py``` reads the input word list (```data.txt```) and creates the output word list (```output.txt```).
 * The Python file ```cognateLanguage_Evaluators.py``` reads the output word list that was created by ```cognateLanguage_CreatingList.py``` and uses a few different evaluators to "score" each output word against the source language words.
 * The Python file ```cognateLanguage.py``` is just the original one-word output test.
 * The Python file ```cognateLanguage_LessPrinting.py``` is the same as ```cognateLanguage.py```, except it only prints out the output word.
+
+#
 ##Use:
 I personally use Terminal (a.k.a. command-line) to run the .py files.
 1. Add/Edit data in ```data.txt```.
