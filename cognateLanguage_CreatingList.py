@@ -1,5 +1,6 @@
 from collections import OrderedDict
 import time
+import re
 
 #------------------------
 # shared variables:
@@ -108,7 +109,6 @@ def createWord():
     # find overlaps in words:
 
     for tries in range(5):
-
         shortList = combineOverlappingWords(shortList)
 
     # append remaining words:
@@ -117,8 +117,8 @@ def createWord():
         if language != 'Eng':
             newWord += shortList[language]
 
-
     # put original consonants back in, using 1st letters of higher-priority words:
+
     for language in reversed(words.keys()):
         if language != 'Eng':
             patternCompressedAllo = respellWithAllophones(wordsMinusNoninitialVowels[language])
@@ -131,6 +131,7 @@ def createWord():
                     newWord = newWord.replace(pattern, wordsMinusNoninitialVowels[language])
 
     # put original vowels (& consonants) back in, favouring higher-priority words:
+
     for language in reversed(words.keys()):
         if language != 'Eng':
             if originalWords[language] not in newWord:
@@ -149,6 +150,114 @@ def createWord():
                     newWord = newWord[:index] + replacer + newWord[index+len(patternCompressedAllo):]
                 else:
                     newWord = newWord.replace(patternOrigCompressed, replacer,1)
+    print
+    print newWord
+    return newWord
+
+
+def simpNonChiWordMaker(word):
+    indexVowel = -1
+    # find (next) vowel:
+    for letter in word:
+        if letter in 'aeiou':
+            indexVowel = word.find(letter)
+            break
+    # if still have next letter after get first vowel, then get first one (consonant) after it:
+    if indexVowel < len(word)-1:
+        indexVowelConsonant = indexVowel + 1
+        word = word[:1+indexVowelConsonant]
+    return word
+
+
+def simpChiWordMaker(word):
+    #print word,'before'
+    patterns = [r'[dt](\_[cjsz]){1}',r'(\_[^aeiou])+[wy]']
+    replacers = ['','']
+    if word[0] in 'aeiou':
+        word = word[1:]
+    for i, pattern in enumerate(patterns):
+        word = re.sub(pattern,replacers[i],word,1)
+        #print word,'after',pattern
+    return word
+
+
+def removeHForHin(word,lang):
+    if lang == 'hin':
+        word = re.sub(r'(\_[^aeiou])+h','',word)
+    return word
+
+
+def createWord_Alternate():
+    
+    # function variables:
+    
+    words = originalWords.copy()
+    shortList = []
+    newWord = ''
+    indexVowel = -1
+    indexVowelConsonant = -1
+    
+    # use only 1 (simplified) syllable of each word (only one ending consonant if any), with no intial vowel
+    # CCCVC if not Chi. / CVC if Chi.
+    for lang in words:
+        if lang != 'Eng':
+            word = words[lang]
+            if word != '' and (word[0] in 'aeiou'): # no initial vowel
+                words[lang] = word[1:]
+            if lang != 'Chi': # get first, simplified syllable
+                words[lang] = simpNonChiWordMaker(words[lang])
+            elif lang == 'Chi':
+                words[lang] = simpChiWordMaker(words[lang])
+
+    wordsInitSyllables = words.copy()
+    
+    # the words with allophonic spelling:
+
+    for language in words:
+        if language != 'Eng':
+            words[language] = respellWithAllophones(words[language])
+
+    # ignore repeats:
+
+    shortList = words
+
+    for language in shortList:
+        for otherlanguage in shortList:
+            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
+                if shortList[language] == shortList[otherlanguage]:
+                    shortList[otherlanguage] = ''
+
+    # ignore words embedded in other words:
+
+    for language in shortList:
+        for otherlanguage in shortList:
+            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
+                if shortList[language] in shortList[otherlanguage]:
+                    shortList[language] = ''
+
+    # find overlaps in words:
+
+    for tries in range(5):
+        shortList = combineOverlappingWords(shortList)
+    
+    # append remaining words:
+    
+    for language in shortList:
+        if language != 'Eng':
+            newWord += shortList[language]
+
+    # put original consonants back in, using 1st letters of higher-priority words:
+
+    for language in reversed(words.keys()):
+        if language != 'Eng':
+            patternCompressedAllo = respellWithAllophones(wordsInitSyllables[language])
+            if wordsInitSyllables[language] not in newWord:
+                if patternCompressedAllo in respellWithAllophones(newWord): # replace with compressed word in allophone form
+                    index = respellWithAllophones(newWord).find(patternCompressedAllo)
+                    newWord = newWord[:index] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
+                else:
+                    pattern = respellWithAllophones(wordsInitSyllables[language])
+                    newWord = newWord.replace(pattern, wordsInitSyllables[language])
 
     print newWord
     return newWord
@@ -174,8 +283,13 @@ for line in data:
     words['Hin'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
     originalWords = words.copy()
+    originalWords_Alt = words.copy()
     if words['Eng'] != 'Eng':
         newWord = createWord() # here is the major function call!
+        with open(outputFilename,'a') as f2:
+            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Ara'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Rus'] + ',\n')
+    if words['Eng'] != 'Eng':
+        newWord = createWord_Alternate() # here is the major function call!
         with open(outputFilename,'a') as f2:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Ara'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Rus'] + ',\n')
 
