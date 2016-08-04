@@ -13,3 +13,9 @@ You can test your own "manually-created" words by entering them into ```output.t
 * The Python file ```cognateLanguage_Evaluators.py``` reads the output word list that was created by ```cognateLanguage_CreatingList.py``` and uses a few different evaluators to "score" each output word against the source language words.
 * The Python file ```cognateLanguage.py``` is just the original one-word output test.
 * The Python file ```cognateLanguage_LessPrinting.py``` is the same as ```cognateLanguage.py```, except it only prints out the output word.
+##Use:
+I personally use Terminal (a.k.a. command-line) to run the .py files.
+1. Add/Edit data in ```data.txt```.
+1. Run ```cognateLanguage_CreatingList.py``` (make sure ```data.txt``` is in the same folder).
+1. You can edit ```output.txt``` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. 
+1. Run ```cognateLanguage_Evaluators.py``` to check out the scoring of the words in ```output.txt```.
