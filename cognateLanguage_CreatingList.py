@@ -9,9 +9,9 @@ import re
 words = OrderedDict()
 words['Eng'] = ''
 words['Chi'] = ''
-words['Ara'] = ''
 words['Spa'] = ''
 words['Hin'] = ''
+words['Ara'] = ''
 words['Rus'] = ''
 
 outputFilename = 'output.txt'
@@ -278,20 +278,20 @@ with open(outputFilename,'a') as f2:
 for line in data:
     words['Eng'] = line.split(',')[1]
     words['Chi'] = line.split(',')[2]
-    words['Ara'] = line.split(',')[3]
-    words['Spa'] = line.split(',')[4]
-    words['Hin'] = line.split(',')[5]
+    words['Spa'] = line.split(',')[3]
+    words['Hin'] = line.split(',')[4]
+    words['Ara'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
     originalWords = words.copy()
     originalWords_Alt = words.copy()
     if words['Eng'] != 'Eng':
         newWord = createWord() # here is the major function call!
         with open(outputFilename,'a') as f2:
-            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Ara'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Rus'] + ',\n')
+            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
     if words['Eng'] != 'Eng':
         newWord = createWord_Alternate() # here is the major function call!
         with open(outputFilename,'a') as f2:
-            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Ara'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Rus'] + ',\n')
+            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')

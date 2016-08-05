@@ -7,9 +7,9 @@ from collections import OrderedDict
 words = OrderedDict()
 words['Eng'] = ''
 words['Chi'] = ''
-words['Ara'] = ''
 words['Spa'] = ''
 words['Hin'] = ''
+words['Ara'] = ''
 words['Rus'] = ''
 
 outputFilename = 'output.txt'
@@ -60,18 +60,18 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-def evaluateScore_AlloWithVowels(word,chi,ara,spa,hin,rus):
+def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
     score = 0
     scoreLangs = [0,0,0,0,0]
     
-    leastEfficientWord = chi+ara+spa+hin+rus
+    leastEfficientWord = chi+spa+hin+ara+rus
     
     # ABZDAVG allo w/ vowels
     
     alloWithVowels = respellWithAllophones(word)
     #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
     
-    originalWords = [chi,ara,spa,hin,rus]
+    originalWords = [chi,spa,hin,ara,rus]
     alloOriginalWords = originalWords
     
     for index, srcWord in enumerate(alloOriginalWords):
@@ -107,13 +107,13 @@ def evaluateScore_AlloWithVowels(word,chi,ara,spa,hin,rus):
     return score
 
 
-def evaluateScore_ConsonantsInOrder(word,chi,ara,spa,hin,rus):
+def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
     score = 0
     scoreLangs = [0,0,0,0,0]
     
-    leastEfficientWord = chi+ara+spa+hin+rus
+    leastEfficientWord = chi+spa+hin+ara+rus
     
-    originalWords = [chi,ara,spa,hin,rus]
+    originalWords = [chi,spa,hin,ara,rus]
     alloConsonants = originalWords
     alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
@@ -167,18 +167,18 @@ for line in data:
     if ',' in line:
         newWord = line.split(',')[0]
         words['Chi'] = line.split(',')[2]
-        words['Ara'] = line.split(',')[3]
-        words['Spa'] = line.split(',')[4]
-        words['Hin'] = line.split(',')[5]
+        words['Spa'] = line.split(',')[3]
+        words['Hin'] = line.split(',')[4]
+        words['Ara'] = line.split(',')[5]
         words['Rus'] = line.split(',')[6]
-        originalWords = [words['Chi'], words['Ara'], words['Spa'], words['Hin'], words['Rus']]
-        leastEfficientWord = words['Chi'] + words['Ara'] + words['Spa'] + words['Hin'] + words['Rus']
+        originalWords = [words['Chi'], words['Spa'], words['Hin'], words['Ara'], words['Rus']]
+        leastEfficientWord = words['Chi'] + words['Spa'] + words['Hin'] + words['Ara'] + words['Rus']
         print '\n'
         print newWord.upper() + ' vs. "' + leastEfficientWord + '":'
         print originalWords
-        score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Ara'],words['Spa'],words['Hin'],words['Rus'])
+        score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
         print '  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels'
-        score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Ara'],words['Spa'],words['Hin'],words['Rus'])
+        score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
         print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
         avgScore = (score1 + score2)/2
         print 'Average score: ' + str(avgScore)
@@ -190,3 +190,26 @@ def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()*100
 
 print similarity('abcde','abc')
+print similarity('b','ab')
+print similarity("Apple","Appel")
+
+print
+
+#
+def similarity(w1, w2):
+    w1 = w1 + ' '*(len(w2)-len(w1))
+    w2 = w2 + ' '*(len(w1)-len(w2))
+    return 100*sum([1 if i==j else 0 for i,j in zip(w1,w2)])/float(len(w1))
+
+print similarity('aqcre','abcde')
+print similarity('abcde','abc')
+print similarity('b','ab')
+print similarity('b','ba')
+print similarity("Apple","Appel")
+print similarity('adbc','abcq')
+
+print
+
+#
+import Levenshtein
+print Levenshtein.ratio('hello world', 'hello')

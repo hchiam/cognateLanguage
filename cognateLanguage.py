@@ -7,9 +7,9 @@ from collections import OrderedDict
 words = OrderedDict()
 words['Eng'] = ''
 words['Chi'] = ''
-words['Ara'] = ''
 words['Spa'] = ''
 words['Hin'] = ''
+words['Ara'] = ''
 words['Rus'] = ''
 
 originalWords = words
@@ -77,9 +77,9 @@ with open(filename,'r') as fh:
 for line in data:
     words['Eng'] = line.split(',')[1]
     words['Chi'] = line.split(',')[2]
-    words['Ara'] = line.split(',')[3]
-    words['Spa'] = line.split(',')[4]
-    words['Hin'] = line.split(',')[5]
+    words['Spa'] = line.split(',')[3]
+    words['Hin'] = line.split(',')[4]
+    words['Ara'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
     if words['Eng'] == 'be':
         break # get rid of this break condition in later versions of code
