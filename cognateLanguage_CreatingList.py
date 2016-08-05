@@ -170,6 +170,7 @@ def simpNonChiWordMaker(word):
 
 
 def simpChiWordMaker(word):
+    word = simpNonChiWordMaker(word)
     #print word,'before'
     patterns = [r'[dt](\_[cjsz]){1}',r'(\_[^aeiou])+[wy]']
     replacers = ['','']
