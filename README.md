@@ -1,6 +1,5 @@
-> "Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?"  
-
 # cognateLanguage
+> "Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?"
 ##Purpose:
 To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages by using one "centralized" vocab list.
 ##Source Languages:
