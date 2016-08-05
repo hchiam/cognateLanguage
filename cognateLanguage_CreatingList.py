@@ -188,6 +188,10 @@ def removeHForHin(word,lang):
     return word
 
 
+def createWord_DummyTest():
+    return 'abcd'
+
+
 def createWord_Alternate():
     
     # function variables:
@@ -293,6 +297,10 @@ for line in data:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
     if words['Eng'] != 'Eng':
         newWord = createWord_Alternate() # here is the major function call!
+        with open(outputFilename,'a') as f2:
+            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
+    if words['Eng'] != 'Eng':
+        newWord = createWord_DummyTest() # here is the major function call!
         with open(outputFilename,'a') as f2:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
 
