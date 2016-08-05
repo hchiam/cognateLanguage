@@ -183,7 +183,7 @@ def simpChiWordMaker(word):
 
 
 def removeHForHin(word,lang):
-    if lang == 'hin':
+    if lang == 'Hin':
         word = re.sub(r'(\_[^aeiou])+h','',word)
     return word
 
@@ -209,6 +209,8 @@ def createWord_Alternate():
                 words[lang] = simpNonChiWordMaker(words[lang])
             elif lang == 'Chi':
                 words[lang] = simpChiWordMaker(words[lang])
+            print word
+            removeHForHin(word,lang)
 
     wordsInitSyllables = words.copy()
     
