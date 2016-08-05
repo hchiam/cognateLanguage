@@ -25,3 +25,7 @@
 18,many,dwo,mutcos,bahut,ketir,mnogi,
 19,some,djiga,algunos,kutc,cowaya,neskalka,
 20,few,caw,poko,thora,qolayel,nimnogi,
+101,see,kan,ve,dekh,caf,vide,
+102,hear,ting,oy,sun,seme,slica,
+103,know,djidaw,sabe,djan,eref,zna,
+104,think,cyang,pensa,sotc,etfakar,duma,
