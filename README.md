@@ -23,6 +23,7 @@ You can test your own "manually-created" words by entering them into ```output.t
 * The Python file ```cognateLanguage_Evaluators.py``` reads the output word list that was created by ```cognateLanguage_CreatingList.py``` and uses a few different evaluators to "score" each output word against the source language words.
 * The Python file ```cognateLanguage.py``` is just the original one-word output test.
 * The Python file ```cognateLanguage_LessPrinting.py``` is the same as ```cognateLanguage.py```, except it only prints out the output word.
+* The Python file ```cognateLanguage_Translate.py``` lets you use the command-line/terminal to translate English text.
 
 ##Use:
 
