@@ -291,18 +291,18 @@ for line in data:
     words['Rus'] = line.split(',')[6]
     originalWords = words.copy()
     originalWords_Alt = words.copy()
-    if words['Eng'] != 'Eng':
-        newWord = createWord() # here is the major function call!
-        with open(outputFilename,'a') as f2:
-            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
+    #if words['Eng'] != 'Eng':
+        #newWord = createWord() # here is the major function call!
+        #with open(outputFilename,'a') as f2:
+            #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
     if words['Eng'] != 'Eng':
         newWord = createWord_Alternate() # here is the major function call!
         with open(outputFilename,'a') as f2:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
-    if words['Eng'] != 'Eng':
-        newWord = createWord_DummyTest() # here is the major function call!
-        with open(outputFilename,'a') as f2:
-            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
+    #if words['Eng'] != 'Eng':
+        #newWord = createWord_DummyTest() # here is the major function call!
+        #with open(outputFilename,'a') as f2:
+            #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')

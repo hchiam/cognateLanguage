@@ -26,18 +26,20 @@ if input != "":
     
     translation = ''
     
+    # get lines of file into a list
+    with open(filename,'r') as f:
+        data = f.readlines()
+    
     for word in input:
-        # get lines of file into a list
-        with open(filename,'r') as f:
-            data = f.readlines()
         
         translationFound = False
         
         # search for word translation in list
         for line in data:
-            if word == line.split(',')[1]:
-                translation += line.split(',')[0] + ' '
-                translationFound = True
+            if line != '\n':
+                if word == line.split(',')[1]:
+                    translation += line.split(',')[0] + ' '
+                    translationFound = True
         
         # add in '?' for words not found
         if translationFound == False:
