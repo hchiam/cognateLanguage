@@ -261,7 +261,11 @@ def createWord_Alternate():
             if wordsInitSyllables[language] not in newWord:
                 if patternCompressedAllo in respellWithAllophones(newWord): # replace with compressed word in allophone form
                     index = respellWithAllophones(newWord).find(patternCompressedAllo)
-                    newWord = newWord[:index] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
+                    if index == 0 and (originalWords[language][0] in 'aeiou'):
+                        print "head!!!"
+                        newWord = originalWords[language][0] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
+                    else:
+                        newWord = newWord[:index] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
                 else:
                     pattern = respellWithAllophones(wordsInitSyllables[language])
                     newWord = newWord.replace(pattern, wordsInitSyllables[language])
