@@ -24,6 +24,9 @@ You can test your own "manually-created" words by entering them into ```output.t
 * The Python file ```cognateLanguage.py``` is just the original one-word output test.
 * The Python file ```cognateLanguage_LessPrinting.py``` is the same as ```cognateLanguage.py```, except it only prints out the output word.
 * The Python file ```cognateLanguage_Translate.py``` lets you use the command-line/terminal to translate English text.
+* The Python file ```levenshteinDistance.py``` is a copy of code from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python from which I plan to import the function in other Python files.
+* The Python file ```levenshteinDistance.pyc``` is the compiled that might be used to make the code compile faster.
+* The Python file ```levenshteinDistance_Test.py``` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
 
 ##Use:
 
