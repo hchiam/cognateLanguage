@@ -247,13 +247,6 @@ tinyslisun,hear,tin,oy,sun,seme,slica,
 djidjansabrefzna,know,djidaw,sabe,djan,eref,zna,
 cyanpensotfakdum,think,cyan,pensa,sotc,etfakar,duma,
 ____________________
-bunohmec,not,bu,no,nahi,mec,ne,
-bunec,not,bu,no,nahi,mec,ne,
-habebitcer,drink,ha,bebe,pi,cereb,pit,
-hapitcer,drink,ha,bebe,pi,cereb,pit,
-tcakomkhakalyes,eat,tca,kome,kha,kal,yes,
-tcakamyes,eat,tca,kome,kha,kal,yes,
-____________________
 ____________________
 Mon Aug 15 23:48:50 2016
 yunsastempot,use,yun,usa,istemal,istemal,potrebi,
@@ -367,4 +360,10 @@ cavedekan,see,kan,ve,dekh,caf,vide,
 tinyslisun,hear,tin,oy,sun,seme,slica,
 djidjansabrefzna,know,djidaw,sabe,djan,eref,zna,
 cyanpensotfakdum,think,cyan,pensa,sotc,etfakar,duma,
+____________________
+bunec,not,bu,no,nahi,mec,ne,
+habebitcer,drink,ha,bebe,pi,cereb,pit,
+hapitcer,drink,ha,bebe,pi,cereb,pit,
+tcakomkhakalyes,eat,tca,kome,kha,kal,yes,
+tcakamyes,eat,tca,kome,kha,kal,yes,
 ____________________

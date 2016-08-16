@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -58,6 +59,15 @@ def combineOverlappingWords(shortList):
                         shortList[otherlanguage] = ''
                         shortList[language] = a+b[i:]
     return shortList
+
+
+def evaluateScore_Levenshtein(word,chi,spa,hin,ara,rus):
+    score = 0
+    
+    for lang in chi,spa,hin,ara,rus:
+        score += ld(word,lang)
+    
+    return score
 
 
 def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
@@ -182,34 +192,14 @@ for line in data:
         print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
         avgScore = (score1 + score2)/2
         print 'Average score: ' + str(avgScore)
+        score3 = evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        print '\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein'
 
-#
-from difflib import SequenceMatcher
+print '\n'
 
-def similarity(a, b):
-    return SequenceMatcher(None, a, b).ratio()*100
 
-print similarity('abcde','abc')
-print similarity('b','ab')
-print similarity("Apple","Appel")
 
-print
 
-#
-def similarity(w1, w2):
-    w1 = w1 + ' '*(len(w2)-len(w1))
-    w2 = w2 + ' '*(len(w1)-len(w2))
-    return 100*sum([1 if i==j else 0 for i,j in zip(w1,w2)])/float(len(w1))
 
-print similarity('aqcre','abcde')
-print similarity('abcde','abc')
-print similarity('b','ab')
-print similarity('b','ba')
-print similarity("Apple","Appel")
-print similarity('adbc','abcq')
 
-print
 
-#
-import Levenshtein
-print Levenshtein.ratio('hello world', 'hello')
