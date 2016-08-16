@@ -248,7 +248,7 @@ djidjansabrefzna,know,djidaw,sabe,djan,eref,zna,
 cyanpensotfakdum,think,cyan,pensa,sotc,etfakar,duma,
 ____________________
 ____________________
-Mon Aug 15 23:48:50 2016
+Tue Aug 16 00:32:00 2016
 yunsastempot,use,yun,usa,istemal,istemal,potrebi,
 dzaystahokanbi,be,dzay,esta,ho,kana,bi,
 hwodostalkonpa,get,hwod,konsegi,pa,istalama,dostava,
@@ -360,6 +360,17 @@ cavedekan,see,kan,ve,dekh,caf,vide,
 tinyslisun,hear,tin,oy,sun,seme,slica,
 djidjansabrefzna,know,djidaw,sabe,djan,eref,zna,
 cyanpensotfakdum,think,cyan,pensa,sotc,etfakar,duma,
+wanlesugcamtcuy,smell,wan,ole,sugh,cam,tcuya,
+temdarhafpay,fear,pa,teme,dar,haf,baya,
+cweydorsonamspa,sleep,cwey,dormi,so,nam,spa,
+hwovivdji,live,hwo,vivi,dji,ac,ji,
+samormat,die,sa,mori,mar,mat,umira,
+camatmarqatbiv,kill,ca,mata,mar,qatal,ubiva,
+dadpelarhar,fight,dadjya,pelea,lar,harab,baro,
+kazikstadalhot,hunt,dalye,kaza,cikar,estad,ahoti,
+golmardar,hit,da,golpea,mar,darab,udari,
+korezkatcye,cut,tcye,korta,kat,qata,rezat,
+____________________
 ____________________
 bunec,not,bu,no,nahi,mec,ne,
 habebitcer,drink,ha,bebe,pi,cereb,pit,
