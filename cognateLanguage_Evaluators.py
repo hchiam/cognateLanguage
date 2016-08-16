@@ -13,7 +13,7 @@ words['Hin'] = ''
 words['Ara'] = ''
 words['Rus'] = ''
 
-outputFilename = 'output.txt'
+outputFilename = 'output_shortlist.txt'
 
 allophones = {
     'aeiou' : 'a',
