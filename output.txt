@@ -248,7 +248,7 @@ djidjansabrefzna,know,djidaw,sabe,djan,eref,zna,
 cyanpensotfakdum,think,cyan,pensa,sotc,etfakar,duma,
 ____________________
 ____________________
-Tue Aug 16 23:01:01 2016
+Wed Aug 17 23:50:13 2016
 yunsastempot,use,yun,usa,istemal,istemal,potrebi,
 dzaystahokanbi,be,dzay,esta,ho,kana,bi,
 hwodostalkonpa,get,hwod,konsegi,pa,istalama,dostava,
@@ -257,6 +257,8 @@ djidelbansan,make,djidzaw,ase,bana,sana,dela,
 yuyazlenbhaclog,language,yuyen,lengwa,bhaca,loga,yazik,
 tonkogartmiy,cognate,tonywentca,kognado,atmiy,qarib,kognat,
 hwoyali,or,hwo,o,ya,aw,ili,
+dawkolena,to,daw,a,ko,le,na,
+cweprentaltsik,learn,cwe,aprende,sikh,talama,utci,
 woyome,i,wo,yo,me,ana,ya,
 entuni,you,ni,tu,tum,enta,ti,
 talvahown,he,ta,el,vah,howa,on,

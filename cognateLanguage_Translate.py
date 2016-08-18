@@ -36,7 +36,7 @@ if input != "":
         
         # search for word translation in list
         for line in data:
-            if line != '\n':
+            if line != '\n' and ',' in line:
                 if word == line.split(',')[1]:
                     translation += line.split(',')[0] + ' '
                     translationFound = True

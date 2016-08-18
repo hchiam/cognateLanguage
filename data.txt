@@ -7,6 +7,8 @@
 0,language,yuyen,lengwa,bhaca,loga,yazik,
 0,cognate,tonywentca,kognado,atmiy,qarib,kognat,
 0,or,hwo,o,ya,aw,ili,
+0,to,daw,a,ko,le,na,
+0,learn,cwe,aprende,sikh,talama,utci,
 1,i,wo,yo,me,ana,ya,
 2,you,ni,tu,tum,enta,ti,
 3,he,ta,el,vah,howa,on,

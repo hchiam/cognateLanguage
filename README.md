@@ -53,3 +53,7 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.
 4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output.txt`.
 
 5. Make mnemonics for the words (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.
+
+> "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
+
+(Click to hear this pronounced by Google Translate!)
