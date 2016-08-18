@@ -24,7 +24,7 @@ The spellings of the words (for all the languages) in the data/output files use 
 * j (which should be pronounced as /ʒ/ like the "s" in "measure", or the "j" in French "je"), and 
 * h (which can be /h/ or /x/).
 
-See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet for links to other Wikipedia pages with their sound files.
+See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for the consonants (the vowels are in the following section) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
 
 ##File Descriptions:
 
