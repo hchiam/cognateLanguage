@@ -19,11 +19,11 @@ You can test your own "manually-created" words by entering them into `output.txt
 
 ##Pronunciation:
 
-The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their IPA values, except for:
-* c (which should be pronounced as /ʃ/ like the "sh" in "shoe"),
-* j (which should be pronounced as /ʒ/ like the "s" in "measure", or the "j" in the French word "je"),
-* y (which should be pronounced as /j/ like the "y" in the English word "yes"), and 
-* h (which can be pronounced as /h/ or /x/, but so far /x/ seems easier to clearly pronounce when it's next to other consonants).
+The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their IPA values, except for these letters:
+* **c** : (pronounced as /ʃ/ like the "sh" in "shoe"),
+* **j** : (pronounced as /ʒ/ like the "s" in "measure", or the "j" in the French word "je"),
+* **y** : (pronounced as /j/ like the "y" in the English word "yes"), and 
+* **h** : (pronounced as /h/ or /x/, but so far /x/ seems easier to clearly pronounce when it's next to other consonants).
 
 See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for the consonants (the vowels are in the following section) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
 
