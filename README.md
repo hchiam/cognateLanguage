@@ -15,29 +15,37 @@ I'll start with using words from the Swadesh lists for the sources languages.  I
 
 Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done with detecting "overlaps" between words with matching letters.  Matching letters are ideally identical or are at least "allophones" (similar sounds).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as "abjad-like" spellings of words (retaining only consonants and initial vowel).  
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage conciseness.  
-You can test your own "manually-created" words by entering them into ```output.txt```, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word.
+You can test your own "manually-created" words by entering them into `output.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word.
+
+##Pronunciation:
+
+The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their IPA values, except for:
+* c (which should be pronounced as /ʃ/ like the "sh" in "shoe"),
+* j (which should be pronounced as /ʒ/ like the "s" in "measure", or the "j" in French "je"), and 
+* h (which can be /h/ or /x/).
+See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet for links to other Wikipedia pages with their sound files.
 
 ##File Descriptions:
 
-* The Python file ```cognateLanguage_CreatingList.py``` reads the input word list (```data.txt```) and creates the output word list (```output.txt```).
-* The Python file ```cognateLanguage_Evaluators.py``` reads the output word list that was created by ```cognateLanguage_CreatingList.py``` and uses a few different evaluators to "score" each output word against the source language words.
-* The Python file ```cognateLanguage.py``` is just the original one-word output test.
-* The Python file ```cognateLanguage_LessPrinting.py``` is the same as ```cognateLanguage.py```, except it only prints out the output word.
-* The Python file ```cognateLanguage_Translate.py``` lets you use the command-line/terminal to translate English text.
-* The Python file ```levenshteinDistance.py``` is a copy of code from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python from which I plan to import the function in other Python files.
-* The Python file ```levenshteinDistance.pyc``` is the compiled that might be used to make the code compile faster.
-* The Python file ```levenshteinDistance_Test.py``` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
+* The Python file `cognateLanguage_CreatingList.py` reads the input word list (`data.txt`) and creates the output word list (`output.txt`).
+* The Python file `cognateLanguage_Evaluators.py` reads the output word list that was created by `cognateLanguage_CreatingList.py` and uses a few different evaluators to "score" each output word against the source language words.
+* The Python file `cognateLanguage.py` is just the original one-word output test.
+* The Python file `cognateLanguage_LessPrinting.py` is the same as `cognateLanguage.py`, except it only prints out the output word.
+* The Python file `cognateLanguage_Translate.py` lets you use the command-line/terminal to translate English text.
+* The Python file `levenshteinDistance.py` is a copy of code from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python from which I plan to import the function in other Python files.
+* The Python file `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.
+* The Python file `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
 
 ##Use:
 
 I personally use Terminal (a.k.a. command-line) to run the .py files.
 
-1. Add/Edit data in ```data.txt```.
+1. Add/Edit data in `data.txt`.
 
-2. Run ```cognateLanguage_CreatingList.py``` (make sure ```data.txt``` is in the same folder).
+2. Run `cognateLanguage_CreatingList.py` (make sure `data.txt` is in the same folder).
 
-3. You can edit ```output.txt``` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. 
+3. You can edit `output.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. 
 
-4. Run ```cognateLanguage_Evaluators.py``` to check out the scoring of the words in ```output.txt```.
+4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output.txt`.
 
 5. Make mnemonics for the words (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.
