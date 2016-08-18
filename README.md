@@ -20,9 +20,9 @@ You can test your own "manually-created" words by entering them into `output.txt
 ##Pronunciation:
 
 The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their IPA values, except for these letters:
-* **c** : (pronounced as /[ʃ](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)/ like the "sh" in "shoe"),
-* **j** : (pronounced as /[ʒ](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)/ like the "s" in "measure", or the "j" in the French word "je"),
-* **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word "yes"), and 
+* **c** : (pronounced as /[ʃ](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)/ like the "sh" in "[shoe](https://upload.wikimedia.org/wikipedia/commons/4/44/En-us-shoe.ogg)"),
+* **j** : (pronounced as /[ʒ](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)/ like the "s" in "[measure](https://upload.wikimedia.org/wikipedia/commons/3/35/En-us-measure.ogg)", or the "j" in the French word "[je](https://upload.wikimedia.org/wikipedia/commons/c/c4/Fr-je.ogg)"),
+* **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word "[yes](https://upload.wikimedia.org/wikipedia/commons/b/b1/En-us-yes.ogg)"), and 
 * **h** : (pronounced as /[h](https://upload.wikimedia.org/wikipedia/commons/d/da/Voiceless_glottal_fricative.ogg)/ or /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/, but so far /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/ seems easier to clearly pronounce when it's next to other consonants).
 
 See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for the consonants (the vowels are in the following section) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
