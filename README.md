@@ -1,6 +1,7 @@
 # cognateLanguage
 
-> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" (Click to hear this pronounced by Google Translate!)
+> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
+(Click to hear this pronounced by Google Translate!)
 
 ##Purpose:
 
