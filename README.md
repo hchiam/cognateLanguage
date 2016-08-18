@@ -23,6 +23,7 @@ The spellings of the words (for all the languages) in the data/output files use 
 * c (which should be pronounced as /ʃ/ like the "sh" in "shoe"),
 * j (which should be pronounced as /ʒ/ like the "s" in "measure", or the "j" in French "je"), and 
 * h (which can be /h/ or /x/).
+
 See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet for links to other Wikipedia pages with their sound files.
 
 ##File Descriptions:
