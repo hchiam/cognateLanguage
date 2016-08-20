@@ -43,7 +43,7 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 ##Use:
 
 I personally use Terminal (a.k.a. command-line) to run the .py files.  
-(I enter "pyt" and press tab for autocomplete, then I type first letters of "<filename.extension>" and tab for autocomplete, for example:  `python cognateLanguage_Translate.py`.)
+For example, to run the translate .py file, I enter "pyt" and press tab for autocomplete, then I type the first letter "c" and tab for autocomplete and then "t" and tab again.  What this looks like in the commandline after I've done these keyboard presses is:  `python cognateLanguage_Translate.py`.
 
 1. Add/Edit data in `data.txt`.
 
