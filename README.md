@@ -42,7 +42,8 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 
 ##Use:
 
-I personally use Terminal (a.k.a. command-line) to run the .py files.
+I personally use Terminal (a.k.a. command-line) to run the .py files.  
+(I enter "pyt" and press tab for autocomplete, then I type first letters of "<filename.extension>" and tab for autocomplete, for example:  `python cognateLanguage_Translate.py`.)
 
 1. Add/Edit data in `data.txt`.
 
