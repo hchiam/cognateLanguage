@@ -567,3 +567,11 @@ decwokalskaz,say,cwo,desi,kah,qal,skaza,
 wanhughelebgra,play,wan,huga,khel,leb,igra,
 wanhuglebkhel,play,wan,huga,khel,leb,igra,
 ____________________
+____________________
+Fri Aug 19 23:11:19 2016
+dyenkomhasan,computer,dyenaw,komputador,sanganak,hasub,kampyutir,
+____________________
+____________________
+Fri Aug 19 23:15:47 2016
+dzwosekarfaldel,do,dzwo,ase,kar,fal,dela,
+____________________

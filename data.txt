@@ -9,6 +9,8 @@
 0,or,hwo,o,ya,aw,ili,
 0,to,daw,a,ko,le,na,
 0,learn,cwe,aprende,sikh,talama,utci,
+0,computer,dyenaw,komputador,sanganak,hasub,kampyutir,
+0,do,dzwo,ase,kar,fal,dela,
 1,i,wo,yo,me,ana,ya,
 2,you,ni,tu,tum,enta,ti,
 3,he,ta,el,vah,howa,on,
