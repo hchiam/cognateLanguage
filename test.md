@@ -1,4 +1,4 @@
-### 4 - CONTRIBUTE
+[Foo](#foo)
 
 asd
 
@@ -29,4 +29,4 @@ asd
 asd
 
 
-[CONTRIBUTE](.#4---contribute)
+# Foo
