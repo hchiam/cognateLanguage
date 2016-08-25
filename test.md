@@ -1,4 +1,5 @@
 [Foo](#foo)
+[Foo](##foo)
 
 asd
 
@@ -29,4 +30,4 @@ asd
 asd
 
 
-# Foo
+##Foo
