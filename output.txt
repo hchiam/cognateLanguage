@@ -945,7 +945,7 @@ porkyincanpat,because,yinwey,porke,kyonki,acan,patamucta,
 mins,name,mindza,nombre,nam,esm,ima,
 ____________________
 ____________________
-Tue Aug 30 16:14:39 2016
+Tue Aug 30 20:06:42 2016
 yunsastempot,use,yun,usa,istemal,istemal,potrebi,
 dzaystahokanbi,be,dzay,esta,ho,kana,bi,
 hwodostalkonpa,get,hwod,konsegi,pa,istalama,dostava,
@@ -958,6 +958,7 @@ dawkolena,to,daw,a,ko,le,na,
 cweprentaltsik,learn,cwe,aprende,sikh,talama,utci,
 dyenkomhasan,computer,dyenaw,komputador,sanganak,hasub,kampyutir,
 dzwosekarfaldel,do,dzwo,ase,kar,fal,dela,
+nanotpodsakad,able,nan,pode,sak,qadar,motc,
 woyome,i,wo,yo,me,ana,ya,
 entuni,you,ni,tu,tum,enta,ti,
 talvahown,he,ta,el,vah,howa,on,
