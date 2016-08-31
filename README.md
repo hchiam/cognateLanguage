@@ -32,7 +32,7 @@ I'll start with using words from the Swadesh lists for the sources languages.  I
 
 Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done with detecting "overlaps" between words with matching letters.  Matching letters are ideally identical or are at least "allophones" (similar sounds).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as "abjad-like" spellings of words (retaining only consonants and initial vowel).  I currently use the initial syllables of words to help limit word length.
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage conciseness.  
-Sometimes I see repeating patterns and can think of shorter ways to combine the source words.  You can test your own "manually-created" words by entering them into `output.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Follow the format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
+Sometimes I see repeating patterns and can think of shorter ways to combine the source words.  You can test your own "manually-created" words by entering them into `output_shortlist.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Follow the format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
 
 ##4) How Do I Pronounce the Words?
 
@@ -63,9 +63,9 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 2. Run `cognateLanguage_CreatingList.py` (make sure `data.txt` is in the same folder).
 
-3. You can edit `output.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. 
+3. You can edit `output_shortlist.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. 
 
-4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output.txt`.
+4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output_shortlist.txt`.
 
 5. Make mnemonics for the words (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.
 
