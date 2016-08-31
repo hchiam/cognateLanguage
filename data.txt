@@ -12,6 +12,7 @@
 0,computer,dyenaw,komputador,sanganak,hasub,kampyutir,
 0,do,dzwo,ase,kar,fal,dela,
 0,able,nan,pode,sak,qadar,motc,
+0,thing,donci,kosa,tciz,ce,vec,
 1,i,wo,yo,me,ana,ya,
 2,you,ni,tu,tum,enta,ti,
 3,he,ta,el,vah,howa,on,
