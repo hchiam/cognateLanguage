@@ -236,6 +236,6 @@ bunehc,not_,bu,no,nahi,mec,ne,
 tcakomkhakalyes,eat_,tca,kome,kha,kal,yes,
 tcakamyes,eat_,tca,kome,kha,kal,yes,
 ____________________
-debicparazdol_,must,bici,debe,par,lazim,dolji,
-delbicparaz_,must,bici,debe,par,lazim,dolji,
+debicparazdol,must_,bici,debe,par,lazim,dolji,
+delbicparaz,must_,bici,debe,par,lazim,dolji,
 ____________________
