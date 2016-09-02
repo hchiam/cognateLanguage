@@ -1442,3 +1442,12 @@ ____________________
 Thu Sep  1 22:17:39 2016
 debicparazdol,must,bici,debe,par,lazim,dolji,
 ____________________
+____________________
+Thu Sep  1 22:29:42 2016
+tcivarah,go,tci,va,dja,rah,id,
+____________________
+____________________
+Thu Sep  1 22:35:21 2016
+cadyemsamwaqvrem,time,cadjyan,tyempo,samay,waqt,vremya,
+diflugdjagmakmes,place,difan,lugar,djagah,makan,mesta,
+____________________
