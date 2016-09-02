@@ -15,7 +15,7 @@
 0,thing,donci,kosa,tciz,ce,vec,
 0,must,bici,debe,par,lazim,dolji,
 0,go,tci,va,dja,rah,id,
-0,time,cadjyan,tyempo,samay,waqt,vremya,
+0,time,cadjyen,tyempo,samay,waqt,vremya,
 0,place,difan,lugar,djagah,makan,mesta,
 1,i,wo,yo,me,ana,ya,
 2,you,ni,tu,tum,enta,ti,
