@@ -17,6 +17,7 @@
 0,go,tci,va,dja,rah,id,
 0,time,cadjyen,tyempo,samay,waqt,vremya,
 0,place,difan,lugar,djagah,makan,mesta,
+0,friend,panyo,amigo,mitra,sadiq,druk,
 1,i,wo,yo,me,ana,ya,
 2,you,ni,tu,tum,enta,ti,
 3,he,ta,el,vah,howa,on,
