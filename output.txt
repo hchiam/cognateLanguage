@@ -1459,3 +1459,15 @@ ____________________
 Sun Sep  4 19:23:20 2016
 panigmitruksad,friend,panyo,amigo,mitra,sadiq,druk,
 ____________________
+____________________
+Mon Sep  5 13:58:16 2016
+yotenepas,have,yo,tene,pas,ind,ime,
+____________________
+____________________
+Mon Sep  5 14:05:30 2016
+tsapalkilslov,word,tsa,palabra,cabd,kilma,slova,
+____________________
+____________________
+Mon Sep  5 14:11:05 2016
+kwaypedukushet,piece,kway,pedazo,tukra,heta,kusok,
+____________________
