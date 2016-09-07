@@ -62,7 +62,7 @@ grwesmotehowtol,thick,how,grweso,mota,tehin,tolsti,d
 djunpesbharteqtij,heavy,djun,pesado,bhari,teqil,tijoli,d
 cyawpektchotsogmal,small,cyaw,pekenyo,tchota,sogayar,malinki,d
 dwanatkorqos,short,dwan,korto,nata,qosayar,karotki,d
-estredjaytandayski,narrow,djay,estretco,tang,dayaq,uski,d
+estredjaytanski,narrow,djay,estretco,tang,dayaq,uski,d
 bawpadelofton,thin,baw,delgado,patla,rofaya,tonki,d
 muhsetjenirat,woman,niran,muher,orat,set,jencina,t
 adnanbregmuc,man,nanran,ombre,admi,ragel,mucina,t
