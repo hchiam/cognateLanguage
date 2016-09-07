@@ -54,6 +54,7 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 * The Python file `levenshteinDistance.py` is a copy of code from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python from which I plan to import the function in other Python files.
 * The Python file `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * The Python file `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
+* The Python file `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types" (a=action/verb, d=descriptor/adjective/adverb, t=thing/noun/pronoun, c=connector/preposition).
 
 ##6) How Can I Use the Files?
 
@@ -63,11 +64,11 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 2. Run `cognateLanguage_CreatingList.py` (make sure `data.txt` is in the same folder).
 
-3. You can edit `output_shortlist.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. 
+3. You can edit `output_shortlist.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. (Note:  I've added a letter at the end of each entry to identify word types for `cognateLanguage_AutoSentence.py`.) 
 
 4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output_shortlist.txt`.
 
-5. Make mnemonics for the words (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.
+5. Make mnemonics for the words (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like with auto-generated sentences with `cognateLanguage_AutoSentence.py`.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
 
 > "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
