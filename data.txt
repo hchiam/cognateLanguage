@@ -33,6 +33,7 @@
 1,i,wo,yo,me,ana,ya,
 2,you,ni,tu,tum,enta,ti,
 3,he,ta,el,vah,howa,on,
++,she,ta,eya,vah,heya,ana,
 4,we,woman,nosotros,ham,ehna,mi,
 5,you all,niman,vosotros,ap,ento,vi,
 6,they,taman,eyos,ve,homa,ani,
@@ -237,3 +238,5 @@
 205,if,rugwo,si,agar,eza,yesli,
 206,because,yinwey,porke,kyonki,acan,patamucta,
 207,name,mindza,nombre,nam,esm,ima,
++,car,tca,kotce,gari,arabiya,macina,
++,washroom,tsaswo,banyo,cotcalay,mirhad,tualet,
