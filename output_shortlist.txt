@@ -239,6 +239,9 @@ mins,name,mindza,nombre,nam,esm,ima,t
 tavaheyana,she,ta,eya,vah,heya,ana,t
 kotcagarabmac,car,tca,kotce,gari,arabiya,macina,t
 tsasotuabanir,washroom,tsaswo,banyo,cotcalay,mirhad,tualet,t
+adadcusanum,number,cu,numero,sankhya,adad,tcislo,t
+kasgharbidjyadom,house,djya,kasa,ghar,bit,dom,t
+ogharbidjyadom,home,djya,ogar,ghar,bit,dom,t
 ____________________
 djidelbansan,make_,djidzaw,ase,bana,sana,dela,
 djelbansan,make_,djidzaw,ase,bana,sana,dela,
@@ -266,3 +269,5 @@ syetcabsem,seven_,tci,syete,sat,saba,sem,
 djyownwevnotisdev,nine_,djyow,nweve,no,tisa,devit,
 djyownwevtisdev,nine_,djyow,nweve,no,tisa,devit,
 ____________________
+ogargharbidjyadom,home,djya,ogar,ghar,bit,dom,t
+ogharbidjyadom,home,djya,ogar,ghar,bit,dom,t

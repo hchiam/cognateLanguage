@@ -240,3 +240,6 @@
 +,she,ta,eya,vah,heya,ana,
 +,car,tca,kotce,gari,arabiya,macina,
 +,washroom,tsaswo,banyo,cotcalay,mirhad,tualet,
++,number,cu,numero,sankhya,adad,tcislo,
++,house,djya,kasa,ghar,bit,dom,
++,home,djya,ogar,ghar,bit,dom,
