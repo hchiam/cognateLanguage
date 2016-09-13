@@ -1,0 +1,23 @@
+____________________
+Tue Sep 13 17:27:36 2016
+akunamwat,I,aku,na,mimi,watakuci,
+enkawewnot,you,enkaw,no,wewe,anata,
+diayeygur,he,dia,gu,yeye,kare,
+kitrisiswat,we,kita,uri,sisi,watacitatci,
+kamohninat,youall,kamu,nohi,ninyi,anatatatci,
+mergudwaokar,they,mereka,gudul,wao,karera,
+inihiikor,this,ini,i,hii,kore,
+itugule,that,itu,gu,le,are,
+sinyogokhap,here,sini,yogi,hapa,koko,
+sitpalsogog,there,situ,gogi,pale,soko,
+siananugdar,who,siapa,nugu,nani,dare,
+apanimwot,what,apa,mwot,nini,nani,
+manwapdik,where,mana,odi,wapi,doko,
+bilindje,when,bila,ondje,lini,itsu,
+otokvibagag,how,bagaimana,otoke,vipi,ikaga,
+tidsinii,not,tidak,ani,si,nai,
+semodesub,all,semua,modu,ote,subete,
+banangii,many,banyak,man,ingi,ooi,
+bebatonsuk,some,beberapa,oton,badi,sukoci,
+sedcogid,few,sedikit,tcogum,kidogo,sukunai,
+____________________
