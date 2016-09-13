@@ -269,5 +269,5 @@ syetcabsem,seven_,tci,syete,sat,saba,sem,
 djyownwevnotisdev,nine_,djyow,nweve,no,tisa,devit,
 djyownwevtisdev,nine_,djyow,nweve,no,tisa,devit,
 ____________________
-ogargharbidjyadom,home,djya,ogar,ghar,bit,dom,t
-ogharbidjyadom,home,djya,ogar,ghar,bit,dom,t
+ogargharbidjyadom,home_,djya,ogar,ghar,bit,dom,t
+ogharbidjyadom,home_,djya,ogar,ghar,bit,dom,t
