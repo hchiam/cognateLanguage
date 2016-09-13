@@ -48,4 +48,4 @@ if input != "":
     # remove final space ' '
     translation = translation[:-1]
 
-print 'Translation:\n\t', '"' + translation + '"'
+print 'Translation:\n\t', '"' + translation.capitalize()+'.' + '"'
