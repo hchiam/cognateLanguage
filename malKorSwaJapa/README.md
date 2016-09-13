@@ -1,4 +1,4 @@
-# MalKorSwaJapa
+# CogLang Sub-Project:  MalKorSwaJapa
 
 Source languages:  Malay + Korean + Swahili + Japanese.
 
