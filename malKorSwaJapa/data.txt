@@ -25,7 +25,7 @@
 24,three,tiga,set,tatu,mitsu,
 25,four,empat,net,ne,yotsu,
 26,five,lima,dasot,tano,itsutsu,
-27,big,besar,ku,kubwa,oki
+27,big,besar,ku,kubwa,oki,
 28,long,pandjan,gil,refu,nagai,
 29,wide,lebar,nol,pana,hiroi,
 30,thick,tebal,dukop,nene,atsui,

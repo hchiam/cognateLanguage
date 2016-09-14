@@ -1,5 +1,5 @@
 ____________________
-Wed Sep 14 14:42:45 2016
+Wed Sep 14 14:45:50 2016
 akunamwat,I,aku,na,mimi,watakuci,
 enkawewnot,you,enkaw,no,wewe,anata,
 diayeygur,he,dia,gu,yeye,kare,
@@ -26,9 +26,7 @@ dulmbilfudua,two,dua,dul,mbili,futatsu,
 setigmitat,three,tiga,set,tatu,mitsu,
 empatnetyot,four,empat,net,ne,yotsu,
 limtantsudas,five,lima,dasot,tano,itsutsu,
-kubeski
-,big,besar,ku,kubwa,oki
-,
+okubes,big,besar,ku,kubwa,oki,
 panagilef,long,pandjan,gil,refu,nagai,
 nolebanhir,wide,lebar,nol,pana,hiroi,
 tebduknentsui,thick,tebal,dukop,nene,atsui,
