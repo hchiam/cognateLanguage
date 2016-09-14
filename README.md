@@ -68,7 +68,7 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output_shortlist.txt`.
 
-5. Make mnemonics for the words (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like with auto-generated sentences with `cognateLanguage_AutoSentence.py`.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
+5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like with auto-generated sentences with `cognateLanguage_AutoSentence.py`.  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
 
 > "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
