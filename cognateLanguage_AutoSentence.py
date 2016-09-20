@@ -11,6 +11,7 @@ with open(filename1,'r') as f1:
     data = f1.readlines()
 
 def justTwoInitSylls(word):
+    beforeThisIndex = 0
     for vowel1 in word:
         if vowel1 in 'aeiou':
             afterThisIndex = word.index(vowel1)
@@ -19,7 +20,8 @@ def justTwoInitSylls(word):
         if vowel2 in 'aeiou':
             beforeThisIndex = word[afterThisIndex+1:].index(vowel2)+1 + afterThisIndex+1
             break
-    word = word[:beforeThisIndex+1]
+    if beforeThisIndex!=0:
+        word = word[:beforeThisIndex+1]
     return word
 
 def getWord(wordType='d',full=True):
