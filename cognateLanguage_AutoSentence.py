@@ -46,6 +46,8 @@ def buildSentence(pattern):
 # if this .py file is being run as a standalone by the user:
 if __name__ == '__main__':
     print('')
+    print('WARNING: Words are chosen at random within word types and may produce unexpected sentences.')
+    print('')
     
     pattern = 'tat'
     print('AUTO-GENERATED SENTENCE 1: ***1***, with pattern "'+pattern+'"')
