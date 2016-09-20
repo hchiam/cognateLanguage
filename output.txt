@@ -1498,3 +1498,31 @@ adadcusanum,number,cu,numero,sankhya,adad,tcislo,
 kasgharbidjyadom,house,djya,kasa,ghar,bit,dom,
 ogargharbidjyadom,home,djya,ogar,ghar,bit,dom,
 ____________________
+____________________
+Tue Sep 20 11:47:47 2016
+djanastwalatcuc,born,tcucan,nase,djanma,etwalad,radi,
+yidcankuritcaf,heal,yidja,kura,tcanga,cafa,litci,
+romtudapkasraz,break,dapwo,rompe,tut,kasara,razbi,
+djyenkonbanstroi,build,djyenca,konstrui,bana,bana,stroi,
+yorbakuprok,weep,ku,yora,ro,baka,plaka,
+galamadaw,mourn,dawnyen,lamenta,ro,nadaba,gariva,
+bayraqtanatyaw,dance,tyawu,bayla,natc,raqasa,tantsa,
+cowhunkatjamsob,gather,cowdji,hunta,ikatha,djama,sobira,
+yonaqbraslinbnim,hug,yonbaw,abrasa,alingan,anaqa,obnima,
+bimtanbstenparvaz,refrain,bimyen,abstene,parhedj,imtana,vazdirja,
+catirperfakho,lose,catci,perde,kho,faqada,tira,
+bawgarakhtafder,keep,bawtca,garda,rakh,ihtafaza,derja,
+torasamazrva,tear,sa,rasga,tor,mazaqa,rva,
+yhapremalub,love,ay,ama,prem,hab,lubi,
+hanindyaghrnakir,hate,han,odya,ghrna,kirih,ninavidi,
+djonsazaroplan,toplant,djon,planta,rop,zara,saja,
+tcanhamsuktisil,silence,tcanmo,silensyo,hamoc,sukut,ticina,
+gerharvayudjan,war,djandjan,gera,yudh,harb,vayna,
+hapasanirsal,peace,hapin,pas,canti,salam,mir,
+planapodjawras,plant,djawu,planta,podha,nabat,rasteniye,
+____________________
+____________________
+Tue Sep 20 11:53:31 2016
+yhapremalub,love,ay,ama,prem,hab,lubi,
+hapremalyub,love,ay,ama,prem,hab,lyubi,
+____________________
