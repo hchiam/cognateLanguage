@@ -1,5 +1,5 @@
 ____________________
-Wed Sep 28 13:37:06 2016
+Wed Sep 28 19:38:20 2016
 icyu,I,ic,eu,ya,
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -10,4 +10,14 @@ distu,this,dis,ictu,to,
 daskiltam,that,das,akilu,tamto,
 hiakitu,here,hia,aki,tu,
 dam,there,da,ai,tam,
+veakaykto,who,vea,kay,kto,
+vaskitso,what,vas,ki,tso,
+vodigdje,where,vo,odi,gdje,
+vankwadked,when,van,kwadu,kedi,
+viyakom,how,vi,komu,yak,
+nicnaw,not,nict,naw,ne,
+latodfcis,all,ala,todu,fcistko,
+filmuyduj,many,fila,muytu,dujo,
+aynigilguc,some,ayniga,alguc,kilka,
+venawpok,few,venic,poku,mawo,
 ____________________
