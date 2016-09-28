@@ -1526,3 +1526,9 @@ Tue Sep 20 11:53:31 2016
 yhapremalub,love,ay,ama,prem,hab,lubi,
 hapremalyub,love,ay,ama,prem,hab,lyubi,
 ____________________
+____________________
+Wed Sep 28 11:02:19 2016
+cahaywada,yes,ca,si,ha,aywa,da,
+bunohlanet,no,bu,no,nahi,la,net,
+bunohlanyet,no,bu,no,nahi,la,nyet,
+____________________

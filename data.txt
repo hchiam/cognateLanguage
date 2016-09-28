@@ -263,3 +263,5 @@
 +,war,djandjan,gera,yudh,harb,vayna,
 +,peace,hapin,pas,canti,salam,mir,
 +,plant,djawu,planta,podha,nabat,rasteniye,
++,yes,ca,si,ha,aywa,da,
++,no,bu,no,nahi,la,nyet,

@@ -262,3 +262,5 @@ tcanhamsuktisil,silence,tcanmo,silensyo,hamoc,sukut,ticina,t
 gerharvayudjan,war,djandjan,gera,yudh,harb,vayna,t
 hapasanirsal,peace,hapin,pas,canti,salam,mir,t
 planapodjawras,plant,djawu,planta,podha,nabat,rasteniye,t
+cahaywada,yes,ca,si,ha,aywa,da,d
+bunohlanyet,no,bu,no,nahi,la,nyet,d
