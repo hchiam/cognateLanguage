@@ -1,5 +1,5 @@
-____________________
-Wed Sep 28 19:38:20 2016
+________________________________________
+Wed Sep 28 23:55:13 2016
 icyu,I,ic,eu,ya,
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -20,4 +20,14 @@ latodfcis,all,ala,todu,fcistko,
 filmuyduj,many,fila,muytu,dujo,
 aynigilguc,some,ayniga,alguc,kilka,
 venawpok,few,venic,poku,mawo,
+andartruni,other,andara,otru,ini,
+yed,one,ayns,u,yeden,
+tsvaydoidva,two,tsvay,doic,dva,
+draytrectci,three,dray,trec,tci,
+fiakwatcter,four,fia,kwatru,tcteri,
+finsikpyen,five,finf,siku,pyentc,
+grosgradvyel,big,gros,gradi,vyelci,
+lanlogdwug,long,lan,logu,dwugi,
+braycelar,wide,brayt,largu,ceroki,
+dikewcpes,thick,dik,icpesu,gewsti,
 ____________________
