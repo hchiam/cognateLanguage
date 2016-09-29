@@ -1,6 +1,6 @@
-________________________________________
-Wed Sep 28 23:55:13 2016
-icyu,I,ic,eu,ya,
+____________________
+Thu Sep 29 13:20:42 2016
+ixyu,I,ix,eu,ya,
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
 vianoc,we,via,noc,mi,
@@ -15,11 +15,11 @@ vaskitso,what,vas,ki,tso,
 vodigdje,where,vo,odi,gdje,
 vankwadked,when,van,kwadu,kedi,
 viyakom,how,vi,komu,yak,
-nicnaw,not,nict,naw,ne,
+nixnaw,not,nixt,naw,ne,
 latodfcis,all,ala,todu,fcistko,
 filmuyduj,many,fila,muytu,dujo,
 aynigilguc,some,ayniga,alguc,kilka,
-venawpok,few,venic,poku,mawo,
+venawpok,few,venix,poku,mawo,
 andartruni,other,andara,otru,ini,
 yed,one,ayns,u,yeden,
 tsvaydoidva,two,tsvay,doic,dva,
