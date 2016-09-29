@@ -1,5 +1,5 @@
 ____________________
-Thu Sep 29 13:20:42 2016
+Thu Sep 29 18:20:17 2016
 ixyu,I,ix,eu,ya,
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -30,4 +30,19 @@ grosgradvyel,big,gros,gradi,vyelci,
 lanlogdwug,long,lan,logu,dwugi,
 braycelar,wide,brayt,largu,ceroki,
 dikewcpes,thick,dik,icpesu,gewsti,
+picveatcew,heavy,cvea,pizadu,tcewcki,
+piklaymaw,small,klayn,pikenu,mawi,
+kurt,short,kurts,kurtu,krutki,[Manually entered. Better eval score.]
+enctrayvow,narrow,en,ictraytu,vowski,
+dinfintcen,thin,din,finu,tcenki,
+frawmuykob,woman,fraw,muyer,kobyeta,
+manaymew,man,man,omay,mewctcizna,
+menaytcwov,human,menc,omay,tcwovyek,
+kinkriadjet,child,kint,kriasa,djetsko,
+frawjomuy,wife,fraw,muyer,jona,
+manarmow,husband,man,maridu,mowc,
+mutmay,mother,muta,may,matka,
+fatpaiytcet,father,fata,pai,oytcets,
+tianimzvyej,animal,tia,animal,zvyeje,
+ficripay,fish,fic,payci,riba,
 ____________________
