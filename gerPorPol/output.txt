@@ -1,5 +1,5 @@
 ____________________
-Fri Sep 30 11:15:05 2016
+Fri Sep 30 12:47:08 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -45,4 +45,14 @@ mutmay,mother,muta,may,matka,
 fatpaiytcet,father,fata,pai,oytcets,
 tianimzvyej,animal,tia,animal,zvyeje,
 ficripay,fish,fic,payci,riba,
+afogptak,bird,fogal,avi,ptak,
+hunkawpyes,dog,hunt,kaw,pyes,
+lawpiovec,louse,laws,pioyu,vec,
+clansirvow,snake,clana,sirpeti,vowc,
+vurob,worm,vurm,vermi,robak,
+bawrvurdjev,tree,bawm,arvuri,djevo,
+valasflur,forest,valt,flurecta,las,
+bactokiy,stick,ctok,bactaw,kiy,
+fruhfrutvot,fruit,fruht,fruta,ovots,
+zamjar,seed,zaman,simeti,jarno,
 ____________________
