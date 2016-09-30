@@ -1,6 +1,6 @@
 ____________________
-Thu Sep 29 18:20:17 2016
-ixyu,I,ix,eu,ya,
+Fri Sep 30 11:15:05 2016
+ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
 vianoc,we,via,noc,mi,
@@ -15,11 +15,11 @@ vaskitso,what,vas,ki,tso,
 vodigdje,where,vo,odi,gdje,
 vankwadked,when,van,kwadu,kedi,
 viyakom,how,vi,komu,yak,
-nixnaw,not,nixt,naw,ne,
+nihnaw,not,niht,naw,ne,
 latodfcis,all,ala,todu,fcistko,
 filmuyduj,many,fila,muytu,dujo,
 aynigilguc,some,ayniga,alguc,kilka,
-venawpok,few,venix,poku,mawo,
+venawpok,few,venih,poku,mawo,
 andartruni,other,andara,otru,ini,
 yed,one,ayns,u,yeden,
 tsvaydoidva,two,tsvay,doic,dva,
