@@ -53,6 +53,6 @@ vurob,worm,vurm,vermi,robak,
 bawrvurdjev,tree,bawm,arvuri,djevo,
 valasflur,forest,valt,flurecta,las,
 bactokiy,stick,ctok,bactaw,kiy,
-fruhfrutvot,fruit,fruht,fruta,ovots,
+fruhtvot,fruit,fruht,fruta,ovots,[Manually entered. Better eval score.]
 zamjar,seed,zaman,simeti,jarno,
 ____________________
