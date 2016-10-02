@@ -1,5 +1,5 @@
 ____________________
-Fri Sep 30 12:47:08 2016
+Sun Oct  2 19:37:14 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -55,4 +55,19 @@ valasflur,forest,valt,flurecta,las,
 bactokiy,stick,ctok,bactaw,kiy,
 fruhtvot,fruit,fruht,fruta,ovots,[Manually entered. Better eval score.]
 zamjar,seed,zaman,simeti,jarno,
+blatfoylic,leaf,blat,foya,lictc,
+vuraikoj,root,vurtsal,raic,kojen,
+kackorin,bark,rinda,kacka,kora,
+blumflorkfyat,flower,bluma,flor,kfyat,
+grasrvatrav,grass,gras,erva,trava,
+zaykorcnur,rope,zayl,korda,cnur,
+hawpelskur,skin,hawt,peli,skura,
+flaykarmyew,meat,flayc,karni,myewso,
+blutsagref,blood,blut,sagi,kref,
+knohkosu,bone,knohan,osu,koctc,
+fetwucgur,fat,fet,gurdura,twuctc,
+ovuyay,egg,ay,ovu,yayko,
+horukcif,horn,horn,cifri,ruk,
+cvankawgon,tail,cvants,kawda,ogon,
+fedpenpyur,feather,feda,pena,pyuro,
 ____________________
