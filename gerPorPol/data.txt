@@ -69,3 +69,8 @@
 68,horn,horn,cifri,ruk,
 69,tail,cvants,kawda,ogon,
 70,feather,feda,pena,pyuro,
+71,hair,ha,kabelu,vwos,
+72,head,kopf,kabesa,gwova,
+73,ear,oa,oraya,uho,
+74,eye,awga,oyu,oko,
+75,nose,naza,naric,nos,
