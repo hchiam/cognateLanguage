@@ -59,7 +59,7 @@ blatfoylic,leaf,blat,foya,lictc,
 vuraikoj,root,vurtsal,raic,kojen,
 kackorin,bark,rinda,kacka,kora,
 blumflorkfyat,flower,bluma,flor,kfyat,
-grasrvatrav,grass,gras,erva,trava,
+grastrava,grass,gras,erva,trava,[Manually entered. Better eval score.]
 zaykorcnur,rope,zayl,korda,cnur,
 hawpelskur,skin,hawt,peli,skura,
 flaykarmyew,meat,flayc,karni,myewso,
