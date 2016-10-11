@@ -74,3 +74,8 @@
 73,ear,oa,oraya,uho,
 74,eye,awga,oyu,oko,
 75,nose,naza,naric,nos,
+76,mouth,munt,boka,usta,
+77,tooth,tsan,deti,zomp,
+78,tongue,tsuna,ligwa,yewzik,
+79,fingernail,finanagel,una,paznoketc,
+80,foot,fus,pe,stopa,

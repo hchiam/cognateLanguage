@@ -1,5 +1,5 @@
 ____________________
-Thu Oct  6 00:42:06 2016
+Mon Oct 10 20:35:31 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -75,4 +75,9 @@ kopgwov,head,kopf,kabesa,gwova,
 orayho,ear,oa,oraya,uho,
 awgayu,eye,awga,oyu,oko,
 naznar,nose,naza,naric,nos,
+munboksta,mouth,munt,boka,usta,
+detsan,tooth,tsan,deti,zomp,
+tsunligyew,tongue,tsuna,ligwa,yewzik,
+finapaz,fingernail,finanagel,una,paznoketc,
+fustope,foot,fus,pe,stopa,
 ____________________
