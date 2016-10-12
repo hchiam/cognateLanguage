@@ -1,5 +1,5 @@
 ____________________
-Wed Sep 14 14:45:50 2016
+Wed Oct 12 14:50:26 2016
 akunamwat,I,aku,na,mimi,watakuci,
 enkawewnot,you,enkaw,no,wewe,anata,
 diayeygur,he,dia,gu,yeye,kare,
@@ -38,4 +38,16 @@ yalnaniphos,thin,nipis,yal,anana,hosoi,
 peryodmwana,woman,perempuan,yodja,mwanamke,ona,
 lelnamwantok,man,lelaki,namdja,mwanamume,otoko,
 sarantuhit,human,oran,saram,mtu,hito,
+orinakomtot,child,anak,orini,mtoto,ko,
+istermketsune,wife,isteri,ane,mke,tsuma,
+suanamto,husband,suami,nampyon,mume,oto,
+ibumonhah,mother,ibu,omoni,mama,haha,
+bapodcit,father,bapa,abodji,baba,tcitci,
+binnyamdjimkem,animal,binatan,djimsun,mnyama,kemono,
+ikanulsam,fish,ikan,mulgogi,samaki,uo,
+bursendegtor,bird,burun,se,ndege,tori,
+andjinbwagenu,dog,andjin,ge,mbwa,inu,
+kutcawcir,louse,kutu,i,tcawa,cirami,
+ularhebemyok,snake,ular,bem,nyoka,hebi,
+tcatbolfunim,worm,tcatcin,bole,funza,mimizu,
 ____________________
