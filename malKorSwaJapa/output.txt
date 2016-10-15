@@ -1,5 +1,5 @@
 ____________________
-Wed Oct 12 14:50:26 2016
+Fri Oct 14 23:41:49 2016
 akunamwat,I,aku,na,mimi,watakuci,
 enkawewnot,you,enkaw,no,wewe,anata,
 diayeygur,he,dia,gu,yeye,kare,
@@ -50,4 +50,9 @@ andjinbwagenu,dog,andjin,ge,mbwa,inu,
 kutcawcir,louse,kutu,i,tcawa,cirami,
 ularhebemyok,snake,ular,bem,nyoka,hebi,
 tcatbolfunim,worm,tcatcin,bole,funza,mimizu,
+pokinamti,tree,pokok,namu,mti,ki,
+hutsupmsitmor,forest,hutan,sup,msitu,mori,
+batsuefimak,stick,batan,makdegi,fimbo,tsue,
+buayolkutun,fruit,buah,yolme,tunda,kudamono,
+benbegcitan,seed,benih,ci,mbegu,tane,
 ____________________

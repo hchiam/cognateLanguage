@@ -49,3 +49,8 @@
 48,louse,kutu,i,tcawa,cirami,
 49,snake,ular,bem,nyoka,hebi,
 50,worm,tcatcin,bole,funza,mimizu,
+51,tree,pokok,namu,mti,ki,
+52,forest,hutan,sup,msitu,mori,
+53,stick,batan,makdegi,fimbo,tsue,
+54,fruit,buah,yolme,tunda,kudamono,
+55,seed,benih,ci,mbegu,tane,
