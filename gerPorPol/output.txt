@@ -1,4 +1,5 @@
 ____________________
+Mon Oct 17 21:34:34 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -99,4 +100,24 @@ abvum,vomit,eabreh,vumit,vimyoto,
 blazupdmuh,blow,blaz,supr,dmuha,
 atmaricdih,breathe,atma,ricpir,odiha,[atma and not atm so “tm” are retained]
 lahcmya,laugh,lah,ri,cmya,
+zeved,see,ze,ve,vidje,
+herwviswic,hear,her,owvi,swice,
+visabvye,know,vis,sab,vye,
+denicpes,think,denk,pes,micle,
+rihtcay,smell,rih,cayr,tcu,
+firtimba,fear,firht,tim,ba,
+clafdurspa,sleep,claf,durm,spa,
+lebvivji,live,leb,viv,ji,
+ctermurmyer,die,cterb,mur,umyera,
+matetzab,kill,tet,mat,zabi,
+kemvalut,fight,kempf,lut,valtc,
+yagaspol,hunt,yag,kas,polo,
+bateclag,hit,clag,bat,udeja,
+cnaykurtcon,cut,cnayd,kurt,tcon,
+cpalacrom,split,cpalt,rac,romb,
+ctehcfakdjga,stab,cteh,icfakj,djga,
+kratraprac,scratch,krats,racp,drap,
+grabkavkop,dig,grab,kav,kop,
+cvimadpwiv,swim,cvim,nad,pwiva,
+fligvulat,fly,flig,vu,lata,
 ____________________
