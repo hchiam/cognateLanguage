@@ -1,5 +1,4 @@
 ____________________
-Mon Oct 10 20:35:31 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -80,4 +79,24 @@ detsan,tooth,tsan,deti,zomp,
 tsunligyew,tongue,tsuna,ligwa,yewzik,
 finapaz,fingernail,finanagel,una,paznoketc,
 fustope,foot,fus,pe,stopa,
+baypernog,leg,bayn,perna,noga,
+knijuakol,knee,kni,juayu,kolano,
+hanawren,hand,hant,maw,renka,
+fligzkcad,wing,fligal,aza,skcidwo,[respelled from fligskzad for easier pronunciation]
+bawvetbjuh,belly,bawh,vetri,bjuh,
+ayngavnentran,guts,ayngavayda,etranac,vnentcnoctci,
+halpiciy,neck,hals,pickosu,ciya,
+rikocplet,back,rikan,koctac,pletsi,
+bruspaypyer,breast,brust,paytu,pyerc,
+herkurser,heart,herts,kurasaw,sertse,
+lebfigvon,liver,leba,figadu,vontroba,
+trinbib,drink,trink,bib,pi,
+eskumye,eat,es,kum,ye,[es is still preserved so no need for esa]
+baymurgric,bite,bays,murd,gric,
+zawsug,suck,zawg,sug,sa,
+cpukucplu,spit,cpuk,kucp,plu,
+abvum,vomit,eabreh,vumit,vimyoto,
+blazupdmuh,blow,blaz,supr,dmuha,
+atmaricdih,breathe,atma,ricpir,odiha,[atma and not atm so “tm” are retained]
+lahcmya,laugh,lah,ri,cmya,
 ____________________
