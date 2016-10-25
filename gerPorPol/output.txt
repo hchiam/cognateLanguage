@@ -1,5 +1,5 @@
 ____________________
-Mon Oct 24 23:16:21 2016
+Tue Oct 25 10:28:51 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -125,4 +125,14 @@ komvipcih,come,kom,vi,pcihodj,
 ligdaylej,lie,lig,dayt,lej,
 zit,sit,zits,set,cedj,
 ctepe,stand,cte,pe,sta,
+virbradre,turn,dre,vir,obrats,
+falkaipad,fall,fal,kai,pada,
+gebda,give,geb,da,da,
+halsigtcim,hold,halt,sigur,tcima,
+kvetpirctcis,squeeze,kvetc,apirt,ctcisk,
+raycfrigtce,rub,rayb,icfrig,tce,
+lavacmi,wash,vac,lav,mi,
+vicugvit,wipe,vic,ecug,vitcer,
+puctsin,pull,tsi,puc,tcongno,
+drikpurpha,push,drik,epur,pha,
 ____________________
