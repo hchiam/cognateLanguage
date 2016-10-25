@@ -1,5 +1,5 @@
 ____________________
-Mon Oct 17 21:34:34 2016
+Mon Oct 24 23:16:21 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -120,4 +120,9 @@ kratraprac,scratch,krats,racp,drap,
 grabkavkop,dig,grab,kav,kop,
 cvimadpwiv,swim,cvim,nad,pwiva,
 fligvulat,fly,flig,vu,lata,
+genda,walk,ge,anda,id,
+komvipcih,come,kom,vi,pcihodj,
+ligdaylej,lie,lig,dayt,lej,
+zit,sit,zits,set,cedj,
+ctepe,stand,cte,pe,sta,
 ____________________

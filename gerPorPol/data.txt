@@ -119,3 +119,8 @@
 118,dig,grab,kav,kop,
 119,swim,cvim,nad,pwiva,
 120,fly,flig,vu,lata,
+121,walk,ge,anda,id,
+122,come,kom,vi,pcihodj,
+123,lie,lig,dayt,lej,
+124,sit,zits,set,cedj,
+125,stand,cte,pe,sta,
