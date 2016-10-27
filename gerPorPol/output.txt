@@ -1,5 +1,5 @@
 ____________________
-Tue Oct 25 21:20:56 2016
+Thu Oct 27 12:59:17 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -145,4 +145,14 @@ cpilbrikra,play,cpil,brik,gra,
 cvebwiflut,float,cveb,flutu,pwiv,
 flispwin,flow,flis,flu,pwin,
 frirmrojil,freeze,frir,jil,mroj,
+cvelcapen,swell,cvel,ica,pentcne,
+zonsolswon,sun,zona,sol,swontse,
+monluakcew,moon,mont,lua,kcewjits,
+gvyacterna,star,ctern,ictrela,gvyazda,[Manually entered. Better eval score.]
+vasagwad,water,vasa,agwa,voda,[Manually entered. Better eval score.]
+regdecuv,rain,regan,cuva,dectc,
+flusekriu,river,flus,riu,jeka,
+lagyeze,lake,ze,lagu,yejoro,
+mermoj,sea,mea,mar,moje,[Manually entered. Better eval score.]
+zal,salt,zalts,sal,sul,
 ____________________
