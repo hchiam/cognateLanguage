@@ -1,5 +1,5 @@
 ____________________
-Thu Oct 27 12:59:17 2016
+Thu Oct 27 22:49:38 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -155,4 +155,14 @@ flusekriu,river,flus,riu,jeka,
 lagyeze,lake,ze,lagu,yejoro,
 mermoj,sea,mea,mar,moje,[Manually entered. Better eval score.]
 zal,salt,zalts,sal,sul,
+ctaypedkam,stone,ctayn,pedra,kamyen,
+araypyazan,sand,zant,araya,pyasek,
+puakuctaw,dust,ctawp,puayra,kuc,
+eaderjem,earth,eada,tera,jemya,
+nuvolhmur,cloud,volka,nuvay,hmura,
+nebnivmgwa,fog,nebal,nivuayru,mgwa,
+himebsew,sky,himal,sew,nebo,
+vinvyet,wind,vint,vetu,vyatr,[Manually entered. Better eval score.]
+nevcnek,snow,cne,nevi,cnek,
+ayjelut,ice,ays,jelu,lut,[Manually included initial a.]
 ____________________
