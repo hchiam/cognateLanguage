@@ -1,5 +1,4 @@
 ____________________
-Thu Oct 27 22:49:38 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -165,4 +164,17 @@ himebsew,sky,himal,sew,nebo,
 vinvyet,wind,vint,vetu,vyatr,[Manually entered. Better eval score.]
 nevcnek,snow,cne,nevi,cnek,
 ayjelut,ice,ays,jelu,lut,[Manually included initial a.]
+rawfumdim,smoke,rawh,fumu,dim,
+foifogen,fire,foia,fogu,ogen,
+acazpop,ash,aca,sizac,popyuw,
+brenparde,burn,bren,arde,pali,
+ictrasdga,road,ctrasa,ictrada,droga,[Manually entered. Better eval score.]
+bermongur,mountain,berk,montana,gura,
+virotcer,red,rot,virmayu,tcervoni,
+grinverjel,green,grin,verdi,jeloni,
+gelmarjuw,yellow,gelp,amarelu,juwti,
+vaybrakbyaw,white,vays,braku,byawi,
+pretcvar,black,cvarts,pretu,tcarni,[Manually entered. Better eval score.]
+nahnoyt,night,naht,noyti,nots,[Manually entered. Better eval score.]
+takdjen,day,tak,dia,djen,[Manually entered. Better eval score.]
 ____________________
