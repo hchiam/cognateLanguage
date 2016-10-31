@@ -100,7 +100,7 @@ blazupdmuh,blow,blaz,supr,dmuha,
 atmaricdih,breathe,atma,ricpir,odiha,[atma and not atm so “tm” are retained]
 lahcmya,laugh,lah,ri,cmya,
 zeved,see,ze,ve,vidje,
-herwviswic,hear,her,owvi,swice,
+herswivc,hear,her,owvi,swice,[respelled from herwviswic for easier pronunciation and better score]
 visabvye,know,vis,sab,vye,
 denicpes,think,denk,pes,micle,
 rihtcay,smell,rih,cayr,tcu,
