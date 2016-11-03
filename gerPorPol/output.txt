@@ -1,4 +1,5 @@
 ____________________
+Wed Nov  2 21:19:38 2016
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,
@@ -177,4 +178,12 @@ vaybrakbyaw,white,vays,braku,byawi,
 pretcvar,black,cvarts,pretu,tcarni,[Manually entered. Better eval score.]
 nahnoyt,night,naht,noyti,nots,[Manually entered. Better eval score.]
 takdjen,day,tak,dia,djen,[Manually entered. Better eval score.]
+yanurok,year,ya,anu,rok,
+varketcep,warm,varm,keti,tcepwi,
+kalfriujim,cold,kalt,friu,jimni,
+folcaypew,full,fol,cayu,pewni,
+noynov,new,noy,novu,novi,
+veystal,old,alt,veyu,stari,
+gutobo,good,gut,bo,dobri,
+clehmawzwi,bad,cleht,maw,zwi,
 ____________________
