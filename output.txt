@@ -1532,3 +1532,11 @@ cahaywada,yes,ca,si,ha,aywa,da,
 bunohlanet,no,bu,no,nahi,la,net,
 bunohlanyet,no,bu,no,nahi,la,nyet,
 ____________________
+____________________
+Sun Nov  6 12:13:40 2016
+djapapumkagwar,paper,dja,papel,kagaz,waraq,bumaga,
+____________________
+____________________
+Sun Nov  6 12:19:04 2016
+telhadyen,telephone,dyenhwa,telefono,durbhas,hatif,telefon,
+____________________

@@ -265,3 +265,5 @@
 +,plant,djawu,planta,podha,nabat,rasteniye,
 +,yes,ca,si,ha,aywa,da,
 +,no,bu,no,nahi,la,nyet,
++,paper,dja,papel,kagaz,waraq,bumaga,
++,telephone,dyenhwa,telefono,durbhas,hatif,telefon,
