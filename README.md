@@ -34,6 +34,8 @@ Basically, each word is created by combining words from the source languages, wh
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage conciseness.  
 Sometimes I see repeating patterns and can think of shorter ways to combine the source words.  You can test your own "manually-created" words by entering them into `output_shortlist.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Follow the format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
 
+Although "manually" checking for higher-frequency words, meaning matches, and using only roots of words, an automated search can be done with https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py
+
 ##4) How Do I Pronounce the Words?
 
 The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their IPA values, except for these letters:
