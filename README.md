@@ -21,17 +21,24 @@ _______
 
 ##1) Purpose
 
-To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for receptive lexicon (a multilingual one).  This project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way sort of like portmanteaus or like folk etymology, in order to increase the effects of partial intelligibility or cognacy.  Basically, I created this project as a tool for my personal language learning interests.  Plus I thought it'd be fun to make a program that automatically creates for me a vocabulary for a made up language!
+To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for receptive lexicon (a multilingual one).  
+
+This project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way sort of like portmanteaus or like folk etymology, in order to increase the effects of partial intelligibility or cognacy.  
+
+Basically, I created this project as a tool for my personal language learning interests.  Plus I thought it'd be fun to make a program that automatically creates for me a vocabulary for a made up language!
 
 ##2) Source Languages
 
 Currently the source languages are:  Mandarin Chinese, Spanish, Hindi, Egyptian Arabic, and Russian.  This was based mainly on personal choice and the fact that these languages are apparently the most commonly understood languages/dialects on the planet.  Notably, English is excluded since it is assumed you already understand it if you are using this code, and your purpose is to learn other languages.  Although including English in the mix to create each word could theoretically aid in mnemonic creation by having the English word "visually embedded", the problem is it could also introduce extra complications in the word or make the word longer.
+
 I'll start with using words from the Swadesh lists for the sources languages.  I know there are more "updated" versions of the Swadesh list (such as the Leipzig–Jakarta list), but the Swadesh list seems to be easier to find for each language.
 
 ##3) How was the Vocabulary Generated?
 
 Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done with detecting "overlaps" between words with matching letters.  Matching letters are ideally identical or are at least "allophones" (similar sounds).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as "abjad-like" spellings of words (retaining only consonants and initial vowel).  I currently use the initial syllables of words to help limit word length.
+
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage conciseness.  
+
 Sometimes I see repeating patterns and can think of shorter ways to combine the source words.  You can test your own "manually-created" words by entering them into `output_shortlist.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Follow the format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
 
 Although "manually" checking for higher-frequency words, meaning matches, and using only roots of words, an automated search can be done with https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py
