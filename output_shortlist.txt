@@ -266,3 +266,4 @@ cahaywada,yes,ca,si,ha,aywa,da,d
 bunohlanyet,no,bu,no,nahi,la,nyet,d
 djapapumkagwar,paper,dja,papel,kagaz,waraq,bumaga,t
 telhadyen,telephone,dyenhwa,telefono,durbhas,hatif,telefon,t
+peranvyakcaktcil,person,ran,persona,vyakti,caks,tcilavek,t

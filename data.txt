@@ -267,3 +267,4 @@
 +,no,bu,no,nahi,la,nyet,
 +,paper,dja,papel,kagaz,waraq,bumaga,
 +,telephone,dyenhwa,telefono,durbhas,hatif,telefon,
++,person,ran,persona,vyakti,caks,tcilavek,
