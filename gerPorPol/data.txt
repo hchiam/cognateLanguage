@@ -1,4 +1,8 @@
 0,Eng,Ger,Por,Pol,
++,person,perzon,pisoa,osoba,
++,thing,din,koyza,jetc,
++,place,ort,lugar,myeystse,
++,time,tsayt,tepu,tcas,
 1,I,ih,eu,ya,
 2,you,du,tu,ti,
 3,he,ea,eli,on,
