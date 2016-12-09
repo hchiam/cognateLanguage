@@ -1,4 +1,8 @@
 ____________________
+sarantuhit,person,oran,saram,mtu,hito,
+benulkitmon,thing,benda,mulgan,kitu,mono,
+temtcanpahbac,place,tempat,tcanso,pahali,baco,
+maswakdcig,time,masa,cigan,wakati,djikan,
 akunamwat,I,aku,na,mimi,watakuci,
 enkawewnot,you,enkaw,no,wewe,anata,
 diayeygur,he,dia,gu,yeye,kare,

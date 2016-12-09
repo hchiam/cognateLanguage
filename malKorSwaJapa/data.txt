@@ -1,4 +1,8 @@
 0,Eng,Mal,Kor,Swa,Japa,
++,person,oran,saram,mtu,hito,
++,thing,benda,mulgan,kitu,mono,
++,place,tempat,tcanso,pahali,baco,
++,time,masa,cigan,wakati,djikan,
 1,I,aku,na,mimi,watakuci,
 2,you,enkaw,no,wewe,anata,
 3,he,dia,gu,yeye,kare,
