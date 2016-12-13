@@ -267,3 +267,6 @@ bunohlanyet,no,bu,no,nahi,la,nyet,d
 djapapumkagwar,paper,dja,papel,kagaz,waraq,bumaga,t
 telhadyen,telephone,dyenhwa,telefono,durbhas,hatif,telefon,t
 peranvyakcaktcil,person,ran,persona,vyakti,caks,tcilavek,t
+tcwankampalserkrav,bed,tcwan,kama,palang,serir,kravat,t
+tcwanvenkhircebkno,window,tcwanhu,ventana,khirki,cebak,akno,t
+djyastantakporaf,shelf,djya,estanteria,takhta,raf,polka,t

@@ -268,3 +268,6 @@
 +,paper,dja,papel,kagaz,waraq,bumaga,
 +,telephone,dyenhwa,telefono,durbhas,hatif,telefon,
 +,person,ran,persona,vyakti,caks,tcilavek,
++,bed,tcwan,kama,palang,serir,kravat,
++,window,tcwanhu,ventana,khirki,cebak,akno,
++,shelf,djya,estanteria,takhta,raf,polka,
