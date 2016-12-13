@@ -1,8 +1,12 @@
 ____________________
+Mon Dec 12 21:50:32 2016
 sarantuhit,person,oran,saram,mtu,hito,
 benulkitmon,thing,benda,mulgan,kitu,mono,
 temtcanpahbac,place,tempat,tcanso,pahali,baco,
 maswakdcig,time,masa,cigan,wakati,djikan,
+katcimbed,bed,katil,tcimde,kitanda,bedo,
+tinatcandir,window,tinkap,tcan,dirica,mado,
+raksonraftan,shelf,rak,sonban,rafu,tana,
 akunamwat,I,aku,na,mimi,watakuci,
 enkawewnot,you,enkaw,no,wewe,anata,
 diayeygur,he,dia,gu,yeye,kare,
