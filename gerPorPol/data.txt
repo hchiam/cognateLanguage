@@ -6,6 +6,7 @@
 +,bed,bet,kama,wucko,
 +,window,fensta,janela,okno,
 +,shelf,regal,pratilayra,puwka,
++,desk,crayptic,ickrivaninya,byurko,
 1,I,ih,eu,ya,
 2,you,du,tu,ti,
 3,he,ea,eli,on,
