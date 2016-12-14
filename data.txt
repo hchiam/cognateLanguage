@@ -271,3 +271,4 @@
 +,bed,tcwan,kama,palang,serir,kravat,
 +,window,tcwanhu,ventana,khirki,cebak,akno,
 +,shelf,djya,estanteria,takhta,raf,polka,
++,desk,djwodza,eskritorio,desk,maktab,stolpismini,

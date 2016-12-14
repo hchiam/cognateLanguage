@@ -270,3 +270,4 @@ peranvyakcaktcil,person,ran,persona,vyakti,caks,tcilavek,t
 tcwankampalserkrav,bed,tcwan,kama,palang,serir,kravat,t
 tcwanvenkhircebkno,window,tcwanhu,ventana,khirki,cebak,akno,t
 djyastantakporaf,shelf,djya,estanteria,takhta,raf,polka,t
+eskridjwodestolmak,desk,djwodza,eskritorio,desk,maktab,stolpismini,t
