@@ -35,7 +35,7 @@ I'll start with using words from the Swadesh lists for the sources languages.  I
 
 ##3) How was the Vocabulary Generated?
 
-Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done with detecting "overlaps" between words with matching letters.  Matching letters are ideally identical or are at least "allophones" (similar sounds).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as "abjad-like" spellings of words (retaining only consonants and initial vowel).  I currently use the initial syllables of words to help limit word length.
+Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done with detecting "overlaps" between words with matching letters.  Matching letters are ideally identical or are at least "allophones" (similar sounds).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as "abjad-like" spellings of words (retaining only consonants and initial vowel).  I currently use the initial syllables of words to help limit word length.  The first syllable of a (root) word is also typically the minimum easily-recognizable part of words (think of common short forms like co., freq., com., ca., approx., cert., etc.).
 
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage conciseness.  
 
