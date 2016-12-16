@@ -235,7 +235,7 @@ ganasat,with,gan,kon,sath,ma,s,c
 harwe,and,ha,i,or,we,i,c
 rugaryesi,if,rugwo,si,agar,eza,yesli,c
 porkyincanpat,because,yinwey,porke,kyonki,acan,patamucta,c
-mins,name,mindza,nombre,nam,esm,ima,t
+nims,name,mindza,nombre,nam,esm,ima,t,
 tavaheyana,she,ta,eya,vah,heya,ana,t
 kotcagarabmac,car,tca,kotce,gari,arabiya,macina,t
 tsasotuabanir,washroom,tsaswo,banyo,cotcalay,mirhad,tualet,t
