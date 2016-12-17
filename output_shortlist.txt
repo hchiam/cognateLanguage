@@ -271,3 +271,5 @@ tcwankampalserkrav,bed,tcwan,kama,palang,serir,kravat,t
 tcwanvenkhircebkno,window,tcwanhu,ventana,khirki,cebak,akno,t
 djyastantakporaf,shelf,djya,estanteria,takhta,raf,polka,t
 eskridjwodestolmak,desk,djwodza,eskritorio,desk,maktab,stolpismini,t
+yindebtcahdol,should,yingay,deberia,tcahie,yanbagi,doljin,a
+neciyzarhtad,need,ciyaw,nesesita,zarurat,ihtadja,nujda,a
