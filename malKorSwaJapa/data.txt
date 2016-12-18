@@ -9,6 +9,7 @@
 +,able,dapat,suis,uwezo,dekiru,
 +,need,perlu,piryoha,hitadji,hitsuyo,
 +,mirror,fitaratra,koul,kioo,kagami,
++,sink,sink,cinku,kazuma,cinku,
 +,bed,katil,tcimde,kitanda,bedo,
 +,window,tinkap,tcan,dirica,mado,
 +,shelf,rak,sonban,rafu,tana,

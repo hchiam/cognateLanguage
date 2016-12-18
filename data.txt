@@ -276,3 +276,4 @@
 +,need,ciyaw,nesesita,zarurat,ihtadja,nujda,
 +,floor,diban,piso,farc,ardiya,pol,
 +,mirror,djindza,espeho,darpan,miraya,zerkala,
++,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,

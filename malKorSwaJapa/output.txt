@@ -1,5 +1,5 @@
 ____________________
-Sun Dec 18 13:29:57 2016
+Sun Dec 18 13:50:16 2016
 sarantuhit,person,oran,saram,mtu,hito,
 benulkitmon,thing,benda,mulgan,kitu,mono,
 temtcanpahbac,place,tempat,tcanso,pahali,baco,
@@ -10,6 +10,7 @@ halazkames,must,mesti,ha,lazima,ikanakerebanaranai,
 dapwesuidek,able,dapat,suis,uwezo,dekiru,
 perhit,need,perlu,piryoha,hitadji,hitsuyo,
 fitkakou,mirror,fitaratra,koul,kioo,kagami,
+kasin,sink,sink,cinku,kazuma,cinku,
 katcimbed,bed,katil,tcimde,kitanda,bedo,
 tinatcandir,window,tinkap,tcan,dirica,mado,
 raksonraftan,shelf,rak,sonban,rafu,tana,

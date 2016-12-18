@@ -9,6 +9,7 @@
 +,able,ken,pude,moj,
 +,need,brawh,nisisita,potceb,
 +,mirror,cpigal,icpayu,lustro,
++,sink,vacbekn,pia,zlef,
 +,bed,bet,kama,wucko,
 +,window,fensta,janela,okno,
 +,shelf,regal,pratilayra,puwka,

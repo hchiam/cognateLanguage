@@ -275,3 +275,4 @@ yindebtcahdol,should,yingay,deberia,tcahie,yanbagi,doljin,a
 neciyzarhtad,need,ciyaw,nesesita,zarurat,ihtadja,nujda,a
 dibisfardiypol,floor,diban,piso,farc,ardiya,pol,t
 djinirspehdarzer,mirror,djindza,espeho,darpan,miraya,zerkala,t
+cwetsinifregbal,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,t
