@@ -273,3 +273,4 @@ djyastantakporaf,shelf,djya,estanteria,takhta,raf,polka,t
 eskridjwodestolmak,desk,djwodza,eskritorio,desk,maktab,stolpismini,t
 yindebtcahdol,should,yingay,deberia,tcahie,yanbagi,doljin,a
 neciyzarhtad,need,ciyaw,nesesita,zarurat,ihtadja,nujda,a
+dibisfardiypol,floor,diban,piso,farc,ardiya,pol,t

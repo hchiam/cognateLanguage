@@ -274,3 +274,4 @@
 +,desk,djwodza,eskritorio,desk,maktab,stolpismini,
 +,should,yingay,deberia,tcahie,yanbagi,doljin,
 +,need,ciyaw,nesesita,zarurat,ihtadja,nujda,
++,floor,diban,piso,farc,ardiya,pol,

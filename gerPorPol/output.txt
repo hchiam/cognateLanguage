@@ -1,5 +1,5 @@
 ____________________
-Fri Dec 16 22:17:47 2016
+Sun Dec 18 12:29:57 2016
 pisoper,person,perzon,pisoa,osoba,[added as high-ROI key word]
 koyjedin,thing,din,koyza,jetc,[added as high-ROI key word]
 orugmyey,place,ort,lugar,myeystse,[added as high-ROI key word]
@@ -13,6 +13,7 @@ betkamwuc,bed,bet,kama,wucko,[added as part of loci]
 fenjankno,window,fensta,janela,okno,[added as part of loci]
 regpratpuw,shelf,regal,pratilayra,puwka,[added as part of loci]
 icraybyur,desk,crayptic,ickrivaninya,byurko,[added as part of loci][shortened for better eval score]
+bodpis,floor,bodn,piso,podwoga,[added as part of loci]
 ihyu,I,ih,eu,ya,[i manually added to hyu to retain initial vowel]
 du,you,du,tu,ti,
 ealin,he,ea,eli,on,

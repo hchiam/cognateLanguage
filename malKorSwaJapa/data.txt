@@ -12,6 +12,7 @@
 +,window,tinkap,tcan,dirica,mado,
 +,shelf,rak,sonban,rafu,tana,
 +,desk,medja,tceksan,dawati,tsukue,
++,floor,lantay,padak,sakafu,yuka,
 1,I,aku,na,mimi,watakuci,
 2,you,enkaw,no,wewe,anata,
 3,he,dia,gu,yeye,kare,
