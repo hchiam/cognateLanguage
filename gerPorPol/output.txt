@@ -1,5 +1,5 @@
 ____________________
-Sun Dec 18 12:29:57 2016
+Sun Dec 18 13:27:40 2016
 pisoper,person,perzon,pisoa,osoba,[added as high-ROI key word]
 koyjedin,thing,din,koyza,jetc,[added as high-ROI key word]
 orugmyey,place,ort,lugar,myeystse,[added as high-ROI key word]
@@ -9,6 +9,7 @@ zoldivpov,should,zol,div,povin,[added as high-ROI key word]
 misdiv,must,mis,div,muce,[added as high-ROI key word]
 kenojpud,able,ken,pude,moj,[added as high-ROI key word]
 brawnispot,need,brawh,nisisita,potceb,[added as high-ROI key word]
+icpaylucpig,mirror,cpigal,icpayu,lustro,[added as part of loci]
 betkamwuc,bed,bet,kama,wucko,[added as part of loci]
 fenjankno,window,fensta,janela,okno,[added as part of loci]
 regpratpuw,shelf,regal,pratilayra,puwka,[added as part of loci]

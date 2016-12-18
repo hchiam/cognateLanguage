@@ -8,6 +8,7 @@
 +,must,mesti,ha,lazima,ikanakerebanaranai,
 +,able,dapat,suis,uwezo,dekiru,
 +,need,perlu,piryoha,hitadji,hitsuyo,
++,mirror,fitaratra,koul,kioo,kagami,
 +,bed,katil,tcimde,kitanda,bedo,
 +,window,tinkap,tcan,dirica,mado,
 +,shelf,rak,sonban,rafu,tana,
