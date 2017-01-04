@@ -1571,3 +1571,16 @@ ____________________
 Sun Dec 18 13:45:28 2016
 cwetsinifregbal,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,
 ____________________
+____________________
+Tue Jan  3 23:12:51 2017  (testing)
+geyda,give,gey,da,de,eda,da,
+mamad,mother,mama,madre,ma,om,mama,
+babadet,father,baba,padre,pita,ab,atets,
+entuni,you,ni,tu,tum,enta,ti,
+cavedekan,see,kan,ve,dekh,caf,vide,
+bwentchawtayhor,good,haw,bweno,atcha,tayeb,horoci,
+____________________
+____________________
+Tue Jan  3 23:13:53 2017  (testing)
+hawbwentcatayhor,good,haw,bweno,atca,tayeb,horoci,
+____________________
