@@ -278,3 +278,4 @@
 +,mirror,djindza,espeho,darpan,miraya,zerkala,
 +,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,
 +,same,iyan,mizmo,vahi,cabah,taje,
++,thankyou,cyecye,grasyas,dhanyavad,cukran,spasiba,
