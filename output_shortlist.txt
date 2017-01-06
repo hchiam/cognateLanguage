@@ -276,3 +276,4 @@ neciyzarhtad,need,ciyaw,nesesita,zarurat,ihtadja,nujda,a
 dibisfardiypol,floor,diban,piso,farc,ardiya,pol,t
 djinirspehdarzer,mirror,djindza,espeho,darpan,miraya,zerkala,t
 cwetsinifregbal,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,t
+iyanizabvahtaj,same,iyan,mizmo,vahi,cabah,taje,d
