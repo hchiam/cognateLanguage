@@ -235,6 +235,10 @@ ganasat,with,gan,kon,sath,ma,s,c
 harwe,and,ha,i,or,we,i,c
 rugaryesi,if,rugwo,si,agar,eza,yesli,c
 porkyincanpat,because,yinwey,porke,kyonki,acan,patamucta,c
+tcyentesqapah,before,tcyen,antes,pahle,qabl,do,c
+howbadespos,after,how,despwes,bad,bad,posle,c
+encanadparfaw,above,can,ensima,upar,fawq,nad,c
+cyabahnitahpod,below,cya,baho,nitce,taht,pod,c
 nims,name,mindza,nombre,nam,esm,ima,t,
 tavaheyana,she,ta,eya,vah,heya,ana,t
 kotcagarabmac,car,tca,kotce,gari,arabiya,macina,t
@@ -278,3 +282,4 @@ djinirspehdarzer,mirror,djindza,espeho,darpan,miraya,zerkala,t
 cwetsinifregbal,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,t
 iyanizabvahtaj,same,iyan,mizmo,vahi,cabah,taje,d
 gracyecukdhanspas,thankyou,cyecye,grasyas,dhanyavad,cukran,spasiba,d
+tcumasartcus,feel,tcumo,senti,masus,cara,tcustva,a

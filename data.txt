@@ -279,3 +279,8 @@
 +,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,
 +,same,iyan,mizmo,vahi,cabah,taje,
 +,thankyou,cyecye,grasyas,dhanyavad,cukran,spasiba,
++,feel,tcumo,senti,masus,cara,tcustva,
++,before,tcyen,antes,pahle,qabl,do,
++,after,how,despwes,bad,bad,posle,
++,above,can,ensima,upar,fawq,nad,
++,below,cya,baho,nitce,taht,pod,
