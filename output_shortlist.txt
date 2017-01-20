@@ -239,6 +239,7 @@ tcyentesqapah,before,tcyen,antes,pahle,qabl,do,c
 howbadespos,after,how,despwes,bad,bad,posle,c
 encanadparfaw,above,can,ensima,upar,fawq,nad,c
 cyabahnitahpod,below,cya,baho,nitce,taht,pod,c
+tsonende,from,tson,de,se,men,iz,c
 nims,name,mindza,nombre,nam,esm,ima,t,
 tavaheyana,she,ta,eya,vah,heya,ana,t
 kotcagarabmac,car,tca,kotce,gari,arabiya,macina,t
@@ -283,3 +284,7 @@ cwetsinifregbal,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,t
 iyanizabvahtaj,same,iyan,mizmo,vahi,cabah,taje,d
 gracyecukdhanspas,thankyou,cyecye,grasyas,dhanyavad,cukran,spasiba,d
 tcumsar,feel,tcumo,senti,masus,cara,tcustva,a
+masdjyadwoktarbol,more,dwo,mas,djyada,aktar,bolci,d
+cawkamenqal,less,caw,menos,kam,aqal,menci,d
+kocahawpitrat,try,ca,trata,kocic,hawala,pitay,a
+djiysolfaqtol,only,djiyo,solo,sirf,faqat,tolka,d

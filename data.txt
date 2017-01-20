@@ -284,3 +284,8 @@
 +,after,how,despwes,bad,bad,posle,
 +,above,can,ensima,upar,fawq,nad,
 +,below,cya,baho,nitce,taht,pod,
++,more,dwo,mas,djyada,aktar,bolci,
++,less,caw,menos,kam,aqal,menci,
++,try,ca,trata,kocic,hawala,pitay,
++,only,djiyo,solo,sirf,faqat,tolka,
++,from,tson,de,se,men,iz,
