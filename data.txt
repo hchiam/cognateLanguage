@@ -289,3 +289,4 @@
 +,try,ca,trata,kocic,hawala,pitay,
 +,only,djiyo,solo,sirf,faqat,tolka,
 +,from,tson,de,se,men,iz,
++,easy,roni,fasil,asan,sahl,lyohki,
