@@ -292,3 +292,4 @@
 +,easy,roni,fasil,asan,sahl,lyohki,
 +,book,cu,libro,pustak,ketab,kniga,
 +,different,buyiyan,diferente,alag,muhtalif,drugoy,
++,read,du,le,parh,qara,tcita,

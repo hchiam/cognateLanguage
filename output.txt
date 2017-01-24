@@ -1617,3 +1617,7 @@ Mon Jan 23 19:27:42 2017
 libucukniket,book,cu,libro,pustak,ketab,kniga,
 buydifmuhdlag,different,buyiyan,diferente,alag,muhtalif,drugoy,
 ____________________
+____________________
+Mon Jan 23 19:58:20 2017
+paleqartcidu,read,du,le,parh,qara,tcita,
+____________________
