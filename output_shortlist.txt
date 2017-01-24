@@ -289,3 +289,5 @@ cawkamenqal,less,caw,menos,kam,aqal,menci,d
 kocahawpitrat,try,ca,trata,kocic,hawala,pitay,a
 djiysolfaqtol,only,djiyo,solo,sirf,faqat,tolka,d
 ronfasansahlyoh,easy,roni,fasil,asan,sahl,lyohki,d
+libucukniket,book,cu,libro,pustak,ketab,kniga,t
+buydifmuhdlag,different,buyiyan,diferente,alag,muhtalif,drugoy,d

@@ -290,3 +290,5 @@
 +,only,djiyo,solo,sirf,faqat,tolka,
 +,from,tson,de,se,men,iz,
 +,easy,roni,fasil,asan,sahl,lyohki,
++,book,cu,libro,pustak,ketab,kniga,
++,different,buyiyan,diferente,alag,muhtalif,drugoy,
