@@ -294,3 +294,4 @@ ronfasansahlyoh,easy,roni,fasil,asan,sahl,lyohki,d
 libucukniket,book,cu,libro,pustak,ketab,kniga,t
 buydifmuhdlag,different,buyiyan,diferente,alag,muhtalif,drugoy,d
 paleqartcidu,read,du,le,parh,qara,tcita,a
+gambadzmin,change,gaybyen,kambja,badal,gayar,izmini,a
