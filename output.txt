@@ -1631,5 +1631,5 @@ perekacno,but,kaca,pero,lekin,laken,no,
 ____________________
 ____________________
 Wed Jan 25 13:04:01 2017
-gaykambadzmin,change,gaybyen,kambja,badal,gayar,izmini,
+gaykambadzmin,change,gaybyen,kambya,badal,gayar,izmini,
 ____________________

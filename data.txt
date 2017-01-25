@@ -295,4 +295,4 @@
 +,read,du,le,parh,qara,tcita,
 +,of,da,de,ka,,,
 +,but,kaca,pero,lekin,laken,no,
-+,change,gaybyen,kambja,badal,gayar,izmini,
++,change,gaybyen,kambya,badal,gayar,izmini,
