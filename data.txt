@@ -296,3 +296,4 @@
 +,of,da,de,ka,,,
 +,but,kaca,pero,lekin,laken,no,
 +,change,gaybyen,kambya,badal,gayar,izmini,
++,tool,gundji,eramyenta,upakran,adah,instrumyent,
