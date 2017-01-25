@@ -293,3 +293,4 @@
 +,book,cu,libro,pustak,ketab,kniga,
 +,different,buyiyan,diferente,alag,muhtalif,drugoy,
 +,read,du,le,parh,qara,tcita,
++,of,da,de,ka,,,

@@ -239,6 +239,7 @@ tcyentesqapah,before,tcyen,antes,pahle,qabl,do,c
 howbadespos,after,how,despwes,bad,bad,posle,c
 encanadparfaw,above,can,ensima,upar,fawq,nad,c
 cyabahnitahpod,below,cya,baho,nitce,taht,pod,c
+daka,of,da,de,ka,,,c
 tsonende,from,tson,de,se,men,iz,c
 nims,name,mindza,nombre,nam,esm,ima,t,
 tavaheyana,she,ta,eya,vah,heya,ana,t
