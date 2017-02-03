@@ -296,3 +296,5 @@ buydifmuhdlag,different,buyiyan,diferente,alag,muhtalif,drugoy,d
 paleqartcidu,read,du,le,parh,qara,tcita,a
 gambadzmin,change,gaybyen,kambya,badal,gayar,izmini,a
 upagunstramdah,tool,gundji,eramyenta,upakran,adah,instrumyent,t
+samintenfihpan,understand,minbay,entende,samadjh,fihim,panima,a
+eskribicyelikat,write,cye,eskribi,likh,kataba,pisa,a
