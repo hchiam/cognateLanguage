@@ -24,7 +24,7 @@ def justTwoInitSylls(word):
         word = word[:beforeThisIndex+1]
     return word
 
-def getWord(wordType='d',full=True):
+def getWord(wordType='d',fullWords=True):
     global data # needed to access data without constantly re-getting data first
     
     if wordType!='c':
@@ -41,20 +41,28 @@ def getWord(wordType='d',full=True):
         word = data[i].split(',')[0]
         translation = data[i].split(',')[1]
 
-    if full==False:
+    if fullWords==False:
         word = justTwoInitSylls(word)
     
     return word, translation
 
-def buildSentence(pattern,full=True):
+def buildSentence(pattern,fullWords=True):
     sentence = ''
     translation = ''
+    trackLastLetterOfLastWord = ''
     for letter in pattern:
-        newword, newwordtrans = getWord(wordType=letter,full=full)
-        sentence += newword + ' '
+        newword, newwordtrans = getWord(wordType=letter,fullWords=fullWords)
+        if fullWords:
+            sentence += newword + ' '
+        else:
+            sentence += newword[:-1]
+            trackLastLetterOfLastWord = newword[-1]
         translation += newwordtrans + ' '
     # remove last space, capitalize first letter, add period at end:
-    sentence, translation = sentence.rstrip().capitalize()+'.', translation.rstrip().capitalize()+'.'
+    if fullWords:
+        sentence, translation = sentence.rstrip().capitalize()+'.', translation.rstrip().capitalize()+'.'
+    else:
+        sentence, translation = sentence.rstrip()+trackLastLetterOfLastWord, translation.rstrip().capitalize()+'.'
     return sentence, translation
 
 
