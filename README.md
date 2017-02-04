@@ -72,10 +72,10 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 * `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
 * `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types": 
-        * a=action/verb,
-        * d=descriptor/adjective/adverb,
-        * t=thing/noun/pronoun,
-        * c=connector/preposition.
+ * a=action/verb,
+ * d=descriptor/adjective/adverb,
+ * t=thing/noun/pronoun,
+ * c=connector/preposition.
 
 ##6) How Can I Use the Files?
 
