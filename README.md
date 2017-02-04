@@ -1,6 +1,6 @@
 # cognateLanguage
 
-> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
+    "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
 
 (Click to hear this pronounced by Google Translate!)
 
@@ -39,13 +39,15 @@ I started building the vocab by first using words from the Swadesh lists for eac
 
 ##3) How is the Vocabulary Generated?
 
-Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This was done by detecting "overlaps" between words with matching letters or consonant patterns.  The matching letters/consonants are ideally identical or are at least "allophones" (treated as similar sounds for our purposes).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as the use of "abjad-like" spellings of words (retaining only consonants and initial vowel).  I focus on consonants because, from my own observations, consonants seem to be preserved better than vowels despite language changes/differences.  I currently use the initial syllables of source words to help limit word length.  The first syllable of a (root) word is also typically the minimum easily-recognizable part of words.  For example, think of common short forms like co., freq., com., ca., approx., cert., etc.  Abbreviations seem to tend to use the first syllable or so of their respective words.
+Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done by detecting "overlaps" between words with matching letters or consonant patterns.  The matching letters/consonants are ideally identical or are at least "allophones" (treated as similar sounds for our purposes).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as the use of "abjad-like" spellings of words (retaining only consonants and initial vowel).  I focus on consonants because, from my own observations, consonants seem to be preserved better than vowels despite language changes/differences.  I currently use the initial syllables of source words to help limit word length.  The first syllable of a (root) word is also typically the minimum easily-recognizable part of words.  For example, think of common short forms like co., freq., com., ca., approx., cert., etc.  Abbreviations seem to tend to use the first syllable or so of their respective words.
 
 Each word can be evaluated for optimizing word length against rough measures of "intelligibility" or "(false) cognacy", with languages weighted according to their ranks for estimated number of speakers, and with word length also having a say in order to encourage shorter words.  
 
 Sometimes I see repeating patterns and can think of shorter ways to combine the source words than the program outputs.  You can test your own "manually-created" words by entering them into `output_shortlist.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Use the following format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
 
-    For example: **bwentchawrtay**,good,haw,bweno,atcha,tayeb,horoci
+For example:
+    
+    bwentchawrtay,good,haw,bweno,atcha,tayeb,horoci
 
 You can try to ensure that the right words from each language are used by "manually" checking for higher-frequency words, meaning matches, using most common registers, and using only roots of words.  However, an automated search can be done with https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py to save on time, but at the cost of not double-checking for appropriate translations of intended meaning(s).
 
@@ -62,7 +64,7 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 ##5) What Do the Files Do?
 
 * `cognateLanguage_CreatingList.py` reads the input word list (`data.txt`) and creates the output word list (`output.txt`).  I like to copy and paste a cleaner version of the output into `output_shortlist.txt`.
-* `cognateLanguage_Evaluators.py` reads the output word list that was created by `cognateLanguage_CreatingList.py` and uses a few different evaluators to "score" each output word against the source language words.
+* `cognateLanguage_Evaluators.py` reads the output word list that is created by `cognateLanguage_CreatingList.py` and uses a few different evaluators to "score" each output word against the source language words.
 * `cognateLanguage.py` is just the original one-word output test.
 * `cognateLanguage_LessPrinting.py` is the same as `cognateLanguage.py`, except it only prints out the output word.
 * `cognateLanguage_Translate.py` lets you use the command-line/terminal to translate English text.
@@ -89,6 +91,6 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like with auto-generated sentences with `cognateLanguage_AutoSentence.py` (please note the words are randomly chosen based on word class, so some sentences may sound quite weird--use with caution).  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
 
-> "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
+    "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
 (Click to hear this pronounced by Google Translate!)
