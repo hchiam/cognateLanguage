@@ -70,5 +70,5 @@ if input != "":
     # add final letter
     shortTranslation += trackLastLetterOfLastWord
 
-print 'Translation:\n\t' + translation.capitalize()+'.' + '"'
+print 'Translation:\n\t' + '"' + translation.capitalize()+'.' + '"'
 print 'Shortened:\n\t' + shortTranslation
