@@ -1,6 +1,6 @@
 # cognateLanguage
 
-    "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
+> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
 
 (Click to hear this pronounced by Google Translate!)
 
@@ -45,9 +45,9 @@ Each word can be evaluated for optimizing word length against rough measures of 
 
 Sometimes I see repeating patterns and can think of shorter ways to combine the source words than the program outputs.  You can test your own "manually-created" words by entering them into `output_shortlist.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Use the following format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
 
-For example:
+For example:  (Don't forget that last comma!)
     
-    bwentchawrtay,good,haw,bweno,atcha,tayeb,horoci
+    bwentchawrtay,good,haw,bweno,atcha,tayeb,horoci,
 
 You can try to ensure that the right words from each language are used by "manually" checking for higher-frequency words, meaning matches, using most common registers, and using only roots of words.  However, an automated search can be done with https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py to save on time, but at the cost of not double-checking for appropriate translations of intended meaning(s).
 
@@ -72,10 +72,10 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 * `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
 * `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types": 
-        a=action/verb,
-        d=descriptor/adjective/adverb,
-        t=thing/noun/pronoun,
-        c=connector/preposition.
+        * a=action/verb,
+        * d=descriptor/adjective/adverb,
+        * t=thing/noun/pronoun,
+        * c=connector/preposition.
 
 ##6) How Can I Use the Files?
 
@@ -91,6 +91,6 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like with auto-generated sentences with `cognateLanguage_AutoSentence.py` (please note the words are randomly chosen based on word class, so some sentences may sound quite weird--use with caution).  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
 
-    "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
+> "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
 (Click to hear this pronounced by Google Translate!)
