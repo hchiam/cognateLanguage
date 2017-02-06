@@ -242,7 +242,7 @@ cyabahnitahpod,below,cya,baho,nitce,taht,pod,c
 tsonende,from,tson,de,se,men,iz,c
 daka,of,da,de,ka,,,c
 perekacno,but,kaca,pero,lekin,laken,no,c
-nims,name,mindza,nombre,nam,esm,ima,t,
+nims,name,mindza,nombre,nam,esm,ima,t
 tavaheyana,she,ta,eya,vah,heya,ana,t
 kotcagarabmac,car,tca,kotce,gari,arabiya,macina,t
 tsasotuabanir,washroom,tsaswo,banyo,cotcalay,mirhad,tualet,t
