@@ -305,3 +305,4 @@ avacontzvuk,sound,canin,sonido,avaz,sot,zvuk,t
 djwodmestar,table,djwodza,mesa,mez,tarabeza,stol,t
 kwadjamurvar,square,djanfancin,kwadro,varg,muraba,kvadrat,t
 sanutriakt,triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,t
+cakomlyid,food,cawu,komida,khana,akil,yida,t

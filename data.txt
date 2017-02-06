@@ -306,3 +306,4 @@
 +,table,djwodza,mesa,mez,tarabeza,stol,
 +,square,djanfancin,kwadro,varg,muraba,kvadrat,
 +,triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,
++,food,cawu,komida,khana,akil,yida,
