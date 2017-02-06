@@ -309,3 +309,5 @@
 +,food,cawu,komida,khana,akil,yida,
 +,please,tcin,favor,krpya,fadlak,pajalusta,
 +,sorry,dwebutci,losyento,maf,asif,izvinit,
++,like,cihwan,gusta,pasand,haba,nravitsa,
++,fast,kway,rapidamente,djaldi,sura,bistra,
