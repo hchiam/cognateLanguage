@@ -307,6 +307,6 @@ kwadjamurvar,square,djanfancin,kwadro,varg,muraba,kvadrat,t
 sanutriakt,triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,t
 cakomlyid,food,cawu,komida,khana,akil,yida,t
 favatcinkrpaj,please,tcin,favor,krpya,fadlak,pajalusta,d
-dweblosifzvimaf,sorry,dwebutci,losyento,maf,asif,izvinit,d
+dweblosfimaf,sorry,dwebutci,losyento,maf,asif,izvinit,d
 gucihapasnrav,like,cihwan,gusta,pasand,haba,nravitsa,a
 kwaydjarapis,fast,kway,rapidamente,djaldi,sura,bistra,d
