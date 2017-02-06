@@ -130,7 +130,7 @@ sophuknafdutcwe,blow,tcwe,sopla,phuk,nafah,dut,a
 hucasrestnafdic,breathe,huci,respira,sas,etnafes,dica,a
 reidehacyawsmiy,laugh,cyaw,rei,has,dehek,smiya,a
 cavedekan,see,kan,ve,dekh,caf,vide,a
-tinyslisun,hear,tin,oy,sun,seme,slica,a
+tinoyslisun,hear,tin,oy,sun,seme,slica,a
 djidjansabrefzna,know,djidaw,sabe,djan,eref,zna,a
 cyanpensotfakdum,think,cyan,pensa,sotc,etfakar,duma,a
 wanlesugcamtcuy,smell,wan,ole,sugh,cam,tcuya,a
