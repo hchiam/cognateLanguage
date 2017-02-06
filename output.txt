@@ -1649,3 +1649,9 @@ mandarbapwerdver,door,man,pwerta,darvaza,bab,dver,
 pragwanolusvet,light,gwan,lus,prakac,nor,svet,
 vacansotzvuk,sound,canin,sonido,avaz,sot,zvuk,
 ____________________
+____________________
+Sun Feb  5 23:38:12 2017
+djwodmestar,table,djwodza,mesa,mez,tarabeza,stol,
+kwadjanurvarkvad,square,djanfancin,kwadro,varg,muraba,kvadrat,
+sanutriatrik,triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,
+____________________

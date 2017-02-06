@@ -302,3 +302,6 @@ sirtcakrukdayen,circle,yentcen,sirculo,tcakra,dayira,kruk,t
 manbapwerdvar,door,man,pwerta,darvaza,bab,dver,t
 pragwanolusvet,light,gwan,lus,prakac,nor,svet,t
 avacontzvuk,sound,canin,sonido,avaz,sot,zvuk,t
+djwodmestar,table,djwodza,mesa,mez,tarabeza,stol,t
+kwadjamurvar,square,djanfancin,kwadro,varg,muraba,kvadrat,t
+sanutriakt,triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,t

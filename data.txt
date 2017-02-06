@@ -303,3 +303,6 @@
 +,door,man,pwerta,darvaza,bab,dver,
 +,light,gwan,lus,prakac,nor,svet,
 +,sound,canin,sonido,avaz,sot,zvuk,
++,table,djwodza,mesa,mez,tarabeza,stol,
++,square,djanfancin,kwadro,varg,muraba,kvadrat,
++,triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,
