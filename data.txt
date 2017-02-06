@@ -299,3 +299,7 @@
 +,tool,gundji,eramyenta,upakran,adah,instrumyent,
 +,understand,minbay,entende,samadjh,fihim,panima,
 +,write,cye,eskribi,likh,kataba,pisa,
++,circle,yentcen,sirculo,tcakra,dayira,kruk,
++,door,man,pwerta,darvaza,bab,dver,
++,light,gwan,lus,prakac,nor,svet,
++,sound,canin,sonido,avaz,sot,zvuk,

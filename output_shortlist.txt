@@ -298,3 +298,7 @@ gambadzmin,change,gaybyen,kambya,badal,gayar,izmini,a
 upagunstramdah,tool,gundji,eramyenta,upakran,adah,instrumyent,t
 samintenfihpan,understand,minbay,entende,samadjh,fihim,panima,a
 eskribicyelikat,write,cye,eskribi,likh,kataba,pisa,a
+sirtcakrukdayen,circle,yentcen,sirculo,tcakra,dayira,kruk,t
+manbapwerdvar,door,man,pwerta,darvaza,bab,dver,t
+pragwanolusvet,light,gwan,lus,prakac,nor,svet,t
+avacontzvuk,sound,canin,sonido,avaz,sot,zvuk,t

@@ -1642,3 +1642,10 @@ Thu Feb  2 19:51:57 2017
 samintenfihpan,understand,minbay,entende,samadjh,fihim,panima,
 eskribicyelikat,write,cye,eskribi,likh,kataba,pisa,
 ____________________
+____________________
+Sun Feb  5 23:09:12 2017
+sirtcakrukdayen,circle,yentcen,sirculo,tcakra,dayira,kruk,
+mandarbapwerdver,door,man,pwerta,darvaza,bab,dver,
+pragwanolusvet,light,gwan,lus,prakac,nor,svet,
+vacansotzvuk,sound,canin,sonido,avaz,sot,zvuk,
+____________________
