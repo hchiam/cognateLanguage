@@ -15,6 +15,15 @@ def justTwoInitSylls(word):
         word = word[:beforeThisIndex+1]
     return word
 
+def countVowels(word):
+    vowels = 'aeiou'
+    word = word.lower()
+    count = 0
+    for char in word:
+        if char in vowels:
+            count += 1
+    return count
+
 filename = 'output_shortlist.txt'
 data = ''
 input = ''
@@ -57,7 +66,14 @@ if input != "":
                     translatedWord = line.split(',')[0]
                     shortTranslatedWord = justTwoInitSylls(translatedWord)
                     trackLastLetterOfLastWord = shortTranslatedWord[-1]
-                    shortTranslation += shortTranslatedWord[:-1]
+                    numVowelsInTranslatedWord = countVowels(translatedWord)
+                    if numVowelsInTranslatedWord == 1:
+                        shortTranslation += translatedWord
+                        trackLastLetterOfLastWord = ''
+                    elif trackLastLetterOfLastWord in 'aeiou':
+                        shortTranslation += shortTranslatedWord
+                    else:
+                        shortTranslation += shortTranslatedWord[:-1]
                     translation += translatedWord + ' '
                     translationFound = True
         

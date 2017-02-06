@@ -24,6 +24,15 @@ def justTwoInitSylls(word):
         word = word[:beforeThisIndex+1]
     return word
 
+def countVowels(word):
+    vowels = 'aeiou'
+    word = word.lower()
+    count = 0
+    for char in word:
+        if char in vowels:
+            count += 1
+    return count
+
 def getWord(wordType='d',fullWords=True):
     global data # needed to access data without constantly re-getting data first
     
@@ -54,9 +63,16 @@ def buildSentence(pattern,fullWords=True):
         newword, newwordtrans = getWord(wordType=letter,fullWords=fullWords)
         if fullWords:
             sentence += newword + ' '
-        else:
-            sentence += newword[:-1]
+        else: # if short word translation:
             trackLastLetterOfLastWord = newword[-1]
+            numVowelsInTranslatedWord = countVowels(newword)
+            if numVowelsInTranslatedWord == 1:
+                sentence += newword
+                trackLastLetterOfLastWord = ''
+            elif trackLastLetterOfLastWord in 'aeiou':
+                sentence += newword
+            else:
+                sentence += newword[:-1]
         translation += newwordtrans + ' '
     # remove last space, capitalize first letter, add period at end:
     if fullWords:
