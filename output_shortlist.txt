@@ -329,3 +329,8 @@ tcyenilhaztis,thousand,tcyen,mil,hazar,alf,tisitca,d
 bemaybrat,sell,may,bende,betc,ba,prada,a
 anyadjyardafdab,add,djya,anyadi,djor,idafa,dabavi,a
 hatnakitcutvit,remove,tcutci,kita,hata,naqala,vitci,a
+mahtcituhsurkar,picture,tuhwa,imahen,tcitra,sura,kartina,t
+lindutucav,shower,lini,dutca,cavar,duc,duc,t
+ditsegalfomkav,carpet,ditan,alfombra,galitca,segada,kavor,t
+tcotarkahdjaryac,drawer,tcoti,kahon,daraz,djarur,yacik,t
+bitrmarkothazkaf,closet,bitcu,armaryo,kothari,hazana,ckaf,t

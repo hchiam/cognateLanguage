@@ -330,3 +330,8 @@
 +,sell,may,bende,betc,ba,prada,
 +,add,djya,anyadi,djor,idafa,dabavi,
 +,remove,tcutci,kita,hata,naqala,vitci,
++,picture,tuhwa,imahen,tcitra,sura,kartina,
++,shower,lini,dutca,cavar,duc,duc,
++,carpet,ditan,alfombra,galitca,segada,kavor,
++,drawer,tcoti,kahon,daraz,djarur,yacik,
++,closet,bitcu,armaryo,kothari,hazana,ckaf,
