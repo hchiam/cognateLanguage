@@ -334,3 +334,6 @@ lindutucav,shower,lini,dutca,cavar,duc,duc,t
 ditsegalfomkav,carpet,ditan,alfombra,galitca,segada,kavor,t
 tcotarkahdjaryac,drawer,tcoti,kahon,daraz,djarur,yacik,t
 bitrmarkothazkaf,closet,bitcu,armaryo,kothari,hazana,ckaf,t
+djinahysiv,today,djintyen,oy,adj,inaharda,sivodna,d
+dzwotyerkalmbarftcir,yesterday,dzwotyen,ayer,kal,imbarih,ftcira,d
+minbukalzaf,tomorrow,mintyen,manyana,kal,bukra,zaftra,d

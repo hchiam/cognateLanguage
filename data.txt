@@ -335,3 +335,6 @@
 +,carpet,ditan,alfombra,galitca,segada,kavor,
 +,drawer,tcoti,kahon,daraz,djarur,yacik,
 +,closet,bitcu,armaryo,kothari,hazana,ckaf,
++,today,djintyen,oy,adj,inaharda,sivodna,
++,yesterday,dzwotyen,ayer,kal,imbarih,ftcira,
++,tomorrow,mintyen,manyana,kal,bukra,zaftra,
