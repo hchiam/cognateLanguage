@@ -71,7 +71,7 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 * `cognateLanguage_Evaluators.py` reads the output word list that is created by `cognateLanguage_CreatingList.py` and uses a few different evaluators to "score" each output word against the source language words.
 * `cognateLanguage.py` is just the original one-word output test.
 * `cognateLanguage_LessPrinting.py` is the same as `cognateLanguage.py`, except it only prints out the output word.
-* `cognateLanguage_Translate.py` lets you use the command-line/terminal to translate English text.
+* `cognateLanguage_Translate.py` lets you use the command-line/terminal to translate English text. Updated version includes "short-form" translation.
 * `levenshteinDistance.py` is a copy of code from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python from which I plan to import the function in other Python files.
 * `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
