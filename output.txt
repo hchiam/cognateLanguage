@@ -1685,3 +1685,7 @@ ninurcahglup,silly,ca,ninyito,murkh,sahif,glupi,
 wanterkonha,finish,wan,termina,anta,anha,kontci,
 hwatcidibras,draw,hwa,dibuha,tcitrabana,rasama,risava,
 ____________________
+____________________
+Thu Feb  9 21:35:58 2017
+fanuvtradarpir,translate,fanyi,tradusi,anuvad,tardjama,pirivadi,
+____________________

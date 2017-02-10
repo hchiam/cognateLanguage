@@ -323,3 +323,4 @@ konyotchedirhuf,hole,kon,oyo,tched,hufra,dira,t
 ninurcahglup,silly,ca,ninyito,murkh,sahif,glupi,d
 wanterkonha,finish,wan,termina,anta,anha,kontci,a
 hwatcidibras,draw,hwa,dibuha,tcitrabana,rasama,risava,a
+fanuvtradarpir,translate,fanyi,tradusi,anuvad,tardjama,pirivadi,a
