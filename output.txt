@@ -1689,3 +1689,8 @@ ____________________
 Thu Feb  9 21:35:58 2017
 fanuvtradarpir,translate,fanyi,tradusi,anuvad,tardjama,pirivadi,
 ____________________
+____________________
+Fri Feb 10 11:29:14 2017
+baysyeniysosto,hundred,bay,syento,so,miya,sto,
+tcyenilhaztis,thousand,tcyen,mil,hazar,alf,tisitca,
+____________________

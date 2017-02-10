@@ -325,3 +325,5 @@
 +,finish,wan,termina,anta,anha,kontci,
 +,draw,hwa,dibuha,tcitrabana,rasama,risava,
 +,translate,fanyi,tradusi,anuvad,tardjama,pirivadi,
++,hundred,bay,syento,so,miya,sto,
++,thousand,tcyen,mil,hazar,alf,tisitca,
