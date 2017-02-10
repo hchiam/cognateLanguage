@@ -1694,3 +1694,7 @@ Fri Feb 10 11:29:14 2017
 baysyeniysosto,hundred,bay,syento,so,miya,sto,
 tcyenilhaztis,thousand,tcyen,mil,hazar,alf,tisitca,
 ____________________
+____________________
+Fri Feb 10 11:37:32 2017
+bemaybetprad,sell,may,bende,betc,ba,prada,
+____________________

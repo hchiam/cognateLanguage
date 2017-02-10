@@ -326,3 +326,4 @@ hwatcidibras,draw,hwa,dibuha,tcitrabana,rasama,risava,a
 fanuvtradarpir,translate,fanyi,tradusi,anuvad,tardjama,pirivadi,a
 baysyeniysosto,hundred,bay,syento,so,miya,sto,d
 tcyenilhaztis,thousand,tcyen,mil,hazar,alf,tisitca,d
+bemaybetprad,sell,may,bende,betc,ba,prada,a
