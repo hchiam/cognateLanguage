@@ -327,3 +327,5 @@ fanuvtradarpir,translate,fanyi,tradusi,anuvad,tardjama,pirivadi,a
 baysyeniysosto,hundred,bay,syento,so,miya,sto,d
 tcyenilhaztis,thousand,tcyen,mil,hazar,alf,tisitca,d
 bemaybrat,sell,may,bende,betc,ba,prada,a
+anyadjyadjordafdab,add,djya,anyadi,djor,idafa,dabavi,a
+hatnakitcutvit,remove,tcutci,kita,hata,naqala,vitci,a
