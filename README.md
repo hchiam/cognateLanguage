@@ -1,6 +1,6 @@
 # cognateLanguage
 
-Possibly a language to help you learn multiple languages at the same time (but only vocab).
+Possibly a language to help you learn multiple languages at the same time (but only receptive vocab).
 
 > "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
 
