@@ -338,3 +338,5 @@
 +,today,djintyen,oy,adj,inaharda,sivodna,
 +,yesterday,dzwotyen,ayer,kal,imbarih,ftcira,
 +,tomorrow,mintyen,manyana,kal,bukra,zaftra,
++,sibling,cyondidjyemey,ermano,sahodar,caqiqa,siblink,
++,parent,tcin,padre,matapita,walid,raditil,

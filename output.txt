@@ -1723,3 +1723,8 @@ djinahysiv,today,djintyen,oy,adj,inaharda,sivodna,
 dzwotyerkalmbarftcir,yesterday,dzwotyen,ayer,kal,imbarih,ftcira,
 minbukalzaf,tomorrow,mintyen,manyana,kal,bukra,zaftra,
 ____________________
+____________________
+Fri Feb 10 20:25:41 2017
+cyonrmansahcaqsib,sibling,cyondidjyemey,ermano,sahodar,caqiqa,siblink,
+patcinatwalad,parent,tcin,padre,matapita,walid,raditil,
+____________________
