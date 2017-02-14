@@ -85,9 +85,9 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 
 ##6) How Do I Remember Such Long Words?
 
-Make mnemonics that connect to things you already know well.  The ones [here](http://www.memrise.com/course/1195771/coglang/) typically use (semi-)homophones of English words to create visual scenes, and some make use of the method of loci.  See the next section for more ideas.
+Make mnemonics that connect to things you already know well.  The ones [here](http://www.memrise.com/course/1195771/coglang/) typically use (semi-)homophones of English words to create visual scenes, and some make use of the method of loci.  See the next section for more ideas on making automatic sentence translations.
 
-Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.
+Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.  It might help to google "Benny Lewis imagination" and "Ron White mind palace".
 
 ##7) How Can I Use the Files?
 
