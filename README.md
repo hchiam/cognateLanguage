@@ -2,7 +2,7 @@
 
 Possibly a "language" to help you learn multiple languages at the same time (but only receptive vocab).
 
-Prereq: understanding of mnemonics (see the ones on Memrise for ideas, the kinds described under http://www.memrise.com/science/ ).
+Prereq:  effective mnemonics (see the ones on Memrise for ideas, the kinds described under http://www.memrise.com/science/ ).  It might help to google "Benny Lewis imagination" and "Ron White mind palace".
 
 > "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
 
@@ -20,7 +20,9 @@ _______
 
 [5) What Do the Files Do?](#5-what-do-the-files-do)
 
-[6) How Can I Use the Files?](#6-how-can-i-use-the-files)
+[6) How Do I Remember Such Long Words?](#6-how-do-i-remember-such-long-words)
+
+[7) How Can I Use the Files?](#6-how-can-i-use-the-files)
 _______
 
 ##1) Purpose
@@ -81,7 +83,13 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
  * `t` = Thing/noun/pronoun,
  * `c` = Connector/preposition.
 
-##6) How Can I Use the Files?
+##6) How Do I Remember Such Long Words?
+
+Make mnemonics that connect to things you already know well.  The ones [here](http://www.memrise.com/course/1195771/coglang/) typically use (semi-)homophones of English words to create visual scenes, and some make use of the method of loci.  See the next section for more ideas.
+
+Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.
+
+##7) How Can I Use the Files?
 
 I personally use Terminal (a.k.a. command-line) to run the .py files.  For example, to run the "cognateLanguage_Translate.py" file, I enter "pyt" and press tab for autocomplete, then I type the first letter "c" and tab for autocomplete (which gives me "cognateLanguage_") and then "T" and tab again (to get "cognateLanguage_Translate.py").  What this looks like in the commandline after I've done these keyboard presses is:  `python cognateLanguage_Translate.py`.
 
@@ -93,7 +101,7 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output_shortlist.txt`.
 
-5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like with auto-generated sentences with `cognateLanguage_AutoSentence.py` (please note the words are randomly chosen based on word class, so some sentences may sound quite weird--use with caution).  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
+5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like translating sentences with `cognateLanguage_Translate.py`, or like with auto-generated sentences with `cognateLanguage_AutoSentence.py` (please note the words are randomly chosen based on word class, so some sentences may sound quite weird--use with caution).  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
 
 > "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
