@@ -1,6 +1,6 @@
 # cognateLanguage
 
-Possibly a language to help you learn multiple languages at the same time (but only receptive vocab).
+Possibly a "language" to help you learn multiple languages at the same time (but only receptive vocab).
 
 Prereq: understanding of mnemonics (see the ones on Memrise for ideas, the kinds described under http://www.memrise.com/science/ ).
 
