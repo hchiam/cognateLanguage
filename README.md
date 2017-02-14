@@ -27,7 +27,7 @@ _______
 
 To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for receptive lexicon (a multilingual one).  
 
-This project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way sort of like portmanteaus or like folk etymology, in order to increase the effects of partial intelligibility or cognacy.  In a way this makes it in way more of a worldlang than a zonal conlang, but with the express purpose of learning other languages, not as a language itself per se.
+This project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way sort of like portmanteaus or like folk etymology, in order to increase the effects of partial intelligibility or cognacy.  In a way this makes it more of a worldlang than a zonal conlang, but with the purpose of learning other languages, not to be used as a "language" itself.
 
 Basically, I created this project as a tool for my personal language learning interests.  Plus I thought it'd be fun to make a program that automatically creates for me a vocabulary for a made up language!
 
