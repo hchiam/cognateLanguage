@@ -22,7 +22,7 @@ _______
 
 [6) How Do I Remember Such Long Words?](#6-how-do-i-remember-such-long-words)
 
-[7) How Can I Use the Files?](#6-how-can-i-use-the-files)
+[7) How Can I Use the Files?](#7-how-can-i-use-the-files)
 _______
 
 ##1) Purpose
