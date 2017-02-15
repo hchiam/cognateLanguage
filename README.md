@@ -11,7 +11,7 @@
  * "enta" (Arabic), and 
  * "ti" (Russian - with simplified sounds).
 
-**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk).  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
+**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)".  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
 
 **Example 2, with longer source words**: "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds: 
  * "don" (Chinese - with simplified sounds), 
