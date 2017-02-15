@@ -2,27 +2,29 @@
 
 **Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only receptive vocab). 
 
-**Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under http://www.memrise.com/science/ ).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  It's the kind of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
+**Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under http://www.memrise.com/science/ ).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
-**Example 1**:  "you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"* (sounds like "Anthony" but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"), which is a single word that embeds these words: 
+**Example 1**:  "you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"*, which is a single word that embeds these words: 
  * "ni" (Chinese), 
  * "tu" (Spanish), 
  * "tum" (Hindi - more conversationally), 
  * "enta" (Arabic), and 
  * "ti" (Russian - with simplified sounds).
 
-**Mnemonic**:  "you are *Anthony*".  (It helps because it's a close homonym---it sounds similar enough to "Anthony"---but also because you can connect this link to something you know very well already, in this case the first time you met someone named Anthony.)
+**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk).  The mnemonic still helps because "Anthony" is a close homonym---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
 
-**Example 2, with longer source words**: "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"* (sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"), which would be 1 word to remember instead of these 5 words: 
+**Example 2, with longer source words**: "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds: 
  * "don" (Chinese - with simplified sounds), 
  * "este" (Spanish), 
  * "purva" (Hindi), 
  * "carq" (Arabic - using the phonetic spelling of this project), and 
  * "vastok" (Russian - phonetically spelled).
 
-**Mnemonic, shortened**:  "[Porsche rivers down](https://www.memrise.com/mem/9941705/porsche-rivers-down/)".  (This one's a close homonym too.)
+(Only the first few letters of a source word are used because they're usually the most easily recognizable.  Different languages have different priorities/weights in terms of which letters are chosen, for highest ROI.)
 
-**Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
+**Mnemonic, shortened**:  Sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)".  (This one's a close homonym too.)
+
+**...Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
 
 With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources above also makes it more enjoyable to learn the words, all while also knowing you're packaging multiple words into single words.
 
