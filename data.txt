@@ -358,3 +358,4 @@
 +,milk,nay,letce,dudh,laban,malako,
 +,chicken,dji,poyo,murga,dadjadja,kuritsa,
 +,cat,maw,gato,bili,qut,kot,
++,loud,dacan,fwerte,djor,al,gromki,

@@ -357,3 +357,4 @@ howarpitrasnaz,backward,how,atras,pitche,wara,nazat,d
 naylabmaletud,milk,nay,letce,dudh,laban,malako,t
 poymurdadjikur,chicken,dji,poyo,murga,dadjadja,kuritsa,t
 mawgatbil,cat,maw,gato,bili,qut,kot,t
+dacfwerdjorgrom,loud,dacan,fwerte,djor,al,gromki,d
