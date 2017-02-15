@@ -11,7 +11,7 @@
  * "enta" (Arabic), and 
  * "ti" (Russian - with simplified sounds).
 
-**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk).  The mnemonic still helps because "Anthony" is a close homonym---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
+**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk).  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
 
 **Example 2, with longer source words**: "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds: 
  * "don" (Chinese - with simplified sounds), 
@@ -22,7 +22,7 @@
 
 (Only the first few letters of a source word are used because they're usually the most easily recognizable.  Different languages have different priorities/weights in terms of which letters are chosen, for highest ROI.)
 
-**Mnemonic, shortened**:  Sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)".  (This one's a close homonym too.)
+**Mnemonic, shortened**:  Sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)".  (This one's a near homophone too.)
 
 **...Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
 
