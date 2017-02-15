@@ -342,7 +342,7 @@ patcimatwarad,parent,tcin,padre,matapita,walid,raditil,t
 cyankam,camera,cyandji,kamara,kemra,kamera,kamira,t
 gadzwotapakos,cook,dzwotsay,kosina,pakana,tabaka,gatovi,a
 tcwanasyevlipah,wear,tcwan,yeva,pahan,libis,nasi,a
-kwankidwockolkam,howmuch,dwocaw,kwanto,kitna,kam,skolka,d
+kidwockolkwam,howmuch,dwocaw,kwanto,kitna,kam,skolka,d
 abdorcacyen,now,cyendzay,aora,ab,dilwaqti,cas,d
 tcangusvadaqprob,taste,tcan,gusta,svad,daq,probava,a
 tcumtoklamtrog,touch,tcumo,toka,tcu,lamas,troga,a
