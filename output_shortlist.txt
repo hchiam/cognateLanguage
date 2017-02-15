@@ -339,3 +339,6 @@ dzwotyerkalmbarftcir,yesterday,dzwotyen,ayer,kal,imbarih,ftcira,d
 minbukalzaf,tomorrow,mintyen,manyana,kal,bukra,zaftra,d
 cyonermansaqsib,sibling,cyondidjyemey,ermano,sahodar,caqiqa,siblink,t
 patcimatwarad,parent,tcin,padre,matapita,walid,raditil,t
+cyankam,camera,cyandji,kamara,kemra,kamera,kamira,t
+gadzwotapakos,cook,dzwotsay,kosina,pakana,tabaka,gatovi,a
+tcwanasyevlipah,wear,tcwan,yeva,pahan,libis,nasi,a

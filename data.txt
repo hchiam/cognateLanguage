@@ -340,3 +340,6 @@
 +,tomorrow,mintyen,manyana,kal,bukra,zaftra,
 +,sibling,cyondidjyemey,ermano,sahodar,caqiqa,siblink,
 +,parent,tcin,padre,matapita,walid,raditil,
++,camera,cyandji,kamara,kemra,kamera,kamira,
++,cook,dzwotsay,kosina,pakana,tabaka,gatovi,
++,wear,tcwan,yeva,pahan,libis,nasi,
