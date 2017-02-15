@@ -1,12 +1,29 @@
 # cognateLanguage
 
-Possibly a "language" to help you learn multiple languages at the same time (but only receptive vocab).
+> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)"  (Click to hear this pronounced by Google Translate!)
 
-Prereq:  effective mnemonics (see the ones on Memrise for ideas, the kinds described under http://www.memrise.com/science/ ).  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".
+Possibly a "language" to help you learn multiple languages at the same time (but only receptive vocab). 
 
-> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)" 
+Prereq:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under http://www.memrise.com/science/ ).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  It's the kind of memory aids also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
-(Click to hear this pronounced by Google Translate!)
+For example:  "you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"* (sounds like "Anthony" but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"), which is a single word that "embeds" these words: 
+ * "ni" (Chinese), 
+ * "tu" (Spanish), 
+ * "tum" (Hindi - more conversationally), 
+ * "enta" (Arabic), and 
+ * "ti" (Russian - with simplified sounds).
+Mnemonic:  "you are **Anthony**".  (It helps because it's a close homonym---it sounds similar enough to "Anthony"---but also because you can connect this link to something you know very well already, in this case the first time you met someone named Anthony.)
+
+Example with longer words: "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"* (sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"), which would be 1 word to remember instead of these 5 words: 
+ * "don" (Chinese - with simplified sounds), 
+ * "este" (Spanish), 
+ * "purva" (Hindi), 
+ * "carq" (Arabic - using the phonetic spelling of this project), and 
+ * "vastok" (Russian - phonetically spelled).
+Short mnemonic:  "[Porsche rivers down](https://www.memrise.com/mem/9941705/porsche-rivers-down/)".  (It's a close homonym.)
+Or more concretely:  Imagine Eurus the robber accidentally driving a **Porsche** (east-ward) into a **river** and sinking **down**---I guess it was a bad decision to drive *east* that day.
+
+The memorization process takes longer to explain than to do in practice.  The visual imagination bit described in the various sources above also makes it more enjoyable to learn the words, all while also knowing you're packaging multiple words into single "words".
 
 _______
 # Table of Contents:
