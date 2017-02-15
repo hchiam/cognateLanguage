@@ -33,10 +33,11 @@ With the right preparation, the memorization process is faster to do than to exp
 ^^^ (Click to hear this pronounced by Google Translate!) ^^^
 
 _______
-# Further Details:
-[1) Purpose](#1-purpose)
+# Questions?:
 
-[2) Source Languages](#2-source-languages)
+[1) Why?](#1-why)
+
+[2) What are the Source Languages and Vocab?](#2-what-are-the-source-languages-and-vocab)
 
 [3) How is the Vocabulary Generated?](#3-how-is-the-vocabulary-generated)
 
@@ -49,17 +50,17 @@ _______
 [7) How Can I Use the Files?](#7-how-can-i-use-the-files)
 _______
 
-##1) Purpose
+##1) Why?
 
 To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for receptive lexicon (a multilingual one).  
 
-This project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way similar to portmanteaus or folk etymologies, in order to increase the effects of partial intelligibility or cognacy.  In a way this makes it more of a worldlang than a zonal conlang, but with the original purpose of learning other languages, not as a "language" itself.
+This personal project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way similar to portmanteaus or folk etymologies, in order to increase the effects of partial intelligibility or cognacy.  In a way this makes it more of a worldlang than a zonal conlang, but with the original purpose of learning other languages, not as a "language" itself.
 
 Basically, I created this project as a tool for my personal language learning interests.  Plus I thought it'd be fun to make a program that automatically creates vocabulary for a made-up language!
 
     Djyenkonbanstroi!
 
-##2) Source Languages
+##2) What are the Source Languages and Vocab?
 
 Currently the source languages are:  Mandarin Chinese, Spanish, Hindi, Egyptian Arabic, and Russian.  This was based mainly on personal choice and the fact that these languages are apparently the most commonly understood languages/dialects on the planet.  Notably, English is excluded since it is assumed you already understand it if you are using this code, and your purpose is to learn other languages.  Although including English in the mix to create each word could theoretically aid in mnemonic creation by having the English word "visually embedded", the problem is it could also introduce extra complications in the word or make each word longer.
 
