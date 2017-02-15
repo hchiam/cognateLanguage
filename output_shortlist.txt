@@ -348,3 +348,12 @@ tcangusvadaqprob,taste,tcan,gusta,svad,daq,probava,a
 tcumtoklamtrog,touch,tcumo,toka,tcu,lamas,troga,a
 taydemufbahslic,too,tay,demasyado,bahut,mufrit,slickam,d
 yetambhikamtoj,also,ye,tambyen,bhi,kaman,toji,d
+beytarcanorsev,north,bey,norte,utar,camal,sevir,
+surdakananyuk,south,nan,sur,daksin,ganub,yuk,
+purcarvasdon,east,don,este,purva,carq,vastok,
+pecipgar,west,ci,oeste,pactcim,garb,zapat,
+tcyenamdelgefpir,forward,tcyen,adelante,age,amam,fpirot,
+howarpitrasnaz,backward,how,atras,pitche,wara,nazat,
+naylabmaletud,milk,nay,letce,dudh,laban,malako,
+poymurdadjikur,chicken,dji,poyo,murga,dadjadja,kuritsa,
+mawgatbil,cat,maw,gato,bili,qut,kot,
