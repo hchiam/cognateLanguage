@@ -343,3 +343,8 @@ cyankam,camera,cyandji,kamara,kemra,kamera,kamira,t
 gadzwotapakos,cook,dzwotsay,kosina,pakana,tabaka,gatovi,a
 tcwanasyevlipah,wear,tcwan,yeva,pahan,libis,nasi,a
 kwankidwockolkam,howmuch,dwocaw,kwanto,kitna,kam,skolka,d
+abdorcacyen,now,cyendzay,aora,ab,dilwaqti,cas,d
+tcangusvadaqprob,taste,tcan,gusta,svad,daq,probava,a
+tcumtoktchulamtrog,touch,tcumo,toka,tchu,lamas,troga,a
+taydemufbahslic,too,tay,demasyado,bahut,mufrit,slickam,d
+yetambhikamtoj,also,ye,tambyen,bhi,kaman,toji,d

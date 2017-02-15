@@ -344,3 +344,8 @@
 +,cook,dzwotsay,kosina,pakana,tabaka,gatovi,
 +,wear,tcwan,yeva,pahan,libis,nasi,
 +,howmuch,dwocaw,kwanto,kitna,kam,skolka,
++,now,cyendzay,aora,ab,dilwaqti,cas,
++,taste,tcan,gusta,svad,daq,probava,
++,touch,tcumo,toka,tchu,lamas,troga,
++,too,tay,demasyado,bahut,mufrit,slickam,
++,also,ye,tambyen,bhi,kaman,toji,
