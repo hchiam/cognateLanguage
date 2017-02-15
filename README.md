@@ -33,7 +33,7 @@ With the right preparation, the memorization process is faster to do than to exp
 ^^^ (Click to hear this pronounced by Google Translate!) ^^^
 
 _______
-# Table of Contents:
+# Further Details:
 [1) Purpose](#1-purpose)
 
 [2) Source Languages](#2-source-languages)
