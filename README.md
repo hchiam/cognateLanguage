@@ -124,4 +124,4 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 > "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
-(Click to hear this pronounced by Google Translate!)
+^^^ (Click to hear this pronounced by Google Translate!) ^^^
