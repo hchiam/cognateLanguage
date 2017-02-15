@@ -342,3 +342,4 @@ patcimatwarad,parent,tcin,padre,matapita,walid,raditil,t
 cyankam,camera,cyandji,kamara,kemra,kamera,kamira,t
 gadzwotapakos,cook,dzwotsay,kosina,pakana,tabaka,gatovi,a
 tcwanasyevlipah,wear,tcwan,yeva,pahan,libis,nasi,a
+kwankidwockolkam,howmuch,dwocaw,kwanto,kitna,kam,skolka,d

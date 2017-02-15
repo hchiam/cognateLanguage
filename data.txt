@@ -343,3 +343,4 @@
 +,camera,cyandji,kamara,kemra,kamera,kamira,
 +,cook,dzwotsay,kosina,pakana,tabaka,gatovi,
 +,wear,tcwan,yeva,pahan,libis,nasi,
++,howmuch,dwocaw,kwanto,kitna,kam,skolka,
