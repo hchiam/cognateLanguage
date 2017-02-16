@@ -359,3 +359,4 @@
 +,chicken,dji,poyo,murga,dadjadja,kuritsa,
 +,cat,maw,gato,bili,qut,kot,
 +,loud,dacan,fwerte,djor,al,gromki,
++,weather,tyentci,tyempo,mosam,taqs,pagoda,
