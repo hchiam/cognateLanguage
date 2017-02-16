@@ -29,7 +29,7 @@ data = ''
 input = ''
 translation = '< Translation Not Found. >'
 
-input = raw_input('Enter English word or sentence to translate:\n\t')
+input = raw_input('Enter English word or sentence gloss to translate:\n\t')
 
 # remove punctuation from input
 exclude = set(string.punctuation)
