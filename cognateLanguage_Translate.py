@@ -41,7 +41,7 @@ input = input.lower()
 # remove repeating spaces from what remains
 input = re.sub(' +', ' ', input)
 
-print input
+# print input # debug output
 
 if input != "":
     # split input into words
