@@ -359,5 +359,5 @@ poymurdadjikur,chicken,dji,poyo,murga,dadjadja,kuritsa,t
 mawgatbil,cat,maw,gato,bili,qut,kot,t
 dacfwerdjorgrom,loud,dacan,fwerte,djor,al,gromki,d
 tyenostaqpag,weather,tyentci,tyempo,mosam,taqs,pagoda,t
-dyenelkormay,email,dyendzayodjyen,koreo,imel,imayl,imeyl,t
-wanter,internet,wan,internet,intarnet,intarnit,intirnet,t
+dyemaylkor,email,dyendzayodjyen,koreo,imel,imayl,imeyl,t
+wantarnet,internet,wan,internet,intarnet,intarnit,intirnet,t
