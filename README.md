@@ -116,6 +116,8 @@ Make mnemonics that connect to things you already know well.  The ones [here](ht
 
 Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".
 
+If you're already familiar with the full words, you can use the "short translations" output from `cognateLanguage_Translate.py` to build sentences with shorter versions of the words.
+
 ##7) How Can I Use the Files?
 
 I personally use Terminal (a.k.a. command-line) to run the .py files.  For example, to run the "cognateLanguage_Translate.py" file, I enter "pyt" and press tab for autocomplete, then I type the first letter "c" and tab for autocomplete (which gives me "cognateLanguage_") and then "T" and tab again (to get "cognateLanguage_Translate.py").  What this looks like in the commandline after I've done these keyboard presses is:  `python cognateLanguage_Translate.py`.
