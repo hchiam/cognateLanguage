@@ -90,6 +90,8 @@ The spellings of the words (for all the languages) in the data/output files use 
 * **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word "[yes](https://upload.wikimedia.org/wikipedia/commons/b/b1/En-us-yes.ogg)"), and 
 * **h** : (pronounced as /[h](https://upload.wikimedia.org/wikipedia/commons/d/da/Voiceless_glottal_fricative.ogg)/ or /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/, but so far /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/ seems easier for me to clearly pronounce when it's next to most other consonants).
 
+That means all the *rest* of the letters in the English alphabet are represented by the same symbol as they appear in the IPA: "b" is /b/, "d" is /d/, "e" is /e/, etc.  Even "q" is /q/!  (But you can pronounce it as /k/ if you find it hard to do.)  And depending on how your computer's font shows on your screen, "a" is /&#97/.
+
 See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for the consonants (the vowels are in the section after it) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
 
 ##5) What Do the Files Do?
