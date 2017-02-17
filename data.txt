@@ -360,3 +360,5 @@
 +,cat,maw,gato,bili,qut,kot,
 +,loud,dacan,fwerte,djor,al,gromki,
 +,weather,tyentci,tyempo,mosam,taqs,pagoda,
++,email,dyendzayodjyen,koreo,imel,imayl,imeyl,
++,internet,wan,internet,intarnet,intarnit,intirnet,
