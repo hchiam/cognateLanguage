@@ -1,6 +1,6 @@
 # cognateLanguage
 
-**Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only receptive vocab). 
+**Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)). 
 
 **Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under http://www.memrise.com/science/ ).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
@@ -52,7 +52,7 @@ _______
 
 ##1) Why?
 
-To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for receptive lexicon (a multilingual one).  
+To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) (a multilingual one).  
 
 This personal project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way similar to portmanteaus or folk etymologies, in order to increase the effects of partial intelligibility or cognacy.  In a way this makes it more of a worldlang than a zonal conlang, but with the original purpose of learning other languages, not as a "language" itself.
 
