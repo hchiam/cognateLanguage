@@ -136,7 +136,11 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 ##8) Can I Contribute?
 
-Yes!  Feel free to message me.  https://www.reddit.com/r/conlangs/comments/5uaihi/pet_project_cognate_language_to_help_with/
+Yes!
+
+Feel free to message me.  https://www.reddit.com/r/conlangs/comments/5uaihi/pet_project_cognate_language_to_help_with/
+
+-------
 
 > "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
