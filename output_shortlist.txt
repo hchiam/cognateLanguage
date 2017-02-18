@@ -361,9 +361,9 @@ dacfwerdjorgrom,loud,dacan,fwerte,djor,al,gromki,d
 tyenostaqpag,weather,tyentci,tyempo,mosam,taqs,pagoda,t
 dyemaylkor,email,dyendzayodjyen,koreo,imel,imayl,imeyl,t
 wantarnet,internet,wan,internet,intarnet,intarnit,intirnet,t
-beytaspyalfentcac,cup,beydza,tasa,pyala,fengan,tcacka,t
+byaltcasfen,cup,beydza,tasa,pyala,fengan,tcacka,t
 platapantar,plate,pandza,plato,plet,tabaq,tarelka,t
 wanisulbolkat,bowl,wan,bol,katora,sultaneya,miska,t
 cokatcadenvil,fork,tcadza,tenedor,kata,coka,vilka,t
-kutcamalocaw,spoon,cawdza,kutcara,tcamatc,malaqa,locka,t
-kwaypalkatwad,chopstick,kwaydza,paliyo,kata,awad,palatcka,t
+kutcawmaloc,spoon,cawdza,kutcara,tcamatc,malaqa,locka,t
+kwaydpalkat,chopstick,kwaydza,paliyo,kata,awad,palatcka,t
