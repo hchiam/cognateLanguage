@@ -118,6 +118,8 @@ Make mnemonics that connect to things you already know well.  The ones [here](ht
 
 Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".
 
+Once you're familiar with the rationale and how the language works in theory, try out the Memrise course here:  https://www.memrise.com/course/1195771/coglang/
+
 If you're already familiar with the full words, you can use the "short translations" output from `cognateLanguage_Translate.py` to build sentences with shorter versions of the words.
 
 ##7) How Can I Use the Files?
