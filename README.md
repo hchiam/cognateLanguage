@@ -48,6 +48,8 @@ _______
 [6) How Do I Remember Such Long Words?](#6-how-do-i-remember-such-long-words)
 
 [7) How Can I Use the Files?](#7-how-can-i-use-the-files)
+
+[8) Can I Contribute?](#8-can-i-contribute)
 _______
 
 ##1) Why?
@@ -131,6 +133,10 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output_shortlist.txt`.
 
 5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like translating sentences with `cognateLanguage_Translate.py`, or like with auto-generated sentences with `cognateLanguage_AutoSentence.py` (please note the words are randomly chosen based on word class, so some sentences may sound quite weird--use with caution).  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
+
+##8) Can I Contribute?
+
+Yes!  Feel free to message me.  https://www.reddit.com/r/conlangs/comments/5uaihi/pet_project_cognate_language_to_help_with/
 
 > "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
 
