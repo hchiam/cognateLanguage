@@ -1786,3 +1786,12 @@ Fri Feb 17 13:31:56 2017
 dyenelkormay,email,dyendzayodjyen,koreo,imel,imayl,imeyl,
 wanter,internet,wan,internet,intarnet,intarnit,intirnet,
 ____________________
+____________________
+Fri Feb 17 20:21:33 2017
+beytaspyalfentcac,cup,beydza,tasa,pyala,fengan,tcacka,
+platapantar,plate,pandza,plato,plet,tabaq,tarelka,
+wanisulbolkat,bowl,wan,bol,katora,sultaneya,miska,
+cokatcadenvil,fork,tcadza,tenedor,kata,coka,vilka,
+kutcamalocaw,spoon,cawdza,kutcara,tcamatc,malaqa,locka,
+kwaypalkatwad,chopstick,kwaydza,paliyo,kata,awad,palatcka,
+____________________
