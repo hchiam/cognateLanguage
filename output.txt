@@ -1795,3 +1795,7 @@ cokatcadenvil,fork,tcadza,tenedor,kata,coka,vilka,
 kutcamalocaw,spoon,cawdza,kutcara,tcamatc,malaqa,locka,
 kwaypalkatwad,chopstick,kwaydza,paliyo,kata,awad,palatcka,
 ____________________
+____________________
+Sun Feb 19 15:57:59 2017
+biketsemen,than,bi,ke,se,men,tcem,
+____________________
