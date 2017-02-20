@@ -33,6 +33,7 @@ With the right preparation, the memorization process is faster to do than to exp
 ^^^ (Click to hear this pronounced by Google Translate!) ^^^
 
 _______
+
 # Questions?:
 
 [1) Why?](#1-why)
@@ -50,6 +51,7 @@ _______
 [7) How Can I Use the Files?](#7-how-can-i-use-the-files)
 
 [8) Can I Contribute?](#8-can-i-contribute)
+
 _______
 
 #1) Why?
