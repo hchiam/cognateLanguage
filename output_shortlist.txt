@@ -368,4 +368,4 @@ cokatcadenvil,fork,tcadza,tenedor,kata,coka,vilka,t
 kutcawmaloc,spoon,cawdza,kutcara,tcamatc,malaqa,locka,t
 kwaydpalkat,chopstick,kwaydza,paliyo,kata,awad,palatcka,t
 biketsemen,than,bi,ke,se,men,tcem,c
-dzaydenphirsnov,again,dzay,denwevo,phir,tani,snova,c
+dznovphirtan,again,dzay,denwevo,phir,tani,snova,c
