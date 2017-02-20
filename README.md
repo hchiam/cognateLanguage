@@ -1,6 +1,6 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
-**Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)). 
+**Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)).  Technically, it's a functional conlang consisting of only vocabulary.
 
 **Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under http://www.memrise.com/science/ ).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
@@ -52,7 +52,7 @@ _______
 [8) Can I Contribute?](#8-can-i-contribute)
 _______
 
-##1) Why?
+#1) Why?
 
 To create a list of words or vocabulary with maximum "intelligibility" via "(false) cognacy" with words from several of the most-commonly-spoken languages.  Each word could then serve as a single mnemonic for the words coming from the different source languages, and possibly help with learning those languages simultaneously by using one "centralized" vocab list.  In other words, it serves as a fun attempt at maximizing ROI for [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) (a multilingual one).  
 
@@ -62,7 +62,7 @@ Basically, I created this project as a tool for my personal language learning in
 
     Djyenkonbanstroi!
 
-##2) What are the Source Languages and Vocab?
+#2) What are the Source Languages and Vocab?
 
 Currently the source languages are:  Mandarin Chinese, Spanish, Hindi, Egyptian Arabic, and Russian.  This was based mainly on personal choice and the fact that these languages are apparently the most commonly understood languages/dialects on the planet.  Notably, English is excluded since it is assumed you already understand it if you are using this code, and your purpose is to learn other languages.  Although including English in the mix to create each word could theoretically aid in mnemonic creation by having the English word "visually embedded", the problem is it could also introduce extra complications in the word or make each word longer.
 
@@ -70,7 +70,7 @@ I started building the vocab by first using words from the Swadesh lists for eac
 
     Nanodjyenkotsapal!
 
-##3) How is the Vocabulary Generated?
+#3) How is the Vocabulary Generated?
 
 Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done by detecting "overlaps" between words with matching letters or consonant patterns.  The matching letters/consonants are ideally identical or are at least "allophones" (treated as similar sounds for our purposes).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as the use of "abjad-like" spellings of words (retaining only consonants and initial vowel).  I focus on consonants because, from my own observations, consonants seem to be preserved better than vowels despite language changes/differences.  I currently use the initial syllables of source words to help limit word length.  The first syllable of a (root) word is also typically the minimum easily-recognizable part of words.  For example, think of common short forms like co., freq., com., ca., approx., cert., etc.  Abbreviations seem to tend to use the first syllable or so of their respective words.
 
@@ -84,7 +84,7 @@ For example:  (Don't forget that last comma!)
 
 You can try to ensure that the right words from each language are used by "manually" checking for higher-frequency words, meaning matches, using most common registers, and using only roots of words.  However, an automated search can be done with https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py to save on time, but at the cost of not double-checking for appropriate translations of intended meaning(s).
 
-##4) How Do I Pronounce the Words?
+#4) How Do I Pronounce the Words?
 
 The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) values, except for these letters:
 * **c** : (pronounced as /[ʃ](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)/ like the "sh" in "[shoe](https://upload.wikimedia.org/wikipedia/commons/4/44/En-us-shoe.ogg)"),
@@ -96,7 +96,7 @@ This all means that the *rest* of the letters in the English alphabet are repres
 
 See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for the consonants (the vowels are in the section after it) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
 
-##5) What Do the Files Do?
+#5) What Do the Files Do?
 
 * `cognateLanguage_CreatingList.py` reads the input word list (`data.txt`) and creates the output word list (`output.txt`).  I like to copy and paste a cleaner version of the output into `output_shortlist.txt`.
 * `cognateLanguage_Evaluators.py` reads the output word list that is created by `cognateLanguage_CreatingList.py` and uses a few different evaluators to "score" each output word against the source language words.
@@ -112,7 +112,7 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
  * `t` = Thing/noun/pronoun,
  * `c` = Connector/preposition.
 
-##6) How Do I Remember Such Long Words?
+#6) How Do I Remember Such Long Words?
 
 Make mnemonics that connect to things you already know well.  The ones [here](http://www.memrise.com/course/1195771/coglang/) typically use (semi-)homophones of English words to create visual scenes, and some make use of the method of loci.  See the next section for more ideas on making automatic sentence translations.
 
@@ -122,7 +122,7 @@ Once you're familiar with the rationale and how the language works in theory, tr
 
 If you're already familiar with the full words, you can use the "short translations" output from `cognateLanguage_Translate.py` to build sentences with shorter versions of the words.
 
-##7) How Can I Use the Files?
+#7) How Can I Use the Files?
 
 I personally use Terminal (a.k.a. command-line) to run the .py files.  For example, to run the "cognateLanguage_Translate.py" file, I enter "pyt" and press tab for autocomplete, then I type the first letter "c" and tab for autocomplete (which gives me "cognateLanguage_") and then "T" and tab again (to get "cognateLanguage_Translate.py").  What this looks like in the commandline after I've done these keyboard presses is:  `python cognateLanguage_Translate.py`.
 
@@ -136,7 +136,7 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 5. Make mnemonics for the words or use [this course](http://www.memrise.com/course/1195771/coglang/) (think of typical techniques used for words in Memrise courses, or Google different techniques used by language learners), but also practice using the words in fun contexts to make it easier to encode in memory, like translating sentences with `cognateLanguage_Translate.py`, or like with auto-generated sentences with `cognateLanguage_AutoSentence.py` (please note the words are randomly chosen based on word class, so some sentences may sound quite weird--use with caution).  Currently the generated words may have up to 5 syllables (since there are 5 source languages) if overlapping allophones are lacking in a word set.  There may be an extra syllable at the beginning of the word to ease pronunciation if the relevant source word has an initial vowel.
 
-##8) Can I Contribute?
+#8) Can I Contribute?
 
 Yes!
 
