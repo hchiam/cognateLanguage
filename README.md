@@ -2,7 +2,7 @@
 
 **Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)).  Technically, it's a functional conlang consisting of only vocabulary.
 
-**Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under http://www.memrise.com/science/ ).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
+**Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
 **Example 1**:  "you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"*, which is a single word that embeds these words: 
  * "ni" (Chinese), 
@@ -82,7 +82,7 @@ For example:  (Don't forget that last comma!)
     
     bwentchawrtay,good,haw,bweno,atcha,tayeb,horoci,
 
-You can try to ensure that the right words from each language are used by "manually" checking for higher-frequency words, meaning matches, using most common registers, and using only roots of words.  However, an automated search can be done with https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py to save on time, but at the cost of not double-checking for appropriate translations of intended meaning(s).
+You can try to ensure that the right words from each language are used by "manually" checking for higher-frequency words, meaning matches, using most common registers, and using only roots of words.  However, an automated search can be done with my [multiWebScraper.py](https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py) to save on time, but at the cost of not double-checking for appropriate translations of intended meaning(s).
 
 #4) How Do I Pronounce the Words?
 
@@ -94,7 +94,7 @@ The spellings of the words (for all the languages) in the data/output files use 
 
 This all means that the *rest* of the letters in the English alphabet are represented by the same symbol as they appear in the IPA: "b" is /b/, "d" is /d/, "e" is /e/, etc.  Even "q" is /q/!  (But you can pronounce it as /k/ if you find it hard to do.)  And depending on how your computer's font shows on your screen, "a" is /a/.
 
-See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for the consonants (the vowels are in the section after it) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
+See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants) for the consonants (the vowels are in the section after it) and click on the letters for links to other Wikipedia pages that have their sound files you can play to listen to (look for the triangle buttons), instead of reading their full technical descriptions.
 
 #5) What Do the Files Do?
 
@@ -103,7 +103,7 @@ See https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants for
 * `cognateLanguage.py` is just the original one-word output test.
 * `cognateLanguage_LessPrinting.py` is the same as `cognateLanguage.py`, except it only prints out the output word.
 * `cognateLanguage_Translate.py` lets you use the command-line/terminal to translate English text. Updated version includes "short-form" translation.
-* `levenshteinDistance.py` is a copy of code from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python from which I plan to import the function in other Python files.
+* `levenshteinDistance.py` is a copy of code from [https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python](https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python) from which I plan to import the function in other Python files.
 * `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
 * `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types": 
@@ -118,7 +118,7 @@ Make mnemonics that connect to things you already know well.  The ones [here](ht
 
 Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".
 
-Once you're familiar with the rationale and how the language works in theory, try out the Memrise course here:  https://www.memrise.com/course/1195771/coglang/
+Once you're familiar with the rationale and how the language works in theory, try out the Memrise course here:  [https://www.memrise.com/course/1195771/coglang/](https://www.memrise.com/course/1195771/coglang/)
 
 If you're already familiar with the full words, you can use the "short translations" output from `cognateLanguage_Translate.py` to build sentences with shorter versions of the words.
 
@@ -140,7 +140,7 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 Yes!
 
-Feel free to message me.  https://www.reddit.com/r/conlangs/comments/5uaihi/pet_project_cognate_language_to_help_with/
+Feel free to message me on the [conlang reddit](https://www.reddit.com/r/conlangs/comments/5uaihi/pet_project_cognate_language_to_help_with/).
 
 Some ideas:
  * Create browser-runnable codepen version of the `cognateLanguage_Translate.py` file, so no download is needed for demonstration or for other people to try out low-commitment.  Then I can link to it in this README file.
