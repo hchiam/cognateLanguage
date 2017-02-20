@@ -171,14 +171,15 @@ def simpNonChiWordMaker(word):
 
 def simpChiWordMaker(word):
     word = simpNonChiWordMaker(word)
-    #print word,'before'
-    patterns = [r'[dt](\_[cjsz]){1}',r'(\_[^aeiou])+[wy]']
-    replacers = ['','']
-    if word[0] in 'aeiou':
-        word = word[1:]
-    for i, pattern in enumerate(patterns):
-        word = re.sub(pattern,replacers[i],word,1)
-        #print word,'after',pattern
+    if word: # account for if no translation for Chinese word
+        #print word,'before'
+        patterns = [r'[dt](\_[cjsz]){1}',r'(\_[^aeiou])+[wy]']
+        replacers = ['','']
+        if word[0] in 'aeiou':
+            word = word[1:]
+        for i, pattern in enumerate(patterns):
+            word = re.sub(pattern,replacers[i],word,1)
+            #print word,'after',pattern
     return word
 
 
