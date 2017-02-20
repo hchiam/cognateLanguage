@@ -1,4 +1,4 @@
-# [cognateLanguage](https://hchiam.github.io/cognateLanguage/)
+# ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
 **Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)). 
 
