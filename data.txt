@@ -370,3 +370,4 @@
 +,chopstick,kwaydza,paliyo,kata,awad,palatcka,
 +,than,bi,ke,se,men,tcem,
 +,again,dzay,denwevo,phir,tani,snova,
++,thats,,ke,ki,in,cto,
