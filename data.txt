@@ -372,3 +372,7 @@
 +,again,dzay,denwevo,phir,tani,snova,
 +,thats,,ke,ki,in,cto,
 +,most,dzwe,mas,sabse,al,nay,
++,problem,wanti,problema,samasya,muckila,prablema,
++,solution,djyeda,solusyon,upay,hal,ricenye,
++,ask,wan,pregunta,putch,sala,sprasi,
++,answer,hweda,responde,djavab,adjaba,atveti,
