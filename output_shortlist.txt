@@ -373,5 +373,5 @@ kencto,thats,,ke,ki,in,cto,c
 dzwemasabnayl,most,dzwe,mas,sabse,al,nay,d
 wanusamprob,problem,wanti,problema,samasya,muckila,prablema,t
 djyedsolicpayhal,solution,djyeda,solusyon,upay,hal,ricenye,t
-wanpregputsprasal,ask,wan,pregunta,putch,sala,sprasi,a
-hwedjavrestvedjab,answer,hweda,responde,djavab,adjaba,atveti,a
+wanputspragsal,ask,wan,pregunta,putch,sala,sprasi,a
+hwetvedjabres,answer,hweda,responde,djavab,adjaba,atveti,a
