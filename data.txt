@@ -376,3 +376,6 @@
 +,solution,djyeda,solusyon,upay,hal,ricenye,
 +,ask,wan,pregunta,putch,sala,sprasi,
 +,answer,hweda,responde,djavab,adjaba,atveti,
++,so,swoyi,asike,to,li,takcto,
++,help,bandju,ayuda,madad,sada,pamag,
++,remember,djida,rekwerda,yad,dakar,pomni,

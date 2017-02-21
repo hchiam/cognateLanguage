@@ -375,3 +375,6 @@ wanusamprob,problem,wanti,problema,samasya,muckila,prablema,t
 djyedsolicpayhal,solution,djyeda,solusyon,upay,hal,ricenye,t
 wanputspragsal,ask,wan,pregunta,putch,sala,sprasi,a
 hwetvedjabres,answer,hweda,responde,djavab,adjaba,atveti,a
+swoysiklitok,so,swoyi,asike,to,li,takcto,c
+banadyudsad,help,bandju,ayuda,madad,sada,pamag,a
+rekyadjidakpom,remember,djida,rekwerda,yad,dakar,pomni,a
