@@ -370,4 +370,4 @@ kwaydpalkat,chopstick,kwaydza,paliyo,kata,awad,palatcka,t
 biketsemen,than,bi,ke,se,men,tcem,c
 dznovphirtan,again,dzay,denwevo,phir,tani,snova,c
 kencto,thats,,ke,ki,in,cto,c
-dzwemasablnay,most,dzwe,mas,sabse,al,nay,d
+dzwemasabnayl,most,dzwe,mas,sabse,al,nay,d
