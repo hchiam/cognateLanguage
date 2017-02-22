@@ -1,6 +1,6 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
-**Short description**:  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)).  Technically, it's a functional conlang consisting of only vocabulary.
+**Short description**:  My "coglang" project.  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)).  Technically, it's a functional conlang consisting of only vocabulary.
 
 **Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
