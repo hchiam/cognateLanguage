@@ -381,4 +381,4 @@ rekyadjidakpom,remember,djida,rekwerda,yad,dakar,pomni,a
 siyidkurstul,chair,yidza,siya,kursi,kursi,stul,t
 djactosyedol,these,djacye,estos,ye,dol,eti,t
 nacosvedyol,those,nacye,esos,ve,dol,tye,t
-maberikyahal,?,ma,berdad,kya,hal,li,?
+maberkyahali,?,ma,berdad,kya,hal,li,?
