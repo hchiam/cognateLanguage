@@ -379,3 +379,7 @@
 +,so,swoyi,asike,to,li,takcto,
 +,help,bandju,ayuda,madad,sada,pamag,
 +,remember,djida,rekwerda,yad,dakar,pomni,
++,chair,yidza,siya,kursi,kursi,stul,
++,these,djacye,estos,ye,dol,eti,
++,those,nacye,esos,ve,dol,tye,
++,?,ma,berdad,kya,hal,li,

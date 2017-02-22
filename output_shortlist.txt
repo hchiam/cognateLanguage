@@ -378,3 +378,7 @@ hwetvedjabres,answer,hweda,responde,djavab,adjaba,atveti,a
 swoysiklitok,so,swoyi,asike,to,li,takcto,c
 banadyudsad,help,bandju,ayuda,madad,sada,pamag,a
 rekyadjidakpom,remember,djida,rekwerda,yad,dakar,pomni,a
+siyidkurstul,chair,yidza,siya,kursi,kursi,stul,t
+djactosyedol,these,djacye,estos,ye,dol,eti,t
+nacosvedoltye,those,nacye,esos,ve,dol,tye,t
+maberikyahal,?,ma,berdad,kya,hal,li,?
