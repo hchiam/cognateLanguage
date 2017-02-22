@@ -31,9 +31,12 @@ translation = '< Translation Not Found. >'
 
 input = raw_input('Enter English word or sentence gloss to translate:\n\t')
 
-# remove punctuation from input
+# remove punctuation from input, except for '?'
 exclude = set(string.punctuation)
-input = ''.join(ch for ch in input if ch not in exclude)
+input = ''.join(ch for ch in input if (ch not in exclude or ch == '?'))
+
+# add space before '?' to enable replacing with question particle word
+input = input.replace('?',' ?')
 
 # make input all lowercase
 input = input.lower()
