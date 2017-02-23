@@ -382,3 +382,6 @@ siyidkurstul,chair,yidza,siya,kursi,kursi,stul,t
 djactosyedol,these,djacye,estos,ye,dol,eti,t
 nacosvedyol,those,nacye,esos,ve,dol,tye,t
 maberkyahali,?,ma,berdad,kya,hal,li,?
+buskakhodjawbah,search,djaw,buska,khodj,bahata,iska,a
+paysurdensan,sort,payci,ordena,suladjha,sanafa,sartirava,a
+paykatcirsafil,queue,paydwe,fila,katar,saf,otcirit,t

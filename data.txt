@@ -383,3 +383,6 @@
 +,these,djacye,estos,ye,dol,eti,
 +,those,nacye,esos,ve,dol,tye,
 +,?,ma,berdad,kya,hal,li,
++,search,djaw,buska,khodj,bahata,iska,
++,sort,payci,ordena,suladjha,sanafa,sartirava,
++,queue,paydwe,fila,katar,saf,otcirit,
