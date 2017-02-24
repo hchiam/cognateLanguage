@@ -28,6 +28,8 @@
 
 With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources above also makes it more enjoyable to learn the words, all while also knowing you're packaging multiple words into single words.
 
+**Bonus example**:  "queue" = *"paykatcirsafil"* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
+
 > "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)"
 
 ^^^ (Click to hear this pronounced by Google Translate!) ^^^
