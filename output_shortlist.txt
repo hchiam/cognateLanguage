@@ -388,5 +388,5 @@ paykatcirsafil,queue,paydwe,fila,katar,saf,otcirit,t
 sofbarwanprag,software,rwandjyen,softwer,softveyar,barmadjiyat,pragram,t
 indonhervyaypraj,exercise,indon,ehersisyo,vyayam,tamrin,uprajn,t
 famindaq,minute,fandjon,minuto,minat,daqiqa,minuta,t
-oraghantsacyaw,hour,cyawca,ora,ghanta,sa,tcas,t
+oraghantcyaws,hour,cyawca,ora,ghanta,sa,tcas,t
 segsamyaw,second,myawdjon,segundo,sekand,sanya,sikunda,t
