@@ -386,3 +386,8 @@
 +,search,djaw,buska,khodj,bahata,iska,
 +,sort,payci,ordena,suladjha,sanafa,sartirava,
 +,queue,paydwe,fila,katar,saf,otcirit,
++,software,rwandjyen,softwer,softveyar,barmadjiyat,pragram,
++,exercise,indon,ehersisyo,vyayam,tamrin,uprajn,
++,minute,fandjon,minuto,minat,daqiqa,minuta,
++,hour,cyawca,ora,ghanta,sa,tcas,
++,second,myawdjon,segundo,sekand,sanya,sikunda,

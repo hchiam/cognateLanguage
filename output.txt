@@ -1837,3 +1837,11 @@ buskakhodjawbah,search,djaw,buska,khodj,bahata,iska,
 paysurdensan,sort,payci,ordena,suladjha,sanafa,sartirava,
 paykatcirsafil,queue,paydwe,fila,katar,saf,otcirit,
 ____________________
+____________________
+Thu Mar  2 14:06:06 2017
+sofbarwanprag,software,rwandjyen,softwer,softveyar,barmadjiyat,pragram,
+indonhervyaypraj,exercise,indon,ehersisyo,vyayam,tamrin,uprajn,
+fanindaq,minute,fandjon,minuto,minat,daqiqa,minuta,
+oraghantsacyaw,hour,cyawca,ora,ghanta,sa,tcas,
+segsamyaw,second,myawdjon,segundo,sekand,sanya,sikunda,
+____________________
