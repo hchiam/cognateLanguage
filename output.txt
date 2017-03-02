@@ -1845,3 +1845,7 @@ fanindaq,minute,fandjon,minuto,minat,daqiqa,minuta,
 oraghantsacyaw,hour,cyawca,ora,ghanta,sa,tcas,
 segsamyaw,second,myawdjon,segundo,sekand,sanya,sikunda,
 ____________________
+____________________
+Thu Mar  2 14:14:48 2017
+ehervyayintampraj,exercise,yindon,ehersisyo,vyayam,tamrin,uprajn,
+____________________
