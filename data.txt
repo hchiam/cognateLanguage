@@ -391,3 +391,5 @@
 +,minute,fandjon,minuto,minat,daqiqa,minuta,
 +,hour,cyawca,ora,ghanta,sa,tcas,
 +,second,myawdjon,segundo,sekand,sanya,sikunda,
++,slow,man,lento,dhima,bati,medliniy,
++,maybe,yeci,kisa,cayad,yimkin,mojidbit,
