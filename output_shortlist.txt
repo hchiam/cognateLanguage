@@ -390,5 +390,5 @@ indonhervyaypraj,exercise,indon,ehersisyo,vyayam,tamrin,uprajn,t
 famindaq,minute,fandjon,minuto,minat,daqiqa,minuta,t
 oraghantcyaws,hour,cyawca,ora,ghanta,sa,tcas,t
 segsamyaw,second,myawdjon,segundo,sekand,sanya,sikunda,t
-lemandhimbat,slow,man,lento,dhima,bati,medliniy,
-myecayimkis,maybe,yeci,kisa,cayad,yimkin,mojidbit,
+lemandhimbat,slow,man,lento,dhima,bati,medliniy,d
+myecayimkis,maybe,yeci,kisa,cayad,yimkin,mojidbit,d
