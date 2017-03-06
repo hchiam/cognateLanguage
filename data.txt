@@ -394,5 +394,5 @@
 +,slow,man,lento,dhima,bati,medliniy,
 +,maybe,yeci,kisa,cayad,yimkin,mojidbit,
 +,work,gondzwo,trabaha,kam,ictagal,rabota,
-+,function,yincin,funksyona,tcal,amila,rabota,
++,function,incin,funksyona,tcal,amila,rabota,
 +,rule,gwedza,regla,radj,qanun,pravila,

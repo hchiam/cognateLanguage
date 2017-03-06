@@ -393,5 +393,5 @@ segsamyaw,second,myawdjon,segundo,sekand,sanya,sikunda,t
 lemandhimbat,slow,man,lento,dhima,bati,medliniy,d
 myecayimkis,maybe,yeci,kisa,cayad,yimkin,mojidbit,d
 trabctagon,work,gondzwo,trabaha,kam,ictagal,rabota,a
-yinilabfuntcal,function,yincin,funksyona,tcal,amila,rabota,a
+funcinilabtcal,function,incin,funksyona,tcal,amila,rabota,a
 regredqanprav,rule,gwedza,regla,radj,qanun,pravila,t
