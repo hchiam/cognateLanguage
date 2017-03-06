@@ -395,3 +395,5 @@ myecayimkis,maybe,yeci,kisa,cayad,yimkin,mojidbit,d
 trabctagon,work,gondzwo,trabaha,kam,ictagal,rabota,a
 finilabtcal,function,incin,funksyona,tcal,amila,rabota,a
 regredqanprav,rule,gwedza,regla,radj,qanun,pravila,t
+cankwercarbadel,body,canti,kwerpo,carir,badan,tela,t
+inwanglesngil,english,inwan,ingles,angrezi,ingiliziya,angliski,t

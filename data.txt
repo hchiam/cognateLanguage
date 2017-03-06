@@ -396,3 +396,5 @@
 +,work,gondzwo,trabaha,kam,ictagal,rabota,
 +,function,incin,funksyona,tcal,amila,rabota,
 +,rule,gwedza,regla,radj,qanun,pravila,
++,body,canti,kwerpo,carir,badan,tela,
++,english,inwan,ingles,angrezi,ingiliziya,angliski,
