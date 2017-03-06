@@ -393,3 +393,6 @@
 +,second,myawdjon,segundo,sekand,sanya,sikunda,
 +,slow,man,lento,dhima,bati,medliniy,
 +,maybe,yeci,kisa,cayad,yimkin,mojidbit,
++,work,gondzwo,trabaha,kam,ictagal,rabota,
++,function,yincin,funksyona,tcal,amila,rabota,
++,rule,gwedza,regla,radj,qanun,pravila,
