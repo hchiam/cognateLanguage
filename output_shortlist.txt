@@ -397,3 +397,4 @@ finilabtcal,function,incin,funksyona,tcal,amila,rabota,a
 regredqanprav,rule,gwedza,regla,radj,qanun,pravila,t
 carnkwerbadel,body,canti,kwerpo,carir,badan,tela,t
 inwangles,english,inwan,ingles,angrezi,ingiliziya,angliski,t
+lidahemitprim,example,lidza,ehemplo,udahran,mital,primer,t

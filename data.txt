@@ -398,3 +398,4 @@
 +,rule,gwedza,regla,radj,qanun,pravila,
 +,body,canti,kwerpo,carir,badan,tela,
 +,english,inwan,ingles,angrezi,ingiliziya,angliski,
++,example,lidza,ehemplo,udahran,mital,primer,
