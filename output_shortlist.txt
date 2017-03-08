@@ -398,3 +398,10 @@ regredqanprav,rule,gwedza,regla,radj,qanun,pravila,t
 carnkwerbadel,body,canti,kwerpo,carir,badan,tela,t
 inwangles,english,inwan,ingles,angrezi,ingiliziya,angliski,t
 lidahemitprim,example,lidza,ehemplo,udahran,mital,primer,t
+tadsuskahuyiv,his,tada,su,uska,hu,yivo,d
+tadsuskahayiy,her,tada,su,uska,ha,yiyo,d
+tamkasuyihum,their,tamada,su,unka,hum,yih,d
+womweshamac,our,womanda,nwestro,hamara,na,nac,d
+nidumktvoy,your,nida,tu,tumhara,ak,tvoy,d
+nimvwespkavac,yours,nimanda,vwestro,apka,ku,vac,d
+wodmirmoy,my,woda,mi,mera,i,moy,d

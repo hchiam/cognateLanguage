@@ -1873,3 +1873,19 @@ ____________________
 Tue Mar  7 17:13:47 2017
 lidahemitprim,example,lidza,ehemplo,udahran,mital,primer,
 ____________________
+____________________
+Wed Mar  8 09:42:18 2017
+tadsuskahuyiv,his,tada,su,uska,hu,yivo,
+tadsuskahayiy,her,tada,su,uska,ha,yiyo,
+tamkasuyihum,their,tamada,su,unka,hum,yih,
+____________________
+____________________
+Wed Mar  8 09:45:51 2017
+womweshamac,our,womanda,nwestro,hamara,na,nac,
+nidumktvoy,your,nida,tu,tumhara,ak,tvoy,
+nimvwespkavac,yours,nimanda,vwestro,apka,ku,vac,
+____________________
+____________________
+Wed Mar  8 09:47:19 2017
+wodmirmoy,my,woda,mi,mera,i,moy,
+____________________
