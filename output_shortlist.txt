@@ -401,7 +401,7 @@ lidahemitprim,example,lidza,ehemplo,udahran,mital,primer,t
 tadsuskahuyiv,his,tada,su,uska,hu,yivo,d
 tadsuskahayiy,her,tada,su,uska,ha,yiyo,d
 tamkasuyihum,their,tamada,su,unka,hum,yih,d
-wonwechamac,our,womanda,nwestro,hamara,na,nac,d
+wonweshamac,our,womanda,nwestro,hamara,na,nac,d
 nitumak,your,nida,tu,tumhara,ak,tvoy,d
 nimvwecapku,yours,nimanda,vwestro,apka,ku,vac,d
 wodmoyr,my,woda,mi,mera,i,moy,d
