@@ -405,3 +405,9 @@ wonweshamac,our,womanda,nwestro,hamara,na,nac,d
 nitumak,your,nida,tu,tumhara,ak,tvoy,d
 nimvwecapku,yours,nimanda,vwestro,apka,ku,vac,d
 wodmoyr,my,woda,mi,mera,i,moy,d
+vryodhorpokal,kinda,yodyen,poko,thore,qalilan,vrode,d
+kidjon,chinese,djonwan,tcino,tcini,siniya,kitayski,t
+ispan,spanish,cibanya,espanyol,spenic,isbaniya,ispanski,t
+hindi,hindi,indu,indi,hindi,hindiya,hindi,t
+arabi,arabic,alabo,arabe,arbi,arabi,arapski,t
+rus,russian,a,ruso,rusi,rusi,ruskiy,t

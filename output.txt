@@ -1889,3 +1889,11 @@ ____________________
 Wed Mar  8 09:47:19 2017
 wodmirmoy,my,woda,mi,mera,i,moy,
 ____________________
+____________________
+yodhorpokalvrod,kinda,yodyen,poko,thore,qalilan,vrode,
+kidjon,chinese,djonwan,tcino,tcini,siniya,kitayski,
+cibspan,spanish,cibanya,espanyol,spenic,isbaniya,ispanski,
+hindu,hindi,indu,indi,hindi,hindiya,hindi,
+alabrbi,arabic,alabo,arabe,arbi,arabi,arapski,
+rus,russian,a,ruso,rusi,rusi,ruskiy,
+____________________
