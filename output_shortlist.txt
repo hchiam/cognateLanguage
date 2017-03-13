@@ -262,7 +262,7 @@ bimtanbstenparvaz,refrain,bimyen,abstene,parhedj,imtana,vazdirja,a
 catirperfakho,lose,catci,perde,kho,faqada,tira,a
 bawgarakhtafder,keep,bawtca,garda,rakh,ihtafaza,derja,a
 torasamazrva,tear,sa,rasga,tor,mazaqa,rva,a
-hapremalyub,love,ay,ama,prem,hab,lyubi,
+hapremalyub,love,ay,ama,prem,hab,lyubi,a
 hanindyaghrnakir,hate,han,odya,ghrna,kirih,ninavidi,a
 djonsazaroplan,toplant,djon,planta,rop,zara,saja,a
 tcanhamsuktisil,silence,tcanmo,silensyo,hamoc,sukut,ticina,t
