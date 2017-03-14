@@ -1,5 +1,5 @@
 yunsastempot,use,yun,usa,istemal,istemal,potrebi,a
-dzaystahokanbi,be,dzay,esta,ho,kana,bi,a
+castahokanbi,be,ca,esta,ho,kana,bi,a
 hwodostalkonpa,get,hwod,konsegi,pa,istalama,dostava,a
 yawizkertcahot,want,yaw,kere,tcah,awiz,hote,a
 djidelbansan,make,djidzaw,ase,bana,sana,dela,a
