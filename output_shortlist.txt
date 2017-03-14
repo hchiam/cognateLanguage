@@ -412,3 +412,4 @@ hindi,hindi,indu,indi,hindi,hindiya,hindi,t
 arabi,arabic,alabo,arabe,arbi,arabi,arapski,t
 rus,russian,a,ruso,rusi,rusi,ruskiy,t
 hwecpuntadpires,recycle,hwecow,resikla,punartcakran,tadwiralnifayat,pirirabota,a
+yidpahsal,already,yidjin,ya,pahlehi,salafan,uje,d

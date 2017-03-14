@@ -413,3 +413,4 @@
 +,arabic,alabo,arabe,arbi,arabi,arapski,
 +,russian,a,ruso,rusi,rusi,ruskiy,
 +,recycle,hwecow,resikla,punartcakran,tadwiralnifayat,pirirabota,
++,already,yidjin,ya,pahlehi,salafan,uje,
