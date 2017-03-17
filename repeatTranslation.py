@@ -33,7 +33,7 @@ while keepGoing:
         return count
     
     # filename = 'output_shortlist.txt'
-    # data = ''
+    # data = {} # hashtable/dictionary
     # input = ''
     translation = '< Translation Not Found. >'
     
@@ -69,23 +69,21 @@ while keepGoing:
             
             translationFound = False
             
-            # search for word translation in list
-            for line in data:
-                if line != '\n' and ',' in line:
-                    if word == line.split(',')[1]:
-                        translatedWord = line.split(',')[0]
-                        shortTranslatedWord = justTwoInitSylls(translatedWord)
-                        trackLastLetterOfLastWord = shortTranslatedWord[-1]
-                        numVowelsInTranslatedWord = countVowels(translatedWord)
-                        if numVowelsInTranslatedWord == 1:
-                            shortTranslation += translatedWord
-                            trackLastLetterOfLastWord = ''
-                        elif trackLastLetterOfLastWord in 'aeiou':
-                            shortTranslation += shortTranslatedWord
-                        else:
-                            shortTranslation += shortTranslatedWord[:-1]
-                        translation += translatedWord + ' '
-                        translationFound = True
+            # search for word translation in data ("data" is a hashtable/dictionary)
+            if word in data:
+                translatedWord = data[word]
+                shortTranslatedWord = justTwoInitSylls(translatedWord)
+                trackLastLetterOfLastWord = shortTranslatedWord[-1]
+                numVowelsInTranslatedWord = countVowels(translatedWord)
+                if numVowelsInTranslatedWord == 1:
+                    shortTranslation += translatedWord
+                    trackLastLetterOfLastWord = ''
+                elif trackLastLetterOfLastWord in 'aeiou':
+                    shortTranslation += shortTranslatedWord
+                else:
+                    shortTranslation += shortTranslatedWord[:-1]
+                translation += translatedWord + ' '
+                translationFound = True
             
             # add in '?' for words not found
             if translationFound == False:
