@@ -1,7 +1,7 @@
 from dictAsFile_wrapper import *
 
 
-def getDict_fromTxt(dictFileName):
+def txt_to_dict(txtFileName):
     d = {}
     with open(dictFileName) as f:
         for line in f:
@@ -11,13 +11,13 @@ def getDict_fromTxt(dictFileName):
            d[key] = val
     return d
 
-def createHashTable_fromTxt():
+def txt_to_HT():
     txtFileName = 'output_shortlist.txt'
-    d = getDict_fromTxt(txtFileName)
+    d = txt_to_dict(txtFileName)
     outputHTName = 'hashtable.pkl'
     writeDictToFile(d,outputHTName)
 
 
 # this if statement is so that the following code only runs if this .py file is not being imported
 if __name__ == '__main__':
-    createHashTable_fromTxt()
+    txt_to_HT()
