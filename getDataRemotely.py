@@ -9,7 +9,8 @@ def run():
     # use different import based on python version number:
     if (sys.version_info > (3, 0)):
         # python 3:
-        print('python 3')
+        if __name__ == '__main__':
+            print('python 3')
         import urllib.request
         url = 'https://raw.githubusercontent.com/hchiam/cognateLanguage/master/hashtable.pkl'
         urllib.request.urlretrieve(url) # download file
@@ -21,7 +22,8 @@ def run():
         #         line = response.readline().decode('utf-8').replace('\n','')
     else: 
         # python 2:
-        print('python 2')
+        if __name__ == '__main__':
+            print('python 2')
         import urllib2
         url = 'https://raw.githubusercontent.com/hchiam/cognateLanguage/master/hashtable.pkl'
         response = urllib2.urlopen(url) # download file
