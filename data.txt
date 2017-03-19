@@ -416,3 +416,4 @@
 +,already,yidjin,ya,pahlehi,salafan,uje,
 +,week,djow,semana,saptah,esbo,nidela,
 +,weak,rwo,debil,durbal,daif,slabi,
++,room,fandjyen,kwarto,kamra,oda,komnata,

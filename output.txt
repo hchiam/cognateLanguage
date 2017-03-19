@@ -1913,3 +1913,6 @@ ____________________
 semidjowsapsbo,week,djow,semana,saptah,esbo,nidela,
 debdurwodaislab,weak,rwo,debil,durbal,daif,slabi,
 ____________________
+____________________
+fankwarkamda,room,fandjyen,kwarto,kamra,oda,komnata,
+____________________

@@ -415,3 +415,4 @@ hwecpuntadpires,recycle,hwecow,resikla,punartcakran,tadwiralnifayat,pirirabota,a
 yidpahsal,already,yidjin,ya,pahlehi,salafan,uje,d
 senidjosabo,week,djow,semana,saptah,esbo,nidela,t
 durwodabslab,weak,rwo,debil,durbal,daif,slabi,d
+fankwarkamda,room,fandjyen,kwarto,kamra,oda,komnata,t
