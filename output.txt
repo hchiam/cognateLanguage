@@ -1909,3 +1909,7 @@ ____________________
 Tue Mar 14 14:07:15 2017
 yidpahsal,already,yidjin,ya,pahlehi,salafan,uje,
 ____________________
+____________________
+semidjowsapsbo,week,djow,semana,saptah,esbo,nidela,
+debdurwodaislab,weak,rwo,debil,durbal,daif,slabi,
+____________________

@@ -414,3 +414,5 @@
 +,russian,a,ruso,rusi,rusi,ruskiy,
 +,recycle,hwecow,resikla,punartcakran,tadwiralnifayat,pirirabota,
 +,already,yidjin,ya,pahlehi,salafan,uje,
++,week,djow,semana,saptah,esbo,nidela,
++,weak,rwo,debil,durbal,daif,slabi,
