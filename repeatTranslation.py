@@ -36,6 +36,7 @@ while keepGoing:
     # data = {} # hashtable/dictionary
     # input = ''
     translation = '< Translation Not Found. >'
+    shortTranslation = '< Translation Not Found. >'
     
     if (sys.version_info > (3, 0)):
         inputData = input('Enter English word or sentence gloss to translate:\n\t')
