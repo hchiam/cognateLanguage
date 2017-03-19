@@ -1001,7 +1001,7 @@ S'patcimatwarad'
 p500
 sS'weak'
 p501
-S'debdurwodaislab'
+S'durwodabslab'
 p502
 sS'wear'
 p503
@@ -1145,7 +1145,7 @@ S'barpedudjiv'
 p572
 sS'week'
 p573
-S'semidjowsapsbo'
+S'senidjosabo'
 p574
 sS'sell'
 p575
