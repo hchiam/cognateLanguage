@@ -2,7 +2,7 @@
 
 **Short Description**:  My "coglang" or "mnemlang" project.  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)).  Technically, it's a functional conlang consisting of only vocabulary.
 
-**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run](https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run)
+**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/07c19cd0bf?outputOnly=true&runOption=run](https://trinket.io/python3/07c19cd0bf?outputOnly=true&runOption=run)
 
 **Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
