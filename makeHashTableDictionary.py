@@ -3,7 +3,7 @@ from dictAsFile_wrapper import *
 
 def txt_to_dict(txtFileName):
     d = {}
-    with open(dictFileName) as f:
+    with open(txtFileName) as f:
         for line in f:
            splitLine = line.replace('\n','').split(',')
            key = splitLine[1]
