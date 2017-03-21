@@ -1153,7 +1153,7 @@ S'barpedudjiv'
 p576
 sS'difficult'
 p577
-S'nankadifsabtrud'
+S'nankatrudifsab'
 p578
 sS'week'
 p579
