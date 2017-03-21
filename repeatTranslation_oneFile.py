@@ -88,7 +88,7 @@ while keepGoing:
             # search for word translation in list
             for line in data:
                 if line != '\n' and ',' in line:
-                    if word == line.split(',')[1]:
+                    if word == line.split(',')[1] or (word[-1] == 's' and word[:-1] == line.split(',')[1]): # (also account for plural nouns or 2nd person singular verbs)
                         translatedWord = line.split(',')[0]
                         shortTranslatedWord = justTwoInitSylls(translatedWord)
                         trackLastLetterOfLastWord = shortTranslatedWord[-1]
