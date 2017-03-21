@@ -1916,3 +1916,10 @@ ____________________
 ____________________
 fankwarkamda,room,fandjyen,kwarto,kamra,oda,komnata,
 ____________________
+____________________
+djonpormahvaj,important,djonyaw,importante,mahatvapurn,muhim,vajni,
+kahadibsunkar,box,hadza,kaha,diba,sunduq,karopka,
+____________________
+____________________
+nankadifsabtrud,difficult,nan,difisil,kathin,sab,trudni,
+____________________

@@ -416,3 +416,6 @@ yidpahsal,already,yidjin,ya,pahlehi,salafan,uje,d
 senidjosabo,week,djow,semana,saptah,esbo,nidela,t
 durwodabslab,weak,rwo,debil,durbal,daif,slabi,d
 fankwarkamda,room,fandjyen,kwarto,kamra,oda,komnata,t
+djonpormahvaj,important,djonyaw,importante,mahatvapurn,muhim,vajni,d
+kahadibsunkar,box,hadza,kaha,diba,sunduq,karopka,t
+nankadifsabtrud,difficult,nan,difisil,kathin,sab,trudni,d

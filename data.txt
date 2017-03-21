@@ -417,3 +417,6 @@
 +,week,djow,semana,saptah,esbo,nidela,
 +,weak,rwo,debil,durbal,daif,slabi,
 +,room,fandjyen,kwarto,kamra,oda,komnata,
++,important,djonyaw,importante,mahatvapurn,muhim,vajni,
++,box,hadza,kaha,diba,sunduq,karopka,
++,difficult,nan,difisil,kathin,sab,trudni,
