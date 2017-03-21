@@ -419,4 +419,4 @@ fankwarkamda,room,fandjyen,kwarto,kamra,oda,komnata,t
 djonpormahvaj,important,djonyaw,importante,mahatvapurn,muhim,vajni,d
 kahadibsunkar,box,hadza,kaha,diba,sunduq,karopka,t
 nankatrudifsab,difficult,nan,difisil,kathin,sab,trudni,d
-cyantarzaykakom,as,cyan,komo,tarah,zay,kak,c
+kakzyantar,as,cyan,komo,tarah,zay,kak,c
