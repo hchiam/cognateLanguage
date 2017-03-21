@@ -70,7 +70,7 @@ if input != "":
         # # search for word translation in list
         
         # account for plural nouns or 2nd person singular verbs
-        if word[-1] == 's' and word[:-1] in data:
+        if word not in data and word[-1] == 's' and word[:-1] in data:
             word = word[:-1]
         
         # search for word translation in data ("data" is a hashtable/dictionary)
