@@ -136,7 +136,9 @@ if input != "":
                         if translatedWord != '?':
                             shortTranslatedWord = justTwoInitSylls(translatedWord)
                             numVowelsInTranslatedWord = countVowels(translatedWord)
-                        translation += translatedWord + ' '
+                            translation += translatedWord + ' '
+                        else:
+                            translation = translation[:-1] + translatedWord + '?'
                         translationFound = True
             
             # add in '?' for words not found
