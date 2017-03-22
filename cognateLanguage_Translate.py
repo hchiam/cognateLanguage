@@ -26,6 +26,15 @@ def countVowels(word):
             count += 1
     return count
 
+def indexOfNthInstanceOfVowel(mystr,n):
+    vowels = 'aeiou'
+    count = 0
+    for i,letter in enumerate(mystr):
+        if letter in vowels:
+            count += 1
+            if count == n:
+                return i
+
 filename = 'hashtable.pkl' # 'output_shortlist.txt'
 data = {}
 input = ''
@@ -49,54 +58,95 @@ input = re.sub(' +', ' ', input)
 # print input # debug output
 
 if input != "":
-    # split input into words
-    input = input.split(' ')
     
     translation = ''
     shortTranslation = ''
     trackLastLetterOfLastWord = ''
     
-    # # get lines of file into a list
-    # with open(filename,'r') as f:
-    #     data = f.readlines()
-    
-    # get hashtable file into a dictionary
-    data = readFileToDict(filename)
-    
-    for word in input:
+    # detect English by checking if input is not one abnormally long word or has spaces (vs. CogLang sentences)
+    if (' ' not in input and len(input) < 9) or (input.find(' ') <= 14 and input.find(' ') > 0):
         
-        translationFound = False
+        # split input into words
+        input = input.split(' ')
         
-        # # search for word translation in list
+        # # get lines of file into a list
+        # with open(filename,'r') as f:
+        #     data = f.readlines()
         
-        # account for plural nouns or 2nd person singular verbs
-        if word not in data and word[-1] == 's' and word[:-1] in data:
-            word = word[:-1]
+        # get hashtable file into a dictionary
+        data = readFileToDict(filename)
         
-        # search for word translation in data ("data" is a hashtable/dictionary)
-        if word in data:
-            translatedWord = data[word]
-            shortTranslatedWord = justTwoInitSylls(translatedWord)
-            trackLastLetterOfLastWord = shortTranslatedWord[-1]
-            numVowelsInTranslatedWord = countVowels(translatedWord)
-            if numVowelsInTranslatedWord == 1:
-                shortTranslation += translatedWord
-                trackLastLetterOfLastWord = ''
-            elif trackLastLetterOfLastWord in 'aeiou':
-                shortTranslation += shortTranslatedWord
-            else:
-                shortTranslation += shortTranslatedWord[:-1]
-            translation += translatedWord + ' '
-            translationFound = True
+        for word in input:
             
-        # add in '?' for words not found
-        if translationFound == False:
-            translation += '[?]' + ' '
+            translationFound = False
+            
+            # # search for word translation in list
+            
+            # account for plural nouns or 2nd person singular verbs
+            if word not in data and word[-1] == 's' and word[:-1] in data:
+                word = word[:-1]
+            
+            # search for word translation in data ("data" is a hashtable/dictionary)
+            if word in data:
+                translatedWord = data[word]
+                shortTranslatedWord = justTwoInitSylls(translatedWord)
+                trackLastLetterOfLastWord = shortTranslatedWord[-1]
+                numVowelsInTranslatedWord = countVowels(translatedWord)
+                if numVowelsInTranslatedWord == 1:
+                    shortTranslation += translatedWord
+                    trackLastLetterOfLastWord = ''
+                elif trackLastLetterOfLastWord in 'aeiou':
+                    shortTranslation += shortTranslatedWord
+                else:
+                    shortTranslation += shortTranslatedWord[:-1]
+                translation += translatedWord + ' '
+                translationFound = True
+                
+            # add in '?' for words not found
+            if translationFound == False:
+                translation += '[?]' + ' '
+    
+    else: # otherwise CogLang sentence detected --> translate to English
+        
+        # split input into words by every 2nd vowel (and final consonant of sentence-word)
+        newInput = []
+        while len(input) > 1:
+            nextIndex = indexOfNthInstanceOfVowel(input,2)
+            if nextIndex != len(input)-2:
+                newInput.append(input[:nextIndex+1])
+            else:
+                newInput.append(input)
+            input = input[nextIndex+1:]
+        
+        # get .txt file file into a dictionary
+        filename = 'output_shortlist.txt'
+        with open(filename,'r') as f:
+            data = f.readlines()
+        data = [line.strip() for line in data]
+        
+        for word in newInput:
+            
+            translationFound = False
+            
+            # search list for reverse word translation to English
+            for line in data:
+                if line != '\n' and ',' in line:
+                    if word == line[0:len(word)]:
+                        translatedWord = line.split(',')[1]
+                        shortTranslatedWord = justTwoInitSylls(translatedWord)
+                        numVowelsInTranslatedWord = countVowels(translatedWord)
+                        translation += translatedWord + ' '
+                        translationFound = True
+            
+            # add in '?' for words not found
+            if translationFound == False:
+                translation += '[?]' + ' '
+        shortTranslation = "(N/A for English.)"
 
-    # remove final space ' '
-    translation = translation[:-1]
-    # add final letter
-    shortTranslation += trackLastLetterOfLastWord
+# remove final space ' '
+translation = translation[:-1]
+# add final letter
+shortTranslation += trackLastLetterOfLastWord
 
 print 'Long Translation:\n\t' + '"' + translation.capitalize()+'.' + '"'
 print 'Short Translation:\n\t' + shortTranslation
