@@ -107,10 +107,10 @@ while keepGoing:
             if translationFound == False:
                 translation += '[?]' + ' '
     
-        # remove final space ' '
-        translation = translation[:-1]
-        # add final letter
-        shortTranslation += trackLastLetterOfLastWord
+    # remove final space ' '
+    translation = translation[:-1]
+    # add final letter
+    shortTranslation += trackLastLetterOfLastWord
     
     print ('Long Translation:\n\t' + '"' + translation.capitalize()+'.' + '"')
     print ('Short Translation:\n\t' + shortTranslation)
