@@ -133,8 +133,9 @@ if input != "":
                 if line != '\n' and ',' in line:
                     if word == line[0:len(word)]:
                         translatedWord = line.split(',')[1]
-                        shortTranslatedWord = justTwoInitSylls(translatedWord)
-                        numVowelsInTranslatedWord = countVowels(translatedWord)
+                        if translatedWord != '?':
+                            shortTranslatedWord = justTwoInitSylls(translatedWord)
+                            numVowelsInTranslatedWord = countVowels(translatedWord)
                         translation += translatedWord + ' '
                         translationFound = True
             
