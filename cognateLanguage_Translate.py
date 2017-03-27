@@ -34,6 +34,20 @@ def indexOfNthInstanceOfVowel(mystr,n):
             count += 1
             if count == n:
                 return i
+    return None # in case cannot find
+
+def vowelGroupCount(myStr):
+    vowels = 'aeiou'
+    count = 0
+    for i,letter in enumerate(myStr):
+        if i<len(myStr)-1 and myStr[i+1] == letter:
+            continue
+        if letter in vowels:
+            count += 1
+    return count
+
+def isEven(num):
+    return num%2 == 0
 
 filename = 'hashtable.pkl' # 'output_shortlist.txt'
 data = {}
@@ -63,50 +77,15 @@ if input != "":
     shortTranslation = ''
     trackLastLetterOfLastWord = ''
     
-    # detect English by checking if input is not one abnormally long word or has spaces (vs. CogLang sentences)
-    if (' ' not in input and len(input) < 9) or (input.find(' ') <= 14 and input.find(' ') > 0):
-        
-        # split input into words
-        input = input.split(' ')
-        
-        # # get lines of file into a list
-        # with open(filename,'r') as f:
-        #     data = f.readlines()
-        
-        # get hashtable file into a dictionary
-        data = readFileToDict(filename)
-        
-        for word in input:
-            
-            translationFound = False
-            
-            # # search for word translation in list
-            
-            # account for plural nouns or 2nd person singular verbs
-            if word not in data and word[-1] == 's' and word[:-1] in data:
-                word = word[:-1]
-            
-            # search for word translation in data ("data" is a hashtable/dictionary)
-            if word in data:
-                translatedWord = data[word]
-                shortTranslatedWord = justTwoInitSylls(translatedWord)
-                trackLastLetterOfLastWord = shortTranslatedWord[-1]
-                numVowelsInTranslatedWord = countVowels(translatedWord)
-                if numVowelsInTranslatedWord == 1:
-                    shortTranslation += translatedWord
-                    trackLastLetterOfLastWord = ''
-                elif trackLastLetterOfLastWord in 'aeiou':
-                    shortTranslation += shortTranslatedWord
-                else:
-                    shortTranslation += shortTranslatedWord[:-1]
-                translation += translatedWord + ' '
-                translationFound = True
-                
-            # add in '?' for words not found
-            if translationFound == False:
-                translation += '[?]' + ' '
+    # # get lines of file into a list
+    # with open(filename,'r') as f:
+    #     data = f.readlines()
     
-    else: # otherwise CogLang sentence detected --> translate to English
+    # get hashtable file into a dictionary
+    data = readFileToDict(filename)
+    
+    # detect CogLang as input by checking if input is one abnormally long 'word' (and isn't found to be an English entry) and other indicators
+    if (' ' not in input and input not in data and len(input) >= 9 and isEven(vowelGroupCount(input))):
         
         # split input into words by every 2nd vowel (and final consonant of sentence-word)
         newInput = []
@@ -145,6 +124,41 @@ if input != "":
             if translationFound == False:
                 translation += '[?]' + ' '
         shortTranslation = "(N/A for English.)"
+        
+    else: # otherwise English sentence detected --> translate to Coglang
+        
+        # split input into words
+        input = input.split(' ')
+        
+        for word in input:
+            
+            translationFound = False
+            
+            # # search for word translation in list
+            
+            # account for plural nouns or 2nd person singular verbs
+            if word not in data and word[-1] == 's' and word[:-1] in data:
+                word = word[:-1]
+            
+            # search for word translation in data ("data" is a hashtable/dictionary)
+            if word in data:
+                translatedWord = data[word]
+                shortTranslatedWord = justTwoInitSylls(translatedWord)
+                trackLastLetterOfLastWord = shortTranslatedWord[-1]
+                numVowelsInTranslatedWord = countVowels(translatedWord)
+                if numVowelsInTranslatedWord == 1:
+                    shortTranslation += translatedWord
+                    trackLastLetterOfLastWord = ''
+                elif trackLastLetterOfLastWord in 'aeiou':
+                    shortTranslation += shortTranslatedWord
+                else:
+                    shortTranslation += shortTranslatedWord[:-1]
+                translation += translatedWord + ' '
+                translationFound = True
+                
+            # add in '?' for words not found
+            if translationFound == False:
+                translation += '[?]' + ' '
 
 # remove final space ' '
 translation = translation[:-1]
