@@ -21,7 +21,7 @@
 
 ## Example 2:
 
-Wwith longer source words:  "queue" = *"[paykatcirsafil](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)"* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
+With longer source words:  "queue" = *"[paykatcirsafil](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)"* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
 
 **Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (Only the first few letters of a source word are used because they're usually the most easily recognizable.  Different languages have different priorities/weights in terms of which letters are chosen, for highest ROI.)
 
