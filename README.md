@@ -1,6 +1,6 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
-**Short Description**:  My "coglang" or "mnemlang" project.  Possibly a "language" to help you learn multiple languages at the same time (but only [receptive vocab](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive)).  Technically, it's a functional conlang consisting of only vocabulary.
+**Short Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a conlang to compress mnemonics.  Use 1 mind palace journey instead of 5.  (Technically, this project a functional conlang consisting of only vocabulary.)
 
 **Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/e6f1b3d0e8?outputOnly=true&runOption=run](https://trinket.io/python3/e6f1b3d0e8?outputOnly=true&runOption=run)
 
