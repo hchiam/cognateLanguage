@@ -6,7 +6,9 @@
 
 **Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
-**Example 1**:  "you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"*, which is a single word that embeds these words: 
+## Example 1:
+
+"you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"*, which is a single word that embeds these words: 
  * "ni" (Chinese), 
  * "tu" (Spanish), 
  * "tum" (Hindi - more conversationally), 
@@ -17,9 +19,21 @@
 
 **Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)".  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
 
-**Example 2, with longer source words**:  "queue" = *"[paykatcirsafil](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)"* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.  **Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (Only the first few letters of a source word are used because they're usually the most easily recognizable.  Different languages have different priorities/weights in terms of which letters are chosen, for highest ROI.)
+## Example 2:
 
-**Example 3, showing more creative mnemonic**:  "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".  **Memory compression**:  8 syllables total -> 4 syllables.  5 words -> 1 word.  **Mnemonic, shortened**:  Sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)".  (This one's a near homophone too.)  **...Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
+Wwith longer source words:  "queue" = *"[paykatcirsafil](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)"* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
+
+**Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (Only the first few letters of a source word are used because they're usually the most easily recognizable.  Different languages have different priorities/weights in terms of which letters are chosen, for highest ROI.)
+
+## Example 3:
+
+Showing more creative mnemonic:  "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".
+
+**Memory compression**:  8 syllables total -> 4 syllables.  5 words -> 1 word.
+
+**Mnemonic, shortened**:  Sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)".  (This one's a near homophone too.)
+
+**...Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
 
 With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources above also makes it more enjoyable to learn the words, all while also knowing you're packaging multiple words into single words.
 
