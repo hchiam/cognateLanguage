@@ -1,422 +1,422 @@
-istemal,use
-kana,be
-istalama,get
-awiz,want
-sana,make
-loga,language
-qarib,cognate
-aw,or
-le,to
-talama,learn
-hasub,computer
-fal,do
-qadar,able
-ce,thing
-lazim,must
-rah,go
-waqt,time
-makan,place
-sadiq,friend
-ind,have
-kilma,word
-heta,piece
-leh,why
-ahlan,hi
-ilaliqa,bye
-sita,six
-saba,seven
-tamaniya,eight
-tisa,nine
-acra,ten
-sifr,zero
-ana,i
-enta,you
-howa,he
-ehna,we
-ento,youall
-homa,they
-da,this
-dawat,that
-hena,here
-henak,there
-min,who
-eh,what
-fen,where
-emta,when
-ezay,how
-mec,not
-kol,all
-ketir,many
-cowaya,some
-qolayel,few
-tani,other
-wahed,one
-etnen,two
-talata,three
-arba,four
-hamsa,five
-kebir,big
-towil,long
-wase,wide
-tehin,thick
-teqil,heavy
-sogayar,small
-qosayar,short
-dayaq,narrow
-rofaya,thin
-set,woman
-ragel,man
-ensan,human
-ayel,child
-merat,wife
-goz,husband
-om,mother
-ab,father
-hayawan,animal
-samaka,fish
-ter,bird
-kalb,dog
-qamla,louse
-hanac,snake
-duda,worm
-cagara,tree
-gaba,forest
-asaya,stick
-fakha,fruit
-bezra,seed
-waraqa,leaf
-gedr,root
-ged,bark
-zahra,flower
-negila,grass
-habl,rope
-geld,skin
-lahma,meat
-dam,blood
-adm,bone
-dehn,fat
-beda,egg
-qarn,horn
-del,tail
-rica,feather
-car,hair
-ras,head
-wedn,ear
-en,eye
-manahir,nose
-hanak,mouth
-sena,tooth
-lesan,tongue
-dafer,fingernail
-regl,foot
-regl,leg
-rokba,knee
-id,hand
-genah,wing
-batn,belly
-masarin,guts
-raqaba,neck
-dahr,back
-sedr,breast
-qalb,heart
-kebd,liver
-cereb,drink
-kal,eat
-ad,bite
-mas,suck
-taf,spit
-raga,vomit
-nafah,blow
-etnafes,breathe
-dehek,laugh
-caf,see
-seme,hear
-eref,know
-etfakar,think
-cam,smell
-haf,fear
-nam,sleep
-ac,live
-mat,die
-qatal,kill
-harab,fight
-estad,hunt
-darab,hit
-qata,cut
-caq,split
-tan,stab
-harbec,scratch
-hafar,dig
-am,swim
-tar,fly
-meci,walk
-ge,come
-nam,liedown
-qad,sit
-weqef,stand
-laf,turn
-weqe,fall
-eda,give
-mesek,hold
-asar,squeeze
-dak,rub
-gasal,wash
-masah,wipe
-cad,pull
-zaq,push
-rama,throw
-rabat,tie
-hayat,sew
-ad,count
-qal,say
-gana,sing
-leb,play
-am,float
-geri,flow
-talag,freeze
-werem,swell
-cams,sun
-qamar,moon
-negma,star
-maya,water
-matar,rain
-nahr,river
-bohera,lake
-bahr,sea
-malh,salt
-hagar,stone
-ramla,sand
-torab,dust
-ard,earth
-sehaba,cloud
-cabura,fog
-sama,sky
-hawa,wind
-talg,snow
-talg,ice
-dohan,smoke
-nar,fire
-ramad,ashes
-haraq,burn
-tariq,road
-gabal,mountain
-ahmar,red
-ahdar,green
-asfar,yellow
-abyad,white
-eswed,black
-lela,night
-yom,day
-sana,year
-dafi,warm
-bard,cold
-malyan,full
-gedid,new
-qadim,old
-tayeb,good
-wehec,bad
-mafen,rotten
-weseh,dirty
-edel,straight
-medawar,round
-hami,sharp
-telem,dull
-naem,smooth
-mablul,wet
-nacef,dry
-sah,correct
-qorayeb,near
-beid,far
-yemin,right
-cemal,left
-and,at
-fe,in
-ma,with
-we,and
-eza,if
-acan,because
-qabl,before
-bad,after
-fawq,above
-taht,below
-men,from
-,of
-laken,but
-esm,name
-heya,she
-arabiya,car
-mirhad,washroom
-adad,number
-bit,house
-bit,home
-etwalad,born
-cafa,heal
-kasara,break
-bana,build
-baka,weep
-nadaba,mourn
-raqasa,dance
-djama,gather
-anaqa,hug
-imtana,refrain
-faqada,lose
-ihtafaza,keep
-mazaqa,tear
-hab,love
-kirih,hate
-zara,toplant
-sukut,silence
-harb,war
-salam,peace
-nabat,plant
-aywa,yes
-la,no
-waraq,paper
-hatif,telephone
-caks,person
-serir,bed
-cebak,window
-raf,shelf
-maktab,desk
-yanbagi,should
-ihtadja,need
-ardiya,floor
-miraya,mirror
-baluwa,sink
-cabah,same
-cukran,thankyou
-cara,feel
-aktar,more
-aqal,less
-hawala,try
-faqat,only
-sahl,easy
-ketab,book
-muhtalif,different
-qara,read
-gayar,change
-adah,tool
-fihim,understand
-kataba,write
-dayira,circle
-bab,door
-nor,light
-sot,sound
-tarabeza,table
-muraba,square
-mutalat,triangle
-akil,food
-fadlak,please
-asif,sorry
-haba,like
-sura,fast
-ganb,beside
-qawiy,strong
-intazara,wait
-el,the
-ictara,buy
-azraq,blue
-madjmua,group
-hidum,clothes
-felus,money
-hufra,hole
-sahif,silly
-anha,finish
-rasama,draw
-tardjama,translate
-miya,hundred
-alf,thousand
-ba,sell
-idafa,add
-naqala,remove
-sura,picture
-duc,shower
-segada,carpet
-djarur,drawer
-hazana,closet
-inaharda,today
-imbarih,yesterday
-bukra,tomorrow
-caqiqa,sibling
-walid,parent
-kamera,camera
-tabaka,cook
-libis,wear
-kam,howmuch
-dilwaqti,now
-daq,taste
-lamas,touch
-mufrit,too
-kaman,also
-camal,north
-ganub,south
-carq,east
-garb,west
-amam,forward
-wara,backward
-laban,milk
-dadjadja,chicken
-qut,cat
-al,loud
-taqs,weather
-imayl,email
-intarnit,internet
-fengan,cup
-tabaq,plate
-sultaneya,bowl
-coka,fork
-malaqa,spoon
-awad,chopstick
-men,than
-tani,again
-in,thats
-al,most
-muckila,problem
-hal,solution
-sala,ask
-adjaba,answer
-li,so
-sada,help
-dakar,remember
-kursi,chair
-dol,these
-dol,those
-hal,?
-bahata,search
-sanafa,sort
-saf,queue
-barmadjiyat,software
-tamrin,exercise
-daqiqa,minute
-sa,hour
-sanya,second
-bati,slow
-yimkin,maybe
-ictagal,work
-amila,function
-qanun,rule
-badan,body
-ingiliziya,english
-mital,example
-hu,his
-ha,her
-hum,their
-na,our
-ak,your
-ku,yours
-i,my
-qalilan,kinda
-siniya,chinese
-isbaniya,spanish
-hindiya,hindi
-arabi,arabic
-rusi,russian
-tadwiralnifayat,recycle
-salafan,already
-esbo,week
-daif,weak
-oda,room
-muhim,important
-sunduq,box
-sab,difficult
-zay,as
+istemal,use (Ara)
+kana,be (Ara)
+istalama,get (Ara)
+awiz,want (Ara)
+sana,make (Ara)
+loga,language (Ara)
+qarib,cognate (Ara)
+aw,or (Ara)
+le,to (Ara)
+talama,learn (Ara)
+hasub,computer (Ara)
+fal,do (Ara)
+qadar,able (Ara)
+ce,thing (Ara)
+lazim,must (Ara)
+rah,go (Ara)
+waqt,time (Ara)
+makan,place (Ara)
+sadiq,friend (Ara)
+ind,have (Ara)
+kilma,word (Ara)
+heta,piece (Ara)
+leh,why (Ara)
+ahlan,hi (Ara)
+ilaliqa,bye (Ara)
+sita,six (Ara)
+saba,seven (Ara)
+tamaniya,eight (Ara)
+tisa,nine (Ara)
+acra,ten (Ara)
+sifr,zero (Ara)
+ana,i (Ara)
+enta,you (Ara)
+howa,he (Ara)
+ehna,we (Ara)
+ento,youall (Ara)
+homa,they (Ara)
+da,this (Ara)
+dawat,that (Ara)
+hena,here (Ara)
+henak,there (Ara)
+min,who (Ara)
+eh,what (Ara)
+fen,where (Ara)
+emta,when (Ara)
+ezay,how (Ara)
+mec,not (Ara)
+kol,all (Ara)
+ketir,many (Ara)
+cowaya,some (Ara)
+qolayel,few (Ara)
+tani,other (Ara)
+wahed,one (Ara)
+etnen,two (Ara)
+talata,three (Ara)
+arba,four (Ara)
+hamsa,five (Ara)
+kebir,big (Ara)
+towil,long (Ara)
+wase,wide (Ara)
+tehin,thick (Ara)
+teqil,heavy (Ara)
+sogayar,small (Ara)
+qosayar,short (Ara)
+dayaq,narrow (Ara)
+rofaya,thin (Ara)
+set,woman (Ara)
+ragel,man (Ara)
+ensan,human (Ara)
+ayel,child (Ara)
+merat,wife (Ara)
+goz,husband (Ara)
+om,mother (Ara)
+ab,father (Ara)
+hayawan,animal (Ara)
+samaka,fish (Ara)
+ter,bird (Ara)
+kalb,dog (Ara)
+qamla,louse (Ara)
+hanac,snake (Ara)
+duda,worm (Ara)
+cagara,tree (Ara)
+gaba,forest (Ara)
+asaya,stick (Ara)
+fakha,fruit (Ara)
+bezra,seed (Ara)
+waraqa,leaf (Ara)
+gedr,root (Ara)
+ged,bark (Ara)
+zahra,flower (Ara)
+negila,grass (Ara)
+habl,rope (Ara)
+geld,skin (Ara)
+lahma,meat (Ara)
+dam,blood (Ara)
+adm,bone (Ara)
+dehn,fat (Ara)
+beda,egg (Ara)
+qarn,horn (Ara)
+del,tail (Ara)
+rica,feather (Ara)
+car,hair (Ara)
+ras,head (Ara)
+wedn,ear (Ara)
+en,eye (Ara)
+manahir,nose (Ara)
+hanak,mouth (Ara)
+sena,tooth (Ara)
+lesan,tongue (Ara)
+dafer,fingernail (Ara)
+regl,foot (Ara)
+regl,leg (Ara)
+rokba,knee (Ara)
+id,hand (Ara)
+genah,wing (Ara)
+batn,belly (Ara)
+masarin,guts (Ara)
+raqaba,neck (Ara)
+dahr,back (Ara)
+sedr,breast (Ara)
+qalb,heart (Ara)
+kebd,liver (Ara)
+cereb,drink (Ara)
+kal,eat (Ara)
+ad,bite (Ara)
+mas,suck (Ara)
+taf,spit (Ara)
+raga,vomit (Ara)
+nafah,blow (Ara)
+etnafes,breathe (Ara)
+dehek,laugh (Ara)
+caf,see (Ara)
+seme,hear (Ara)
+eref,know (Ara)
+etfakar,think (Ara)
+cam,smell (Ara)
+haf,fear (Ara)
+nam,sleep (Ara)
+ac,live (Ara)
+mat,die (Ara)
+qatal,kill (Ara)
+harab,fight (Ara)
+estad,hunt (Ara)
+darab,hit (Ara)
+qata,cut (Ara)
+caq,split (Ara)
+tan,stab (Ara)
+harbec,scratch (Ara)
+hafar,dig (Ara)
+am,swim (Ara)
+tar,fly (Ara)
+meci,walk (Ara)
+ge,come (Ara)
+nam,liedown (Ara)
+qad,sit (Ara)
+weqef,stand (Ara)
+laf,turn (Ara)
+weqe,fall (Ara)
+eda,give (Ara)
+mesek,hold (Ara)
+asar,squeeze (Ara)
+dak,rub (Ara)
+gasal,wash (Ara)
+masah,wipe (Ara)
+cad,pull (Ara)
+zaq,push (Ara)
+rama,throw (Ara)
+rabat,tie (Ara)
+hayat,sew (Ara)
+ad,count (Ara)
+qal,say (Ara)
+gana,sing (Ara)
+leb,play (Ara)
+am,float (Ara)
+geri,flow (Ara)
+talag,freeze (Ara)
+werem,swell (Ara)
+cams,sun (Ara)
+qamar,moon (Ara)
+negma,star (Ara)
+maya,water (Ara)
+matar,rain (Ara)
+nahr,river (Ara)
+bohera,lake (Ara)
+bahr,sea (Ara)
+malh,salt (Ara)
+hagar,stone (Ara)
+ramla,sand (Ara)
+torab,dust (Ara)
+ard,earth (Ara)
+sehaba,cloud (Ara)
+cabura,fog (Ara)
+sama,sky (Ara)
+hawa,wind (Ara)
+talg,snow (Ara)
+talg,ice (Ara)
+dohan,smoke (Ara)
+nar,fire (Ara)
+ramad,ashes (Ara)
+haraq,burn (Ara)
+tariq,road (Ara)
+gabal,mountain (Ara)
+ahmar,red (Ara)
+ahdar,green (Ara)
+asfar,yellow (Ara)
+abyad,white (Ara)
+eswed,black (Ara)
+lela,night (Ara)
+yom,day (Ara)
+sana,year (Ara)
+dafi,warm (Ara)
+bard,cold (Ara)
+malyan,full (Ara)
+gedid,new (Ara)
+qadim,old (Ara)
+tayeb,good (Ara)
+wehec,bad (Ara)
+mafen,rotten (Ara)
+weseh,dirty (Ara)
+edel,straight (Ara)
+medawar,round (Ara)
+hami,sharp (Ara)
+telem,dull (Ara)
+naem,smooth (Ara)
+mablul,wet (Ara)
+nacef,dry (Ara)
+sah,correct (Ara)
+qorayeb,near (Ara)
+beid,far (Ara)
+yemin,right (Ara)
+cemal,left (Ara)
+and,at (Ara)
+fe,in (Ara)
+ma,with (Ara)
+we,and (Ara)
+eza,if (Ara)
+acan,because (Ara)
+qabl,before (Ara)
+bad,after (Ara)
+fawq,above (Ara)
+taht,below (Ara)
+men,from (Ara)
+,of (Ara)
+laken,but (Ara)
+esm,name (Ara)
+heya,she (Ara)
+arabiya,car (Ara)
+mirhad,washroom (Ara)
+adad,number (Ara)
+bit,house (Ara)
+bit,home (Ara)
+etwalad,born (Ara)
+cafa,heal (Ara)
+kasara,break (Ara)
+bana,build (Ara)
+baka,weep (Ara)
+nadaba,mourn (Ara)
+raqasa,dance (Ara)
+djama,gather (Ara)
+anaqa,hug (Ara)
+imtana,refrain (Ara)
+faqada,lose (Ara)
+ihtafaza,keep (Ara)
+mazaqa,tear (Ara)
+hab,love (Ara)
+kirih,hate (Ara)
+zara,toplant (Ara)
+sukut,silence (Ara)
+harb,war (Ara)
+salam,peace (Ara)
+nabat,plant (Ara)
+aywa,yes (Ara)
+la,no (Ara)
+waraq,paper (Ara)
+hatif,telephone (Ara)
+caks,person (Ara)
+serir,bed (Ara)
+cebak,window (Ara)
+raf,shelf (Ara)
+maktab,desk (Ara)
+yanbagi,should (Ara)
+ihtadja,need (Ara)
+ardiya,floor (Ara)
+miraya,mirror (Ara)
+baluwa,sink (Ara)
+cabah,same (Ara)
+cukran,thankyou (Ara)
+cara,feel (Ara)
+aktar,more (Ara)
+aqal,less (Ara)
+hawala,try (Ara)
+faqat,only (Ara)
+sahl,easy (Ara)
+ketab,book (Ara)
+muhtalif,different (Ara)
+qara,read (Ara)
+gayar,change (Ara)
+adah,tool (Ara)
+fihim,understand (Ara)
+kataba,write (Ara)
+dayira,circle (Ara)
+bab,door (Ara)
+nor,light (Ara)
+sot,sound (Ara)
+tarabeza,table (Ara)
+muraba,square (Ara)
+mutalat,triangle (Ara)
+akil,food (Ara)
+fadlak,please (Ara)
+asif,sorry (Ara)
+haba,like (Ara)
+sura,fast (Ara)
+ganb,beside (Ara)
+qawiy,strong (Ara)
+intazara,wait (Ara)
+el,the (Ara)
+ictara,buy (Ara)
+azraq,blue (Ara)
+madjmua,group (Ara)
+hidum,clothes (Ara)
+felus,money (Ara)
+hufra,hole (Ara)
+sahif,silly (Ara)
+anha,finish (Ara)
+rasama,draw (Ara)
+tardjama,translate (Ara)
+miya,hundred (Ara)
+alf,thousand (Ara)
+ba,sell (Ara)
+idafa,add (Ara)
+naqala,remove (Ara)
+sura,picture (Ara)
+duc,shower (Ara)
+segada,carpet (Ara)
+djarur,drawer (Ara)
+hazana,closet (Ara)
+inaharda,today (Ara)
+imbarih,yesterday (Ara)
+bukra,tomorrow (Ara)
+caqiqa,sibling (Ara)
+walid,parent (Ara)
+kamera,camera (Ara)
+tabaka,cook (Ara)
+libis,wear (Ara)
+kam,howmuch (Ara)
+dilwaqti,now (Ara)
+daq,taste (Ara)
+lamas,touch (Ara)
+mufrit,too (Ara)
+kaman,also (Ara)
+camal,north (Ara)
+ganub,south (Ara)
+carq,east (Ara)
+garb,west (Ara)
+amam,forward (Ara)
+wara,backward (Ara)
+laban,milk (Ara)
+dadjadja,chicken (Ara)
+qut,cat (Ara)
+al,loud (Ara)
+taqs,weather (Ara)
+imayl,email (Ara)
+intarnit,internet (Ara)
+fengan,cup (Ara)
+tabaq,plate (Ara)
+sultaneya,bowl (Ara)
+coka,fork (Ara)
+malaqa,spoon (Ara)
+awad,chopstick (Ara)
+men,than (Ara)
+tani,again (Ara)
+in,thats (Ara)
+al,most (Ara)
+muckila,problem (Ara)
+hal,solution (Ara)
+sala,ask (Ara)
+adjaba,answer (Ara)
+li,so (Ara)
+sada,help (Ara)
+dakar,remember (Ara)
+kursi,chair (Ara)
+dol,these (Ara)
+dol,those (Ara)
+hal,? (Ara)
+bahata,search (Ara)
+sanafa,sort (Ara)
+saf,queue (Ara)
+barmadjiyat,software (Ara)
+tamrin,exercise (Ara)
+daqiqa,minute (Ara)
+sa,hour (Ara)
+sanya,second (Ara)
+bati,slow (Ara)
+yimkin,maybe (Ara)
+ictagal,work (Ara)
+amila,function (Ara)
+qanun,rule (Ara)
+badan,body (Ara)
+ingiliziya,english (Ara)
+mital,example (Ara)
+hu,his (Ara)
+ha,her (Ara)
+hum,their (Ara)
+na,our (Ara)
+ak,your (Ara)
+ku,yours (Ara)
+i,my (Ara)
+qalilan,kinda (Ara)
+siniya,chinese (Ara)
+isbaniya,spanish (Ara)
+hindiya,hindi (Ara)
+arabi,arabic (Ara)
+rusi,russian (Ara)
+tadwiralnifayat,recycle (Ara)
+salafan,already (Ara)
+esbo,week (Ara)
+daif,weak (Ara)
+oda,room (Ara)
+muhim,important (Ara)
+sunduq,box (Ara)
+sab,difficult (Ara)
+zay,as (Ara)

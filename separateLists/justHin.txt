@@ -1,422 +1,422 @@
-istemal,use
-ho,be
-pa,get
-tcah,want
-bana,make
-bhaca,language
-atmiy,cognate
-ya,or
-ko,to
-sikh,learn
-sanganak,computer
-kar,do
-sak,able
-tciz,thing
-par,must
-dja,go
-samay,time
-djagah,place
-mitra,friend
-pas,have
-cabd,word
-tukra,piece
-kyo,why
-namaste,hi
-alvida,bye
-tcheh,six
-sat,seven
-ath,eight
-no,nine
-das,ten
-cunya,zero
-me,i
-tum,you
-vah,he
-ham,we
-ap,youall
-ve,they
-yah,this
-vah,that
-yaha,here
-vaha,there
-kon,who
-kya,what
-kaha,where
-kab,when
-kesa,how
-nahi,not
-sab,all
-bahut,many
-kutc,some
-thora,few
-dusra,other
-ek,one
-do,two
-tin,three
-tcar,four
-patc,five
-bara,big
-lamba,long
-tcora,wide
-mota,thick
-bhari,heavy
-tchota,small
-nata,short
-tang,narrow
-patla,thin
-orat,woman
-admi,man
-vyakti,human
-batca,child
-patni,wife
-pati,husband
-ma,mother
-pita,father
-djanvar,animal
-matchli,fish
-tciriya,bird
-kuta,dog
-dju,louse
-sap,snake
-kira,worm
-per,tree
-djangal,forest
-dandal,stick
-phal,fruit
-bidj,seed
-pata,leaf
-djar,root
-tchal,bark
-phul,flower
-ghas,grass
-rasi,rope
-tvatca,skin
-mas,meat
-hun,blood
-hadi,bone
-tcarbi,fat
-anda,egg
-sig,horn
-putch,tail
-pankh,feather
-bal,hair
-sar,head
-kan,ear
-akh,eye
-nak,nose
-muh,mouth
-dat,tooth
-djibh,tongue
-nahun,fingernail
-per,foot
-tang,leg
-ghutna,knee
-hath,hand
-pakh,wing
-pet,belly
-antari,guts
-gardan,neck
-pith,back
-tchati,breast
-dil,heart
-yakrt,liver
-pi,drink
-kha,eat
-kat,bite
-tcus,suck
-thuk,spit
-ulti,vomit
-phuk,blow
-sas,breathe
-has,laugh
-dekh,see
-sun,hear
-djan,know
-sotc,think
-sugh,smell
-dar,fear
-so,sleep
-dji,live
-mar,die
-mar,kill
-lar,fight
-cikar,hunt
-mar,hit
-kat,cut
-bant,split
-bhonk,stab
-kharotc,scratch
-khod,dig
-ter,swim
-ur,fly
-tcal,walk
-a,come
-let,liedown
-beth,sit
-khara,stand
-mur,turn
-gir,fall
-de,give
-pakar,hold
-ghusa,squeeze
-mal,rub
-dho,wash
-pontch,wipe
-khitc,pull
-dhaka,push
-phenk,throw
-badh,tie
-si,sew
-gin,count
-kah,say
-ga,sing
-khel,play
-ter,float
-bah,flow
-djam,freeze
-sudj,swell
-suradj,sun
-tcad,moon
-tara,star
-pani,water
-baris,rain
-nadi,river
-djhil,lake
-samandar,sea
-namak,salt
-pathar,stone
-ret,sand
-dhul,dust
-dharti,earth
-badal,cloud
-dhundh,fog
-asman,sky
-hava,wind
-barf,snow
-barf,ice
-dhua,smoke
-ag,fire
-rakh,ashes
-djal,burn
-sarak,road
-pahar,mountain
-lal,red
-hara,green
-pila,yellow
-safed,white
-kala,black
-rat,night
-din,day
-sal,year
-garm,warm
-thanda,cold
-pura,full
-naya,new
-purana,old
-atcha,good
-bura,bad
-sara,rotten
-ganda,dirty
-sidha,straight
-gol,round
-tikha,sharp
-kund,dull
-tcikna,smooth
-gila,wet
-sukha,dry
-sahi,correct
-nazdik,near
-dur,far
-dahina,right
-baya,left
-pe,at
-me,in
-sath,with
-or,and
-agar,if
-kyonki,because
-pahle,before
-bad,after
-upar,above
-nitce,below
-se,from
-ka,of
-lekin,but
-nam,name
-vah,she
-gari,car
-cotcalay,washroom
-sankhya,number
-ghar,house
-ghar,home
-djanma,born
-tcanga,heal
-tut,break
-bana,build
-ro,weep
-ro,mourn
-natc,dance
-ikatha,gather
-alingan,hug
-parhedj,refrain
-kho,lose
-rakh,keep
-tor,tear
-prem,love
-ghrna,hate
-rop,toplant
-hamoc,silence
-yudh,war
-canti,peace
-podha,plant
-ha,yes
-nahi,no
-kagaz,paper
-durbhas,telephone
-vyakti,person
-palang,bed
-khirki,window
-takhta,shelf
-desk,desk
-tcahie,should
-zarurat,need
-farc,floor
-darpan,mirror
-sink,sink
-vahi,same
-dhanyavad,thankyou
-masus,feel
-djyada,more
-kam,less
-kocic,try
-sirf,only
-asan,easy
-pustak,book
-alag,different
-parh,read
-badal,change
-upakran,tool
-samadjh,understand
-likh,write
-tcakra,circle
-darvaza,door
-prakac,light
-avaz,sound
-mez,table
-varg,square
-trikon,triangle
-khana,food
-krpya,please
-maf,sorry
-pasand,like
-djaldi,fast
-bagal,beside
-madjabut,strong
-intazar,wait
-,the
-harid,buy
-nila,blue
-samuh,group
-kapre,clothes
-pesa,money
-tched,hole
-murkh,silly
-anta,finish
-tcitrabana,draw
-anuvad,translate
-so,hundred
-hazar,thousand
-betc,sell
-djor,add
-hata,remove
-tcitra,picture
-cavar,shower
-galitca,carpet
-daraz,drawer
-kothari,closet
-adj,today
-kal,yesterday
-kal,tomorrow
-sahodar,sibling
-matapita,parent
-kemra,camera
-pakana,cook
-pahan,wear
-kitna,howmuch
-ab,now
-svad,taste
-tcu,touch
-bahut,too
-bhi,also
-utar,north
-daksin,south
-purva,east
-pactcim,west
-age,forward
-pitche,backward
-dudh,milk
-murga,chicken
-bili,cat
-djor,loud
-mosam,weather
-imel,email
-intarnet,internet
-pyala,cup
-plet,plate
-katora,bowl
-kata,fork
-tcamatc,spoon
-kata,chopstick
-se,than
-phir,again
-ki,thats
-sabse,most
-samasya,problem
-upay,solution
-putch,ask
-djavab,answer
-to,so
-madad,help
-yad,remember
-kursi,chair
-ye,these
-ve,those
-kya,?
-khodj,search
-suladjha,sort
-katar,queue
-softveyar,software
-vyayam,exercise
-minat,minute
-ghanta,hour
-sekand,second
-dhima,slow
-cayad,maybe
-kam,work
-tcal,function
-radj,rule
-carir,body
-angrezi,english
-udahran,example
-uska,his
-uska,her
-unka,their
-hamara,our
-tumhara,your
-apka,yours
-mera,my
-thore,kinda
-tcini,chinese
-spenic,spanish
-hindi,hindi
-arbi,arabic
-rusi,russian
-punartcakran,recycle
-pahlehi,already
-saptah,week
-durbal,weak
-kamra,room
-mahatvapurn,important
-diba,box
-kathin,difficult
-tarah,as
+istemal,use (Hin)
+ho,be (Hin)
+pa,get (Hin)
+tcah,want (Hin)
+bana,make (Hin)
+bhaca,language (Hin)
+atmiy,cognate (Hin)
+ya,or (Hin)
+ko,to (Hin)
+sikh,learn (Hin)
+sanganak,computer (Hin)
+kar,do (Hin)
+sak,able (Hin)
+tciz,thing (Hin)
+par,must (Hin)
+dja,go (Hin)
+samay,time (Hin)
+djagah,place (Hin)
+mitra,friend (Hin)
+pas,have (Hin)
+cabd,word (Hin)
+tukra,piece (Hin)
+kyo,why (Hin)
+namaste,hi (Hin)
+alvida,bye (Hin)
+tcheh,six (Hin)
+sat,seven (Hin)
+ath,eight (Hin)
+no,nine (Hin)
+das,ten (Hin)
+cunya,zero (Hin)
+me,i (Hin)
+tum,you (Hin)
+vah,he (Hin)
+ham,we (Hin)
+ap,youall (Hin)
+ve,they (Hin)
+yah,this (Hin)
+vah,that (Hin)
+yaha,here (Hin)
+vaha,there (Hin)
+kon,who (Hin)
+kya,what (Hin)
+kaha,where (Hin)
+kab,when (Hin)
+kesa,how (Hin)
+nahi,not (Hin)
+sab,all (Hin)
+bahut,many (Hin)
+kutc,some (Hin)
+thora,few (Hin)
+dusra,other (Hin)
+ek,one (Hin)
+do,two (Hin)
+tin,three (Hin)
+tcar,four (Hin)
+patc,five (Hin)
+bara,big (Hin)
+lamba,long (Hin)
+tcora,wide (Hin)
+mota,thick (Hin)
+bhari,heavy (Hin)
+tchota,small (Hin)
+nata,short (Hin)
+tang,narrow (Hin)
+patla,thin (Hin)
+orat,woman (Hin)
+admi,man (Hin)
+vyakti,human (Hin)
+batca,child (Hin)
+patni,wife (Hin)
+pati,husband (Hin)
+ma,mother (Hin)
+pita,father (Hin)
+djanvar,animal (Hin)
+matchli,fish (Hin)
+tciriya,bird (Hin)
+kuta,dog (Hin)
+dju,louse (Hin)
+sap,snake (Hin)
+kira,worm (Hin)
+per,tree (Hin)
+djangal,forest (Hin)
+dandal,stick (Hin)
+phal,fruit (Hin)
+bidj,seed (Hin)
+pata,leaf (Hin)
+djar,root (Hin)
+tchal,bark (Hin)
+phul,flower (Hin)
+ghas,grass (Hin)
+rasi,rope (Hin)
+tvatca,skin (Hin)
+mas,meat (Hin)
+hun,blood (Hin)
+hadi,bone (Hin)
+tcarbi,fat (Hin)
+anda,egg (Hin)
+sig,horn (Hin)
+putch,tail (Hin)
+pankh,feather (Hin)
+bal,hair (Hin)
+sar,head (Hin)
+kan,ear (Hin)
+akh,eye (Hin)
+nak,nose (Hin)
+muh,mouth (Hin)
+dat,tooth (Hin)
+djibh,tongue (Hin)
+nahun,fingernail (Hin)
+per,foot (Hin)
+tang,leg (Hin)
+ghutna,knee (Hin)
+hath,hand (Hin)
+pakh,wing (Hin)
+pet,belly (Hin)
+antari,guts (Hin)
+gardan,neck (Hin)
+pith,back (Hin)
+tchati,breast (Hin)
+dil,heart (Hin)
+yakrt,liver (Hin)
+pi,drink (Hin)
+kha,eat (Hin)
+kat,bite (Hin)
+tcus,suck (Hin)
+thuk,spit (Hin)
+ulti,vomit (Hin)
+phuk,blow (Hin)
+sas,breathe (Hin)
+has,laugh (Hin)
+dekh,see (Hin)
+sun,hear (Hin)
+djan,know (Hin)
+sotc,think (Hin)
+sugh,smell (Hin)
+dar,fear (Hin)
+so,sleep (Hin)
+dji,live (Hin)
+mar,die (Hin)
+mar,kill (Hin)
+lar,fight (Hin)
+cikar,hunt (Hin)
+mar,hit (Hin)
+kat,cut (Hin)
+bant,split (Hin)
+bhonk,stab (Hin)
+kharotc,scratch (Hin)
+khod,dig (Hin)
+ter,swim (Hin)
+ur,fly (Hin)
+tcal,walk (Hin)
+a,come (Hin)
+let,liedown (Hin)
+beth,sit (Hin)
+khara,stand (Hin)
+mur,turn (Hin)
+gir,fall (Hin)
+de,give (Hin)
+pakar,hold (Hin)
+ghusa,squeeze (Hin)
+mal,rub (Hin)
+dho,wash (Hin)
+pontch,wipe (Hin)
+khitc,pull (Hin)
+dhaka,push (Hin)
+phenk,throw (Hin)
+badh,tie (Hin)
+si,sew (Hin)
+gin,count (Hin)
+kah,say (Hin)
+ga,sing (Hin)
+khel,play (Hin)
+ter,float (Hin)
+bah,flow (Hin)
+djam,freeze (Hin)
+sudj,swell (Hin)
+suradj,sun (Hin)
+tcad,moon (Hin)
+tara,star (Hin)
+pani,water (Hin)
+baris,rain (Hin)
+nadi,river (Hin)
+djhil,lake (Hin)
+samandar,sea (Hin)
+namak,salt (Hin)
+pathar,stone (Hin)
+ret,sand (Hin)
+dhul,dust (Hin)
+dharti,earth (Hin)
+badal,cloud (Hin)
+dhundh,fog (Hin)
+asman,sky (Hin)
+hava,wind (Hin)
+barf,snow (Hin)
+barf,ice (Hin)
+dhua,smoke (Hin)
+ag,fire (Hin)
+rakh,ashes (Hin)
+djal,burn (Hin)
+sarak,road (Hin)
+pahar,mountain (Hin)
+lal,red (Hin)
+hara,green (Hin)
+pila,yellow (Hin)
+safed,white (Hin)
+kala,black (Hin)
+rat,night (Hin)
+din,day (Hin)
+sal,year (Hin)
+garm,warm (Hin)
+thanda,cold (Hin)
+pura,full (Hin)
+naya,new (Hin)
+purana,old (Hin)
+atcha,good (Hin)
+bura,bad (Hin)
+sara,rotten (Hin)
+ganda,dirty (Hin)
+sidha,straight (Hin)
+gol,round (Hin)
+tikha,sharp (Hin)
+kund,dull (Hin)
+tcikna,smooth (Hin)
+gila,wet (Hin)
+sukha,dry (Hin)
+sahi,correct (Hin)
+nazdik,near (Hin)
+dur,far (Hin)
+dahina,right (Hin)
+baya,left (Hin)
+pe,at (Hin)
+me,in (Hin)
+sath,with (Hin)
+or,and (Hin)
+agar,if (Hin)
+kyonki,because (Hin)
+pahle,before (Hin)
+bad,after (Hin)
+upar,above (Hin)
+nitce,below (Hin)
+se,from (Hin)
+ka,of (Hin)
+lekin,but (Hin)
+nam,name (Hin)
+vah,she (Hin)
+gari,car (Hin)
+cotcalay,washroom (Hin)
+sankhya,number (Hin)
+ghar,house (Hin)
+ghar,home (Hin)
+djanma,born (Hin)
+tcanga,heal (Hin)
+tut,break (Hin)
+bana,build (Hin)
+ro,weep (Hin)
+ro,mourn (Hin)
+natc,dance (Hin)
+ikatha,gather (Hin)
+alingan,hug (Hin)
+parhedj,refrain (Hin)
+kho,lose (Hin)
+rakh,keep (Hin)
+tor,tear (Hin)
+prem,love (Hin)
+ghrna,hate (Hin)
+rop,toplant (Hin)
+hamoc,silence (Hin)
+yudh,war (Hin)
+canti,peace (Hin)
+podha,plant (Hin)
+ha,yes (Hin)
+nahi,no (Hin)
+kagaz,paper (Hin)
+durbhas,telephone (Hin)
+vyakti,person (Hin)
+palang,bed (Hin)
+khirki,window (Hin)
+takhta,shelf (Hin)
+desk,desk (Hin)
+tcahie,should (Hin)
+zarurat,need (Hin)
+farc,floor (Hin)
+darpan,mirror (Hin)
+sink,sink (Hin)
+vahi,same (Hin)
+dhanyavad,thankyou (Hin)
+masus,feel (Hin)
+djyada,more (Hin)
+kam,less (Hin)
+kocic,try (Hin)
+sirf,only (Hin)
+asan,easy (Hin)
+pustak,book (Hin)
+alag,different (Hin)
+parh,read (Hin)
+badal,change (Hin)
+upakran,tool (Hin)
+samadjh,understand (Hin)
+likh,write (Hin)
+tcakra,circle (Hin)
+darvaza,door (Hin)
+prakac,light (Hin)
+avaz,sound (Hin)
+mez,table (Hin)
+varg,square (Hin)
+trikon,triangle (Hin)
+khana,food (Hin)
+krpya,please (Hin)
+maf,sorry (Hin)
+pasand,like (Hin)
+djaldi,fast (Hin)
+bagal,beside (Hin)
+madjabut,strong (Hin)
+intazar,wait (Hin)
+,the (Hin)
+harid,buy (Hin)
+nila,blue (Hin)
+samuh,group (Hin)
+kapre,clothes (Hin)
+pesa,money (Hin)
+tched,hole (Hin)
+murkh,silly (Hin)
+anta,finish (Hin)
+tcitrabana,draw (Hin)
+anuvad,translate (Hin)
+so,hundred (Hin)
+hazar,thousand (Hin)
+betc,sell (Hin)
+djor,add (Hin)
+hata,remove (Hin)
+tcitra,picture (Hin)
+cavar,shower (Hin)
+galitca,carpet (Hin)
+daraz,drawer (Hin)
+kothari,closet (Hin)
+adj,today (Hin)
+kal,yesterday (Hin)
+kal,tomorrow (Hin)
+sahodar,sibling (Hin)
+matapita,parent (Hin)
+kemra,camera (Hin)
+pakana,cook (Hin)
+pahan,wear (Hin)
+kitna,howmuch (Hin)
+ab,now (Hin)
+svad,taste (Hin)
+tcu,touch (Hin)
+bahut,too (Hin)
+bhi,also (Hin)
+utar,north (Hin)
+daksin,south (Hin)
+purva,east (Hin)
+pactcim,west (Hin)
+age,forward (Hin)
+pitche,backward (Hin)
+dudh,milk (Hin)
+murga,chicken (Hin)
+bili,cat (Hin)
+djor,loud (Hin)
+mosam,weather (Hin)
+imel,email (Hin)
+intarnet,internet (Hin)
+pyala,cup (Hin)
+plet,plate (Hin)
+katora,bowl (Hin)
+kata,fork (Hin)
+tcamatc,spoon (Hin)
+kata,chopstick (Hin)
+se,than (Hin)
+phir,again (Hin)
+ki,thats (Hin)
+sabse,most (Hin)
+samasya,problem (Hin)
+upay,solution (Hin)
+putch,ask (Hin)
+djavab,answer (Hin)
+to,so (Hin)
+madad,help (Hin)
+yad,remember (Hin)
+kursi,chair (Hin)
+ye,these (Hin)
+ve,those (Hin)
+kya,? (Hin)
+khodj,search (Hin)
+suladjha,sort (Hin)
+katar,queue (Hin)
+softveyar,software (Hin)
+vyayam,exercise (Hin)
+minat,minute (Hin)
+ghanta,hour (Hin)
+sekand,second (Hin)
+dhima,slow (Hin)
+cayad,maybe (Hin)
+kam,work (Hin)
+tcal,function (Hin)
+radj,rule (Hin)
+carir,body (Hin)
+angrezi,english (Hin)
+udahran,example (Hin)
+uska,his (Hin)
+uska,her (Hin)
+unka,their (Hin)
+hamara,our (Hin)
+tumhara,your (Hin)
+apka,yours (Hin)
+mera,my (Hin)
+thore,kinda (Hin)
+tcini,chinese (Hin)
+spenic,spanish (Hin)
+hindi,hindi (Hin)
+arbi,arabic (Hin)
+rusi,russian (Hin)
+punartcakran,recycle (Hin)
+pahlehi,already (Hin)
+saptah,week (Hin)
+durbal,weak (Hin)
+kamra,room (Hin)
+mahatvapurn,important (Hin)
+diba,box (Hin)
+kathin,difficult (Hin)
+tarah,as (Hin)

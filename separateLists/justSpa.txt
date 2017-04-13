@@ -1,422 +1,422 @@
-usa,use
-esta,be
-konsegi,get
-kere,want
-ase,make
-lengwa,language
-kognado,cognate
-o,or
-a,to
-aprende,learn
-komputador,computer
-ase,do
-pode,able
-kosa,thing
-debe,must
-va,go
-tyempo,time
-lugar,place
-amigo,friend
-tene,have
-palabra,word
-pedazo,piece
-porke,why
-ola,hi
-adyos,bye
-seis,six
-syete,seven
-otco,eight
-nweve,nine
-dyes,ten
-sero,zero
-yo,i
-tu,you
-el,he
-nosotros,we
-vosotros,youall
-eyos,they
-este,this
-ese,that
-aki,here
-ai,there
-kyen,who
-ke,what
-donde,where
-kwando,when
-komo,how
-no,not
-todo,all
-mutcos,many
-algunos,some
-poko,few
-otro,other
-uno,one
-dos,two
-tres,three
-kwatro,four
-sinko,five
-grande,big
-largo,long
-antco,wide
-grweso,thick
-pesado,heavy
-pekenyo,small
-korto,short
-estretco,narrow
-delgado,thin
-muher,woman
-ombre,man
-ombre,human
-ninyo,child
-muher,wife
-marido,husband
-madre,mother
-padre,father
-animal,animal
-pez,fish
-paharo,bird
-pero,dog
-pyoho,louse
-serpyente,snake
-gusano,worm
-arbol,tree
-boske,forest
-palo,stick
-fruta,fruit
-semiya,seed
-oha,leaf
-rais,root
-kortesa,bark
-flor,flower
-herba,grass
-kwerda,rope
-pyel,skin
-karne,meat
-sangre,blood
-weso,bone
-grasa,fat
-wevo,egg
-kwerno,horn
-kola,tail
-pluma,feather
-kabeyo,hair
-kabesa,head
-oreha,ear
-oho,eye
-naris,nose
-boka,mouth
-dyente,tooth
-lengwa,tongue
-unya,fingernail
-pye,foot
-pyerna,leg
-rodiya,knee
-mano,hand
-ala,wing
-bariga,belly
-tripas,guts
-kweyo,neck
-espalda,back
-petco,breast
-korason,heart
-igado,liver
-bebe,drink
-kome,eat
-morde,bite
-tcupa,suck
-eskupi,spit
-vomita,vomit
-sopla,blow
-respira,breathe
-rei,laugh
-ve,see
-oy,hear
-sabe,know
-pensa,think
-ole,smell
-teme,fear
-dormi,sleep
-vivi,live
-mori,die
-mata,kill
-pelea,fight
-kaza,hunt
-golpea,hit
-korta,cut
-parti,split
-apunyala,stab
-raska,scratch
-kava,dig
-nada,swim
-bola,fly
-kamina,walk
-veni,come
-yase,liedown
-senta,sit
-levanta,stand
-hira,turn
-kae,fall
-da,give
-tene,hold
-apreta,squeeze
-frota,rub
-lava,wash
-limpya,wipe
-hala,pull
-empuha,push
-tira,throw
-ata,tie
-kose,sew
-konta,count
-desi,say
-kanta,sing
-huga,play
-flota,float
-flui,flow
-ela,freeze
-intca,swell
-sol,sun
-luna,moon
-estreya,star
-agwa,water
-yuvya,rain
-rio,river
-lago,lake
-mar,sea
-sal,salt
-pyedra,stone
-arena,sand
-polvo,dust
-tyera,earth
-nube,cloud
-nyebla,fog
-syelo,sky
-vyento,wind
-nyebe,snow
-yelo,ice
-umo,smoke
-fwego,fire
-senisas,ashes
-kema,burn
-kamino,road
-montanya,mountain
-roho,red
-verde,green
-amariyo,yellow
-blanko,white
-negro,black
-notce,night
-dia,day
-anyo,year
-kalido,warm
-frio,cold
-yeno,full
-nwevo,new
-vyeho,old
-bweno,good
-malo,bad
-podrido,rotten
-susyo,dirty
-rekto,straight
-redondo,round
-agudo,sharp
-embotado,dull
-liso,smooth
-mohado,wet
-seko,dry
-korekto,correct
-serka,near
-lehos,far
-deretca,right
-iskyerda,left
-a,at
-en,in
-kon,with
-i,and
-si,if
-porke,because
-antes,before
-despwes,after
-ensima,above
-baho,below
-de,from
-de,of
-pero,but
-nombre,name
-eya,she
-kotce,car
-banyo,washroom
-numero,number
-kasa,house
-ogar,home
-nase,born
-kura,heal
-rompe,break
-konstrui,build
-yora,weep
-lamenta,mourn
-bayla,dance
-hunta,gather
-abrasa,hug
-abstene,refrain
-perde,lose
-garda,keep
-rasga,tear
-ama,love
-odya,hate
-planta,toplant
-silensyo,silence
-gera,war
-pas,peace
-planta,plant
-si,yes
-no,no
-papel,paper
-telefono,telephone
-persona,person
-kama,bed
-ventana,window
-estanteria,shelf
-eskritorio,desk
-deberia,should
-nesesita,need
-piso,floor
-espeho,mirror
-fregadero,sink
-mizmo,same
-grasyas,thankyou
-senti,feel
-mas,more
-menos,less
-trata,try
-solo,only
-fasil,easy
-libro,book
-diferente,different
-le,read
-kambya,change
-eramyenta,tool
-entende,understand
-eskribi,write
-sirculo,circle
-pwerta,door
-lus,light
-sonido,sound
-mesa,table
-kwadro,square
-triangulo,triangle
-komida,food
-favor,please
-losyento,sorry
-gusta,like
-rapidamente,fast
-lado,beside
-fwerte,strong
-espera,wait
-lo,the
-kompra,buy
-asul,blue
-grupo,group
-ropa,clothes
-dinero,money
-oyo,hole
-ninyito,silly
-termina,finish
-dibuha,draw
-tradusi,translate
-syento,hundred
-mil,thousand
-bende,sell
-anyadi,add
-kita,remove
-imahen,picture
-dutca,shower
-alfombra,carpet
-kahon,drawer
-armaryo,closet
-oy,today
-ayer,yesterday
-manyana,tomorrow
-ermano,sibling
-padre,parent
-kamara,camera
-kosina,cook
-yeva,wear
-kwanto,howmuch
-aora,now
-gusta,taste
-toka,touch
-demasyado,too
-tambyen,also
-norte,north
-sur,south
-este,east
-oeste,west
-adelante,forward
-atras,backward
-letce,milk
-poyo,chicken
-gato,cat
-fwerte,loud
-tyempo,weather
-koreo,email
-internet,internet
-tasa,cup
-plato,plate
-bol,bowl
-tenedor,fork
-kutcara,spoon
-paliyo,chopstick
-ke,than
-denwevo,again
-ke,thats
-mas,most
-problema,problem
-solusyon,solution
-pregunta,ask
-responde,answer
-asike,so
-ayuda,help
-rekwerda,remember
-siya,chair
-estos,these
-esos,those
-berdad,?
-buska,search
-ordena,sort
-fila,queue
-softwer,software
-ehersisyo,exercise
-minuto,minute
-ora,hour
-segundo,second
-lento,slow
-kisa,maybe
-trabaha,work
-funksyona,function
-regla,rule
-kwerpo,body
-ingles,english
-ehemplo,example
-su,his
-su,her
-su,their
-nwestro,our
-tu,your
-vwestro,yours
-mi,my
-poko,kinda
-tcino,chinese
-espanyol,spanish
-indi,hindi
-arabe,arabic
-ruso,russian
-resikla,recycle
-ya,already
-semana,week
-debil,weak
-kwarto,room
-importante,important
-kaha,box
-difisil,difficult
-komo,as
+usa,use (Spa)
+esta,be (Spa)
+konsegi,get (Spa)
+kere,want (Spa)
+ase,make (Spa)
+lengwa,language (Spa)
+kognado,cognate (Spa)
+o,or (Spa)
+a,to (Spa)
+aprende,learn (Spa)
+komputador,computer (Spa)
+ase,do (Spa)
+pode,able (Spa)
+kosa,thing (Spa)
+debe,must (Spa)
+va,go (Spa)
+tyempo,time (Spa)
+lugar,place (Spa)
+amigo,friend (Spa)
+tene,have (Spa)
+palabra,word (Spa)
+pedazo,piece (Spa)
+porke,why (Spa)
+ola,hi (Spa)
+adyos,bye (Spa)
+seis,six (Spa)
+syete,seven (Spa)
+otco,eight (Spa)
+nweve,nine (Spa)
+dyes,ten (Spa)
+sero,zero (Spa)
+yo,i (Spa)
+tu,you (Spa)
+el,he (Spa)
+nosotros,we (Spa)
+vosotros,youall (Spa)
+eyos,they (Spa)
+este,this (Spa)
+ese,that (Spa)
+aki,here (Spa)
+ai,there (Spa)
+kyen,who (Spa)
+ke,what (Spa)
+donde,where (Spa)
+kwando,when (Spa)
+komo,how (Spa)
+no,not (Spa)
+todo,all (Spa)
+mutcos,many (Spa)
+algunos,some (Spa)
+poko,few (Spa)
+otro,other (Spa)
+uno,one (Spa)
+dos,two (Spa)
+tres,three (Spa)
+kwatro,four (Spa)
+sinko,five (Spa)
+grande,big (Spa)
+largo,long (Spa)
+antco,wide (Spa)
+grweso,thick (Spa)
+pesado,heavy (Spa)
+pekenyo,small (Spa)
+korto,short (Spa)
+estretco,narrow (Spa)
+delgado,thin (Spa)
+muher,woman (Spa)
+ombre,man (Spa)
+ombre,human (Spa)
+ninyo,child (Spa)
+muher,wife (Spa)
+marido,husband (Spa)
+madre,mother (Spa)
+padre,father (Spa)
+animal,animal (Spa)
+pez,fish (Spa)
+paharo,bird (Spa)
+pero,dog (Spa)
+pyoho,louse (Spa)
+serpyente,snake (Spa)
+gusano,worm (Spa)
+arbol,tree (Spa)
+boske,forest (Spa)
+palo,stick (Spa)
+fruta,fruit (Spa)
+semiya,seed (Spa)
+oha,leaf (Spa)
+rais,root (Spa)
+kortesa,bark (Spa)
+flor,flower (Spa)
+herba,grass (Spa)
+kwerda,rope (Spa)
+pyel,skin (Spa)
+karne,meat (Spa)
+sangre,blood (Spa)
+weso,bone (Spa)
+grasa,fat (Spa)
+wevo,egg (Spa)
+kwerno,horn (Spa)
+kola,tail (Spa)
+pluma,feather (Spa)
+kabeyo,hair (Spa)
+kabesa,head (Spa)
+oreha,ear (Spa)
+oho,eye (Spa)
+naris,nose (Spa)
+boka,mouth (Spa)
+dyente,tooth (Spa)
+lengwa,tongue (Spa)
+unya,fingernail (Spa)
+pye,foot (Spa)
+pyerna,leg (Spa)
+rodiya,knee (Spa)
+mano,hand (Spa)
+ala,wing (Spa)
+bariga,belly (Spa)
+tripas,guts (Spa)
+kweyo,neck (Spa)
+espalda,back (Spa)
+petco,breast (Spa)
+korason,heart (Spa)
+igado,liver (Spa)
+bebe,drink (Spa)
+kome,eat (Spa)
+morde,bite (Spa)
+tcupa,suck (Spa)
+eskupi,spit (Spa)
+vomita,vomit (Spa)
+sopla,blow (Spa)
+respira,breathe (Spa)
+rei,laugh (Spa)
+ve,see (Spa)
+oy,hear (Spa)
+sabe,know (Spa)
+pensa,think (Spa)
+ole,smell (Spa)
+teme,fear (Spa)
+dormi,sleep (Spa)
+vivi,live (Spa)
+mori,die (Spa)
+mata,kill (Spa)
+pelea,fight (Spa)
+kaza,hunt (Spa)
+golpea,hit (Spa)
+korta,cut (Spa)
+parti,split (Spa)
+apunyala,stab (Spa)
+raska,scratch (Spa)
+kava,dig (Spa)
+nada,swim (Spa)
+bola,fly (Spa)
+kamina,walk (Spa)
+veni,come (Spa)
+yase,liedown (Spa)
+senta,sit (Spa)
+levanta,stand (Spa)
+hira,turn (Spa)
+kae,fall (Spa)
+da,give (Spa)
+tene,hold (Spa)
+apreta,squeeze (Spa)
+frota,rub (Spa)
+lava,wash (Spa)
+limpya,wipe (Spa)
+hala,pull (Spa)
+empuha,push (Spa)
+tira,throw (Spa)
+ata,tie (Spa)
+kose,sew (Spa)
+konta,count (Spa)
+desi,say (Spa)
+kanta,sing (Spa)
+huga,play (Spa)
+flota,float (Spa)
+flui,flow (Spa)
+ela,freeze (Spa)
+intca,swell (Spa)
+sol,sun (Spa)
+luna,moon (Spa)
+estreya,star (Spa)
+agwa,water (Spa)
+yuvya,rain (Spa)
+rio,river (Spa)
+lago,lake (Spa)
+mar,sea (Spa)
+sal,salt (Spa)
+pyedra,stone (Spa)
+arena,sand (Spa)
+polvo,dust (Spa)
+tyera,earth (Spa)
+nube,cloud (Spa)
+nyebla,fog (Spa)
+syelo,sky (Spa)
+vyento,wind (Spa)
+nyebe,snow (Spa)
+yelo,ice (Spa)
+umo,smoke (Spa)
+fwego,fire (Spa)
+senisas,ashes (Spa)
+kema,burn (Spa)
+kamino,road (Spa)
+montanya,mountain (Spa)
+roho,red (Spa)
+verde,green (Spa)
+amariyo,yellow (Spa)
+blanko,white (Spa)
+negro,black (Spa)
+notce,night (Spa)
+dia,day (Spa)
+anyo,year (Spa)
+kalido,warm (Spa)
+frio,cold (Spa)
+yeno,full (Spa)
+nwevo,new (Spa)
+vyeho,old (Spa)
+bweno,good (Spa)
+malo,bad (Spa)
+podrido,rotten (Spa)
+susyo,dirty (Spa)
+rekto,straight (Spa)
+redondo,round (Spa)
+agudo,sharp (Spa)
+embotado,dull (Spa)
+liso,smooth (Spa)
+mohado,wet (Spa)
+seko,dry (Spa)
+korekto,correct (Spa)
+serka,near (Spa)
+lehos,far (Spa)
+deretca,right (Spa)
+iskyerda,left (Spa)
+a,at (Spa)
+en,in (Spa)
+kon,with (Spa)
+i,and (Spa)
+si,if (Spa)
+porke,because (Spa)
+antes,before (Spa)
+despwes,after (Spa)
+ensima,above (Spa)
+baho,below (Spa)
+de,from (Spa)
+de,of (Spa)
+pero,but (Spa)
+nombre,name (Spa)
+eya,she (Spa)
+kotce,car (Spa)
+banyo,washroom (Spa)
+numero,number (Spa)
+kasa,house (Spa)
+ogar,home (Spa)
+nase,born (Spa)
+kura,heal (Spa)
+rompe,break (Spa)
+konstrui,build (Spa)
+yora,weep (Spa)
+lamenta,mourn (Spa)
+bayla,dance (Spa)
+hunta,gather (Spa)
+abrasa,hug (Spa)
+abstene,refrain (Spa)
+perde,lose (Spa)
+garda,keep (Spa)
+rasga,tear (Spa)
+ama,love (Spa)
+odya,hate (Spa)
+planta,toplant (Spa)
+silensyo,silence (Spa)
+gera,war (Spa)
+pas,peace (Spa)
+planta,plant (Spa)
+si,yes (Spa)
+no,no (Spa)
+papel,paper (Spa)
+telefono,telephone (Spa)
+persona,person (Spa)
+kama,bed (Spa)
+ventana,window (Spa)
+estanteria,shelf (Spa)
+eskritorio,desk (Spa)
+deberia,should (Spa)
+nesesita,need (Spa)
+piso,floor (Spa)
+espeho,mirror (Spa)
+fregadero,sink (Spa)
+mizmo,same (Spa)
+grasyas,thankyou (Spa)
+senti,feel (Spa)
+mas,more (Spa)
+menos,less (Spa)
+trata,try (Spa)
+solo,only (Spa)
+fasil,easy (Spa)
+libro,book (Spa)
+diferente,different (Spa)
+le,read (Spa)
+kambya,change (Spa)
+eramyenta,tool (Spa)
+entende,understand (Spa)
+eskribi,write (Spa)
+sirculo,circle (Spa)
+pwerta,door (Spa)
+lus,light (Spa)
+sonido,sound (Spa)
+mesa,table (Spa)
+kwadro,square (Spa)
+triangulo,triangle (Spa)
+komida,food (Spa)
+favor,please (Spa)
+losyento,sorry (Spa)
+gusta,like (Spa)
+rapidamente,fast (Spa)
+lado,beside (Spa)
+fwerte,strong (Spa)
+espera,wait (Spa)
+lo,the (Spa)
+kompra,buy (Spa)
+asul,blue (Spa)
+grupo,group (Spa)
+ropa,clothes (Spa)
+dinero,money (Spa)
+oyo,hole (Spa)
+ninyito,silly (Spa)
+termina,finish (Spa)
+dibuha,draw (Spa)
+tradusi,translate (Spa)
+syento,hundred (Spa)
+mil,thousand (Spa)
+bende,sell (Spa)
+anyadi,add (Spa)
+kita,remove (Spa)
+imahen,picture (Spa)
+dutca,shower (Spa)
+alfombra,carpet (Spa)
+kahon,drawer (Spa)
+armaryo,closet (Spa)
+oy,today (Spa)
+ayer,yesterday (Spa)
+manyana,tomorrow (Spa)
+ermano,sibling (Spa)
+padre,parent (Spa)
+kamara,camera (Spa)
+kosina,cook (Spa)
+yeva,wear (Spa)
+kwanto,howmuch (Spa)
+aora,now (Spa)
+gusta,taste (Spa)
+toka,touch (Spa)
+demasyado,too (Spa)
+tambyen,also (Spa)
+norte,north (Spa)
+sur,south (Spa)
+este,east (Spa)
+oeste,west (Spa)
+adelante,forward (Spa)
+atras,backward (Spa)
+letce,milk (Spa)
+poyo,chicken (Spa)
+gato,cat (Spa)
+fwerte,loud (Spa)
+tyempo,weather (Spa)
+koreo,email (Spa)
+internet,internet (Spa)
+tasa,cup (Spa)
+plato,plate (Spa)
+bol,bowl (Spa)
+tenedor,fork (Spa)
+kutcara,spoon (Spa)
+paliyo,chopstick (Spa)
+ke,than (Spa)
+denwevo,again (Spa)
+ke,thats (Spa)
+mas,most (Spa)
+problema,problem (Spa)
+solusyon,solution (Spa)
+pregunta,ask (Spa)
+responde,answer (Spa)
+asike,so (Spa)
+ayuda,help (Spa)
+rekwerda,remember (Spa)
+siya,chair (Spa)
+estos,these (Spa)
+esos,those (Spa)
+berdad,? (Spa)
+buska,search (Spa)
+ordena,sort (Spa)
+fila,queue (Spa)
+softwer,software (Spa)
+ehersisyo,exercise (Spa)
+minuto,minute (Spa)
+ora,hour (Spa)
+segundo,second (Spa)
+lento,slow (Spa)
+kisa,maybe (Spa)
+trabaha,work (Spa)
+funksyona,function (Spa)
+regla,rule (Spa)
+kwerpo,body (Spa)
+ingles,english (Spa)
+ehemplo,example (Spa)
+su,his (Spa)
+su,her (Spa)
+su,their (Spa)
+nwestro,our (Spa)
+tu,your (Spa)
+vwestro,yours (Spa)
+mi,my (Spa)
+poko,kinda (Spa)
+tcino,chinese (Spa)
+espanyol,spanish (Spa)
+indi,hindi (Spa)
+arabe,arabic (Spa)
+ruso,russian (Spa)
+resikla,recycle (Spa)
+ya,already (Spa)
+semana,week (Spa)
+debil,weak (Spa)
+kwarto,room (Spa)
+importante,important (Spa)
+kaha,box (Spa)
+difisil,difficult (Spa)
+komo,as (Spa)

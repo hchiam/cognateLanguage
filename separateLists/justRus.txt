@@ -1,422 +1,422 @@
-potrebi,use
-bi,be
-dostava,get
-hote,want
-dela,make
-yazik,language
-kognat,cognate
-ili,or
-na,to
-utci,learn
-kampyutir,computer
-dela,do
-motc,able
-vec,thing
-dolji,must
-id,go
-vremya,time
-mesta,place
-druk,friend
-ime,have
-slova,word
-kusok,piece
-patcimu,why
-privet,hi
-paka,bye
-cest,six
-sem,seven
-vosim,eight
-devit,nine
-desit,ten
-nul,zero
-ya,i
-ti,you
-on,he
-mi,we
-vi,youall
-ani,they
-eta,this
-to,that
-zdes,here
-tam,there
-kto,who
-cto,what
-gde,where
-kagda,when
-kak,how
-ne,not
-fse,all
-mnogi,many
-neskalka,some
-nimnogi,few
-drugoy,other
-adin,one
-dva,two
-tri,three
-tcitiri,four
-pyat,five
-balcoy,big
-dlini,long
-ciroki,wide
-tolsti,thick
-tijoli,heavy
-malinki,small
-karotki,short
-uski,narrow
-tonki,thin
-jencina,woman
-mucina,man
-tcilavek,human
-dita,child
-jina,wife
-muj,husband
-mama,mother
-atets,father
-jivotna,animal
-riba,fish
-ptitsa,bird
-pyos,dog
-voc,louse
-zmiya,snake
-tcerv,worm
-deriva,tree
-lyes,forest
-palka,stick
-plot,fruit
-semya,seed
-list,leaf
-korin,root
-kara,bark
-tsvitok,flower
-trava,grass
-virofka,rope
-koza,skin
-masa,meat
-krof,blood
-kost,bone
-jir,fat
-yiytso,egg
-rok,horn
-hvost,tail
-piro,feather
-volasi,hair
-galava,head
-uha,ear
-glas,eye
-nos,nose
-rot,mouth
-zup,tooth
-yizik,tongue
-nogat,fingernail
-stapa,foot
-naga,leg
-kalena,knee
-ruka,hand
-krilo,wing
-jivot,belly
-kicki,guts
-ceya,neck
-spina,back
-grut,breast
-sertsi,heart
-petcin,liver
-pit,drink
-yes,eat
-kusa,bite
-sasa,suck
-pliva,spit
-bliva,vomit
-dut,blow
-dica,breathe
-smiya,laugh
-vide,see
-slica,hear
-zna,know
-duma,think
-tcuya,smell
-baya,fear
-spa,sleep
-ji,live
-umira,die
-ubiva,kill
-baro,fight
-ahoti,hunt
-udari,hit
-rezat,cut
-razdili,split
-kalo,stab
-tsarapa,scratch
-ri,dig
-plava,swim
-lita,fly
-id,walk
-pri,come
-liza,liedown
-side,sit
-staya,stand
-vraca,turn
-pada,fall
-da,give
-dirja,hold
-ja,squeeze
-tire,rub
-mi,wash
-vitira,wipe
-tinu,pull
-pihu,push
-brasa,throw
-viza,tie
-ci,sew
-cita,count
-skaza,say
-pe,sing
-igra,play
-pli,float
-tetc,flow
-zamorznu,freeze
-puhnu,swell
-sontsa,sun
-luna,moon
-zvizda,star
-vada,water
-doct,rain
-rika,river
-ozira,lake
-mori,sea
-sol,salt
-kamin,stone
-pisok,sand
-pil,dust
-zimla,earth
-oblaka,cloud
-tuman,fog
-neba,sky
-vetir,wind
-snek,snow
-lot,ice
-dim,smoke
-agon,fire
-pepil,ashes
-jetc,burn
-put,road
-gara,mountain
-krasni,red
-ziloni,green
-jolti,yellow
-beli,white
-tcorni,black
-notc,night
-den,day
-got,year
-tyopli,warm
-halodni,cold
-polni,full
-novi,new
-stari,old
-horoci,good
-plohoy,bad
-gniloy,rotten
-grazni,dirty
-primoy,straight
-krugli,round
-ostri,sharp
-tupoy,dull
-glatki,smooth
-mokri,wet
-suhoy,dry
-pravilni,correct
-bliski,near
-dalyoki,far
-pravi,right
-levi,left
-u,at
-v,in
-s,with
-i,and
-yesli,if
-patamucta,because
-do,before
-posle,after
-nad,above
-pod,below
-iz,from
-,of
-no,but
-ima,name
-ana,she
-macina,car
-tualet,washroom
-tcislo,number
-dom,house
-dom,home
-radi,born
-litci,heal
-razbi,break
-stroi,build
-plaka,weep
-gariva,mourn
-tantsa,dance
-sobira,gather
-obnima,hug
-vazdirja,refrain
-tira,lose
-derja,keep
-rva,tear
-lyubi,love
-ninavidi,hate
-saja,toplant
-ticina,silence
-vayna,war
-mir,peace
-rasteniye,plant
-da,yes
-nyet,no
-bumaga,paper
-telefon,telephone
-tcilavek,person
-kravat,bed
-akno,window
-polka,shelf
-stolpismini,desk
-doljin,should
-nujda,need
-pol,floor
-zerkala,mirror
-umivalnik,sink
-taje,same
-spasiba,thankyou
-tcustva,feel
-bolci,more
-menci,less
-pitay,try
-tolka,only
-lyohki,easy
-kniga,book
-drugoy,different
-tcita,read
-izmini,change
-instrumyent,tool
-panima,understand
-pisa,write
-kruk,circle
-dver,door
-svet,light
-zvuk,sound
-stol,table
-kvadrat,square
-triugolnik,triangle
-yida,food
-pajalusta,please
-izvinit,sorry
-nravitsa,like
-bistra,fast
-radam,beside
-silni,strong
-jda,wait
-,the
-kupi,buy
-sini,blue
-grupa,group
-adejda,clothes
-dengi,money
-dira,hole
-glupi,silly
-kontci,finish
-risava,draw
-pirivadi,translate
-sto,hundred
-tisitca,thousand
-prada,sell
-dabavi,add
-vitci,remove
-kartina,picture
-duc,shower
-kavor,carpet
-yacik,drawer
-ckaf,closet
-sivodna,today
-ftcira,yesterday
-zaftra,tomorrow
-siblink,sibling
-raditil,parent
-kamira,camera
-gatovi,cook
-nasi,wear
-skolka,howmuch
-cas,now
-probava,taste
-troga,touch
-slickam,too
-toji,also
-sevir,north
-yuk,south
-vastok,east
-zapat,west
-fpirot,forward
-nazat,backward
-malako,milk
-kuritsa,chicken
-kot,cat
-gromki,loud
-pagoda,weather
-imeyl,email
-intirnet,internet
-tcacka,cup
-tarelka,plate
-miska,bowl
-vilka,fork
-locka,spoon
-palatcka,chopstick
-tcem,than
-snova,again
-cto,thats
-nay,most
-prablema,problem
-ricenye,solution
-sprasi,ask
-atveti,answer
-takcto,so
-pamag,help
-pomni,remember
-stul,chair
-eti,these
-tye,those
-li,?
-iska,search
-sartirava,sort
-otcirit,queue
-pragram,software
-uprajn,exercise
-minuta,minute
-tcas,hour
-sikunda,second
-medliniy,slow
-mojidbit,maybe
-rabota,work
-rabota,function
-pravila,rule
-tela,body
-angliski,english
-primer,example
-yivo,his
-yiyo,her
-yih,their
-nac,our
-tvoy,your
-vac,yours
-moy,my
-vrode,kinda
-kitayski,chinese
-ispanski,spanish
-hindi,hindi
-arapski,arabic
-ruskiy,russian
-pirirabota,recycle
-uje,already
-nidela,week
-slabi,weak
-komnata,room
-vajni,important
-karopka,box
-trudni,difficult
-kak,as
+potrebi,use (Rus)
+bi,be (Rus)
+dostava,get (Rus)
+hote,want (Rus)
+dela,make (Rus)
+yazik,language (Rus)
+kognat,cognate (Rus)
+ili,or (Rus)
+na,to (Rus)
+utci,learn (Rus)
+kampyutir,computer (Rus)
+dela,do (Rus)
+motc,able (Rus)
+vec,thing (Rus)
+dolji,must (Rus)
+id,go (Rus)
+vremya,time (Rus)
+mesta,place (Rus)
+druk,friend (Rus)
+ime,have (Rus)
+slova,word (Rus)
+kusok,piece (Rus)
+patcimu,why (Rus)
+privet,hi (Rus)
+paka,bye (Rus)
+cest,six (Rus)
+sem,seven (Rus)
+vosim,eight (Rus)
+devit,nine (Rus)
+desit,ten (Rus)
+nul,zero (Rus)
+ya,i (Rus)
+ti,you (Rus)
+on,he (Rus)
+mi,we (Rus)
+vi,youall (Rus)
+ani,they (Rus)
+eta,this (Rus)
+to,that (Rus)
+zdes,here (Rus)
+tam,there (Rus)
+kto,who (Rus)
+cto,what (Rus)
+gde,where (Rus)
+kagda,when (Rus)
+kak,how (Rus)
+ne,not (Rus)
+fse,all (Rus)
+mnogi,many (Rus)
+neskalka,some (Rus)
+nimnogi,few (Rus)
+drugoy,other (Rus)
+adin,one (Rus)
+dva,two (Rus)
+tri,three (Rus)
+tcitiri,four (Rus)
+pyat,five (Rus)
+balcoy,big (Rus)
+dlini,long (Rus)
+ciroki,wide (Rus)
+tolsti,thick (Rus)
+tijoli,heavy (Rus)
+malinki,small (Rus)
+karotki,short (Rus)
+uski,narrow (Rus)
+tonki,thin (Rus)
+jencina,woman (Rus)
+mucina,man (Rus)
+tcilavek,human (Rus)
+dita,child (Rus)
+jina,wife (Rus)
+muj,husband (Rus)
+mama,mother (Rus)
+atets,father (Rus)
+jivotna,animal (Rus)
+riba,fish (Rus)
+ptitsa,bird (Rus)
+pyos,dog (Rus)
+voc,louse (Rus)
+zmiya,snake (Rus)
+tcerv,worm (Rus)
+deriva,tree (Rus)
+lyes,forest (Rus)
+palka,stick (Rus)
+plot,fruit (Rus)
+semya,seed (Rus)
+list,leaf (Rus)
+korin,root (Rus)
+kara,bark (Rus)
+tsvitok,flower (Rus)
+trava,grass (Rus)
+virofka,rope (Rus)
+koza,skin (Rus)
+masa,meat (Rus)
+krof,blood (Rus)
+kost,bone (Rus)
+jir,fat (Rus)
+yiytso,egg (Rus)
+rok,horn (Rus)
+hvost,tail (Rus)
+piro,feather (Rus)
+volasi,hair (Rus)
+galava,head (Rus)
+uha,ear (Rus)
+glas,eye (Rus)
+nos,nose (Rus)
+rot,mouth (Rus)
+zup,tooth (Rus)
+yizik,tongue (Rus)
+nogat,fingernail (Rus)
+stapa,foot (Rus)
+naga,leg (Rus)
+kalena,knee (Rus)
+ruka,hand (Rus)
+krilo,wing (Rus)
+jivot,belly (Rus)
+kicki,guts (Rus)
+ceya,neck (Rus)
+spina,back (Rus)
+grut,breast (Rus)
+sertsi,heart (Rus)
+petcin,liver (Rus)
+pit,drink (Rus)
+yes,eat (Rus)
+kusa,bite (Rus)
+sasa,suck (Rus)
+pliva,spit (Rus)
+bliva,vomit (Rus)
+dut,blow (Rus)
+dica,breathe (Rus)
+smiya,laugh (Rus)
+vide,see (Rus)
+slica,hear (Rus)
+zna,know (Rus)
+duma,think (Rus)
+tcuya,smell (Rus)
+baya,fear (Rus)
+spa,sleep (Rus)
+ji,live (Rus)
+umira,die (Rus)
+ubiva,kill (Rus)
+baro,fight (Rus)
+ahoti,hunt (Rus)
+udari,hit (Rus)
+rezat,cut (Rus)
+razdili,split (Rus)
+kalo,stab (Rus)
+tsarapa,scratch (Rus)
+ri,dig (Rus)
+plava,swim (Rus)
+lita,fly (Rus)
+id,walk (Rus)
+pri,come (Rus)
+liza,liedown (Rus)
+side,sit (Rus)
+staya,stand (Rus)
+vraca,turn (Rus)
+pada,fall (Rus)
+da,give (Rus)
+dirja,hold (Rus)
+ja,squeeze (Rus)
+tire,rub (Rus)
+mi,wash (Rus)
+vitira,wipe (Rus)
+tinu,pull (Rus)
+pihu,push (Rus)
+brasa,throw (Rus)
+viza,tie (Rus)
+ci,sew (Rus)
+cita,count (Rus)
+skaza,say (Rus)
+pe,sing (Rus)
+igra,play (Rus)
+pli,float (Rus)
+tetc,flow (Rus)
+zamorznu,freeze (Rus)
+puhnu,swell (Rus)
+sontsa,sun (Rus)
+luna,moon (Rus)
+zvizda,star (Rus)
+vada,water (Rus)
+doct,rain (Rus)
+rika,river (Rus)
+ozira,lake (Rus)
+mori,sea (Rus)
+sol,salt (Rus)
+kamin,stone (Rus)
+pisok,sand (Rus)
+pil,dust (Rus)
+zimla,earth (Rus)
+oblaka,cloud (Rus)
+tuman,fog (Rus)
+neba,sky (Rus)
+vetir,wind (Rus)
+snek,snow (Rus)
+lot,ice (Rus)
+dim,smoke (Rus)
+agon,fire (Rus)
+pepil,ashes (Rus)
+jetc,burn (Rus)
+put,road (Rus)
+gara,mountain (Rus)
+krasni,red (Rus)
+ziloni,green (Rus)
+jolti,yellow (Rus)
+beli,white (Rus)
+tcorni,black (Rus)
+notc,night (Rus)
+den,day (Rus)
+got,year (Rus)
+tyopli,warm (Rus)
+halodni,cold (Rus)
+polni,full (Rus)
+novi,new (Rus)
+stari,old (Rus)
+horoci,good (Rus)
+plohoy,bad (Rus)
+gniloy,rotten (Rus)
+grazni,dirty (Rus)
+primoy,straight (Rus)
+krugli,round (Rus)
+ostri,sharp (Rus)
+tupoy,dull (Rus)
+glatki,smooth (Rus)
+mokri,wet (Rus)
+suhoy,dry (Rus)
+pravilni,correct (Rus)
+bliski,near (Rus)
+dalyoki,far (Rus)
+pravi,right (Rus)
+levi,left (Rus)
+u,at (Rus)
+v,in (Rus)
+s,with (Rus)
+i,and (Rus)
+yesli,if (Rus)
+patamucta,because (Rus)
+do,before (Rus)
+posle,after (Rus)
+nad,above (Rus)
+pod,below (Rus)
+iz,from (Rus)
+,of (Rus)
+no,but (Rus)
+ima,name (Rus)
+ana,she (Rus)
+macina,car (Rus)
+tualet,washroom (Rus)
+tcislo,number (Rus)
+dom,house (Rus)
+dom,home (Rus)
+radi,born (Rus)
+litci,heal (Rus)
+razbi,break (Rus)
+stroi,build (Rus)
+plaka,weep (Rus)
+gariva,mourn (Rus)
+tantsa,dance (Rus)
+sobira,gather (Rus)
+obnima,hug (Rus)
+vazdirja,refrain (Rus)
+tira,lose (Rus)
+derja,keep (Rus)
+rva,tear (Rus)
+lyubi,love (Rus)
+ninavidi,hate (Rus)
+saja,toplant (Rus)
+ticina,silence (Rus)
+vayna,war (Rus)
+mir,peace (Rus)
+rasteniye,plant (Rus)
+da,yes (Rus)
+nyet,no (Rus)
+bumaga,paper (Rus)
+telefon,telephone (Rus)
+tcilavek,person (Rus)
+kravat,bed (Rus)
+akno,window (Rus)
+polka,shelf (Rus)
+stolpismini,desk (Rus)
+doljin,should (Rus)
+nujda,need (Rus)
+pol,floor (Rus)
+zerkala,mirror (Rus)
+umivalnik,sink (Rus)
+taje,same (Rus)
+spasiba,thankyou (Rus)
+tcustva,feel (Rus)
+bolci,more (Rus)
+menci,less (Rus)
+pitay,try (Rus)
+tolka,only (Rus)
+lyohki,easy (Rus)
+kniga,book (Rus)
+drugoy,different (Rus)
+tcita,read (Rus)
+izmini,change (Rus)
+instrumyent,tool (Rus)
+panima,understand (Rus)
+pisa,write (Rus)
+kruk,circle (Rus)
+dver,door (Rus)
+svet,light (Rus)
+zvuk,sound (Rus)
+stol,table (Rus)
+kvadrat,square (Rus)
+triugolnik,triangle (Rus)
+yida,food (Rus)
+pajalusta,please (Rus)
+izvinit,sorry (Rus)
+nravitsa,like (Rus)
+bistra,fast (Rus)
+radam,beside (Rus)
+silni,strong (Rus)
+jda,wait (Rus)
+,the (Rus)
+kupi,buy (Rus)
+sini,blue (Rus)
+grupa,group (Rus)
+adejda,clothes (Rus)
+dengi,money (Rus)
+dira,hole (Rus)
+glupi,silly (Rus)
+kontci,finish (Rus)
+risava,draw (Rus)
+pirivadi,translate (Rus)
+sto,hundred (Rus)
+tisitca,thousand (Rus)
+prada,sell (Rus)
+dabavi,add (Rus)
+vitci,remove (Rus)
+kartina,picture (Rus)
+duc,shower (Rus)
+kavor,carpet (Rus)
+yacik,drawer (Rus)
+ckaf,closet (Rus)
+sivodna,today (Rus)
+ftcira,yesterday (Rus)
+zaftra,tomorrow (Rus)
+siblink,sibling (Rus)
+raditil,parent (Rus)
+kamira,camera (Rus)
+gatovi,cook (Rus)
+nasi,wear (Rus)
+skolka,howmuch (Rus)
+cas,now (Rus)
+probava,taste (Rus)
+troga,touch (Rus)
+slickam,too (Rus)
+toji,also (Rus)
+sevir,north (Rus)
+yuk,south (Rus)
+vastok,east (Rus)
+zapat,west (Rus)
+fpirot,forward (Rus)
+nazat,backward (Rus)
+malako,milk (Rus)
+kuritsa,chicken (Rus)
+kot,cat (Rus)
+gromki,loud (Rus)
+pagoda,weather (Rus)
+imeyl,email (Rus)
+intirnet,internet (Rus)
+tcacka,cup (Rus)
+tarelka,plate (Rus)
+miska,bowl (Rus)
+vilka,fork (Rus)
+locka,spoon (Rus)
+palatcka,chopstick (Rus)
+tcem,than (Rus)
+snova,again (Rus)
+cto,thats (Rus)
+nay,most (Rus)
+prablema,problem (Rus)
+ricenye,solution (Rus)
+sprasi,ask (Rus)
+atveti,answer (Rus)
+takcto,so (Rus)
+pamag,help (Rus)
+pomni,remember (Rus)
+stul,chair (Rus)
+eti,these (Rus)
+tye,those (Rus)
+li,? (Rus)
+iska,search (Rus)
+sartirava,sort (Rus)
+otcirit,queue (Rus)
+pragram,software (Rus)
+uprajn,exercise (Rus)
+minuta,minute (Rus)
+tcas,hour (Rus)
+sikunda,second (Rus)
+medliniy,slow (Rus)
+mojidbit,maybe (Rus)
+rabota,work (Rus)
+rabota,function (Rus)
+pravila,rule (Rus)
+tela,body (Rus)
+angliski,english (Rus)
+primer,example (Rus)
+yivo,his (Rus)
+yiyo,her (Rus)
+yih,their (Rus)
+nac,our (Rus)
+tvoy,your (Rus)
+vac,yours (Rus)
+moy,my (Rus)
+vrode,kinda (Rus)
+kitayski,chinese (Rus)
+ispanski,spanish (Rus)
+hindi,hindi (Rus)
+arapski,arabic (Rus)
+ruskiy,russian (Rus)
+pirirabota,recycle (Rus)
+uje,already (Rus)
+nidela,week (Rus)
+slabi,weak (Rus)
+komnata,room (Rus)
+vajni,important (Rus)
+karopka,box (Rus)
+trudni,difficult (Rus)
+kak,as (Rus)

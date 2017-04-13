@@ -1,422 +1,422 @@
-yun,use
-ca,be
-hwod,get
-yaw,want
-djidzaw,make
-yuyen,language
-tonywentca,cognate
-hwo,or
-daw,to
-cwe,learn
-dyenaw,computer
-dzwo,do
-nan,able
-donci,thing
-bici,must
-tci,go
-cadjyen,time
-difan,place
-panyo,friend
-yo,have
-tsa,word
-kway,piece
-wecanma,why
-nihaw,hi
-dzaydjyen,bye
-lyow,six
-tci,seven
-ba,eight
-djyow,nine
-ca,ten
-lin,zero
-wo,i
-ni,you
-ta,he
-woman,we
-niman,youall
-taman,they
-dje,this
-na,that
-djeli,here
-nali,there
-cey,who
-canma,what
-nali,where
-canmacho,when
-dzanma,how
-bu,not
-swoyo,all
-dwo,many
-djiga,some
-caw,few
-tcita,other
-yi,one
-ar,two
-san,three
-sa,four
-wu,five
-da,big
-tcan,long
-kwan,wide
-how,thick
-djun,heavy
-cyaw,small
-dwan,short
-djay,narrow
-baw,thin
-niran,woman
-nanran,man
-ran,human
-haydza,child
-lawpo,wife
-lawgon,husband
-mama,mother
-baba,father
-dunwu,animal
-yi,fish
-nyaw,bird
-go,dog
-ca,louse
-ca,snake
-tcyoyin,worm
-cu,tree
-sanlin,forest
-cudja,stick
-cweygwo,fruit
-djundza,seed
-ye,leaf
-gan,root
-cupi,bark
-hwa,flower
-tsaw,grass
-can,rope
-pi,skin
-row,meat
-cye,blood
-gu,bone
-djifan,fat
-dan,egg
-djyaw,horn
-wey,tail
-yimaw,feather
-tofa,hair
-tow,head
-ardwo,ear
-yendjin,eye
-bi,nose
-dzwe,mouth
-yatci,tooth
-ca,tongue
-djidjya,fingernail
-djyaw,foot
-twe,leg
-ci,knee
-cow,hand
-tciban,wing
-dudza,belly
-tcandza,guts
-bodza,neck
-bey,back
-cyonbu,breast
-cindzan,heart
-gan,liver
-ha,drink
-tca,eat
-yaw,bite
-tcwo,suck
-tu,spit
-tu,vomit
-tcwe,blow
-huci,breathe
-cyaw,laugh
-kan,see
-tin,hear
-djidaw,know
-cyan,think
-wan,smell
-pa,fear
-cwey,sleep
-hwo,live
-sa,die
-ca,kill
-dadjya,fight
-dalye,hunt
-da,hit
-tcye,cut
-fankay,split
-tsa,stab
-djwa,scratch
-wa,dig
-yoyon,swim
-fey,fly
-dzow,walk
-lay,come
-tan,liedown
-dzwo,sit
-djan,stand
-djwan,turn
-lwocya,fall
-gey,give
-na,hold
-dji,squeeze
-row,rub
-ci,wash
-tsa,wipe
-la,pull
-twey,push
-ran,throw
-ban,tie
-fan,sew
-cu,count
-cwo,say
-tcan,sing
-wan,play
-fu,float
-lyo,flow
-dondjye,freeze
-pondjan,swell
-tayan,sun
-yelyan,moon
-cin,star
-cwey,water
-yi,rain
-ha,river
-hu,lake
-hay,sea
-yen,salt
-ca,stone
-ca,sand
-tcantu,dust
-ditcyow,earth
-yin,cloud
-wu,fog
-tyen,sky
-fon,wind
-cye,snow
-bin,ice
-yen,smoke
-hwo,fire
-hweydjin,ashes
-caw,burn
-lu,road
-can,mountain
-hun,red
-li,green
-hwan,yellow
-bay,white
-hey,black
-yewan,night
-baytyen,day
-nyen,year
-wanwan,warm
-lan,cold
-man,full
-cin,new
-law,old
-haw,good
-hway,bad
-lan,rotten
-dzan,dirty
-dja,straight
-yen,round
-li,sharp
-dun,dull
-gwanhwa,smooth
-ca,wet
-gan,dry
-dwe,correct
-djin,near
-yen,far
-yo,right
-dzwo,left
-dzay,at
-dzayli,in
-gan,with
-ha,and
-rugwo,if
-yinwey,because
-tcyen,before
-how,after
-can,above
-cya,below
-tson,from
-da,of
-kaca,but
-mindza,name
-ta,she
-tca,car
-tsaswo,washroom
-cu,number
-djya,house
-djya,home
-tcucan,born
-yidja,heal
-dapwo,break
-djyenca,build
-ku,weep
-dawnyen,mourn
-tyawu,dance
-cowdji,gather
-yonbaw,hug
-bimyen,refrain
-catci,lose
-bawtca,keep
-sa,tear
-ay,love
-han,hate
-djon,toplant
-tcanmo,silence
-djandjan,war
-hapin,peace
-djawu,plant
-ca,yes
-bu,no
-dja,paper
-dyenhwa,telephone
-ran,person
-tcwan,bed
-tcwanhu,window
-djya,shelf
-djwodza,desk
-yingay,should
-ciyaw,need
-diban,floor
-djindza,mirror
-cwetsaw,sink
-iyan,same
-cyecye,thankyou
-tcumo,feel
-dwo,more
-caw,less
-ca,try
-djiyo,only
-roni,easy
-cu,book
-buyiyan,different
-du,read
-gaybyen,change
-gundji,tool
-minbay,understand
-cye,write
-yentcen,circle
-man,door
-gwan,light
-canin,sound
-djwodza,table
-djanfancin,square
-sandjyaw,triangle
-cawu,food
-tcin,please
-dwebutci,sorry
-cihwan,like
-kway,fast
-panbyen,beside
-tcyan,strong
-dan,wait
-naga,the
-may,buy
-lan,blue
-dzu,group
-ifu,clothes
-tcyen,money
-kon,hole
-ca,silly
-wan,finish
-hwa,draw
-fanyi,translate
-bay,hundred
-tcyen,thousand
-may,sell
-djya,add
-tcutci,remove
-tuhwa,picture
-lini,shower
-ditan,carpet
-tcoti,drawer
-bitcu,closet
-djintyen,today
-dzwotyen,yesterday
-mintyen,tomorrow
-cyondidjyemey,sibling
-tcin,parent
-cyandji,camera
-dzwotsay,cook
-tcwan,wear
-dwocaw,howmuch
-cyendzay,now
-tcan,taste
-tcumo,touch
-tay,too
-ye,also
-bey,north
-nan,south
-don,east
-ci,west
-tcyen,forward
-how,backward
-nay,milk
-dji,chicken
-maw,cat
-dacan,loud
-tyentci,weather
-dyendzayodjyen,email
-wan,internet
-beydza,cup
-pandza,plate
-wan,bowl
-tcadza,fork
-cawdza,spoon
-kwaydza,chopstick
-bi,than
-dzay,again
-,thats
-dzwe,most
-wanti,problem
-djyeda,solution
-wan,ask
-hweda,answer
-swoyi,so
-bandju,help
-djida,remember
-yidza,chair
-djacye,these
-nacye,those
-ma,?
-djaw,search
-payci,sort
-paydwe,queue
-rwandjyen,software
-indon,exercise
-fandjon,minute
-cyawca,hour
-myawdjon,second
-man,slow
-yeci,maybe
-gondzwo,work
-incin,function
-gwedza,rule
-canti,body
-inwan,english
-lidza,example
-tada,his
-tada,her
-tamada,their
-womanda,our
-nida,your
-nimanda,yours
-woda,my
-yodyen,kinda
-djonwan,chinese
-cibanya,spanish
-indu,hindi
-alabo,arabic
-a,russian
-hwecow,recycle
-yidjin,already
-djow,week
-rwo,weak
-fandjyen,room
-djonyaw,important
-hadza,box
-nan,difficult
-cyan,as
+yun,use (Chi)
+ca,be (Chi)
+hwod,get (Chi)
+yaw,want (Chi)
+djidzaw,make (Chi)
+yuyen,language (Chi)
+tonywentca,cognate (Chi)
+hwo,or (Chi)
+daw,to (Chi)
+cwe,learn (Chi)
+dyenaw,computer (Chi)
+dzwo,do (Chi)
+nan,able (Chi)
+donci,thing (Chi)
+bici,must (Chi)
+tci,go (Chi)
+cadjyen,time (Chi)
+difan,place (Chi)
+panyo,friend (Chi)
+yo,have (Chi)
+tsa,word (Chi)
+kway,piece (Chi)
+wecanma,why (Chi)
+nihaw,hi (Chi)
+dzaydjyen,bye (Chi)
+lyow,six (Chi)
+tci,seven (Chi)
+ba,eight (Chi)
+djyow,nine (Chi)
+ca,ten (Chi)
+lin,zero (Chi)
+wo,i (Chi)
+ni,you (Chi)
+ta,he (Chi)
+woman,we (Chi)
+niman,youall (Chi)
+taman,they (Chi)
+dje,this (Chi)
+na,that (Chi)
+djeli,here (Chi)
+nali,there (Chi)
+cey,who (Chi)
+canma,what (Chi)
+nali,where (Chi)
+canmacho,when (Chi)
+dzanma,how (Chi)
+bu,not (Chi)
+swoyo,all (Chi)
+dwo,many (Chi)
+djiga,some (Chi)
+caw,few (Chi)
+tcita,other (Chi)
+yi,one (Chi)
+ar,two (Chi)
+san,three (Chi)
+sa,four (Chi)
+wu,five (Chi)
+da,big (Chi)
+tcan,long (Chi)
+kwan,wide (Chi)
+how,thick (Chi)
+djun,heavy (Chi)
+cyaw,small (Chi)
+dwan,short (Chi)
+djay,narrow (Chi)
+baw,thin (Chi)
+niran,woman (Chi)
+nanran,man (Chi)
+ran,human (Chi)
+haydza,child (Chi)
+lawpo,wife (Chi)
+lawgon,husband (Chi)
+mama,mother (Chi)
+baba,father (Chi)
+dunwu,animal (Chi)
+yi,fish (Chi)
+nyaw,bird (Chi)
+go,dog (Chi)
+ca,louse (Chi)
+ca,snake (Chi)
+tcyoyin,worm (Chi)
+cu,tree (Chi)
+sanlin,forest (Chi)
+cudja,stick (Chi)
+cweygwo,fruit (Chi)
+djundza,seed (Chi)
+ye,leaf (Chi)
+gan,root (Chi)
+cupi,bark (Chi)
+hwa,flower (Chi)
+tsaw,grass (Chi)
+can,rope (Chi)
+pi,skin (Chi)
+row,meat (Chi)
+cye,blood (Chi)
+gu,bone (Chi)
+djifan,fat (Chi)
+dan,egg (Chi)
+djyaw,horn (Chi)
+wey,tail (Chi)
+yimaw,feather (Chi)
+tofa,hair (Chi)
+tow,head (Chi)
+ardwo,ear (Chi)
+yendjin,eye (Chi)
+bi,nose (Chi)
+dzwe,mouth (Chi)
+yatci,tooth (Chi)
+ca,tongue (Chi)
+djidjya,fingernail (Chi)
+djyaw,foot (Chi)
+twe,leg (Chi)
+ci,knee (Chi)
+cow,hand (Chi)
+tciban,wing (Chi)
+dudza,belly (Chi)
+tcandza,guts (Chi)
+bodza,neck (Chi)
+bey,back (Chi)
+cyonbu,breast (Chi)
+cindzan,heart (Chi)
+gan,liver (Chi)
+ha,drink (Chi)
+tca,eat (Chi)
+yaw,bite (Chi)
+tcwo,suck (Chi)
+tu,spit (Chi)
+tu,vomit (Chi)
+tcwe,blow (Chi)
+huci,breathe (Chi)
+cyaw,laugh (Chi)
+kan,see (Chi)
+tin,hear (Chi)
+djidaw,know (Chi)
+cyan,think (Chi)
+wan,smell (Chi)
+pa,fear (Chi)
+cwey,sleep (Chi)
+hwo,live (Chi)
+sa,die (Chi)
+ca,kill (Chi)
+dadjya,fight (Chi)
+dalye,hunt (Chi)
+da,hit (Chi)
+tcye,cut (Chi)
+fankay,split (Chi)
+tsa,stab (Chi)
+djwa,scratch (Chi)
+wa,dig (Chi)
+yoyon,swim (Chi)
+fey,fly (Chi)
+dzow,walk (Chi)
+lay,come (Chi)
+tan,liedown (Chi)
+dzwo,sit (Chi)
+djan,stand (Chi)
+djwan,turn (Chi)
+lwocya,fall (Chi)
+gey,give (Chi)
+na,hold (Chi)
+dji,squeeze (Chi)
+row,rub (Chi)
+ci,wash (Chi)
+tsa,wipe (Chi)
+la,pull (Chi)
+twey,push (Chi)
+ran,throw (Chi)
+ban,tie (Chi)
+fan,sew (Chi)
+cu,count (Chi)
+cwo,say (Chi)
+tcan,sing (Chi)
+wan,play (Chi)
+fu,float (Chi)
+lyo,flow (Chi)
+dondjye,freeze (Chi)
+pondjan,swell (Chi)
+tayan,sun (Chi)
+yelyan,moon (Chi)
+cin,star (Chi)
+cwey,water (Chi)
+yi,rain (Chi)
+ha,river (Chi)
+hu,lake (Chi)
+hay,sea (Chi)
+yen,salt (Chi)
+ca,stone (Chi)
+ca,sand (Chi)
+tcantu,dust (Chi)
+ditcyow,earth (Chi)
+yin,cloud (Chi)
+wu,fog (Chi)
+tyen,sky (Chi)
+fon,wind (Chi)
+cye,snow (Chi)
+bin,ice (Chi)
+yen,smoke (Chi)
+hwo,fire (Chi)
+hweydjin,ashes (Chi)
+caw,burn (Chi)
+lu,road (Chi)
+can,mountain (Chi)
+hun,red (Chi)
+li,green (Chi)
+hwan,yellow (Chi)
+bay,white (Chi)
+hey,black (Chi)
+yewan,night (Chi)
+baytyen,day (Chi)
+nyen,year (Chi)
+wanwan,warm (Chi)
+lan,cold (Chi)
+man,full (Chi)
+cin,new (Chi)
+law,old (Chi)
+haw,good (Chi)
+hway,bad (Chi)
+lan,rotten (Chi)
+dzan,dirty (Chi)
+dja,straight (Chi)
+yen,round (Chi)
+li,sharp (Chi)
+dun,dull (Chi)
+gwanhwa,smooth (Chi)
+ca,wet (Chi)
+gan,dry (Chi)
+dwe,correct (Chi)
+djin,near (Chi)
+yen,far (Chi)
+yo,right (Chi)
+dzwo,left (Chi)
+dzay,at (Chi)
+dzayli,in (Chi)
+gan,with (Chi)
+ha,and (Chi)
+rugwo,if (Chi)
+yinwey,because (Chi)
+tcyen,before (Chi)
+how,after (Chi)
+can,above (Chi)
+cya,below (Chi)
+tson,from (Chi)
+da,of (Chi)
+kaca,but (Chi)
+mindza,name (Chi)
+ta,she (Chi)
+tca,car (Chi)
+tsaswo,washroom (Chi)
+cu,number (Chi)
+djya,house (Chi)
+djya,home (Chi)
+tcucan,born (Chi)
+yidja,heal (Chi)
+dapwo,break (Chi)
+djyenca,build (Chi)
+ku,weep (Chi)
+dawnyen,mourn (Chi)
+tyawu,dance (Chi)
+cowdji,gather (Chi)
+yonbaw,hug (Chi)
+bimyen,refrain (Chi)
+catci,lose (Chi)
+bawtca,keep (Chi)
+sa,tear (Chi)
+ay,love (Chi)
+han,hate (Chi)
+djon,toplant (Chi)
+tcanmo,silence (Chi)
+djandjan,war (Chi)
+hapin,peace (Chi)
+djawu,plant (Chi)
+ca,yes (Chi)
+bu,no (Chi)
+dja,paper (Chi)
+dyenhwa,telephone (Chi)
+ran,person (Chi)
+tcwan,bed (Chi)
+tcwanhu,window (Chi)
+djya,shelf (Chi)
+djwodza,desk (Chi)
+yingay,should (Chi)
+ciyaw,need (Chi)
+diban,floor (Chi)
+djindza,mirror (Chi)
+cwetsaw,sink (Chi)
+iyan,same (Chi)
+cyecye,thankyou (Chi)
+tcumo,feel (Chi)
+dwo,more (Chi)
+caw,less (Chi)
+ca,try (Chi)
+djiyo,only (Chi)
+roni,easy (Chi)
+cu,book (Chi)
+buyiyan,different (Chi)
+du,read (Chi)
+gaybyen,change (Chi)
+gundji,tool (Chi)
+minbay,understand (Chi)
+cye,write (Chi)
+yentcen,circle (Chi)
+man,door (Chi)
+gwan,light (Chi)
+canin,sound (Chi)
+djwodza,table (Chi)
+djanfancin,square (Chi)
+sandjyaw,triangle (Chi)
+cawu,food (Chi)
+tcin,please (Chi)
+dwebutci,sorry (Chi)
+cihwan,like (Chi)
+kway,fast (Chi)
+panbyen,beside (Chi)
+tcyan,strong (Chi)
+dan,wait (Chi)
+naga,the (Chi)
+may,buy (Chi)
+lan,blue (Chi)
+dzu,group (Chi)
+ifu,clothes (Chi)
+tcyen,money (Chi)
+kon,hole (Chi)
+ca,silly (Chi)
+wan,finish (Chi)
+hwa,draw (Chi)
+fanyi,translate (Chi)
+bay,hundred (Chi)
+tcyen,thousand (Chi)
+may,sell (Chi)
+djya,add (Chi)
+tcutci,remove (Chi)
+tuhwa,picture (Chi)
+lini,shower (Chi)
+ditan,carpet (Chi)
+tcoti,drawer (Chi)
+bitcu,closet (Chi)
+djintyen,today (Chi)
+dzwotyen,yesterday (Chi)
+mintyen,tomorrow (Chi)
+cyondidjyemey,sibling (Chi)
+tcin,parent (Chi)
+cyandji,camera (Chi)
+dzwotsay,cook (Chi)
+tcwan,wear (Chi)
+dwocaw,howmuch (Chi)
+cyendzay,now (Chi)
+tcan,taste (Chi)
+tcumo,touch (Chi)
+tay,too (Chi)
+ye,also (Chi)
+bey,north (Chi)
+nan,south (Chi)
+don,east (Chi)
+ci,west (Chi)
+tcyen,forward (Chi)
+how,backward (Chi)
+nay,milk (Chi)
+dji,chicken (Chi)
+maw,cat (Chi)
+dacan,loud (Chi)
+tyentci,weather (Chi)
+dyendzayodjyen,email (Chi)
+wan,internet (Chi)
+beydza,cup (Chi)
+pandza,plate (Chi)
+wan,bowl (Chi)
+tcadza,fork (Chi)
+cawdza,spoon (Chi)
+kwaydza,chopstick (Chi)
+bi,than (Chi)
+dzay,again (Chi)
+,thats (Chi)
+dzwe,most (Chi)
+wanti,problem (Chi)
+djyeda,solution (Chi)
+wan,ask (Chi)
+hweda,answer (Chi)
+swoyi,so (Chi)
+bandju,help (Chi)
+djida,remember (Chi)
+yidza,chair (Chi)
+djacye,these (Chi)
+nacye,those (Chi)
+ma,? (Chi)
+djaw,search (Chi)
+payci,sort (Chi)
+paydwe,queue (Chi)
+rwandjyen,software (Chi)
+indon,exercise (Chi)
+fandjon,minute (Chi)
+cyawca,hour (Chi)
+myawdjon,second (Chi)
+man,slow (Chi)
+yeci,maybe (Chi)
+gondzwo,work (Chi)
+incin,function (Chi)
+gwedza,rule (Chi)
+canti,body (Chi)
+inwan,english (Chi)
+lidza,example (Chi)
+tada,his (Chi)
+tada,her (Chi)
+tamada,their (Chi)
+womanda,our (Chi)
+nida,your (Chi)
+nimanda,yours (Chi)
+woda,my (Chi)
+yodyen,kinda (Chi)
+djonwan,chinese (Chi)
+cibanya,spanish (Chi)
+indu,hindi (Chi)
+alabo,arabic (Chi)
+a,russian (Chi)
+hwecow,recycle (Chi)
+yidjin,already (Chi)
+djow,week (Chi)
+rwo,weak (Chi)
+fandjyen,room (Chi)
+djonyaw,important (Chi)
+hadza,box (Chi)
+nan,difficult (Chi)
+cyan,as (Chi)
