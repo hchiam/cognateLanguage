@@ -1,101 +1,101 @@
-hito,person
-mono,thing
-baco,place
-djikan,time
-hoci,want
-beki,should
-ikanakerebanaranai,must
-dekiru,able
-hitsuyo,need
-kagami,mirror
-cinku,sink
-bedo,bed
-mado,window
-tana,shelf
-tsukue,desk
-yuka,floor
-watakuci,I
-anata,you
-kare,he
-watacitatci,we
-anatatatci,youall
-karera,they
-kore,this
-are,that
-koko,here
-soko,there
-dare,who
-nani,what
-doko,where
-itsu,when
-ikaga,how
-nai,not
-subete,all
-oi,many
-sukoci,some
-sukunai,few
-hoka,other
-hitotsu,one
-futatsu,two
-mitsu,three
-yotsu,four
-itsutsu,five
-oki,big
-nagai,long
-hiroi,wide
-atsui,thick
-omoi,heavy
-tcisai,small
-midjikai,short
-semai,narrow
-hosoi,thin
-ona,woman
-otoko,man
-hito,human
-ko,child
-tsuma,wife
-oto,husband
-haha,mother
-tcitci,father
-kemono,animal
-uo,fish
-tori,bird
-inu,dog
-cirami,louse
-hebi,snake
-mimizu,worm
-ki,tree
-mori,forest
-tsue,stick
-kudamono,fruit
-tane,seed
-ha,leaf
-ne,root
-djuhi,bark
-hana,flower
-kusa,grass
-nawa,rope
-kawa,skin
-niku,meat
-tci,blood
-hone,bone
-abura,fat
-tamago,egg
-tsuno,horn
-o,tail
-hane,feather
-kami,hair
-atama,head
-mimi,ear
-me,eye
-hana,nose
-kutci,mouth
-ha,tooth
-cita,tongue
-tsume,fingernail
-aci,foot
-aci,leg
-hiza,knee
-te,hand
-tsubasa,wing
-hara,belly
+hito,person (Japa)
+mono,thing (Japa)
+baco,place (Japa)
+djikan,time (Japa)
+hoci,want (Japa)
+beki,should (Japa)
+ikanakerebanaranai,must (Japa)
+dekiru,able (Japa)
+hitsuyo,need (Japa)
+kagami,mirror (Japa)
+cinku,sink (Japa)
+bedo,bed (Japa)
+mado,window (Japa)
+tana,shelf (Japa)
+tsukue,desk (Japa)
+yuka,floor (Japa)
+watakuci,I (Japa)
+anata,you (Japa)
+kare,he (Japa)
+watacitatci,we (Japa)
+anatatatci,youall (Japa)
+karera,they (Japa)
+kore,this (Japa)
+are,that (Japa)
+koko,here (Japa)
+soko,there (Japa)
+dare,who (Japa)
+nani,what (Japa)
+doko,where (Japa)
+itsu,when (Japa)
+ikaga,how (Japa)
+nai,not (Japa)
+subete,all (Japa)
+oi,many (Japa)
+sukoci,some (Japa)
+sukunai,few (Japa)
+hoka,other (Japa)
+hitotsu,one (Japa)
+futatsu,two (Japa)
+mitsu,three (Japa)
+yotsu,four (Japa)
+itsutsu,five (Japa)
+oki,big (Japa)
+nagai,long (Japa)
+hiroi,wide (Japa)
+atsui,thick (Japa)
+omoi,heavy (Japa)
+tcisai,small (Japa)
+midjikai,short (Japa)
+semai,narrow (Japa)
+hosoi,thin (Japa)
+ona,woman (Japa)
+otoko,man (Japa)
+hito,human (Japa)
+ko,child (Japa)
+tsuma,wife (Japa)
+oto,husband (Japa)
+haha,mother (Japa)
+tcitci,father (Japa)
+kemono,animal (Japa)
+uo,fish (Japa)
+tori,bird (Japa)
+inu,dog (Japa)
+cirami,louse (Japa)
+hebi,snake (Japa)
+mimizu,worm (Japa)
+ki,tree (Japa)
+mori,forest (Japa)
+tsue,stick (Japa)
+kudamono,fruit (Japa)
+tane,seed (Japa)
+ha,leaf (Japa)
+ne,root (Japa)
+djuhi,bark (Japa)
+hana,flower (Japa)
+kusa,grass (Japa)
+nawa,rope (Japa)
+kawa,skin (Japa)
+niku,meat (Japa)
+tci,blood (Japa)
+hone,bone (Japa)
+abura,fat (Japa)
+tamago,egg (Japa)
+tsuno,horn (Japa)
+o,tail (Japa)
+hane,feather (Japa)
+kami,hair (Japa)
+atama,head (Japa)
+mimi,ear (Japa)
+me,eye (Japa)
+hana,nose (Japa)
+kutci,mouth (Japa)
+ha,tooth (Japa)
+cita,tongue (Japa)
+tsume,fingernail (Japa)
+aci,foot (Japa)
+aci,leg (Japa)
+hiza,knee (Japa)
+te,hand (Japa)
+tsubasa,wing (Japa)
+hara,belly (Japa)

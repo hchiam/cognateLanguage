@@ -1,101 +1,101 @@
-saram,person
-mulgan,thing
-tcanso,place
-cigan,time
-bil,want
-twe,should
-ha,must
-suis,able
-piryoha,need
-koul,mirror
-cinku,sink
-tcimde,bed
-tcan,window
-sonban,shelf
-tceksan,desk
-padak,floor
-na,I
-no,you
-gu,he
-uri,we
-nohi,youall
-gudul,they
-i,this
-gu,that
-yogi,here
-gogi,there
-nugu,who
-mwot,what
-odi,where
-ondje,when
-otoke,how
-ani,not
-modu,all
-man,many
-oton,some
-tcogum,few
-daru,other
-hana,one
-dul,two
-set,three
-net,four
-dasot,five
-ku,big
-gil,long
-nol,wide
-dukop,thick
-mugop,heavy
-djak,small
-djal,short
-djop,narrow
-yal,thin
-yodja,woman
-namdja,man
-saram,human
-orini,child
-ane,wife
-nampyon,husband
-omoni,mother
-abodji,father
-djimsun,animal
-mulgogi,fish
-se,bird
-ge,dog
-i,louse
-bem,snake
-bole,worm
-namu,tree
-sup,forest
-makdegi,stick
-yolme,fruit
-ci,seed
-ip,leaf
-puri,root
-kopdjil,bark
-kot,flower
-pul,grass
-batcul,rope
-salgat,skin
-sal,meat
-pi,blood
-pyo,bone
-girum,fat
-al,egg
-pul,horn
-kori,tail
-gitol,feather
-tol,hair
-mori,head
-gwi,ear
-nun,eye
-ko,nose
-ip,mouth
-i,tooth
-hyo,tongue
-sontop,fingernail
-bal,foot
-dari,leg
-murup,knee
-son,hand
-nalge,wing
-be,belly
+saram,person (Kor)
+mulgan,thing (Kor)
+tcanso,place (Kor)
+cigan,time (Kor)
+bil,want (Kor)
+twe,should (Kor)
+ha,must (Kor)
+suis,able (Kor)
+piryoha,need (Kor)
+koul,mirror (Kor)
+cinku,sink (Kor)
+tcimde,bed (Kor)
+tcan,window (Kor)
+sonban,shelf (Kor)
+tceksan,desk (Kor)
+padak,floor (Kor)
+na,I (Kor)
+no,you (Kor)
+gu,he (Kor)
+uri,we (Kor)
+nohi,youall (Kor)
+gudul,they (Kor)
+i,this (Kor)
+gu,that (Kor)
+yogi,here (Kor)
+gogi,there (Kor)
+nugu,who (Kor)
+mwot,what (Kor)
+odi,where (Kor)
+ondje,when (Kor)
+otoke,how (Kor)
+ani,not (Kor)
+modu,all (Kor)
+man,many (Kor)
+oton,some (Kor)
+tcogum,few (Kor)
+daru,other (Kor)
+hana,one (Kor)
+dul,two (Kor)
+set,three (Kor)
+net,four (Kor)
+dasot,five (Kor)
+ku,big (Kor)
+gil,long (Kor)
+nol,wide (Kor)
+dukop,thick (Kor)
+mugop,heavy (Kor)
+djak,small (Kor)
+djal,short (Kor)
+djop,narrow (Kor)
+yal,thin (Kor)
+yodja,woman (Kor)
+namdja,man (Kor)
+saram,human (Kor)
+orini,child (Kor)
+ane,wife (Kor)
+nampyon,husband (Kor)
+omoni,mother (Kor)
+abodji,father (Kor)
+djimsun,animal (Kor)
+mulgogi,fish (Kor)
+se,bird (Kor)
+ge,dog (Kor)
+i,louse (Kor)
+bem,snake (Kor)
+bole,worm (Kor)
+namu,tree (Kor)
+sup,forest (Kor)
+makdegi,stick (Kor)
+yolme,fruit (Kor)
+ci,seed (Kor)
+ip,leaf (Kor)
+puri,root (Kor)
+kopdjil,bark (Kor)
+kot,flower (Kor)
+pul,grass (Kor)
+batcul,rope (Kor)
+salgat,skin (Kor)
+sal,meat (Kor)
+pi,blood (Kor)
+pyo,bone (Kor)
+girum,fat (Kor)
+al,egg (Kor)
+pul,horn (Kor)
+kori,tail (Kor)
+gitol,feather (Kor)
+tol,hair (Kor)
+mori,head (Kor)
+gwi,ear (Kor)
+nun,eye (Kor)
+ko,nose (Kor)
+ip,mouth (Kor)
+i,tooth (Kor)
+hyo,tongue (Kor)
+sontop,fingernail (Kor)
+bal,foot (Kor)
+dari,leg (Kor)
+murup,knee (Kor)
+son,hand (Kor)
+nalge,wing (Kor)
+be,belly (Kor)

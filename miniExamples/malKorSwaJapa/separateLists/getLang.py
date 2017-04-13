@@ -11,4 +11,4 @@ for i,lang in enumerate(langs):
         if ',' in line:
             entry = line.split(',')
             with open(outputFile,'a') as f2:
-                f2.write(entry[i+2] + ',' + entry[1] + '\n') # i+2 because item 0=MalKorSwaJapa and 1=Eng
+                f2.write(entry[i+2] + ',' + entry[1] + ' (' + lang + ')' + '\n') # i+2 because item 0=MalKorSwaJapa and 1=Eng

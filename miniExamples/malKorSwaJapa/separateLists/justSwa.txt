@@ -1,101 +1,101 @@
-mtu,person
-kitu,thing
-pahali,place
-wakati,time
-wanataka,want
-lazima,should
-lazima,must
-uwezo,able
-hitadji,need
-kioo,mirror
-kazuma,sink
-kitanda,bed
-dirica,window
-rafu,shelf
-dawati,desk
-sakafu,floor
-mimi,I
-wewe,you
-yeye,he
-sisi,we
-ninyi,youall
-wao,they
-hi,this
-le,that
-hapa,here
-pale,there
-nani,who
-nini,what
-wapi,where
-lini,when
-vipi,how
-si,not
-ote,all
-ingi,many
-badi,some
-kidogo,few
-ingine,other
-modja,one
-mbili,two
-tatu,three
-ne,four
-tano,five
-kubwa,big
-refu,long
-pana,wide
-nene,thick
-zito,heavy
-dogo,small
-fupi,short
-embamba,narrow
-anana,thin
-mwanamke,woman
-mwanamume,man
-mtu,human
-mtoto,child
-mke,wife
-mume,husband
-mama,mother
-baba,father
-mnyama,animal
-samaki,fish
-ndege,bird
-mbwa,dog
-tcawa,louse
-nyoka,snake
-funza,worm
-mti,tree
-msitu,forest
-fimbo,stick
-tunda,fruit
-mbegu,seed
-djani,leaf
-mzizi,root
-gamba,bark
-ua,flower
-nyasi,grass
-kamba,rope
-ngozi,skin
-nyama,meat
-damu,blood
-mfupa,bone
-mori,fat
-yai,egg
-pembe,horn
-mkia,tail
-unyoya,feather
-nywele,hair
-kitcwa,head
-sikio,ear
-djitco,eye
-pua,nose
-kinywa,mouth
-djino,tooth
-ulimi,tongue
-ukutca,fingernail
-mguu,foot
-mguu,leg
-goti,knee
-mkono,hand
-ubawa,wing
-tumbo,belly
+mtu,person (Swa)
+kitu,thing (Swa)
+pahali,place (Swa)
+wakati,time (Swa)
+wanataka,want (Swa)
+lazima,should (Swa)
+lazima,must (Swa)
+uwezo,able (Swa)
+hitadji,need (Swa)
+kioo,mirror (Swa)
+kazuma,sink (Swa)
+kitanda,bed (Swa)
+dirica,window (Swa)
+rafu,shelf (Swa)
+dawati,desk (Swa)
+sakafu,floor (Swa)
+mimi,I (Swa)
+wewe,you (Swa)
+yeye,he (Swa)
+sisi,we (Swa)
+ninyi,youall (Swa)
+wao,they (Swa)
+hi,this (Swa)
+le,that (Swa)
+hapa,here (Swa)
+pale,there (Swa)
+nani,who (Swa)
+nini,what (Swa)
+wapi,where (Swa)
+lini,when (Swa)
+vipi,how (Swa)
+si,not (Swa)
+ote,all (Swa)
+ingi,many (Swa)
+badi,some (Swa)
+kidogo,few (Swa)
+ingine,other (Swa)
+modja,one (Swa)
+mbili,two (Swa)
+tatu,three (Swa)
+ne,four (Swa)
+tano,five (Swa)
+kubwa,big (Swa)
+refu,long (Swa)
+pana,wide (Swa)
+nene,thick (Swa)
+zito,heavy (Swa)
+dogo,small (Swa)
+fupi,short (Swa)
+embamba,narrow (Swa)
+anana,thin (Swa)
+mwanamke,woman (Swa)
+mwanamume,man (Swa)
+mtu,human (Swa)
+mtoto,child (Swa)
+mke,wife (Swa)
+mume,husband (Swa)
+mama,mother (Swa)
+baba,father (Swa)
+mnyama,animal (Swa)
+samaki,fish (Swa)
+ndege,bird (Swa)
+mbwa,dog (Swa)
+tcawa,louse (Swa)
+nyoka,snake (Swa)
+funza,worm (Swa)
+mti,tree (Swa)
+msitu,forest (Swa)
+fimbo,stick (Swa)
+tunda,fruit (Swa)
+mbegu,seed (Swa)
+djani,leaf (Swa)
+mzizi,root (Swa)
+gamba,bark (Swa)
+ua,flower (Swa)
+nyasi,grass (Swa)
+kamba,rope (Swa)
+ngozi,skin (Swa)
+nyama,meat (Swa)
+damu,blood (Swa)
+mfupa,bone (Swa)
+mori,fat (Swa)
+yai,egg (Swa)
+pembe,horn (Swa)
+mkia,tail (Swa)
+unyoya,feather (Swa)
+nywele,hair (Swa)
+kitcwa,head (Swa)
+sikio,ear (Swa)
+djitco,eye (Swa)
+pua,nose (Swa)
+kinywa,mouth (Swa)
+djino,tooth (Swa)
+ulimi,tongue (Swa)
+ukutca,fingernail (Swa)
+mguu,foot (Swa)
+mguu,leg (Swa)
+goti,knee (Swa)
+mkono,hand (Swa)
+ubawa,wing (Swa)
+tumbo,belly (Swa)
