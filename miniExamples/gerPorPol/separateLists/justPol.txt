@@ -1,202 +1,202 @@
-osoba,person
-jetc,thing
-myeystse,place
-tcas,time
-htce,want
-povin,should
-muce,must
-moj,able
-potceb,need
-lustro,mirror
-zlef,sink
-wucko,bed
-okno,window
-puwka,shelf
-byurko,desk
-podwoga,floor
-ya,I
-ti,you
-on,he
-mi,we
-vi,youall
-oni,they
-to,this
-tamto,that
-tu,here
-tam,there
-kto,who
-tso,what
-gdje,where
-kedi,when
-yak,how
-ne,not
-fcistko,all
-dujo,many
-kilka,some
-mawo,few
-ini,other
-yeden,one
-dva,two
-tci,three
-tcteri,four
-pyentc,five
-vyelci,big
-dwugi,long
-ceroki,wide
-gewsti,thick
-tcewcki,heavy
-mawi,small
-krutki,short
-vowski,narrow
-tcenki,thin
-kobyeta,woman
-mewctcizna,man
-tcwovyek,human
-djetsko,child
-jona,wife
-mowc,husband
-matka,mother
-oytcets,father
-zvyeje,animal
-riba,fish
-ptak,bird
-pyes,dog
-vec,louse
-vowc,snake
-robak,worm
-djevo,tree
-las,forest
-kiy,stick
-ovots,fruit
-jarno,seed
-lictc,leaf
-kojen,root
-kora,bark
-kfyat,flower
-trava,grass
-cnur,rope
-skura,skin
-myewso,meat
-kref,blood
-koctc,bone
-twuctc,fat
-yayko,egg
-ruk,horn
-ogon,tail
-pyuro,feather
-vwos,hair
-gwova,head
-uho,ear
-oko,eye
-nos,nose
-usta,mouth
-zomp,tooth
-yewzik,tongue
-paznoketc,fingernail
-stopa,foot
-noga,leg
-kolano,knee
-renka,hand
-skcidwo,wing
-bjuh,belly
-vnentcnoctci,guts
-ciya,neck
-pletsi,back
-pyerc,breast
-sertse,heart
-vontroba,liver
-pi,drink
-ye,eat
-gric,bite
-sa,suck
-plu,spit
-vimyoto,vomit
-dmuha,blow
-odiha,breathe
-cmya,laugh
-vidje,see
-swice,hear
-vye,know
-micle,think
-tcu,smell
-ba,fear
-spa,sleep
-ji,live
-umyera,die
-zabi,kill
-valtc,fight
-polo,hunt
-udeja,hit
-tcon,cut
-romb,split
-djga,stab
-drap,scratch
-kop,dig
-pwiva,swim
-lata,fly
-id,walk
-pcihodj,come
-lej,lie
-cedj,sit
-sta,stand
-obrats,turn
-pada,fall
-da,give
-tcima,hold
-ctcisk,squeeze
-tce,rub
-mi,wash
-vitcer,wipe
-tcongno,pull
-pha,push
-jutsa,throw
-vyowz,tie
-ci,sew
-litc,count
-muv,say
-cpyev,sing
-gra,play
-pwiv,float
-pwin,flow
-mroj,freeze
-pentcne,swell
-swontse,sun
-kcewjits,moon
-gvyazda,star
-voda,water
-dectc,rain
-jeka,river
-yejoro,lake
-moje,sea
-sul,salt
-kamyen,stone
-pyasek,sand
-kuc,dust
-jemya,earth
-hmura,cloud
-mgwa,fog
-nebo,sky
-vyatr,wind
-cnek,snow
-lut,ice
-dim,smoke
-ogen,fire
-popyuw,ash
-pali,burn
-droga,road
-gura,mountain
-tcervoni,red
-jeloni,green
-juwti,yellow
-byawi,white
-tcarni,black
-nots,night
-djen,day
-rok,year
-tcepwi,warm
-jimni,cold
-pewni,full
-novi,new
-stari,old
-dobri,good
-zwi,bad
+osoba,person (Pol)
+jetc,thing (Pol)
+myeystse,place (Pol)
+tcas,time (Pol)
+htce,want (Pol)
+povin,should (Pol)
+muce,must (Pol)
+moj,able (Pol)
+potceb,need (Pol)
+lustro,mirror (Pol)
+zlef,sink (Pol)
+wucko,bed (Pol)
+okno,window (Pol)
+puwka,shelf (Pol)
+byurko,desk (Pol)
+podwoga,floor (Pol)
+ya,I (Pol)
+ti,you (Pol)
+on,he (Pol)
+mi,we (Pol)
+vi,youall (Pol)
+oni,they (Pol)
+to,this (Pol)
+tamto,that (Pol)
+tu,here (Pol)
+tam,there (Pol)
+kto,who (Pol)
+tso,what (Pol)
+gdje,where (Pol)
+kedi,when (Pol)
+yak,how (Pol)
+ne,not (Pol)
+fcistko,all (Pol)
+dujo,many (Pol)
+kilka,some (Pol)
+mawo,few (Pol)
+ini,other (Pol)
+yeden,one (Pol)
+dva,two (Pol)
+tci,three (Pol)
+tcteri,four (Pol)
+pyentc,five (Pol)
+vyelci,big (Pol)
+dwugi,long (Pol)
+ceroki,wide (Pol)
+gewsti,thick (Pol)
+tcewcki,heavy (Pol)
+mawi,small (Pol)
+krutki,short (Pol)
+vowski,narrow (Pol)
+tcenki,thin (Pol)
+kobyeta,woman (Pol)
+mewctcizna,man (Pol)
+tcwovyek,human (Pol)
+djetsko,child (Pol)
+jona,wife (Pol)
+mowc,husband (Pol)
+matka,mother (Pol)
+oytcets,father (Pol)
+zvyeje,animal (Pol)
+riba,fish (Pol)
+ptak,bird (Pol)
+pyes,dog (Pol)
+vec,louse (Pol)
+vowc,snake (Pol)
+robak,worm (Pol)
+djevo,tree (Pol)
+las,forest (Pol)
+kiy,stick (Pol)
+ovots,fruit (Pol)
+jarno,seed (Pol)
+lictc,leaf (Pol)
+kojen,root (Pol)
+kora,bark (Pol)
+kfyat,flower (Pol)
+trava,grass (Pol)
+cnur,rope (Pol)
+skura,skin (Pol)
+myewso,meat (Pol)
+kref,blood (Pol)
+koctc,bone (Pol)
+twuctc,fat (Pol)
+yayko,egg (Pol)
+ruk,horn (Pol)
+ogon,tail (Pol)
+pyuro,feather (Pol)
+vwos,hair (Pol)
+gwova,head (Pol)
+uho,ear (Pol)
+oko,eye (Pol)
+nos,nose (Pol)
+usta,mouth (Pol)
+zomp,tooth (Pol)
+yewzik,tongue (Pol)
+paznoketc,fingernail (Pol)
+stopa,foot (Pol)
+noga,leg (Pol)
+kolano,knee (Pol)
+renka,hand (Pol)
+skcidwo,wing (Pol)
+bjuh,belly (Pol)
+vnentcnoctci,guts (Pol)
+ciya,neck (Pol)
+pletsi,back (Pol)
+pyerc,breast (Pol)
+sertse,heart (Pol)
+vontroba,liver (Pol)
+pi,drink (Pol)
+ye,eat (Pol)
+gric,bite (Pol)
+sa,suck (Pol)
+plu,spit (Pol)
+vimyoto,vomit (Pol)
+dmuha,blow (Pol)
+odiha,breathe (Pol)
+cmya,laugh (Pol)
+vidje,see (Pol)
+swice,hear (Pol)
+vye,know (Pol)
+micle,think (Pol)
+tcu,smell (Pol)
+ba,fear (Pol)
+spa,sleep (Pol)
+ji,live (Pol)
+umyera,die (Pol)
+zabi,kill (Pol)
+valtc,fight (Pol)
+polo,hunt (Pol)
+udeja,hit (Pol)
+tcon,cut (Pol)
+romb,split (Pol)
+djga,stab (Pol)
+drap,scratch (Pol)
+kop,dig (Pol)
+pwiva,swim (Pol)
+lata,fly (Pol)
+id,walk (Pol)
+pcihodj,come (Pol)
+lej,lie (Pol)
+cedj,sit (Pol)
+sta,stand (Pol)
+obrats,turn (Pol)
+pada,fall (Pol)
+da,give (Pol)
+tcima,hold (Pol)
+ctcisk,squeeze (Pol)
+tce,rub (Pol)
+mi,wash (Pol)
+vitcer,wipe (Pol)
+tcongno,pull (Pol)
+pha,push (Pol)
+jutsa,throw (Pol)
+vyowz,tie (Pol)
+ci,sew (Pol)
+litc,count (Pol)
+muv,say (Pol)
+cpyev,sing (Pol)
+gra,play (Pol)
+pwiv,float (Pol)
+pwin,flow (Pol)
+mroj,freeze (Pol)
+pentcne,swell (Pol)
+swontse,sun (Pol)
+kcewjits,moon (Pol)
+gvyazda,star (Pol)
+voda,water (Pol)
+dectc,rain (Pol)
+jeka,river (Pol)
+yejoro,lake (Pol)
+moje,sea (Pol)
+sul,salt (Pol)
+kamyen,stone (Pol)
+pyasek,sand (Pol)
+kuc,dust (Pol)
+jemya,earth (Pol)
+hmura,cloud (Pol)
+mgwa,fog (Pol)
+nebo,sky (Pol)
+vyatr,wind (Pol)
+cnek,snow (Pol)
+lut,ice (Pol)
+dim,smoke (Pol)
+ogen,fire (Pol)
+popyuw,ash (Pol)
+pali,burn (Pol)
+droga,road (Pol)
+gura,mountain (Pol)
+tcervoni,red (Pol)
+jeloni,green (Pol)
+juwti,yellow (Pol)
+byawi,white (Pol)
+tcarni,black (Pol)
+nots,night (Pol)
+djen,day (Pol)
+rok,year (Pol)
+tcepwi,warm (Pol)
+jimni,cold (Pol)
+pewni,full (Pol)
+novi,new (Pol)
+stari,old (Pol)
+dobri,good (Pol)
+zwi,bad (Pol)

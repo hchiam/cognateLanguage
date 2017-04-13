@@ -1,202 +1,202 @@
-pisoa,person
-koyza,thing
-lugar,place
-tepu,time
-kir,want
-div,should
-div,must
-pude,able
-nisisita,need
-icpayu,mirror
-pia,sink
-kama,bed
-janela,window
-pratilayra,shelf
-ickrivaninya,desk
-piso,floor
-eu,I
-tu,you
-eli,he
-noc,we
-voc,youall
-elic,they
-ictu,this
-akilu,that
-aki,here
-ai,there
-kay,who
-ki,what
-odi,where
-kwadu,when
-komu,how
-naw,not
-todu,all
-muytu,many
-alguc,some
-poku,few
-otru,other
-u,one
-doic,two
-trec,three
-kwatru,four
-siku,five
-gradi,big
-logu,long
-largu,wide
-icpesu,thick
-pizadu,heavy
-pikenu,small
-kurtu,short
-ictraytu,narrow
-finu,thin
-muyer,woman
-omay,man
-omay,human
-kriasa,child
-muyer,wife
-maridu,husband
-may,mother
-pai,father
-animal,animal
-payci,fish
-avi,bird
-kaw,dog
-pioyu,louse
-sirpeti,snake
-vermi,worm
-arvuri,tree
-flurecta,forest
-bactaw,stick
-fruta,fruit
-simeti,seed
-foya,leaf
-raic,root
-kacka,bark
-flor,flower
-erva,grass
-korda,rope
-peli,skin
-karni,meat
-sagi,blood
-osu,bone
-gurdura,fat
-ovu,egg
-cifri,horn
-kawda,tail
-pena,feather
-kabelu,hair
-kabesa,head
-oraya,ear
-oyu,eye
-naric,nose
-boka,mouth
-deti,tooth
-ligwa,tongue
-una,fingernail
-pe,foot
-perna,leg
-juayu,knee
-maw,hand
-aza,wing
-vetri,belly
-etranac,guts
-pickosu,neck
-koctac,back
-paytu,breast
-kurasaw,heart
-figadu,liver
-bib,drink
-kum,eat
-murd,bite
-sug,suck
-kucp,spit
-vumit,vomit
-supr,blow
-ricpir,breathe
-ri,laugh
-ve,see
-owvi,hear
-sab,know
-pes,think
-cayr,smell
-tim,fear
-durm,sleep
-viv,live
-mur,die
-mat,kill
-lut,fight
-kas,hunt
-bat,hit
-kurt,cut
-rac,split
-icfakj,stab
-racp,scratch
-kav,dig
-nad,swim
-vu,fly
-anda,walk
-vi,come
-dayt,lie
-set,sit
-pe,stand
-vir,turn
-kai,fall
-da,give
-sigur,hold
-apirt,squeeze
-icfrig,rub
-lav,wash
-ecug,wipe
-puc,pull
-epur,push
-atir,throw
-ata,tie
-kuz,sew
-kot,count
-diz,say
-kat,sing
-brik,play
-flutu,float
-flu,flow
-jil,freeze
-ica,swell
-sol,sun
-lua,moon
-ictrela,star
-agwa,water
-cuva,rain
-riu,river
-lagu,lake
-mar,sea
-sal,salt
-pedra,stone
-araya,sand
-puayra,dust
-tera,earth
-nuvay,cloud
-nivuayru,fog
-sew,sky
-vetu,wind
-nevi,snow
-jelu,ice
-fumu,smoke
-fogu,fire
-sizac,ash
-arde,burn
-ictrada,road
-montana,mountain
-virmayu,red
-verdi,green
-amarelu,yellow
-braku,white
-pretu,black
-noyti,night
-dia,day
-anu,year
-keti,warm
-friu,cold
-cayu,full
-novu,new
-veyu,old
-bo,good
-maw,bad
+pisoa,person (Por)
+koyza,thing (Por)
+lugar,place (Por)
+tepu,time (Por)
+kir,want (Por)
+div,should (Por)
+div,must (Por)
+pude,able (Por)
+nisisita,need (Por)
+icpayu,mirror (Por)
+pia,sink (Por)
+kama,bed (Por)
+janela,window (Por)
+pratilayra,shelf (Por)
+ickrivaninya,desk (Por)
+piso,floor (Por)
+eu,I (Por)
+tu,you (Por)
+eli,he (Por)
+noc,we (Por)
+voc,youall (Por)
+elic,they (Por)
+ictu,this (Por)
+akilu,that (Por)
+aki,here (Por)
+ai,there (Por)
+kay,who (Por)
+ki,what (Por)
+odi,where (Por)
+kwadu,when (Por)
+komu,how (Por)
+naw,not (Por)
+todu,all (Por)
+muytu,many (Por)
+alguc,some (Por)
+poku,few (Por)
+otru,other (Por)
+u,one (Por)
+doic,two (Por)
+trec,three (Por)
+kwatru,four (Por)
+siku,five (Por)
+gradi,big (Por)
+logu,long (Por)
+largu,wide (Por)
+icpesu,thick (Por)
+pizadu,heavy (Por)
+pikenu,small (Por)
+kurtu,short (Por)
+ictraytu,narrow (Por)
+finu,thin (Por)
+muyer,woman (Por)
+omay,man (Por)
+omay,human (Por)
+kriasa,child (Por)
+muyer,wife (Por)
+maridu,husband (Por)
+may,mother (Por)
+pai,father (Por)
+animal,animal (Por)
+payci,fish (Por)
+avi,bird (Por)
+kaw,dog (Por)
+pioyu,louse (Por)
+sirpeti,snake (Por)
+vermi,worm (Por)
+arvuri,tree (Por)
+flurecta,forest (Por)
+bactaw,stick (Por)
+fruta,fruit (Por)
+simeti,seed (Por)
+foya,leaf (Por)
+raic,root (Por)
+kacka,bark (Por)
+flor,flower (Por)
+erva,grass (Por)
+korda,rope (Por)
+peli,skin (Por)
+karni,meat (Por)
+sagi,blood (Por)
+osu,bone (Por)
+gurdura,fat (Por)
+ovu,egg (Por)
+cifri,horn (Por)
+kawda,tail (Por)
+pena,feather (Por)
+kabelu,hair (Por)
+kabesa,head (Por)
+oraya,ear (Por)
+oyu,eye (Por)
+naric,nose (Por)
+boka,mouth (Por)
+deti,tooth (Por)
+ligwa,tongue (Por)
+una,fingernail (Por)
+pe,foot (Por)
+perna,leg (Por)
+juayu,knee (Por)
+maw,hand (Por)
+aza,wing (Por)
+vetri,belly (Por)
+etranac,guts (Por)
+pickosu,neck (Por)
+koctac,back (Por)
+paytu,breast (Por)
+kurasaw,heart (Por)
+figadu,liver (Por)
+bib,drink (Por)
+kum,eat (Por)
+murd,bite (Por)
+sug,suck (Por)
+kucp,spit (Por)
+vumit,vomit (Por)
+supr,blow (Por)
+ricpir,breathe (Por)
+ri,laugh (Por)
+ve,see (Por)
+owvi,hear (Por)
+sab,know (Por)
+pes,think (Por)
+cayr,smell (Por)
+tim,fear (Por)
+durm,sleep (Por)
+viv,live (Por)
+mur,die (Por)
+mat,kill (Por)
+lut,fight (Por)
+kas,hunt (Por)
+bat,hit (Por)
+kurt,cut (Por)
+rac,split (Por)
+icfakj,stab (Por)
+racp,scratch (Por)
+kav,dig (Por)
+nad,swim (Por)
+vu,fly (Por)
+anda,walk (Por)
+vi,come (Por)
+dayt,lie (Por)
+set,sit (Por)
+pe,stand (Por)
+vir,turn (Por)
+kai,fall (Por)
+da,give (Por)
+sigur,hold (Por)
+apirt,squeeze (Por)
+icfrig,rub (Por)
+lav,wash (Por)
+ecug,wipe (Por)
+puc,pull (Por)
+epur,push (Por)
+atir,throw (Por)
+ata,tie (Por)
+kuz,sew (Por)
+kot,count (Por)
+diz,say (Por)
+kat,sing (Por)
+brik,play (Por)
+flutu,float (Por)
+flu,flow (Por)
+jil,freeze (Por)
+ica,swell (Por)
+sol,sun (Por)
+lua,moon (Por)
+ictrela,star (Por)
+agwa,water (Por)
+cuva,rain (Por)
+riu,river (Por)
+lagu,lake (Por)
+mar,sea (Por)
+sal,salt (Por)
+pedra,stone (Por)
+araya,sand (Por)
+puayra,dust (Por)
+tera,earth (Por)
+nuvay,cloud (Por)
+nivuayru,fog (Por)
+sew,sky (Por)
+vetu,wind (Por)
+nevi,snow (Por)
+jelu,ice (Por)
+fumu,smoke (Por)
+fogu,fire (Por)
+sizac,ash (Por)
+arde,burn (Por)
+ictrada,road (Por)
+montana,mountain (Por)
+virmayu,red (Por)
+verdi,green (Por)
+amarelu,yellow (Por)
+braku,white (Por)
+pretu,black (Por)
+noyti,night (Por)
+dia,day (Por)
+anu,year (Por)
+keti,warm (Por)
+friu,cold (Por)
+cayu,full (Por)
+novu,new (Por)
+veyu,old (Por)
+bo,good (Por)
+maw,bad (Por)

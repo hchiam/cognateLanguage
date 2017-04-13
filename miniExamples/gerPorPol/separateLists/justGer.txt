@@ -1,202 +1,202 @@
-perzon,person
-din,thing
-ort,place
-tsayt,time
-vol,want
-zol,should
-mis,must
-ken,able
-brawh,need
-cpigal,mirror
-vacbekn,sink
-bet,bed
-fensta,window
-regal,shelf
-crayptic,desk
-bodn,floor
-ih,I
-du,you
-ea,he
-via,we
-ia,youall
-zi,they
-dis,this
-das,that
-hia,here
-da,there
-vea,who
-vas,what
-vo,where
-van,when
-vi,how
-niht,not
-ala,all
-fila,many
-ayniga,some
-venih,few
-andara,other
-ayns,one
-tsvay,two
-dray,three
-fia,four
-finf,five
-gros,big
-lan,long
-brayt,wide
-dik,thick
-cvea,heavy
-klayn,small
-kurts,short
-en,narrow
-din,thin
-fraw,woman
-man,man
-menc,human
-kint,child
-fraw,wife
-man,husband
-muta,mother
-fata,father
-tia,animal
-fic,fish
-fogal,bird
-hunt,dog
-laws,louse
-clana,snake
-vurm,worm
-bawm,tree
-valt,forest
-ctok,stick
-fruht,fruit
-zaman,seed
-blat,leaf
-vurtsal,root
-rinda,bark
-bluma,flower
-gras,grass
-zayl,rope
-hawt,skin
-flayc,meat
-blut,blood
-knohan,bone
-fet,fat
-ay,egg
-horn,horn
-cvants,tail
-feda,feather
-ha,hair
-kopf,head
-oa,ear
-awga,eye
-naza,nose
-munt,mouth
-tsan,tooth
-tsuna,tongue
-finanagel,fingernail
-fus,foot
-bayn,leg
-kni,knee
-hant,hand
-fligal,wing
-bawh,belly
-ayngavayda,guts
-hals,neck
-rikan,back
-brust,breast
-herts,heart
-leba,liver
-trink,drink
-es,eat
-bays,bite
-zawg,suck
-cpuk,spit
-eabreh,vomit
-blaz,blow
-atma,breathe
-lah,laugh
-ze,see
-her,hear
-vis,know
-denk,think
-rih,smell
-firht,fear
-claf,sleep
-leb,live
-cterb,die
-tet,kill
-kempf,fight
-yag,hunt
-clag,hit
-cnayd,cut
-cpalt,split
-cteh,stab
-krats,scratch
-grab,dig
-cvim,swim
-flig,fly
-ge,walk
-kom,come
-lig,lie
-zits,sit
-cte,stand
-dre,turn
-fal,fall
-geb,give
-halt,hold
-kvetc,squeeze
-rayb,rub
-vac,wash
-vic,wipe
-tsi,pull
-drik,push
-verf,throw
-bind,tie
-ne,sew
-tsel,count
-zag,say
-zin,sing
-cpil,play
-cveb,float
-flis,flow
-frir,freeze
-cvel,swell
-zona,sun
-mont,moon
-ctern,star
-vasa,water
-regan,rain
-flus,river
-ze,lake
-mea,sea
-zalts,salt
-ctayn,stone
-zant,sand
-ctawp,dust
-eada,earth
-volka,cloud
-nebal,fog
-himal,sky
-vint,wind
-cne,snow
-ays,ice
-rawh,smoke
-foia,fire
-aca,ash
-bren,burn
-ctrasa,road
-berk,mountain
-rot,red
-grin,green
-gelp,yellow
-vays,white
-cvarts,black
-naht,night
-tak,day
-ya,year
-varm,warm
-kalt,cold
-fol,full
-noy,new
-alt,old
-gut,good
-cleht,bad
+perzon,person (Ger)
+din,thing (Ger)
+ort,place (Ger)
+tsayt,time (Ger)
+vol,want (Ger)
+zol,should (Ger)
+mis,must (Ger)
+ken,able (Ger)
+brawh,need (Ger)
+cpigal,mirror (Ger)
+vacbekn,sink (Ger)
+bet,bed (Ger)
+fensta,window (Ger)
+regal,shelf (Ger)
+crayptic,desk (Ger)
+bodn,floor (Ger)
+ih,I (Ger)
+du,you (Ger)
+ea,he (Ger)
+via,we (Ger)
+ia,youall (Ger)
+zi,they (Ger)
+dis,this (Ger)
+das,that (Ger)
+hia,here (Ger)
+da,there (Ger)
+vea,who (Ger)
+vas,what (Ger)
+vo,where (Ger)
+van,when (Ger)
+vi,how (Ger)
+niht,not (Ger)
+ala,all (Ger)
+fila,many (Ger)
+ayniga,some (Ger)
+venih,few (Ger)
+andara,other (Ger)
+ayns,one (Ger)
+tsvay,two (Ger)
+dray,three (Ger)
+fia,four (Ger)
+finf,five (Ger)
+gros,big (Ger)
+lan,long (Ger)
+brayt,wide (Ger)
+dik,thick (Ger)
+cvea,heavy (Ger)
+klayn,small (Ger)
+kurts,short (Ger)
+en,narrow (Ger)
+din,thin (Ger)
+fraw,woman (Ger)
+man,man (Ger)
+menc,human (Ger)
+kint,child (Ger)
+fraw,wife (Ger)
+man,husband (Ger)
+muta,mother (Ger)
+fata,father (Ger)
+tia,animal (Ger)
+fic,fish (Ger)
+fogal,bird (Ger)
+hunt,dog (Ger)
+laws,louse (Ger)
+clana,snake (Ger)
+vurm,worm (Ger)
+bawm,tree (Ger)
+valt,forest (Ger)
+ctok,stick (Ger)
+fruht,fruit (Ger)
+zaman,seed (Ger)
+blat,leaf (Ger)
+vurtsal,root (Ger)
+rinda,bark (Ger)
+bluma,flower (Ger)
+gras,grass (Ger)
+zayl,rope (Ger)
+hawt,skin (Ger)
+flayc,meat (Ger)
+blut,blood (Ger)
+knohan,bone (Ger)
+fet,fat (Ger)
+ay,egg (Ger)
+horn,horn (Ger)
+cvants,tail (Ger)
+feda,feather (Ger)
+ha,hair (Ger)
+kopf,head (Ger)
+oa,ear (Ger)
+awga,eye (Ger)
+naza,nose (Ger)
+munt,mouth (Ger)
+tsan,tooth (Ger)
+tsuna,tongue (Ger)
+finanagel,fingernail (Ger)
+fus,foot (Ger)
+bayn,leg (Ger)
+kni,knee (Ger)
+hant,hand (Ger)
+fligal,wing (Ger)
+bawh,belly (Ger)
+ayngavayda,guts (Ger)
+hals,neck (Ger)
+rikan,back (Ger)
+brust,breast (Ger)
+herts,heart (Ger)
+leba,liver (Ger)
+trink,drink (Ger)
+es,eat (Ger)
+bays,bite (Ger)
+zawg,suck (Ger)
+cpuk,spit (Ger)
+eabreh,vomit (Ger)
+blaz,blow (Ger)
+atma,breathe (Ger)
+lah,laugh (Ger)
+ze,see (Ger)
+her,hear (Ger)
+vis,know (Ger)
+denk,think (Ger)
+rih,smell (Ger)
+firht,fear (Ger)
+claf,sleep (Ger)
+leb,live (Ger)
+cterb,die (Ger)
+tet,kill (Ger)
+kempf,fight (Ger)
+yag,hunt (Ger)
+clag,hit (Ger)
+cnayd,cut (Ger)
+cpalt,split (Ger)
+cteh,stab (Ger)
+krats,scratch (Ger)
+grab,dig (Ger)
+cvim,swim (Ger)
+flig,fly (Ger)
+ge,walk (Ger)
+kom,come (Ger)
+lig,lie (Ger)
+zits,sit (Ger)
+cte,stand (Ger)
+dre,turn (Ger)
+fal,fall (Ger)
+geb,give (Ger)
+halt,hold (Ger)
+kvetc,squeeze (Ger)
+rayb,rub (Ger)
+vac,wash (Ger)
+vic,wipe (Ger)
+tsi,pull (Ger)
+drik,push (Ger)
+verf,throw (Ger)
+bind,tie (Ger)
+ne,sew (Ger)
+tsel,count (Ger)
+zag,say (Ger)
+zin,sing (Ger)
+cpil,play (Ger)
+cveb,float (Ger)
+flis,flow (Ger)
+frir,freeze (Ger)
+cvel,swell (Ger)
+zona,sun (Ger)
+mont,moon (Ger)
+ctern,star (Ger)
+vasa,water (Ger)
+regan,rain (Ger)
+flus,river (Ger)
+ze,lake (Ger)
+mea,sea (Ger)
+zalts,salt (Ger)
+ctayn,stone (Ger)
+zant,sand (Ger)
+ctawp,dust (Ger)
+eada,earth (Ger)
+volka,cloud (Ger)
+nebal,fog (Ger)
+himal,sky (Ger)
+vint,wind (Ger)
+cne,snow (Ger)
+ays,ice (Ger)
+rawh,smoke (Ger)
+foia,fire (Ger)
+aca,ash (Ger)
+bren,burn (Ger)
+ctrasa,road (Ger)
+berk,mountain (Ger)
+rot,red (Ger)
+grin,green (Ger)
+gelp,yellow (Ger)
+vays,white (Ger)
+cvarts,black (Ger)
+naht,night (Ger)
+tak,day (Ger)
+ya,year (Ger)
+varm,warm (Ger)
+kalt,cold (Ger)
+fol,full (Ger)
+noy,new (Ger)
+alt,old (Ger)
+gut,good (Ger)
+cleht,bad (Ger)
