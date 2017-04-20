@@ -165,7 +165,8 @@ def simpNonChiWordMaker(word):
     # if still have next letter after get first vowel, then get first one (consonant) after it:
     if indexVowel < len(word)-1:
         indexVowelConsonant = indexVowel + 1
-        word = word[:1+indexVowelConsonant]
+        word = word[:1+indexVowelConsonant] # CVC - syllable can end in consonant
+        # word = word[:indexVowelConsonant] # CV - syllable ends in a vowel
     return word
 
 
