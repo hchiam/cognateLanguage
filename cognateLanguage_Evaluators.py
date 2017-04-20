@@ -13,7 +13,7 @@ words['Hin'] = ''
 words['Ara'] = ''
 words['Rus'] = ''
 
-outputFilename = 'output_shortlist.txt'
+inputFilename = 'output_shortlist.txt'
 
 allophones = {
     'aeiou' : 'a',
@@ -169,7 +169,7 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
 #------------------------
 
 # get lines of file into a list:
-with open(outputFilename,'r') as f1:
+with open(inputFilename,'r') as f1:
     data = f1.readlines()
 
 # fill arrays:
