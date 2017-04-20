@@ -1,0 +1,423 @@
+orig	yunsastempot use,yun,usa,istemal,istemal,potrebi,
+orig	castahokanbi be,ca,esta,ho,kana,bi,
+orig	hwodostalkonpa get,hwod,konsegi,pa,istalama,dostava,
+CV  	yaketcawiho want,yaw,kere,tcah,awiz,hote, [0.8, 0.5, 0.7, -12.0] vs yawizkertcahot
+orig	djidelbansan make,djidzaw,ase,bana,sana,dela,
+orig	yuyazlenbhaclog language,yuyen,lengwa,bhaca,loga,yazik,
+CV  	tokotmi cognate,tonywentca,kognado,atmiy,qarib,kognat, [4.2, 1.8, 3.0, -10.0] vs tonkogartmiy
+orig	hwoyali or,hwo,o,ya,aw,ili,
+orig	dawkolena to,daw,a,ko,le,na,
+orig	cweprentaltsik learn,cwe,aprende,sikh,talama,utci,
+orig	dyenkomhasan computer,dyenaw,komputador,sanganak,hasub,kampyutir,
+orig	dzwosekarfaldel do,dzwo,ase,kar,fal,dela,
+CV  	naposaqa able,nan,pode,sak,qadar,motc, [1.8, 0.3, 1.1, -20.0] vs nanotpodsakad
+CV  	dokotcive thing,donci,kosa,tciz,ce,vec, [1.5, 4.4, 3.0, -15.0] vs donkostcizvec
+orig	delbicparaz must,bici,debe,par,lazim,dolji,
+orig	tcivarah go,tci,va,dja,rah,id,
+CV  	catyewavre time,cadjyen,tyempo,samay,waqt,vremya, [1.6, 3.7, 2.6, -24.0] vs cadyemsamwaqvrem
+CV  	diludjama place,difan,lugar,djagah,makan,mesta, [1.2, 6.4, 3.8, -29.0] vs diflugdjagmakmes
+CV  	pamisadru friend,panyo,amigo,mitra,sadiq,druk, [1.5, 0.4, 1.0, -22.0] vs panigmitruksad
+orig	yotenepas have,yo,tene,pas,ind,ime,
+orig	tsapalkilslov word,tsa,palabra,cabd,kilma,slova,
+orig	kwaypedukushet piece,kway,pedazo,tukra,heta,kusok,
+orig	wecporehkyopat why,wecanma,porke,kyo,leh,patcimu,
+CV  	nihlapri hi,nihaw,ola,namaste,ahlan,privet, [0.7, 3.3, 2.0, -15.0] vs nanihlanpriv
+CV  	dzadyolvilapa bye,dzaydjyen,adyos,alvida,ilaliqa,paka, [1.7, 1.0, 1.3, -17.0] vs adyoslalvidzaypak
+CV  	lyosetche six,lyow,seis,tcheh,sita,cest, [2.2, 0.7, 1.5, -7.0] vs lyowsetcheh
+orig	syetcabsem seven,tci,syete,sat,saba,sem,
+orig	batcotamvos eight,ba,otco,ath,tamaniya,vosim,
+CV  	djyonwenoti nine,djyow,nweve,no,tisa,devit, [0.7, 3.0, 1.8, -15.0] vs djyownwevtisdev
+orig	dyecadasra ten,ca,dyes,das,acra,desit,
+CV  	lisenu zero,lin,sero,cunya,sifr,nul, [5.1, 7.7, 6.4, -29.0] vs selinulcunsif
+orig	woyome i,wo,yo,me,ana,ya,
+CV  	nintu you,ni,tu,tum,enta,ti, [1.1, 1.1, 1.1, -2.0] vs entuni
+CV  	tavaho he,ta,el,vah,howa,on, [2.1, 0.9, 1.5, -10.0] vs talvahown
+orig	womoshamhna we,woman,nosotros,ham,ehna,mi,
+orig	nimtovosp you all,niman,vosotros,ap,ento,vi,
+orig	tamiyosvehom they,taman,eyos,ve,homa,ani,
+orig	djesteyah this,dje,este,yah,da,eta,
+orig	nasevahdaw that,na,ese,vah,dawat,to,
+orig	djelkiyahenzdes here,djeli,aki,yaha,hena,zdes,
+orig	vihentanal there,nali,ai,vaha,henak,tam,
+orig	ceykyeminkto who,cey,kyen,kon,min,kto,
+orig	cankekyahcto what,canma,ke,kya,eh,cto,
+orig	kahfengdonal where,nali,donde,kaha,fen,gde,
+orig	cantakabkwan when,canmacho,kwando,kab,emta,kagda,
+CV  	dzako how,dzanma,komo,kesa,ezay,kak, [3.3, 1.7, 2.5, -35.0] vs dzankesaykakom
+orig	bunehc not,bu,no,nahi,mec,ne,
+orig	swoytodkolfsab all,swoyo,todo,sab,kol,fse,
+orig	mudwobahmnoket many,dwo,mutcos,bahut,ketir,mnogi,
+CV  	djilgune some,djiga,algunos,kutc,cowaya,neskalka, [8.5, 4.2, 6.4, -25.0] vs djigutlgunecow
+orig	cawpokolthornim few,caw,poko,thora,qolayel,nimnogi,
+CV  	tcitrodu other,tcita,otro,dusra,tani,drugoy, [3.3, 2.0, 2.6, -19.0] vs tcitustantrog
+CV  	yinowadi one,yi,uno,ek,wahed,adin, [3.2, 2.2, 2.7, -5.0] vs yikwahdino
+orig	ardvostnen two,ar,dos,do,etnen,dva,
+orig	tresantintal three,san,tres,tin,talata,tri,
+CV  	kwatsarba four,sa,kwatro,tcar,arba,tcitiri, [3.3, 4.4, 3.9, -19.0] vs kwatsarbatcit
+orig	wusinpyatham five,wu,sinko,patc,hamsa,pyat,
+orig	dagrankebar big,da,grande,bara,kebir,balcoy,
+CV  	tcatodla long,tcan,largo,lamba,towil,dlini, [1.6, 1.4, 1.5, -22.0] vs tcanlartowdlam
+CV  	kwantco wide,kwan,antco,tcora,wase,ciroki, [0.8, 3.1, 2.0, -14.0] vs kwantcorwas
+CV  	hogrwemote thick,how,grweso,mota,tehin,tolsti, [0.6, 4.1, 2.4, -22.0] vs grwesmotehowtol
+CV  	djupebhate heavy,djun,pesado,bhari,teqil,tijoli, [2.7, 0.2, 1.5, -27.0] vs djunpesbharteqtij
+CV  	cyapetchosoma small,cyaw,pekenyo,tchota,sogayar,malinki, [0.5, 1.7, 1.1, -19.0] vs cyawpektchotsogmal
+CV  	dwakona short,dwan,korto,nata,qosayar,karotki, [0.5, 0.7, 0.6, -17.0] vs dwanatkorqos
+CV  	djastretaski narrow,djay,estretco,tang,dayaq,uski, [1.7, 1.8, 1.8, -11.0] vs estredjaytanski
+CV  	badero thin,baw,delgado,patla,rofaya,tonki, [5.4, 0.1, 2.7, -25.0] vs bawpadelofton
+CV  	nirase woman,niran,muher,orat,set,jencina, [5.2, 2.7, 3.9, -23.0] vs muhsetjenirat
+CV  	ombredna man,nanran,ombre,admi,ragel,mucina, [0.6, 4.4, 2.5, -19.0] vs adnanbregmuc
+CV  	ombravyansatci human,ran,ombre,vyakti,ensan,tcilavek, [2.2, 1.1, 1.6, -11.0] vs vyaknsanbrantcil
+orig	hayelninbatit child,haydza,ninyo,batca,ayel,dita,
+orig	patmelawjimuh wife,lawpo,muher,patni,merat,jina,
+orig	malawpatgozmuj husband,lawgon,marido,pati,goz,muj,
+orig	mamad mother,mama,madre,ma,om,mama,
+CV  	bate father,baba,padre,pita,ab,atets, [0.7, 3.3, 2.0, -10.0] vs babadet
+CV  	dunidjaha animal,dunwu,animal,djanvar,hayawan,jivotna, [1.3, 2.0, 1.7, -11.0] vs djunimhayjiv
+orig	yiripezamat fish,yi,pez,matchli,samaka,riba,
+orig	nyawpahterptitcir bird,nyaw,paharo,tciriya,ter,ptitsa,
+CV  	gopepyo dog,go,pero,kuta,kalb,pyos, [2.7, 0.1, 1.4, -22.0] vs pergotkalpyos
+orig	pyohdcaqamvoc louse,ca,pyoho,dju,qamla,voc,
+CV  	cahazmi snake,ca,serpyente,sap,hanac,zmiya, [2.9, 2.9, 2.9, -20.0] vs carsaphanzmiy
+CV  	tcyogudutce worm,tcyoyin,gusano,kira,duda,tcerv, [1.3, 2.9, 2.1, -23.0] vs guskirdutcyoytcer
+orig	cugderbol tree,cu,arbol,per,cagara,deriva,
+orig	dsangaboslyes forest,sanlin,boske,djangal,gaba,lyes,
+orig	cudanpalsay stick,cudja,palo,dandal,asaya,palka,
+CV  	cwefruphafaplo fruit,cweygwo,fruta,phal,fakha,plot, [1.4, 3.0, 2.2, -21.0] vs cweyfrutphalfakplot
+orig	bidjunbez seed,djundza,semiya,bidj,bezra,semya,
+orig	yehapatwaris leaf,ye,oha,pata,waraqa,list,
+CV  	garadja root,gan,rais,djar,gedr,korin, [6.2, 3.6, 4.9, -28.0] vs gangedjaraikor
+orig	cupkorgetchal bark,cupi,kortesa,tchal,ged,kara,
+CV  	hwaflophuzatsvi flower,hwa,flor,phul,zahra,tsvitok, [1.0, 3.3, 2.2, -10.0] vs florphulzahwatsvit
+CV  	tsaghenetra grass,tsaw,herba,ghas,negila,trava, [2.9, 4.0, 3.4, -23.0] vs tsawherneghastrav
+orig	kweracanhabvir rope,can,kwerda,rasi,habl,virofka,
+CV  	pipyetvage skin,pi,pyel,tvatca,geld,koza, [3.0, 1.7, 2.3, -24.0] vs pipyeltvatgelkoz
+orig	karowmaslah meat,row,karne,mas,lahma,masa,
+orig	cyesanhundamkrof blood,cye,sangre,hun,dam,krof,
+orig	weshadgus bone,gu,weso,hadi,adm,kost,
+CV  	djigrade fat,djifan,grasa,tcarbi,dehn,jir, [2.3, 3.8, 3.1, -28.0] vs djifgrastcardeh
+CV  	wendabeyi egg,dan,wevo,anda,beda,yiytso, [0.7, 1.6, 1.2, -16.0] vs wevbedandayiy
+CV  	djyakwesiqaro horn,djyaw,kwerno,sig,qarn,rok, [0.8, 2.2, 1.5, -10.0] vs djyawsikweroqar
+orig	weykolputelhvos tail,wey,kola,putch,del,hvost,
+orig	yimplumpanpiric feather,yimaw,pluma,pankh,rica,piro,
+orig	tofolkabalcar hair,tofa,kabeyo,bal,car,volasi,
+CV  	tokasara head,tow,kabesa,sar,ras,galava, [4.1, 3.6, 3.8, -26.0] vs towkabsarasgal
+orig	ardwodrehakan ear,ardwo,oreha,kan,wedn,uha,
+orig	yenhoklas eye,yendjin,oho,akh,en,glas,
+orig	binakmanarnos nose,bi,naris,nak,manahir,nos,
+orig	bokmuhanrodzwe mouth,dzwe,boka,muh,hanak,rot,
+CV  	dyadase tooth,yatci,dyente,dat,sena,zup, [4.8, 4.2, 4.5, -31.0] vs yatyendatsenzup
+CV  	ledcayi tongue,ca,lengwa,djibh,lesan,yizik, [1.6, 1.3, 1.5, -26.0] vs lendcablesyiz
+CV  	djinyanada fingernail,djidjya,unya,nahun,dafer,nogat, [1.8, 3.1, 2.5, -21.0] vs djidafnyanahnog
+orig	djyawperegstapye foot,djyaw,pye,per,regl,stapa,
+orig	twepyeregtanag leg,twe,pyerna,tang,regl,naga,
+orig	ciroghutkarod knee,ci,rodiya,ghutna,rokba,kalena,
+orig	cowmanhatruk hand,cow,mano,hath,id,ruka,
+orig	tcibakenklal wing,tciban,ala,pakh,genah,krilo,
+orig	barpedudjiv belly,dudza,bariga,pet,batn,jivot,
+orig	tcantartripmaskic guts,tcandza,tripas,antari,masarin,kicki,
+orig	bodgarakweycey neck,bodza,kweyo,gardan,raqaba,ceya,
+CV  	esbeda back,bey,espalda,pith,dahr,spina, [12.9, 2.0, 7.5, -38.0] vs beyspalpitahspin
+orig	cyonpetchatsedgrut breast,cyonbu,petco,tchati,sedr,grut,
+orig	cinkordilser heart,cindzan,korason,dil,qalb,sertsi,
+orig	gadyagankebet liver,gan,igado,yakrt,kebd,petcin,
+orig	hapitcer drink,ha,bebe,pi,cereb,pit,
+orig	tcakamyes eat,tca,kome,kha,kal,es,
+orig	yawmorkatkus bite,yaw,morde,kat,ad,kusa,
+orig	tcupsmas suck,tcwo,tcupa,tcus,mas,sasa,
+CV  	tuskuthupli spit,tu,eskupi,thuk,taf,pliva, [1.9, 0.9, 1.4, -14.0] vs eskuplivthuktuf
+CV  	voltubra vomit,tu,vomita,ulti,raga,bliva, [1.8, 3.1, 2.5, -21.0] vs ulturagblivom
+CV  	tcwesophunadu blow,tcwe,sopla,phuk,nafah,dut, [1.0, 0.9, 0.9, -5.0] vs sophuknafdutcwe
+CV  	huresatnadi breathe,huci,respira,sas,etnafes,dica, [5.4, 4.4, 4.9, -17.0] vs hucasrestnafdic
+orig	reidehacyawsmiy laugh,cyaw,rei,has,dehek,smiya,
+orig	cavedekan see,kan,ve,dekh,caf,vide,
+orig	tinoyslisun hear,tin,oy,sun,seme,slica,
+CV  	djirezna know,djidaw,sabe,djan,eref,zna, [8.3, 3.6, 6.0, -33.0] vs djidjansabrefzna
+orig	cyanpensotfakdum think,cyan,pensa,sotc,etfakar,duma,
+orig	wanlesugcamtcuy smell,wan,ole,sugh,cam,tcuya,
+orig	temdarhafpay fear,pa,teme,dar,haf,baya,
+CV  	cwedosonaspa sleep,cwey,dormi,so,nam,spa, [1.9, 1.8, 1.9, -11.0] vs cweydorsonamspa
+orig	hwovivdji live,hwo,vivi,dji,ac,ji,
+orig	samormat die,sa,mori,mar,mat,umira,
+orig	camatmarqatbiv kill,ca,mata,mar,qatal,ubiva,
+CV  	dapelaha fight,dadjya,pelea,lar,harab,baro, [0.6, 3.3, 1.9, -11.0] vs dadpelarhar
+CV  	kacisdaho hunt,dalye,kaza,cikar,estad,ahoti, [7.3, 1.2, 4.3, -18.0] vs kazikstadalhot
+orig	golmardar hit,da,golpea,mar,darab,udari,
+CV  	tcyekore cut,tcye,korta,kat,qata,rezat, [1.0, 3.3, 2.2, -5.0] vs korezkatcye
+orig	fanparacaqban split,fankay,parti,bant,caq,razdili,
+orig	tsapunbhontankal stab,tsa,apunyala,bhonk,tan,kalo,
+orig	djwakharastsar scratch,djwa,raska,kharotc,harbec,tsarapa,
+CV  	wakakhori dig,wa,kava,khod,hafar,ri, [2.9, 1.4, 2.2, -22.0] vs wakavkhodhafri
+CV  	yonatepla swim,yoyon,nada,ter,am,plava, [0.7, 2.2, 1.4, -12.0] vs yoynaderplav
+orig	feybolitar fly,fey,bola,ur,tar,lita,
+CV  	dzokame walk,dzow,kamina,tcal,meci,id, [5.4, 3.8, 4.6, -20.0] vs dzowkamectcal
+orig	vengeplay come,lay,veni,a,ge,pri,
+CV  	tayalena lie down,tan,yase,let,nam,liza, [3.0, 0.5, 1.8, -21.0] vs yasletanamliz
+CV  	dzwosebeqa sit,dzwo,senta,beth,qad,side, [1.7, 5.5, 3.6, -22.0] vs senbedzwoqadsid
+orig	djanwekhalevstay stand,djan,levanta,khara,weqef,staya,
+CV  	djwahimuvla turn,djwan,hira,mur,laf,vraca, [1.9, 4.4, 3.2, -18.0] vs djwanurafrachir
+CV  	lwokapa fall,lwocya,kae,gir,weqe,pada, [5.1, 4.0, 4.6, -29.0] vs gilwocwekaepad
+orig	geyda give,gey,da,de,eda,da,
+orig	tenaspakdir hold,na,tene,pakar,mesek,dirja,
+orig	apredjirghus squeeze,dji,apreta,ghusa,asar,ja,
+CV  	fromada rub,row,frota,mal,dak,tire, [5.2, 2.3, 3.8, -30.0] vs frotakmarowtir
+orig	lavdhogacimi wash,ci,lava,dho,gasal,mi,
+orig	limasponvitsa wipe,tsa,limpya,pontch,masah,vitira,
+CV  	lakhacati pull,la,hala,khitc,cad,tinu, [0.6, 2.2, 1.4, -13.0] vs halakhitincad
+orig	tweympuhdhakzaq push,twey,empuha,dhaka,zaq,pihu,
+orig	tiranphenbras throw,ran,tira,phenk,rama,brasa,
+orig	batarabanviz tie,ban,ata,badh,rabat,viza,
+orig	fankosihay sew,fan,kose,si,hayat,ci,
+orig	koncud count,cu,konta,gin,ad,cita,
+CV  	cwodeska say,cwo,desi,kah,qal,skaza, [4.4, 0.5, 2.5, -19.0] vs decwokahlskaz
+orig	tcankanpe sing,tcan,kanta,ga,gana,pe,
+CV  	wakhugle play,wan,huga,khel,leb,igra, [5.5, 0.1, 2.8, -21.0] vs wanhuglebkhel
+CV  	fuflotepli float,fu,flota,ter,am,pli, [2.2, 2.2, 2.2, -8.0] vs fuflotermpli
+CV  	lyoflubagete flow,lyo,flui,bah,geri,tetc, [1.0, 0.7, 0.9, -13.0] vs fluibahgelyotet
+orig	dondjamtala freeze,dondjye,ela,djam,talag,zamorznu,
+CV  	pontcawe swell,pondjan,intca,sudj,werem,puhnu, [1.9, 5.5, 3.7, -20.0] vs pontcadwerpuh
+orig	taysolcam sun,tayan,sol,suradj,cams,sontsa,
+orig	yeluntcadqam moon,yelyan,luna,tcad,qamar,luna,
+orig	estreytarzvicineg star,cin,estreya,tara,negma,zvizda,
+orig	cweygwapanayvad water,cwey,agwa,pani,maya,vada,
+orig	yivbarmatoc rain,yi,yuvya,baris,matar,doct,
+CV  	harina river,ha,rio,nadi,nahr,rika, [4.1, 2.9, 3.5, -29.0] vs rionadnaharik
+CV  	ladjhubozi lake,hu,lago,djhil,bohera,ozira, [2.9, 0.5, 1.7, -9.0] vs djhulagbohzir
+orig	samarbahay sea,hay,mar,samandar,bahr,mori,
+orig	yenamalsal salt,yen,sal,namak,malh,sol,
+orig	capyedpathagam stone,ca,pyedra,pathar,hagar,kamin,
+orig	arenretpica sand,ca,arena,ret,ramla,pisok,
+orig	tcanpoldhultor dust,tcantu,polvo,dhul,torab,pil,
+orig	dityerdharzim earth,ditcyow,tyera,dharti,ard,zimla,
+CV  	yinubasebla cloud,yin,nube,badal,sehaba,oblaka, [3.0, 2.2, 2.6, -12.0] vs yinubadsehblak
+orig	wudhunyebcabtum fog,wu,nyebla,dhundh,cabura,tuman,
+CV  	tyesyesmasa sky,tyen,syelo,asman,sama,neba, [6.8, 3.0, 4.9, -25.0] vs tyenebsyelsmansam
+orig	hawvyent wind,fon,vyento,hava,hawa,vetir,
+orig	cyenyebartalsnek snow,cye,nyebe,barf,talg,snek,
+CV  	biyetalo ice,bin,yelo,barf,talg,lot, [2.8, 2.5, 2.7, -22.0] vs binyelotalbar
+CV  	yemodhudo smoke,yen,umo,dhua,dohan,dim, [4.3, 5.5, 4.9, -20.0] vs yenodhuadohdim
+orig	hwofwegonar fire,hwo,fwego,ag,nar,agon,
+CV  	hweserape ashes,hweydjin,senisas,rakh,ramad,pepil, [1.2, 3.8, 2.5, -28.0] vs hweysenrakrampep
+CV  	kedcaha burn,caw,kema,djal,haraq,jetc, [5.1, 1.7, 3.4, -33.0] vs cawkemharjedjal
+orig	kamsaluputar road,lu,kamino,sarak,tariq,put,
+orig	canongapahgar mountain,can,montanya,pahar,gabal,gara,
+CV  	huhmakro red,hun,roho,lal,ahmar,krasni, [5.2, 7.7, 6.4, -30.0] vs ahmalarohunkras
+CV  	livehahdazi green,li,verde,hara,ahdar,ziloni, [1.9, 3.3, 2.6, -12.0] vs veliharhdarzil
+orig	hwanarpilsfarjol yellow,hwan,amariyo,pila,asfar,jolti,
+orig	baydblansaf white,bay,blanko,safed,abyad,beli,
+orig	heynegalswedcor black,hey,negro,kala,eswed,tcorni,
+orig	yewnotlerat night,yewan,notce,rat,lela,notc,
+orig	bayomdiadin day,baytyen,dia,din,yom,den,
+orig	salsanyengot year,nyen,anyo,sal,sana,got,
+orig	wankaldaftyop warm,wanwan,kalido,garm,dafi,tyopli,
+CV  	flathaba cold,lan,frio,thanda,bard,halodni, [5.2, 4.7, 5.0, -31.0] vs friothanbalanhal
+orig	yemanalpur full,man,yeno,pura,malyan,polni,
+orig	cinwevnaygednov new,cin,nwevo,naya,gedid,novi,
+orig	vyehpulawqadstar old,law,vyeho,purana,qadim,stari,
+CV  	bwetchata good,haw,bweno,atcha,tayeb,horoci, [5.7, 3.0, 4.3, -16.0] vs bwentchawrtay
+orig	malbrohwah bad,hway,malo,bura,wehec,plohoy,
+CV  	laposagma rotten,lan,podrido,sara,mafen,gniloy, [0.5, 4.1, 2.3, -19.0] vs podsalanafgnil
+CV  	dzagawegra dirty,dzan,susyo,ganda,weseh,grazni, [0.4, 4.0, 2.2, -23.0] vs dzanganwesusgraz
+CV  	djadepre straight,dja,rekto,sidha,edel,primoy, [1.9, 3.3, 2.6, -16.0] vs djaderekprim
+CV  	yegomekre round,yen,redondo,gol,medawar,krugli, [0.7, 3.0, 1.9, -13.0] vs yenedkrugored
+orig	agudikhamstli sharp,li,agudo,tikha,hami,ostri,
+CV  	dumboku dull,dun,embotado,kund,telem,tupoy, [1.3, 7.7, 4.5, -27.0] vs dunbotelkuntup
+orig	lisglatcigwanae smooth,gwanhwa,liso,tcikna,naem,glatki,
+orig	camohmabmogil wet,ca,mohado,gila,mablul,mokri,
+orig	seganacuh dry,gan,seko,sukha,nacef,suhoy,
+orig	dwekorsahprav correct,dwe,korekto,sahi,sah,pravilni,
+CV  	djinaqobli near,djin,serka,nazdik,qorayeb,bliski, [0.5, 5.5, 3.0, -19.0] vs djinazqorbliser
+orig	yendulehbei far,yen,lehos,dur,beid,dalyoki,
+orig	derdahyomprav right,yo,deretca,dahina,yemin,pravi,
+orig	dzwoskyerevbaycem left,dzwo,iskyerda,baya,cemal,levi,
+CV  	dzape at,dzay,a,pe,and,u, [1.0, 0.7, 0.9, -9.0] vs dzaypen
+orig	dzaynefe in,dzayli,en,me,fe,v,
+orig	ganasat with,gan,kon,sath,ma,s,
+CV  	hawe and,ha,i,or,we,i, [1.1, 1.1, 1.1, -4.0] vs harwe
+orig	rugaryesi if,rugwo,si,agar,eza,yesli,
+CV  	pokyica because,yinwey,porke,kyonki,acan,patamucta, [2.3, 3.1, 2.7, -19.0] vs porkyincanpat
+CV  	mi name,mindza,nombre,nam,esm,ima, [2.4, 8.8, 5.6, -36.0] vs tcyentesqapah
+orig	howbadespos she,ta,eya,vah,heya,ana,
+CV  	tcakorama car,tca,kotce,gari,arabiya,macina, [2.8, 7.5, 5.2, -17.0] vs encanadparfaw
+CV  	tsabamitu washroom,tsaswo,banyo,cotcalay,mirhad,tualet, [2.2, 13.2, 7.7, -19.0] vs cyabahnitahpod
+CV  	nudatcu number,cu,numero,sankhya,adad,tcislo, [2.7, 10.2, 6.5, -1.0] vs tsonende
+orig	daka house,djya,kasa,ghar,bit,dom,
+orig	perekacno home,djya,ogar,ghar,bit,dom,
+orig	nims born,tcucan,nase,djanma,etwalad,radi,
+CV  	yikutcali heal,yidja,kura,tcanga,cafa,litci, [0.6, 12.6, 6.6, -4.0] vs tavaheyana
+orig	kotcagarabmac break,dapwo,rompe,tut,kasara,razbi,
+orig	tsasotuabanir build,djyenca,konstrui,bana,bana,stroi,
+orig	adadcusanum weep,ku,yora,ro,baka,plaka,
+CV  	dalanaga mourn,dawnyen,lamenta,ro,nadaba,gariva, [4.1, 16.2, 10.1, -34.0] vs kasgharbidjyadom
+CV  	tyabanarata dance,tyawu,bayla,natc,raqasa,tantsa, [1.0, 4.6, 2.8, -14.0] vs ogharbidjyadom
+CV  	hukadco gather,cowdji,hunta,ikatha,djama,sobira, [4.4, 5.4, 4.9, -30.0] vs djanastwalatcuc
+orig	yidcankuritcaf hug,yonbaw,abrasa,alingan,anaqa,obnima,
+CV  	bibstemtava refrain,bimyen,abstene,parhedj,imtana,vazdirja, [4.3, 15.8, 10.1, -14.0] vs romtudapkasraz
+orig	djyenkonbanstroi lose,catci,perde,kho,faqada,tira,
+CV  	bagarahta keep,bawtca,garda,rakh,ihtafaza,derja, [1.3, 12.1, 6.7, -11.0] vs yorbakuprok
+orig	galamadaw tear,sa,rasga,tor,mazaqa,rva,
+orig	bayraqtanatyaw love,ay,ama,prem,hab,lyubi,
+CV  	hadyaghrnaki hate,han,odya,ghrna,kirih,ninavidi, [3.9, 1.1, 2.5, -11.0] vs cowhunkatjamsob
+CV  	djopla toplant,djon,planta,rop,zara,saja, [15.5, 1.1, 8.3, -36.0] vs yonaqbraslinbnim
+CV  	tcahati silence,tcanmo,silensyo,hamoc,sukut,ticina, [6.6, 1.1, 3.8, -34.0] vs bimtanbstenparvaz
+orig	catirperfakho war,djandjan,gera,yudh,harb,vayna,
+CV  	hapacami peace,hapin,pas,canti,salam,mir, [9.0, 0.3, 4.7, -28.0] vs bawgarakhtafder
+CV  	djaplapona plant,djawu,planta,podha,nabat,rasteniye, [2.2, 14.5, 8.3, -6.0] vs torasamazrva
+orig	hapremalyub yes,ca,si,ha,aywa,da,
+orig	hanindyaghrnakir no,bu,no,nahi,la,nyet,
+orig	djonsazaroplan paper,dja,papel,kagaz,waraq,bumaga,
+CV  	dyeteha telephone,dyenhwa,telefono,durbhas,hatif,telefon, [0.4, 0.6, 0.5, -32.0] vs tcanhamsuktisil
+orig	gerharvayudjan person,ran,persona,vyakti,caks,tcilavek,
+orig	hapasanirsal bed,tcwan,kama,palang,serir,kravat,
+orig	planapodjawras window,tcwanhu,ventana,khirki,cebak,akno,
+orig	cahaywada shelf,djya,estanteria,takhta,raf,polka,
+orig	bunohlanyet desk,djwodza,eskritorio,desk,maktab,stolpismini,
+CV  	yidetca should,yingay,deberia,tcahie,yanbagi,doljin, [0.4, 5.1, 2.8, -23.0] vs djapapumkagwar
+orig	telhadyen need,ciyaw,nesesita,zarurat,ihtadja,nujda,
+orig	peranvyakcaktcil floor,diban,piso,farc,ardiya,pol,
+CV  	djispedami mirror,djindza,espeho,darpan,miraya,zerkala, [2.5, 6.0, 4.3, -34.0] vs tcwankampalserkrav
+CV  	cwefresibami sink,cwetsaw,fregadero,sink,baluwa,umivalnik, [1.7, 10.8, 6.2, -20.0] vs tcwanvenkhircebkno
+orig	djyastantakporaf same,iyan,mizmo,vahi,cabah,taje,
+orig	eskridjwodestolmak thankyou,cyecye,grasyas,dhanyavad,cukran,spasiba,
+orig	yindebtcahdol feel,tcumo,senti,masus,cara,tcustva,
+orig	neciyzarhtad before,tcyen,antes,pahle,qabl,do,
+orig	dibisfardiypol after,how,despwes,bad,bad,posle,
+orig	djinirspehdarzer above,can,ensima,upar,fawq,nad,
+orig	cwetsinifregbal below,cya,baho,nitce,taht,pod,
+orig	iyanizabvahtaj more,dwo,mas,djyada,aktar,bolci,
+orig	gracyecukdhanspas less,caw,menos,kam,aqal,menci,
+orig	tcumsar try,ca,trata,kocic,hawala,pitay,
+CV  	djifato only,djiyo,solo,sirf,faqat,tolka, [4.4, 4.5, 4.5, -41.0] vs masdjyadwoktarbol
+orig	cawkamenqal from,tson,de,se,men,iz,
+orig	kocahawpitrat easy,roni,fasil,asan,sahl,lyohki,
+orig	djiysolfaqtol book,cu,libro,pustak,ketab,kniga,
+orig	ronfasansahlyoh different,buyiyan,diferente,alag,muhtalif,drugoy,
+orig	libucukniket read,du,le,parh,qara,tcita,
+orig	buydifmuhdlag of,da,de,ka,,,
+CV  	kapeleno but,kaca,pero,lekin,laken,no, [1.2, 7.8, 4.5, -19.0] vs paleqartcidu
+CV  	gabazmi change,gaybyen,kambya,badal,gayar,izmini, [2.5, 0.7, 1.6, -8.0] vs gambadzmin
+CV  	gupadanstra tool,gundji,eramyenta,upakran,adah,instrumyent, [1.8, 0.9, 1.4, -8.0] vs upagunstramdah
+orig	samintenfihpan understand,minbay,entende,samadjh,fihim,panima,
+CV  	cyeskrikapi write,cye,eskribi,likh,kataba,pisa, [0.7, 4.4, 2.6, -18.0] vs eskribicyelikat
+orig	sirtcakrukdayen circle,yentcen,sirculo,tcakra,dayira,kruk,
+orig	manbapwerdvar door,man,pwerta,darvaza,bab,dver,
+CV  	gwaplunosve light,gwan,lus,prakac,nor,svet, [2.0, 2.2, 2.1, -10.0] vs pragwanolusvet
+orig	avacontzvuk sound,canin,sonido,avaz,sot,zvuk,
+orig	djwodmestar table,djwodza,mesa,mez,tarabeza,stol,
+orig	kwadjamurvar square,djanfancin,kwadro,varg,muraba,kvadrat,
+orig	sanutriakt triangle,sandjyaw,triangulo,trikon,mutalat,triugolnik,
+orig	cakomlyid food,cawu,komida,khana,akil,yida,
+orig	favatcinkrpaj please,tcin,favor,krpya,fadlak,pajalusta,
+orig	dweblosfimaf sorry,dwebutci,losyento,maf,asif,izvinit,
+orig	gucihapasnrav like,cihwan,gusta,pasand,haba,nravitsa,
+orig	kwaydjarapis fast,kway,rapidamente,djaldi,sura,bistra,
+orig	panladbagan beside,panbyen,lado,bagal,ganb,radam,
+orig	tcyanadfwerqawsil strong,tcyan,fwerte,madjabut,qawiy,silni,
+orig	dantazdasper wait,dan,espera,intazar,intazara,jda,
+orig	naglo the,naga,lo,,el,,
+orig	komayharctarkup buy,may,kompra,harid,ictara,kupi,
+CV  	asunizla blue,lan,asul,nila,azraq,sini, [8.8, 6.5, 7.7, -30.0] vs asulanilzraqsin
+orig	dzumadgrup group,dzu,grupo,samuh,madjmua,grupa,
+orig	ifuropkaphidej clothes,ifu,ropa,kapre,hidum,adejda,
+orig	tcyendinpesfel money,tcyen,dinero,pesa,felus,dengi,
+orig	konyotchedirhuf hole,kon,oyo,tched,hufra,dira,
+CV  	caniglu silly,ca,ninyito,murkh,sahif,glupi, [0.5, 0.7, 0.6, -18.0] vs ninurcahglup
+orig	wanterkonha finish,wan,termina,anta,anha,kontci,
+orig	hwatcidibras draw,hwa,dibuha,tcitrabana,rasama,risava,
+orig	fanuvtradarpir translate,fanyi,tradusi,anuvad,tardjama,pirivadi,
+orig	baysyeniysosto hundred,bay,syento,so,miya,sto,
+orig	tcyenilhaztis thousand,tcyen,mil,hazar,alf,tisitca,
+orig	bemaybrat sell,may,bende,betc,ba,prada,
+orig	anyadjyardafdab add,djya,anyadi,djor,idafa,dabavi,
+orig	hatnakitcutvit remove,tcutci,kita,hata,naqala,vitci,
+orig	mahtcituhsurkar picture,tuhwa,imahen,tcitra,sura,kartina,
+CV  	liduca shower,lini,dutca,cavar,duc,duc, [0.2, 1.4, 0.8, -16.0] vs lindutucav
+orig	ditsegalfomkav carpet,ditan,alfombra,galitca,segada,kavor,
+CV  	tcokadaya drawer,tcoti,kahon,daraz,djarur,yacik, [1.2, 2.5, 1.9, -28.0] vs tcotarkahdjaryac
+CV  	birmahacko closet,bitcu,armaryo,kothari,hazana,ckaf, [4.0, 5.5, 4.8, -23.0] vs bitrmarkothazkaf
+CV  	djina today,djintyen,oy,adj,inaharda,sivodna, [3.1, 6.6, 4.8, -16.0] vs djinahoysiv
+orig	dzwotyerkalmbarftcir yesterday,dzwotyen,ayer,kal,imbarih,ftcira,
+orig	minbukalzaf tomorrow,mintyen,manyana,kal,bukra,zaftra,
+CV  	cyormasa sibling,cyondidjyemey,ermano,sahodar,caqiqa,siblink, [2.5, 3.0, 2.8, -25.0] vs cyonermansaqsib
+orig	patcimatwarad parent,tcin,padre,matapita,walid,raditil,
+orig	cyankam camera,cyandji,kamara,kemra,kamera,kamira,
+orig	gadzwotapakos cook,dzwotsay,kosina,pakana,tabaka,gatovi,
+orig	tcwanasyevlipah wear,tcwan,yeva,pahan,libis,nasi,
+orig	kidwockolkwam howmuch,dwocaw,kwanto,kitna,kam,skolka,
+CV  	cyedica now,cyendzay,aora,ab,dilwaqti,cas, [1.7, 4.4, 3.0, -12.0] vs abdorcacyen
+CV  	tcagusvadapro taste,tcan,gusta,svad,daq,probava, [2.2, 1.8, 2.0, -13.0] vs tcangusvadaqprob
+orig	tcumtoklamtrog touch,tcumo,toka,tchu,lamas,troga,
+CV  	tabamusli too,tay,demasyado,bahut,mufrit,slickam, [0.2, 3.6, 1.9, -23.0] vs taydemufbahslic
+orig	yetambhikamtoj also,ye,tambyen,bhi,kaman,toji,
+orig	beytarcanorsev north,bey,norte,utar,camal,sevir,
+CV  	nasudagayu south,nan,sur,daksin,ganub,yuk, [0.9, 0.5, 0.7, -8.0] vs surdakananyuk
+orig	purcarvasdon east,don,este,purva,carq,vastok,
+CV  	cipaga west,ci,oeste,pactcim,garb,zapat, [0.8, 2.2, 1.5, -5.0] vs pecipgar
+CV  	tcyedegemafpi forward,tcyen,adelante,age,amam,fpirot, [6.3, 3.3, 4.8, -10.0] vs tcyenamdelgefpir
+orig	howarpitrasnaz backward,how,atras,pitche,wara,nazat,
+CV  	naledu milk,nay,letce,dudh,laban,malako, [5.2, 4.7, 5.0, -28.0] vs naylabmaletud
+orig	poymurdadjikur chicken,dji,poyo,murga,dadjadja,kuritsa,
+orig	mawgatbil cat,maw,gato,bili,qut,kot,
+orig	dacfwerdjorgrom loud,dacan,fwerte,djor,al,gromki,
+orig	tyenostaqpag weather,tyentci,tyempo,mosam,taqs,pagoda,
+orig	dyemaylkor email,dyendzayodjyen,koreo,imel,imayl,imeyl,
+orig	wantarnet internet,wan,internet,intarnet,intarnit,intirnet,
+orig	byaltcasfen cup,beydza,tasa,pyala,fengan,tcacka,
+orig	platapantar plate,pandza,plato,plet,tabaq,tarelka,
+orig	wanisulbolkat bowl,wan,bol,katora,sultaneya,miska,
+orig	cokatcadenvil fork,tcadza,tenedor,kata,coka,vilka,
+CV  	kutcamalo spoon,cawdza,kutcara,tcamatc,malaqa,locka, [2.2, 2.2, 2.2, -8.0] vs kutcawmaloc
+orig	kwaydpalkat chopstick,kwaydza,paliyo,kata,awad,palatcka,
+CV  	bikemetse than,bi,ke,se,men,tcem, [1.1, 1.1, 1.1, -3.0] vs biketsemen
+orig	dznovphirtan again,dzay,denwevo,phir,tani,snova,
+CV  	kecto thats,,ke,ki,in,cto, [1.1, 1.1, 1.1, -4.0] vs kencto
+CV  	dzwemasa most,dzwe,mas,sabse,al,nay, [4.2, 3.3, 3.8, -20.0] vs dzwemasabnayl
+orig	wanusamprob problem,wanti,problema,samasya,muckila,prablema,
+CV  	djyesopahari solution,djyeda,solusyon,upay,hal,ricenye, [0.2, 4.4, 2.3, -13.0] vs djyedsolicpayhal
+orig	wanputspragsal ask,wan,pregunta,putch,sala,sprasi,
+orig	hwetvedjabres answer,hweda,responde,djavab,adjaba,atveti,
+orig	swoysiklitok so,swoyi,asike,to,li,takcto,
+orig	banadyudsad help,bandju,ayuda,madad,sada,pamag,
+orig	rekyadjidakpom remember,djida,rekwerda,yad,dakar,pomni,
+orig	siyidkurstul chair,yidza,siya,kursi,kursi,stul,
+CV  	djastoye these,djacye,estos,ye,dol,eti, [3.3, 2.0, 2.7, -18.0] vs djactosyedol
+orig	nacosvedyol those,nacye,esos,ve,dol,tye,
+orig	maberkyahali ?,ma,berdad,kya,hal,li,
+orig	buskadjaw search,djaw,buska,khodj,bahata,iska,
+orig	paysurdensan sort,payci,ordena,suladjha,sanafa,sartirava,
+CV  	pafikatsa queue,paydwe,fila,katar,saf,otcirit, [1.5, 1.4, 1.4, -20.0] vs paykatcirsafil
+orig	sofbarwanprag software,rwandjyen,softwer,softveyar,barmadjiyat,pragram,
+CV  	indohevyapra exercise,indon,ehersisyo,vyayam,tamrin,uprajn, [8.0, 4.4, 6.2, -12.0] vs indonhervyaypraj
+orig	famindaq minute,fandjon,minuto,minat,daqiqa,minuta,
+orig	oraghantcyaws hour,cyawca,ora,ghanta,sa,tcas,
+orig	segsamyaw second,myawdjon,segundo,sekand,sanya,sikunda,
+orig	lemandhimbat slow,man,lento,dhima,bati,medliniy,
+orig	myecayimkis maybe,yeci,kisa,cayad,yimkin,mojidbit,
+orig	trabctagon work,gondzwo,trabaha,kam,ictagal,rabota,
+orig	finilabtcal function,incin,funksyona,tcal,amila,rabota,
+orig	regredqanprav rule,gwedza,regla,radj,qanun,pravila,
+orig	carnkwerbadel body,canti,kwerpo,carir,badan,tela,
+orig	inwangles english,inwan,ingles,angrezi,ingiliziya,angliski,
+orig	lidahemitprim example,lidza,ehemplo,udahran,mital,primer,
+orig	tadsuskahuyiv his,tada,su,uska,hu,yivo,
+orig	tadsuskahayiy her,tada,su,uska,ha,yiyo,
+orig	tamkasuyihum their,tamada,su,unka,hum,yih,
+CV  	nwohana our,womanda,nwestro,hamara,na,nac, [1.5, 0.8, 1.1, -17.0] vs wonweshamac
+orig	nitumak your,nida,tu,tumhara,ak,tvoy,
+orig	nimvwecapku yours,nimanda,vwestro,apka,ku,vac,
+orig	wodmoyr my,woda,mi,mera,i,moy,
+orig	vryodhorpokal kinda,yodyen,poko,thore,qalilan,vrode,
+orig	kidjon chinese,djonwan,tcino,tcini,siniya,kitayski,
+orig	ispan spanish,cibanya,espanyol,spenic,isbaniya,ispanski,
+orig	hindi hindi,indu,indi,hindi,hindiya,hindi,
+orig	arabi arabic,alabo,arabe,arbi,arabi,arapski,
+orig	rus russian,a,ruso,rusi,rusi,ruskiy,
+orig	hwecpuntadpires recycle,hwecow,resikla,punartcakran,tadwiralnifayat,pirirabota,
+orig	yidpahsal already,yidjin,ya,pahlehi,salafan,uje,
+orig	senidjosabo week,djow,semana,saptah,esbo,nidela,
+CV  	rwodesla weak,rwo,debil,durbal,daif,slabi, [0.6, 3.3, 1.9, -12.0] vs durwodabslab
+orig	fankwarkamda room,fandjyen,kwarto,kamra,oda,komnata,
+orig	djonpormahvaj important,djonyaw,importante,mahatvapurn,muhim,vajni,
+orig	kahadibsunkar box,hadza,kaha,diba,sunduq,karopka,
+orig	nankatrudifsab difficult,nan,difisil,kathin,sab,trudni,
+orig	kakzyantar as,cyan,komo,tarah,zay,kak,
+SCORE: 141 out of 422 = 33.41%
