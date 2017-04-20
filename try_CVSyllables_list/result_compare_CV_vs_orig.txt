@@ -420,4 +420,426 @@ orig	djonpormahvaj important,djonyaw,importante,mahatvapurn,muhim,vajni,
 orig	kahadibsunkar box,hadza,kaha,diba,sunduq,karopka,
 orig	nankatrudifsab difficult,nan,difisil,kathin,sab,trudni,
 orig	kakzyantar as,cyan,komo,tarah,zay,kak,
+SCORE: 141 out of 422 = 33.41%[-0.3, -2.2, -1.2, -10.0] 	yusastepo vs yunsastempot
+[-0.1, -1.3, -0.7, -4.0] 	castahokabi vs castahokanbi
+[-1.5, 2.0, 0.3, -13.0] 	hwokopasta vs hwodostalkonpa
+[0.8, 0.5, 0.7, -12.0] 	yaketcawiho vs yawizkertcahot USE THE CV VERSION!!! want,yaw,kere,tcah,awiz,hote,
+[0.4, -1.7, -0.6, -17.0] 	djibade vs djidelbansan
+[0.8, -3.9, -1.5, -31.0] 	yulebha vs yuyazlenbhaclog
+[4.2, 1.8, 3.0, -10.0] 	tokotmi vs tonkogartmiy USE THE CV VERSION!!! cognate,tonywentca,kognado,atmiy,qarib,kognat,
+[0.0, 0.0, 0.0, 0.0] 	hwoyali vs hwoyali
+[1.1, -1.9, -0.4, -4.0] 	dakolena vs dawkolena
+[0.2, -0.5, -0.2, -10.0] 	cwepretatsi vs cweprentaltsik
+[-4.4, 1.8, -1.3, -7.0] 	dyekosaha vs dyenkomhasan
+[2.2, -3.9, -0.8, -13.0] 	dzwosekafade vs dzwosekarfaldel
+[1.8, 0.3, 1.1, -20.0] 	naposaqa vs nanotpodsakad USE THE CV VERSION!!! able,nan,pode,sak,qadar,motc,
+[1.5, 4.4, 3.0, -15.0] 	dokotcive vs donkostcizvec USE THE CV VERSION!!! thing,donci,kosa,tciz,ce,vec,
+[2.8, -1.0, 0.9, -16.0] 	bidela vs delbicparaz
+[1.1, -1.3, -0.1, -3.0] 	tcivara vs tcivarah
+[1.6, 3.7, 2.6, -24.0] 	catyewavre vs cadyemsamwaqvrem USE THE CV VERSION!!! time,cadjyen,tyempo,samay,waqt,vremya,
+[1.2, 6.4, 3.8, -29.0] 	diludjama vs diflugdjagmakmes USE THE CV VERSION!!! place,difan,lugar,djagah,makan,mesta,
+[1.5, 0.4, 1.0, -22.0] 	pamisadru vs panigmitruksad USE THE CV VERSION!!! friend,panyo,amigo,mitra,sadiq,druk,
+[-0.3, -1.5, -0.9, -3.0] 	yotepame vs yotenepas
+[-0.4, 2.2, 0.9, -11.0] 	tsapakislo vs tsapalkilslov
+[-0.3, 0.4, 0.1, -13.0] 	kwapetuheku vs kwaypedukushet
+[1.5, -3.2, -0.9, -21.0] 	wepokyole vs wecporehkyopat
+[0.7, 3.3, 2.0, -15.0] 	nihlapri vs nanihlanpriv USE THE CV VERSION!!! hi,nihaw,ola,namaste,ahlan,privet,
+[1.7, 1.0, 1.3, -17.0] 	dzadyolvilapa vs adyoslalvidzaypak USE THE CV VERSION!!! bye,dzaydjyen,adyos,alvida,ilaliqa,paka,
+[2.2, 0.7, 1.5, -7.0] 	lyosetche vs lyowsetcheh USE THE CV VERSION!!! six,lyow,seis,tcheh,sita,cest,
+[1.8, -0.2, 0.8, -11.0] 	tcisye vs syetcabsem
+[-0.1, -2.5, -1.3, -8.0] 	batcotavo vs batcotamvos
+[0.7, 3.0, 1.8, -15.0] 	djyonwenoti vs djyownwevtisdev USE THE CV VERSION!!! nine,djyow,nweve,no,tisa,devit,
+[0.0, 0.0, 0.0, 2.0] 	cadyedacra vs dyecadasra
+[5.1, 7.7, 6.4, -29.0] 	lisenu vs selinulcunsif USE THE CV VERSION!!! zero,lin,sero,cunya,sifr,nul,
+[0.0, 0.0, 0.0, 0.0] 	woyome vs woyome
+[1.1, 1.1, 1.1, -2.0] 	nintu vs entuni USE THE CV VERSION!!! you,ni,tu,tum,enta,ti,
+[2.1, 0.9, 1.5, -10.0] 	tavaho vs talvahown USE THE CV VERSION!!! he,ta,el,vah,howa,on,
+[2.4, -2.6, -0.1, -15.0] 	wohahno vs womoshamhna
+[-0.7, -0.6, -0.6, -9.0] 	nivonto vs nimtovosp
+[-0.8, -0.6, -0.7, -10.0] 	tayovehoni vs tamiyosvehom
+[1.1, -1.5, -0.2, -3.0] 	djesteya vs djesteyah
+[1.0, -0.4, 0.3, -9.0] 	nasevada vs nasevahdaw
+[2.0, -0.6, 0.7, -11.0] 	djekiyahezde vs djelkiyahenzdes
+[-0.5, -0.8, -0.7, -8.0] 	navaheta vs vihentanal
+[1.3, 0.0, 0.6, 2.0] 	cekyekomikto vs ceykyeminkto
+[0.7, -2.3, -0.8, -8.0] 	cakekyacto vs cankekyahcto
+[-0.9, -2.3, -1.6, -10.0] 	nakafegdo vs kahfengdonal
+[-0.7, -0.4, -0.6, -10.0] 	cakwakamta vs cantakabkwan
+[3.3, 1.7, 2.5, -35.0] 	dzako vs dzankesaykakom USE THE CV VERSION!!! how,dzanma,komo,kesa,ezay,kak,
+[0.9, -2.8, -1.0, -6.0] 	buno vs bunehc
+[1.5, -2.1, -0.3, -15.0] 	swotokofsa vs swoytodkolfsab
+[-0.6, 4.4, 1.9, -14.0] 	dwobakemmu vs mudwobahmnoket
+[8.5, 4.2, 6.4, -25.0] 	djilgune vs djigutlgunecow USE THE CV VERSION!!! some,djiga,algunos,kutc,cowaya,neskalka,
+[-0.6, -4.7, -2.7, -16.0] 	capothoqoni vs cawpokolthornim
+[3.3, 2.0, 2.6, -19.0] 	tcitrodu vs tcitustantrog USE THE CV VERSION!!! other,tcita,otro,dusra,tani,drugoy,
+[3.2, 2.2, 2.7, -5.0] 	yinowadi vs yikwahdino USE THE CV VERSION!!! one,yi,uno,ek,wahed,adin,
+[7.2, -0.6, 3.3, -7.0] 	dotnedva vs ardvostnen
+[4.3, -0.1, 2.1, -19.0] 	satreti vs tresantintal
+[3.3, 4.4, 3.9, -19.0] 	kwatsarba vs kwatsarbatcit USE THE CV VERSION!!! four,sa,kwatro,tcar,arba,tcitiri,
+[-0.2, -2.8, -1.5, -2.0] 	wusipahapya vs wusinpyatham
+[-4.0, 2.2, -0.9, -6.0] 	dagrabake vs dagrankebar
+[1.6, 1.4, 1.5, -22.0] 	tcatodla vs tcanlartowdlam USE THE CV VERSION!!! long,tcan,largo,lamba,towil,dlini,
+[0.8, 3.1, 2.0, -14.0] 	kwantco vs kwantcorwas USE THE CV VERSION!!! wide,kwan,antco,tcora,wase,ciroki,
+[0.6, 4.1, 2.4, -22.0] 	hogrwemote vs grwesmotehowtol USE THE CV VERSION!!! thick,how,grweso,mota,tehin,tolsti,
+[2.7, 0.2, 1.5, -27.0] 	djupebhate vs djunpesbharteqtij USE THE CV VERSION!!! heavy,djun,pesado,bhari,teqil,tijoli,
+[0.5, 1.7, 1.1, -19.0] 	cyapetchosoma vs cyawpektchotsogmal USE THE CV VERSION!!! small,cyaw,pekenyo,tchota,sogayar,malinki,
+[0.5, 0.7, 0.6, -17.0] 	dwakona vs dwanatkorqos USE THE CV VERSION!!! short,dwan,korto,nata,qosayar,karotki,
+[1.7, 1.8, 1.8, -11.0] 	djastretaski vs estredjaytanski USE THE CV VERSION!!! narrow,djay,estretco,tang,dayaq,uski,
+[5.4, 0.1, 2.7, -25.0] 	badero vs bawpadelofton USE THE CV VERSION!!! thin,baw,delgado,patla,rofaya,tonki,
+[5.2, 2.7, 3.9, -23.0] 	nirase vs muhsetjenirat USE THE CV VERSION!!! woman,niran,muher,orat,set,jencina,
+[0.6, 4.4, 2.5, -19.0] 	ombredna vs adnanbregmuc USE THE CV VERSION!!! man,nanran,ombre,admi,ragel,mucina,
+[2.2, 1.1, 1.6, -11.0] 	ombravyansatci vs vyaknsanbrantcil USE THE CV VERSION!!! human,ran,ombre,vyakti,ensan,tcilavek,
+[-2.0, 0.9, -0.5, -12.0] 	hanibayedi vs hayelninbatit
+[-3.5, 4.3, 0.4, -22.0] 	lamupaji vs patmelawjimuh
+[1.0, -2.0, -0.5, -23.0] 	lamapago vs malawpatgozmuj
+[-0.7, 0.5, -0.1, -3.0] 	ma vs mamad
+[0.7, 3.3, 2.0, -10.0] 	bate vs babadet USE THE CV VERSION!!! father,baba,padre,pita,ab,atets,
+[1.3, 2.0, 1.7, -11.0] 	dunidjaha vs djunimhayjiv USE THE CV VERSION!!! animal,dunwu,animal,djanvar,hayawan,jivotna,
+[-3.7, 1.1, -1.3, -6.0] 	yipemasari vs yiripezamat
+[1.7, -1.5, 0.1, -24.0] 	nyapatcipte vs nyawpahterptitcir
+[2.7, 0.1, 1.4, -22.0] 	gopepyo vs pergotkalpyos USE THE CV VERSION!!! dog,go,pero,kuta,kalb,pyos,
+[0.7, -0.5, 0.1, -11.0] 	pyodcaqavo vs pyohdcaqamvoc
+[2.9, 2.9, 2.9, -20.0] 	cahazmi vs carsaphanzmiy USE THE CV VERSION!!! snake,ca,serpyente,sap,hanac,zmiya,
+[1.3, 2.9, 2.1, -23.0] 	tcyogudutce vs guskirdutcyoytcer USE THE CV VERSION!!! worm,tcyoyin,gusano,kira,duda,tcerv,
+[-0.1, 2.2, 1.0, -4.0] 	curbode vs cugderbol
+[-4.7, 1.8, -1.4, -9.0] 	bodsagalye vs dsangaboslyes
+[1.5, -4.3, -1.4, -12.0] 	acupada vs cudanpalsay
+[1.4, 3.0, 2.2, -21.0] 	cwefruphafaplo vs cweyfrutphalfakplot USE THE CV VERSION!!! fruit,cweygwo,fruta,phal,fakha,plot,
+[-2.1, -0.6, -1.3, -11.0] 	djubi vs bidjunbez
+[-0.2, -3.7, -2.0, -8.0] 	yehapawali vs yehapatwaris
+[6.2, 3.6, 4.9, -28.0] 	garadja vs gangedjaraikor USE THE CV VERSION!!! root,gan,rais,djar,gedr,korin,
+[1.5, -1.0, 0.3, -17.0] 	cukotcha vs cupkorgetchal
+[1.0, 3.3, 2.2, -10.0] 	hwaflophuzatsvi vs florphulzahwatsvit USE THE CV VERSION!!! flower,hwa,flor,phul,zahra,tsvitok,
+[2.9, 4.0, 3.4, -23.0] 	tsaghenetra vs tsawherneghastrav USE THE CV VERSION!!! grass,tsaw,herba,ghas,negila,trava,
+[-0.3, 0.3, 0.0, -12.0] 	cakwerahavi vs kweracanhabvir
+[3.0, 1.7, 2.3, -24.0] 	pipyetvage vs pipyeltvatgelkoz USE THE CV VERSION!!! skin,pi,pyel,tvatca,geld,koza,
+[1.8, -2.3, -0.3, -17.0] 	rokama vs karowmaslah
+[3.0, -1.7, 0.7, -15.0] 	cyesahudakro vs cyesanhundamkrof
+[-1.7, -5.4, -3.5, -8.0] 	guweha vs weshadgus
+[2.3, 3.8, 3.1, -28.0] 	djigrade vs djifgrastcardeh USE THE CV VERSION!!! fat,djifan,grasa,tcarbi,dehn,jir,
+[0.7, 1.6, 1.2, -16.0] 	wendabeyi vs wevbedandayiy USE THE CV VERSION!!! egg,dan,wevo,anda,beda,yiytso,
+[0.8, 2.2, 1.5, -10.0] 	djyakwesiqaro vs djyawsikweroqar USE THE CV VERSION!!! horn,djyaw,kwerno,sig,qarn,rok,
+[1.9, -3.8, -0.9, -15.0] 	wekopudehvo vs weykolputelhvos
+[2.3, -0.6, 0.8, -33.0] 	yiplupa vs yimplumpanpiric
+[0.7, -1.7, -0.5, -12.0] 	tokabacavo vs tofolkabalcar
+[4.1, 3.6, 3.8, -26.0] 	tokasara vs towkabsarasgal USE THE CV VERSION!!! head,tow,kabesa,sar,ras,galava,
+[2.4, -1.6, 0.4, -8.0] 	ardworekaha vs ardwodrehakan
+[2.1, -6.4, -2.1, -7.0] 	yehogla vs yenhoklas
+[6.1, -1.5, 2.3, -30.0] 	bina vs binakmanarnos
+[-0.4, -1.8, -1.1, -6.0] 	dzwebomuharo vs bokmuhanrodzwe
+[4.8, 4.2, 4.5, -31.0] 	dyadase vs yatyendatsenzup USE THE CV VERSION!!! tooth,yatci,dyente,dat,sena,zup,
+[1.6, 1.3, 1.5, -26.0] 	ledcayi vs lendcablesyiz USE THE CV VERSION!!! tongue,ca,lengwa,djibh,lesan,yizik,
+[1.8, 3.1, 2.5, -21.0] 	djinyanada vs djidafnyanahnog USE THE CV VERSION!!! fingernail,djidjya,unya,nahun,dafer,nogat,
+[-0.1, 0.7, 0.3, -7.0] 	djyapyeperesta vs djyawperegstapye
+[-2.8, -1.3, -2.0, -8.0] 	twepyetarena vs twepyeregtanag
+[-0.5, 0.3, -0.1, -18.0] 	ciroghuka vs ciroghutkarod
+[0.6, -0.8, -0.1, -16.0] 	comaharu vs cowmanhatruk
+[-1.5, -1.7, -1.6, -8.0] 	tcipagekla vs tcibakenklal
+[-1.2, 2.7, 0.8, -19.0] 	dubaji vs barpedudjiv
+[-3.6, 4.4, 0.4, -16.0] 	tcatrintamaki vs tcantartripmaskic
+[-1.9, -1.6, -1.8, -13.0] 	bokwegarace vs bodgarakweycey
+[12.9, 2.0, 7.5, -38.0] 	esbeda vs beyspalpitahspin USE THE CV VERSION!!! back,bey,espalda,pith,dahr,spina,
+[-1.1, 4.4, 1.7, -15.0] 	cyopetchasegru vs cyonpetchatsedgrut
+[1.4, -1.3, 0.1, -18.0] 	cikodi vs cinkordilser
+[3.0, -7.4, -2.2, -23.0] 	igayape vs gadyagankebet
+[1.0, -0.0, 0.5, -7.0] 	habece vs hapitcer
+[-0.1, -1.3, -0.7, -2.0] 	tcakokha vs tcakamyes
+[4.1, -5.4, -0.6, -24.0] 	yamoka vs yawmorkatkus
+[-1.0, -1.0, -1.0, 8.0] 	tcwotcuma vs tcupsmas
+[1.9, 0.9, 1.4, -14.0] 	tuskuthupli vs eskuplivthuktuf USE THE CV VERSION!!! spit,tu,eskupi,thuk,taf,pliva,
+[1.8, 3.1, 2.5, -21.0] 	voltubra vs ulturagblivom USE THE CV VERSION!!! vomit,tu,vomita,ulti,raga,bliva,
+[1.0, 0.9, 0.9, -5.0] 	tcwesophunadu vs sophuknafdutcwe USE THE CV VERSION!!! blow,tcwe,sopla,phuk,nafah,dut,
+[5.4, 4.4, 4.9, -17.0] 	huresatnadi vs hucasrestnafdic USE THE CV VERSION!!! breathe,huci,respira,sas,etnafes,dica,
+[-0.2, 1.8, 0.8, -12.0] 	cyarehadesmi vs reidehacyawsmiy
+[-0.2, -1.9, -1.1, -2.0] 	kavedeca vs cavedekan
+[2.1, -3.6, -0.8, -14.0] 	tisusli vs tinoyslisun
+[8.3, 3.6, 6.0, -33.0] 	djirezna vs djidjansabrefzna USE THE CV VERSION!!! know,djidaw,sabe,djan,eref,zna,
+[-0.7, -0.5, -0.6, -14.0] 	cyapesotfadu vs cyanpensotfakdum
+[7.8, -0.3, 3.8, -31.0] 	waletsu vs wanlesugcamtcuy
+[4.1, -3.4, 0.3, -25.0] 	pateha vs temdarhafpay
+[1.9, 1.8, 1.9, -11.0] 	cwedosonaspa vs cweydorsonamspa USE THE CV VERSION!!! sleep,cwey,dormi,so,nam,spa,
+[-0.3, 1.1, 0.4, -4.0] 	hwovidji vs hwovivdji
+[1.9, -5.6, -1.8, -10.0] 	samo vs samormat
+[6.2, -4.6, 0.8, -26.0] 	camaqabi vs camatmarqatbiv
+[0.6, 3.3, 1.9, -11.0] 	dapelaha vs dadpelarhar USE THE CV VERSION!!! fight,dadjya,pelea,lar,harab,baro,
+[7.3, 1.2, 4.3, -18.0] 	kacisdaho vs kazikstadalhot USE THE CV VERSION!!! hunt,dalye,kaza,cikar,estad,ahoti,
+[0.7, -6.7, -3.0, -8.0] 	dagoma vs golmardar
+[1.0, 3.3, 2.2, -5.0] 	tcyekore vs korezkatcye USE THE CV VERSION!!! cut,tcye,korta,kat,qata,rezat,
+[0.2, -4.0, -1.9, -20.0] 	fapacara vs fanparacaqban
+[0.6, -5.8, -2.6, -17.0] 	tsapubhotaka vs tsapunbhontankal
+[-4.1, 2.2, -0.9, -6.0] 	djwarakhatsa vs djwakharastsar
+[2.9, 1.4, 2.2, -22.0] 	wakakhori vs wakavkhodhafri USE THE CV VERSION!!! dig,wa,kava,khod,hafar,ri,
+[0.7, 2.2, 1.4, -12.0] 	yonatepla vs yoynaderplav USE THE CV VERSION!!! swim,yoyon,nada,ter,am,plava,
+[-0.3, -0.8, -0.6, -4.0] 	febotali vs feybolitar
+[5.4, 3.8, 4.6, -20.0] 	dzokame vs dzowkamectcal USE THE CV VERSION!!! walk,dzow,kamina,tcal,meci,id,
+[0.8, -3.6, -1.4, -7.0] 	vegepla vs vengeplay
+[3.0, 0.5, 1.8, -21.0] 	tayalena vs yasletanamliz USE THE CV VERSION!!! lie down,tan,yase,let,nam,liza,
+[1.7, 5.5, 3.6, -22.0] 	dzwosebeqa vs senbedzwoqadsid USE THE CV VERSION!!! sit,dzwo,senta,beth,qad,side,
+[-1.7, -0.5, -1.1, -13.0] 	djalekhawesta vs djanwekhalevstay
+[1.9, 4.4, 3.2, -18.0] 	djwahimuvla vs djwanurafrachir USE THE CV VERSION!!! turn,djwan,hira,mur,laf,vraca,
+[5.1, 4.0, 4.6, -29.0] 	lwokapa vs gilwocwekaepad USE THE CV VERSION!!! fall,lwocya,kae,gir,weqe,pada,
+[2.3, -1.9, 0.2, -4.0] 	geda vs geyda
+[0.5, -5.3, -2.4, -19.0] 	natepa vs tenaspakdir
+[-0.6, 3.3, 1.4, -11.0] 	djipreghu vs apredjirghus
+[5.2, 2.3, 3.8, -30.0] 	fromada vs frotakmarowtir USE THE CV VERSION!!! rub,row,frota,mal,dak,tire,
+[-2.7, -1.7, -2.2, -4.0] 	ciladhogami vs lavdhogacimi
+[-1.5, 2.2, 0.4, -4.0] 	tsalipomavi vs limasponvitsa
+[0.6, 2.2, 1.4, -13.0] 	lakhacati vs halakhitincad USE THE CV VERSION!!! pull,la,hala,khitc,cad,tinu,
+[6.2, -0.8, 2.7, -16.0] 	twempudhaza vs tweympuhdhakzaq
+[0.5, -2.3, -0.9, -18.0] 	tiphebra vs tiranphenbras
+[0.9, -0.8, 0.0, -16.0] 	bataravi vs batarabanviz
+[1.0, -3.2, -1.1, -8.0] 	fakosiha vs fankosihay
+[-0.3, -6.8, -3.5, -5.0] 	cuko vs koncud
+[4.4, 0.5, 2.5, -19.0] 	cwodeska vs decwokahlskaz USE THE CV VERSION!!! say,cwo,desi,kah,qal,skaza,
+[-0.4, -1.7, -1.1, -6.0] 	tcakape vs tcankanpe
+[5.5, 0.1, 2.8, -21.0] 	wakhugle vs wanhuglebkhel USE THE CV VERSION!!! play,wan,huga,khel,leb,igra,
+[2.2, 2.2, 2.2, -8.0] 	fuflotepli vs fuflotermpli USE THE CV VERSION!!! float,fu,flota,ter,am,pli,
+[1.0, 0.7, 0.9, -13.0] 	lyoflubagete vs fluibahgelyotet USE THE CV VERSION!!! flow,lyo,flui,bah,geri,tetc,
+[-1.2, 2.0, 0.4, -13.0] 	doladja vs dondjamtala
+[1.9, 5.5, 3.7, -20.0] 	pontcawe vs pontcadwerpuh USE THE CV VERSION!!! swell,pondjan,intca,sudj,werem,puhnu,
+[0.4, -1.8, -0.7, -14.0] 	taso vs taysolcam
+[-0.4, -3.2, -1.8, -11.0] 	yelutcaqa vs yeluntcadqam
+[-0.6, 3.0, 1.2, -15.0] 	cistretanezvi vs estreytarzvicineg
+[3.8, -2.8, 0.5, -13.0] 	cwegwapamava vs cweygwapanayvad
+[-0.5, -1.8, -1.1, -11.0] 	yibamado vs yivbarmatoc
+[4.1, 2.9, 3.5, -29.0] 	harina vs rionadnaharik USE THE CV VERSION!!! river,ha,rio,nadi,nahr,rika,
+[2.9, 0.5, 1.7, -9.0] 	ladjhubozi vs djhulagbohzir USE THE CV VERSION!!! lake,hu,lago,djhil,bohera,ozira,
+[-2.7, -9.6, -6.1, -3.0] 	hamasaba vs samarbahay
+[0.6, -3.0, -1.2, -13.0] 	yesana vs yenamalsal
+[-3.1, -1.4, -2.2, -10.0] 	capyepahaka vs capyedpathagam
+[-0.5, 0.1, -0.2, -20.0] 	carepi vs arenretpica
+[0.3, -1.9, -0.8, -16.0] 	tcapodhuto vs tcanpoldhultor
+[-1.7, -1.4, -1.6, -11.0] 	dityedhazi vs dityerdharzim
+[3.0, 2.2, 2.6, -12.0] 	yinubasebla vs yinubadsehblak USE THE CV VERSION!!! cloud,yin,nube,badal,sehaba,oblaka,
+[-1.7, -0.5, -1.1, -12.0] 	wunyedhucatu vs wudhunyebcabtum
+[6.8, 3.0, 4.9, -25.0] 	tyesyesmasa vs tyenebsyelsmansam USE THE CV VERSION!!! sky,tyen,syelo,asman,sama,neba,
+[-0.3, -9.3, -4.8, -1.0] 	fovyeha vs hawvyent
+[0.8, -4.0, -1.6, -11.0] 	cyenyebatasne vs cyenyebartalsnek
+[2.8, 2.5, 2.7, -22.0] 	biyetalo vs binyelotalbar USE THE CV VERSION!!! ice,bin,yelo,barf,talg,lot,
+[4.3, 5.5, 4.9, -20.0] 	yemodhudo vs yenodhuadohdim USE THE CV VERSION!!! smoke,yen,umo,dhua,dohan,dim,
+[-0.3, -1.3, -0.8, -4.0] 	hwofwenago vs hwofwegonar
+[1.2, 3.8, 2.5, -28.0] 	hweserape vs hweysenrakrampep USE THE CV VERSION!!! ashes,hweydjin,senisas,rakh,ramad,pepil,
+[5.1, 1.7, 3.4, -33.0] 	kedcaha vs cawkemharjedjal USE THE CV VERSION!!! burn,caw,kema,djal,haraq,jetc,
+[-3.0, -2.0, -2.5, -8.0] 	lukasatapu vs kamsaluputar
+[-0.7, -1.8, -1.2, -17.0] 	camopaga vs canongapahgar
+[5.2, 7.7, 6.4, -30.0] 	huhmakro vs ahmalarohunkras USE THE CV VERSION!!! red,hun,roho,lal,ahmar,krasni,
+[1.9, 3.3, 2.6, -12.0] 	livehahdazi vs veliharhdarzil USE THE CV VERSION!!! green,li,verde,hara,ahdar,ziloni,
+[4.2, -4.4, -0.1, -17.0] 	hwamapisfajo vs hwanarpilsfarjol
+[2.0, -5.4, -1.7, -5.0] 	bablasabya vs baydblansaf
+[4.5, -3.7, 0.4, -11.0] 	henekaswetco vs heynegalswedcor
+[0.3, -2.1, -0.9, -16.0] 	yenora vs yewnotlerat
+[4.0, -3.2, 0.4, -18.0] 	badiyo vs bayomdiadin
+[3.2, -0.4, 1.4, -15.0] 	anyesago vs salsanyengot
+[-2.1, -5.6, -3.8, -15.0] 	wakadatyo vs wankaldaftyop
+[5.2, 4.7, 5.0, -31.0] 	flathaba vs friothanbalanhal USE THE CV VERSION!!! cold,lan,frio,thanda,bard,halodni,
+[-0.6, 1.8, 0.6, -14.0] 	mayepu vs yemanalpur
+[1.6, -3.2, -0.8, -24.0] 	cinwenage vs cinwevnaygednov
+[-1.9, 0.0, -1.0, -15.0] 	lavyepuqasta vs vyehpulawqadstar
+[5.7, 3.0, 4.3, -16.0] 	bwetchata vs bwentchawrtay USE THE CV VERSION!!! good,haw,bweno,atcha,tayeb,horoci,
+[-2.4, 0.0, -1.2, 3.0] 	hwamabuplo vs malbrohwah
+[0.5, 4.1, 2.3, -19.0] 	laposagma vs podsalanafgnil USE THE CV VERSION!!! rotten,lan,podrido,sara,mafen,gniloy,
+[0.4, 4.0, 2.2, -23.0] 	dzagawegra vs dzanganwesusgraz USE THE CV VERSION!!! dirty,dzan,susyo,ganda,weseh,grazni,
+[1.9, 3.3, 2.6, -16.0] 	djadepre vs djaderekprim USE THE CV VERSION!!! straight,dja,rekto,sidha,edel,primoy,
+[0.7, 3.0, 1.9, -13.0] 	yegomekre vs yenedkrugored USE THE CV VERSION!!! round,yen,redondo,gol,medawar,krugli,
+[1.7, -0.2, 0.8, -7.0] 	agutihastli vs agudikhamstli
+[1.3, 7.7, 4.5, -27.0] 	dumboku vs dunbotelkuntup USE THE CV VERSION!!! dull,dun,embotado,kund,telem,tupoy,
+[-2.1, 4.4, 1.2, -16.0] 	gwatcinagli vs lisglatcigwanae
+[3.8, -3.6, 0.1, -24.0] 	camogi vs camohmabmogil
+[-2.9, -0.2, -1.5, -12.0] 	gasena vs seganacuh
+[-0.5, -1.7, -1.1, -10.0] 	dwekosapra vs dwekorsahprav
+[0.5, 5.5, 3.0, -19.0] 	djinaqobli vs djinazqorbliser USE THE CV VERSION!!! near,djin,serka,nazdik,qorayeb,bliski,
+[-0.4, -2.5, -1.5, -11.0] 	yeledube vs yendulehbei
+[1.6, -2.0, -0.2, -23.0] 	yodepra vs derdahyomprav
+[-1.7, 1.1, -0.3, -12.0] 	dzwoskyebacele vs dzwoskyerevbaycem
+[1.0, 0.7, 0.9, -9.0] 	dzape vs dzaypen USE THE CV VERSION!!! at,dzay,a,pe,and,u,
+[-0.4, -0.4, -0.4, -5.0] 	dzamefe vs dzaynefe
+[-0.2, -1.5, -0.8, -4.0] 	gasama vs ganasat
+[1.1, 1.1, 1.1, -4.0] 	hawe vs harwe USE THE CV VERSION!!! and,ha,i,or,we,i,
+[-1.5, 1.1, -0.2, -2.0] 	rusigaye vs rugaryesi
+[2.3, 3.1, 2.7, -19.0] 	pokyica vs porkyincanpat USE THE CV VERSION!!! because,yinwey,porke,kyonki,acan,patamucta,
+[2.4, 8.8, 5.6, -36.0] 	mi vs tcyentesqapah USE THE CV VERSION!!! name,mindza,nombre,nam,esm,ima,
+[-2.8, -8.4, -5.6, -3.0] 	tayavahena vs howbadespos
+[2.8, 7.5, 5.2, -17.0] 	tcakorama vs encanadparfaw USE THE CV VERSION!!! car,tca,kotce,gari,arabiya,macina,
+[2.2, 13.2, 7.7, -19.0] 	tsabamitu vs cyabahnitahpod USE THE CV VERSION!!! washroom,tsaswo,banyo,cotcalay,mirhad,tualet,
+[2.7, 10.2, 6.5, -1.0] 	nudatcu vs tsonende USE THE CV VERSION!!! number,cu,numero,sankhya,adad,tcislo,
+[1.9, 4.0, 2.9, 37.0] 	djyakaghabido vs daka
+[-6.6, -11.8, -9.2, 22.0] 	djyagaghabido vs perekacno
+[0.2, 3.9, 2.0, 22.0] 	tcunatwara vs nims
+[0.6, 12.6, 6.6, -4.0] 	yikutcali vs tavaheyana USE THE CV VERSION!!! heal,yidja,kura,tcanga,cafa,litci,
+[-0.4, -4.2, -2.3, -25.0] 	daroka vs kotcagarabmac
+[-2.0, -3.0, -2.5, -6.0] 	djyekobastro vs tsasotuabanir
+[-2.5, -1.5, -2.0, -9.0] 	kuyobapro vs adadcusanum
+[4.1, 16.2, 10.1, -34.0] 	dalanaga vs kasgharbidjyadom USE THE CV VERSION!!! mourn,dawnyen,lamenta,ro,nadaba,gariva,
+[1.0, 4.6, 2.8, -14.0] 	tyabanarata vs ogharbidjyadom USE THE CV VERSION!!! dance,tyawu,bayla,natc,raqasa,tantsa,
+[4.4, 5.4, 4.9, -30.0] 	hukadco vs djanastwalatcuc USE THE CV VERSION!!! gather,cowdji,hunta,ikatha,djama,sobira,
+[-3.9, 7.9, 2.0, -25.0] 	yobrabna vs yidcankuritcaf
+[4.3, 15.8, 10.1, -14.0] 	bibstemtava vs romtudapkasraz USE THE CV VERSION!!! refrain,bimyen,abstene,parhedj,imtana,vazdirja,
+[-3.4, -2.2, -2.8, -12.0] 	capekhofati vs djyenkonbanstroi
+[1.3, 12.1, 6.7, -11.0] 	bagarahta vs yorbakuprok USE THE CV VERSION!!! keep,bawtca,garda,rakh,ihtafaza,derja,
+[-8.9, -12.6, -10.8, 6.0] 	saratomarva vs galamadaw
+[-3.4, -4.8, -4.1, -10.0] 	maprehalyu vs bayraqtanatyaw
+[3.9, 1.1, 2.5, -11.0] 	hadyaghrnaki vs cowhunkatjamsob USE THE CV VERSION!!! hate,han,odya,ghrna,kirih,ninavidi,
+[15.5, 1.1, 8.3, -36.0] 	djopla vs yonaqbraslinbnim USE THE CV VERSION!!! toplant,djon,planta,rop,zara,saja,
+[6.6, 1.1, 3.8, -34.0] 	tcahati vs bimtanbstenparvaz USE THE CV VERSION!!! silence,tcanmo,silensyo,hamoc,sukut,ticina,
+[-2.4, -4.6, -3.5, -9.0] 	djageyuhava vs catirperfakho
+[9.0, 0.3, 4.7, -28.0] 	hapacami vs bawgarakhtafder USE THE CV VERSION!!! peace,hapin,pas,canti,salam,mir,
+[2.2, 14.5, 8.3, -6.0] 	djaplapona vs torasamazrva USE THE CV VERSION!!! plant,djawu,planta,podha,nabat,rasteniye,
+[-3.3, -5.7, -4.5, -5.0] 	cahaywada vs hapremalyub
+[2.7, -12.2, -4.8, -26.0] 	bunolanye vs hanindyaghrnakir
+[-0.9, 7.4, 3.2, -20.0] 	djapakawa vs djonsazaroplan
+[0.4, 0.6, 0.5, -32.0] 	dyeteha vs tcanhamsuktisil USE THE CV VERSION!!! telephone,dyenhwa,telefono,durbhas,hatif,telefon,
+[-0.5, 3.4, 1.4, -11.0] 	rapevyatca vs gerharvayudjan
+[-3.0, 1.4, -0.8, 6.0] 	tcwakapasekra vs hapasanirsal
+[-6.5, 1.3, -2.6, -2.0] 	tcwavekhicekno vs planapodjawras
+[2.3, 17.2, 9.8, 8.0] 	djyastarapo vs cahaywada
+[3.0, 27.1, 15.1, 6.0] 	djwoskrimasde vs bunohlanyet
+[0.4, 5.1, 2.8, -23.0] 	yidetca vs djapapumkagwar USE THE CV VERSION!!! should,yingay,deberia,tcahie,yanbagi,doljin,
+[-2.8, -0.5, -1.7, -6.0] 	cinehta vs telhadyen
+[6.5, -3.5, 1.5, -37.0] 	pifardi vs peranvyakcaktcil
+[2.5, 6.0, 4.3, -34.0] 	djispedami vs tcwankampalserkrav USE THE CV VERSION!!! mirror,djindza,espeho,darpan,miraya,zerkala,
+[1.7, 10.8, 6.2, -20.0] 	cwefresibami vs tcwanvenkhircebkno USE THE CV VERSION!!! sink,cwetsaw,fregadero,sink,baluwa,umivalnik,
+[-4.1, -6.2, -5.2, -20.0] 	yamivacata vs djyastantakporaf
+[-4.8, 1.1, -1.8, -15.0] 	cyegradhacuspa vs eskridjwodestolmak
+[8.0, -0.1, 3.9, -32.0] 	tcuma vs yindebtcahdol
+[1.9, -15.7, -6.9, 2.0] 	tcyentepaqa vs neciyzarhtad
+[-0.1, 0.1, 0.0, -26.0] 	hodeba vs dibisfardiypol
+[7.7, -13.8, -3.1, -23.0] 	encapafana vs djinirspehdarzer
+[-2.5, -13.8, -8.2, -25.0] 	cyabanita vs cwetsinifregbal
+[-0.9, -1.2, -1.0, 0.0] 	dwomadjyaktabo vs iyanizabvahtaj
+[1.9, -9.8, -3.9, -41.0] 	cameka vs gracyecukdhanspas
+[-8.9, -9.2, -9.1, 17.0] 	catrakohapi vs tcumsar
+[4.4, 4.5, 4.5, -41.0] 	djifato vs masdjyadwoktarbol USE THE CV VERSION!!! only,djiyo,solo,sirf,faqat,tolka,
+[1.6, -7.1, -2.8, -12.0] 	tsodeme vs cawkamenqal
+[3.0, -0.8, 1.1, -14.0] 	rofasalyo vs kocahawpitrat
+[-4.3, 0.7, -1.8, -2.0] 	culipukekni vs djiysolfaqtol
+[-5.4, 13.8, 4.2, -20.0] 	budimudla vs ronfasansahlyoh
+[-3.9, -8.2, -6.1, -3.0] 	dulepaqatci vs libucukniket
+[-2.1, -25.1, -13.6, -34.0] 	daka vs buydifmuhdlag
+[1.2, 7.8, 4.5, -19.0] 	kapeleno vs paleqartcidu USE THE CV VERSION!!! but,kaca,pero,lekin,laken,no,
+[2.5, 0.7, 1.6, -8.0] 	gabazmi vs gambadzmin USE THE CV VERSION!!! change,gaybyen,kambya,badal,gayar,izmini,
+[1.8, 0.9, 1.4, -8.0] 	gupadanstra vs upagunstramdah USE THE CV VERSION!!! tool,gundji,eramyenta,upakran,adah,instrumyent,
+[-3.0, 2.0, -0.5, -9.0] 	mintesafipa vs samintenfihpan
+[0.7, 4.4, 2.6, -18.0] 	cyeskrikapi vs eskribicyelikat USE THE CV VERSION!!! write,cye,eskribi,likh,kataba,pisa,
+[-2.4, 4.0, 0.8, -16.0] 	yetsidakru vs sirtcakrukdayen
+[-0.4, 0.0, -0.2, -2.0] 	mapwedabadve vs manbapwerdvar
+[2.0, 2.2, 2.1, -10.0] 	gwaplunosve vs pragwanolusvet USE THE CV VERSION!!! light,gwan,lus,prakac,nor,svet,
+[1.1, -5.6, -2.2, -20.0] 	cazva vs avacontzvuk
+[-0.5, 1.1, 0.3, -8.0] 	djwomesta vs djwodmestar
+[-2.1, -2.7, -2.4, 0.0] 	djakwamukva vs kwadjamurvar
+[-3.0, 2.2, -0.4, -4.0] 	satrimu vs sanutriakt
+[0.1, -10.1, -5.0, 2.0] 	cakokhayi vs cakomlyid
+[-2.7, 0.9, -0.9, -3.0] 	tcifakrpyapa vs favatcinkrpaj
+[-3.9, 0.0, -1.9, 3.0] 	dwelomasizvi vs dweblosfimaf
+[-4.3, 2.2, -1.1, -9.0] 	cigupahanra vs gucihapasnrav
+[-4.2, 0.7, -1.8, -5.0] 	kwaradjabi vs kwaydjarapis
+[-2.3, -3.6, -2.9, -15.0] 	palaga vs panladbagan
+[-0.6, 4.4, 1.9, -14.0] 	tcyafwemaqasi vs tcyanadfwerqawsil
+[0.8, -1.7, -0.4, -6.0] 	espentajda vs dantazdasper
+[-0.4, -1.9, -1.1, -4.0] 	nalo vs naglo
+[6.4, -2.6, 1.9, -23.0] 	makohacta vs komayharctarkup
+[8.8, 6.5, 7.7, -30.0] 	asunizla vs asulanilzraqsin USE THE CV VERSION!!! blue,lan,asul,nila,azraq,sini,
+[-4.1, -0.3, -2.2, -8.0] 	dzugruma vs dzumadgrup
+[-0.5, 0.5, 0.0, -11.0] 	ifurokahide vs ifuropkaphidej
+[-0.6, -3.5, -2.1, -14.0] 	tcyedipefe vs tcyendinpesfel
+[4.6, -3.3, 0.6, -19.0] 	koyotchedi vs konyotchedirhuf
+[0.5, 0.7, 0.6, -18.0] 	caniglu vs ninurcahglup USE THE CV VERSION!!! silly,ca,ninyito,murkh,sahif,glupi,
+[-1.4, 1.1, -0.1, -2.0] 	wantenhako vs wanterkonha
+[-2.8, 0.9, -1.0, -8.0] 	hwaditcira vs hwatcidibras
+[-4.6, 3.3, -0.7, -12.0] 	fatranutapi vs fanuvtradarpir
+[-0.4, 2.2, 0.9, -9.0] 	basyesomisto vs baysyeniysosto
+[-0.3, -0.8, -0.5, -11.0] 	tcyemihati vs tcyenilhaztis
+[-0.3, -5.9, -3.1, -8.0] 	mabepra vs bemaybrat
+[4.7, -3.7, 0.5, -13.0] 	djyanyadjoda vs anyadjyardafdab
+[-4.4, 3.3, -0.5, -11.0] 	tcukihanavi vs hatnakitcutvit
+[4.3, -0.1, 2.1, -23.0] 	tumatcika vs mahtcituhsurkar
+[0.2, 1.4, 0.8, -16.0] 	liduca vs lindutucav USE THE CV VERSION!!! shower,lini,dutca,cavar,duc,duc,
+[-2.2, 4.0, 0.9, -16.0] 	dilfogase vs ditsegalfomkav
+[1.2, 2.5, 1.9, -28.0] 	tcokadaya vs tcotarkahdjaryac USE THE CV VERSION!!! drawer,tcoti,kahon,daraz,djarur,yacik,
+[4.0, 5.5, 4.8, -23.0] 	birmahacko vs bitrmarkothazkaf USE THE CV VERSION!!! closet,bitcu,armaryo,kothari,hazana,ckaf,
+[3.1, 6.6, 4.8, -16.0] 	djina vs djinahoysiv USE THE CV VERSION!!! today,djintyen,oy,adj,inaharda,sivodna,
+[6.3, -2.2, 2.1, -17.0] 	dzwoyekambaftci vs dzwotyerkalmbarftcir
+[-1.9, -4.9, -3.4, -10.0] 	mikabuza vs minbukalzaf
+[2.5, 3.0, 2.8, -25.0] 	cyormasa vs cyonermansaqsib USE THE CV VERSION!!! sibling,cyondidjyemey,ermano,sahodar,caqiqa,siblink,
+[-1.6, 2.2, 0.3, -5.0] 	tcipamawara vs patcimatwarad
+[-4.3, -7.8, -6.0, -5.0] 	cyaka vs cyankam
+[-6.9, 3.3, -1.8, -11.0] 	dzwokopata vs gadzwotapakos
+[-2.9, 0.5, -1.2, -12.0] 	tcwayepalina vs tcwanasyevlipah
+[-2.0, 0.7, -0.6, -13.0] 	dwokwaski vs kidwockolkwam
+[1.7, 4.4, 3.0, -12.0] 	cyedica vs abdorcacyen USE THE CV VERSION!!! now,cyendzay,aora,ab,dilwaqti,cas,
+[2.2, 1.8, 2.0, -13.0] 	tcagusvadapro vs tcangusvadaqprob USE THE CV VERSION!!! taste,tcan,gusta,svad,daq,probava,
+[-1.9, -2.1, -2.0, -6.0] 	tcutotchutla vs tcumtoklamtrog
+[0.2, 3.6, 1.9, -23.0] 	tabamusli vs taydemufbahslic USE THE CV VERSION!!! too,tay,demasyado,bahut,mufrit,slickam,
+[0.4, -1.7, -0.7, -21.0] 	yetabhika vs yetambhikamtoj
+[4.3, -3.5, 0.4, -24.0] 	benotaca vs beytarcanorsev
+[0.9, 0.5, 0.7, -8.0] 	nasudagayu vs surdakananyuk USE THE CV VERSION!!! south,nan,sur,daksin,ganub,yuk,
+[-3.6, -3.2, -3.4, -5.0] 	esdopucava vs purcarvasdon
+[0.8, 2.2, 1.5, -5.0] 	cipaga vs pecipgar USE THE CV VERSION!!! west,ci,oeste,pactcim,garb,zapat,
+[6.3, 3.3, 4.8, -10.0] 	tcyedegemafpi vs tcyenamdelgefpir USE THE CV VERSION!!! forward,tcyen,adelante,age,amam,fpirot,
+[-0.3, 1.9, 0.8, -11.0] 	hotrapiwana vs howarpitrasnaz
+[5.2, 4.7, 5.0, -28.0] 	naledu vs naylabmaletud USE THE CV VERSION!!! milk,nay,letce,dudh,laban,malako,
+[-4.1, 0.5, -1.8, -8.0] 	djipomudaku vs poymurdadjikur
+[0.6, -9.7, -4.5, -10.0] 	magabi vs mawgatbil
+[-1.0, 2.9, 1.0, -17.0] 	dafwedjogro vs dacfwerdjorgrom
+[-0.3, -1.8, -1.1, -14.0] 	tyemotapa vs tyenostaqpag
+[-1.9, -4.4, -3.2, -6.0] 	dyekome vs dyemaylkor
+[-10.6, 4.4, -3.1, 9.0] 	wante vs wantarnet
+[-1.8, -7.2, -4.5, 3.0] 	betapyafetca vs byaltcasfen
+[-2.1, 4.4, 1.1, -18.0] 	paplata vs platapantar
+[-0.3, -3.4, -1.8, -9.0] 	wabokasumi vs wanisulbolkat
+[-0.6, 3.0, 1.2, -19.0] 	tcatekavi vs cokatcadenvil
+[2.2, 2.2, 2.2, -8.0] 	kutcamalo vs kutcawmaloc USE THE CV VERSION!!! spoon,cawdza,kutcara,tcamatc,malaqa,locka,
+[-2.4, -7.8, -5.1, -14.0] 	kwapaka vs kwaydpalkat
+[1.1, 1.1, 1.1, -3.0] 	bikemetse vs biketsemen USE THE CV VERSION!!! than,bi,ke,se,men,tcem,
+[-1.1, -4.1, -2.6, -2.0] 	dzadephisno vs dznovphirtan
+[1.1, 1.1, 1.1, -4.0] 	kecto vs kencto USE THE CV VERSION!!! thats,,ke,ki,in,cto,
+[4.2, 3.3, 3.8, -20.0] 	dzwemasa vs dzwemasabnayl USE THE CV VERSION!!! most,dzwe,mas,sabse,al,nay,
+[-1.7, 2.2, 0.3, -11.0] 	waprosamu vs wanusamprob
+[0.2, 4.4, 2.3, -13.0] 	djyesopahari vs djyedsolicpayhal USE THE CV VERSION!!! solution,djyeda,solusyon,upay,hal,ricenye,
+[-0.8, -2.8, -1.8, -14.0] 	wapusaspre vs wanputspragsal
+[-3.0, -0.3, -1.7, -9.0] 	hweredjatve vs hwetvedjabres
+[3.5, -1.0, 1.3, -12.0] 	swositoli vs swoysiklitok
+[-0.1, -5.8, -2.9, -9.0] 	bayumasa vs banadyudsad
+[-1.9, -0.0, -1.0, -12.0] 	djireyadapo vs rekyadjidakpom
+[-4.6, 2.2, -1.2, -7.0] 	yisikustu vs siyidkurstul
+[3.3, 2.0, 2.7, -18.0] 	djastoye vs djactosyedol USE THE CV VERSION!!! these,djacye,estos,ye,dol,eti,
+[1.2, -2.4, -0.6, -1.0] 	nasovedotye vs nacosvedyol
+[-0.3, 1.1, 0.4, -4.0] 	mabekyahali vs maberkyahali
+[-2.4, -3.7, -3.0, 10.0] 	djabukhoska vs buskadjaw
+[-4.7, 1.7, -1.5, -15.0] 	pardesu vs paysurdensan
+[1.5, 1.4, 1.4, -20.0] 	pafikatsa vs paykatcirsafil USE THE CV VERSION!!! queue,paydwe,fila,katar,saf,otcirit,
+[-3.2, -0.8, -2.0, -2.0] 	rwasobapra vs sofbarwanprag
+[8.0, 4.4, 6.2, -12.0] 	indohevyapra vs indonhervyaypraj USE THE CV VERSION!!! exercise,indon,ehersisyo,vyayam,tamrin,uprajn,
+[-2.8, -1.4, -2.1, -1.0] 	famida vs famindaq
+[-2.3, 2.2, -0.1, -7.0] 	cyaraghatsa vs oraghantcyaws
+[-3.3, 4.4, 0.6, -4.0] 	myase vs segsamyaw
+[-0.6, 3.3, 1.3, -12.0] 	maledhiba vs lemandhimbat
+[-3.3, 3.3, 0.0, -8.0] 	yekicamo vs myecayimkis
+[1.8, -1.8, 0.0, -5.0] 	gotracta vs trabctagon
+[-1.7, -2.2, -1.9, 10.0] 	incifutcamira vs finilabtcal
+[2.1, -2.2, -0.0, -16.0] 	gweqapre vs regredqanprav
+[-0.8, -2.9, -1.8, -16.0] 	cakwebate vs carnkwerbadel
+[-3.4, -6.1, -4.8, 6.0] 	inwanglengi vs inwangles
+[-3.2, 3.3, 0.0, -11.0] 	ehedamipli vs lidahemitprim
+[-0.4, -0.0, -0.2, -7.0] 	tasuskahuyi vs tadsuskahuyiv
+[-0.4, 2.2, 0.9, -8.0] 	tasuskahayi vs tadsuskahayiy
+[-0.4, 1.1, 0.4, -3.0] 	tasunkahuyi vs tamkasuyihum
+[1.5, 0.8, 1.1, -17.0] 	nwohana vs wonweshamac USE THE CV VERSION!!! our,womanda,nwestro,hamara,na,nac,
+[0.9, 2.2, 1.5, 4.0] 	nitutvo vs nitumak
+[-0.7, -2.5, -1.6, -3.0] 	nivwepkava vs nimvwecapku
+[1.8, -4.5, -1.4, -13.0] 	womi vs wodmoyr
+[-3.2, 1.1, -1.1, -2.0] 	yopothoqavro vs vryodhorpokal
+[-5.4, -8.5, -7.0, -2.0] 	djoki vs kidjon
+[-3.5, -4.1, -3.8, 7.0] 	cispa vs ispan
+[-9.5, -1.1, -5.3, 9.0] 	induhi vs hindi
+[-5.0, -1.1, -3.1, 6.0] 	alarbi vs arabi
+[-3.9, -8.9, -6.4, 3.0] 	ru vs rus
+[-1.0, 5.3, 2.2, -23.0] 	hwereputa vs hwecpuntadpires
+[0.4, -4.3, -2.0, -10.0] 	yipasa vs yidpahsal
+[-0.7, 3.3, 1.3, -6.0] 	djosboni vs senidjosabo
+[0.6, 3.3, 1.9, -12.0] 	rwodesla vs durwodabslab USE THE CV VERSION!!! weak,rwo,debil,durbal,daif,slabi,
+[-0.8, -5.1, -3.0, -12.0] 	fakwakada vs fankwarkamda
+[-1.7, 3.3, 0.8, -8.0] 	djompomava vs djonpormahvaj
+[-1.0, 2.9, 0.9, -15.0] 	hakadisu vs kahadibsunkar
+[-0.5, 0.9, 0.2, -7.0] 	nadikasatru vs nankatrudifsab
+[1.0, -5.8, -2.4, -4.0] 	cyakotaza vs kakzyantar
 SCORE: 141 out of 422 = 33.41%
