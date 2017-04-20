@@ -1,6 +1,6 @@
 Compare alternate word lists:
 
-1) Words built from source words with (C)CV syllable structure.
+1) Words built from source words with (C)CV syllable structure (end with vowel).
 
 versus
 
