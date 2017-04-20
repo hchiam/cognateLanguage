@@ -1,5 +1,3 @@
 .gitignore
 .DS_Store
-levenshteinDistance.pyc
-getDataRemotely.pyc
-dictAsFile_wrapper.pyc
+*.pyc
