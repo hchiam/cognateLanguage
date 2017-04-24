@@ -29,10 +29,12 @@ def generateWord(entry):
     # track current focus
     lang = 0 # 0=c, 1=s, 2=h, 3=a, 4=r
     # randomly get letters from source words
-    while (all(letters[i] > 0 for i in range(len(letters)))):
-        letterToAdd = srcWords[lang][len(srcWords[lang])-letters[lang]-1]
-        outputWord += letterToAdd
-        letters[lang] -= 1
+    while (any(letters[i] > 0 for i in range(len(letters)))):
+        index = len(srcWords[lang])-letters[lang]-1
+        if index >= 0 and index < len(srcWords[lang]): # if index within range of source word length
+            letterToAdd = srcWords[lang][index]
+            outputWord += letterToAdd
+            letters[lang] -= 1
         lang = randint(0,4)
     return outputWord
 
