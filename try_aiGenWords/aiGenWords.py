@@ -1,21 +1,38 @@
 from evalWord import *
+from random import randint
 
-input_file = 'data.txt'
-output_file = 'output.txt'
+inputFile = 'data.txt'
 data = []
+outputFile = 'output.txt'
 
 def getData():
-    with open(input_file,'r') as f:
+    with open(inputFile,'r') as f:
         data = f.readlines()
     return data
 
-def compareScoreW2MinusW1(word1,word2):
-    res1 = evaluateLine(word1)
-    res2 = evaluateLine(word2)
-    comparisons = [round(res2[i]-res1[i],1) for i in range(len(res1))]
-    # print res1, res2
-    return comparisons
-    # return evaluateLine(word2)-evaluateLine(word1)
+def getError(word):
+    return round(evaluateLine(word)[2], 2)
+
+def generateWord(entry):
+    outputWord = ''
+    entry = entry.split(',')
+    srcWords = entry[2:7]
+    print(srcWords)
+    # track letters left in each source word
+    letters = [0,0,0,0,0]
+    for i in range(5):
+        letters[i] = len(srcWords[i])
+    print(letters)
+    # track current focus
+    lang = 0 # 'c' 's' 'h' 'a' 'r'
+    while (all(letters[i] > 0 for i in range(len(letters)))):
+        outputWord += srcWords[lang]
+        letters[lang] -= 1
+        lang = randint(0,9)
+    return outputWord
 
 data = getData()
-print(data[10])
+for i in range(len(data)):
+    print(generateWord(data[i]))
+for i in range(len(data)):
+    print(getError(data[i]))
