@@ -426,4 +426,4 @@ ftalmarg,tuesday,ar,martes,magal,talat,ftornik,d
 sanyerbudsrid,wednesday,san,myerkoles,budh,arba,srida,d
 tchwevgurham,thursday,ca,hweves,guru,hamis,tciverk,d
 wubyarcukom,friday,wu,byernes,cukra,goma,pyatnitsa,d
-lyosabcan,saturday,lyo,sabado,cani,sabt,subota,d
+lyosabn,saturday,lyo,sabado,cani,sabt,subota,d
