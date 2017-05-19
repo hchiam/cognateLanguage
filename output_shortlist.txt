@@ -420,7 +420,7 @@ djonpormahvaj,important,djonyaw,importante,mahatvapurn,muhim,vajni,d
 kahadibsunkar,box,hadza,kaha,diba,sunduq,karopka,t
 nankatrudifsab,difficult,nan,difisil,kathin,sab,trudni,d
 kakzyantar,as,cyan,komo,tarah,zay,kak,c
-domravashatyen,sunday,tyen,domingo,ravi,had,vaskrisenye,d
+hadyomravas,sunday,tyen,domingo,ravi,had,vaskrisenye,d
 yilunsomtnenpan,monday,yi,lunes,som,etnen,panidelnik,d
 marmagftal,tuesday,ar,martes,magal,talat,ftornik,d
 sanyerbudsrid,wednesday,san,myerkoles,budh,arba,srida,d
