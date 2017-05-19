@@ -57,7 +57,7 @@ S'babadet'
 p28
 sS'thursday'
 p29
-S'hwevgurhamtcav'
+S'tchwevgurham'
 p30
 sS'to'
 p31
@@ -445,7 +445,7 @@ S'dzankesaykakom'
 p222
 sS'sunday'
 p223
-S'domravashatyen'
+S'hadyomravas'
 p224
 sS'forest'
 p225
@@ -633,7 +633,7 @@ S'wonweshamac'
 p316
 sS'saturday'
 p317
-S'lyosabcan'
+S'lyosabn'
 p318
 sS'flower'
 p319
@@ -653,7 +653,7 @@ S'ahmalarohunkras'
 p326
 sS'friday'
 p327
-S'wubyercukompyat'
+S'wubyarcukom'
 p328
 sS'ask'
 p329
@@ -1049,7 +1049,7 @@ S'djonsazaroplan'
 p524
 sS'tuesday'
 p525
-S'marmagftal'
+S'ftalmarg'
 p526
 sS'walk'
 p527
