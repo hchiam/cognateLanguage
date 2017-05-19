@@ -1930,4 +1930,13 @@ ____________________
 ____________________
 Wed Apr 19 21:50:11 2017
 yusastepo,use,yun,usa,istemal,istemal,potrebi,
+________________________________________
+Fri May 19 15:07:30 2017
+domravashatyen,sunday,tyen,domingo,ravi,had,vaskrisenye,
+yilunsomtnenpan,monday,yi,lunes,som,etnen,panidelnik,
+marmagftal,tuesday,ar,martes,magal,talat,ftornik,
+sanyerbudsrid,wednesday,san,myerkoles,budh,arba,srida,
+hwevgurhamtcav,thursday,ca,hweves,guru,hamis,tciverk,
+wubyercukompyat,friday,wu,byernes,cukra,goma,pyatnitsa,
+lyosabcan,saturday,lyo,sabado,cani,sabt,subota,
 ____________________
