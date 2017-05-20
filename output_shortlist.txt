@@ -421,7 +421,7 @@ kahadibsunkar,box,hadza,kaha,diba,sunduq,karopka,t
 nankatrudifsab,difficult,nan,difisil,kathin,sab,trudni,d
 kakzyantar,as,cyan,komo,tarah,zay,kak,c
 hadyomravas,sunday,tyen,domingo,ravi,had,vaskrisenye,d
-yilunsomtnenpan,monday,yi,lunes,som,etnen,panidelnik,d
+yitnenplunsom,monday,yi,lunes,som,etnen,panidelnik,d
 ftalmarg,tuesday,ar,martes,magal,talat,ftornik,d
 sanyerbudsrid,wednesday,san,myerkoles,budh,arba,srida,d
 tchwevgurham,thursday,ca,hweves,guru,hamis,tciverk,d
