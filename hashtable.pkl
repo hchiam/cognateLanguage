@@ -1405,7 +1405,7 @@ S'yehapatwaris'
 p702
 sS'monday'
 p703
-S'yilunsomtnenpan'
+S'yitnenplunsom'
 p704
 sS'ice'
 p705
