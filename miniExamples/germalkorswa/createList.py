@@ -6,11 +6,6 @@ import re
 #------------------------
 
 words = OrderedDict()
-words['Eng'] = ''
-words['Ger'] = ''
-words['Mal'] = ''
-words['Kor'] = ''
-words['Swa'] = ''
 
 outputFilename = 'output.txt'
 
@@ -277,16 +272,26 @@ def createWord_Alternate():
 with open(filename1,'r') as f1:
     data = f1.readlines()
 
+# get language headers:
+langs = data[0].replace(',\n','').split(',')[1:] # "0,Eng,...,...,...," -> "..., ..., ..." (no 'Eng' and no final comma or '\n')
+
+# put those language headers into the ordered dictionary:
+for lang in langs:
+    words[lang] = ''
+
 # fill arrays:
 for line in data:
-    words['Eng'] = line.split(',')[1]
-    words['Ger'] = line.split(',')[2]
-    words['Mal'] = line.split(',')[3]
-    words['Kor'] = line.split(',')[4]
-    words['Swa'] = line.split(',')[5]
+    i = 0
+    for lang in words:
+        i += 1
+        words[lang] = line.split(',')[i]
     originalWords = words.copy()
     originalWords_Alt = words.copy()
     if words['Eng'] != 'Eng':
         newWord = createWord_Alternate() # here is the major function call!
         with open(outputFilename,'a') as f2:
-            f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Ger'] + ',' + originalWords['Mal'] + ',' + originalWords['Kor'] + ',' + originalWords['Swa'] + ',\n')
+            entry = newWord.strip()
+            for lang in langs:
+                entry += ',' + originalWords[lang]
+            entry += ',\n'
+            f2.write(entry)
