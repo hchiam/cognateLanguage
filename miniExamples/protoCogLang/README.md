@@ -14,11 +14,15 @@ https://en.wikipedia.org/wiki/List_of_language_families#Major_language_families
 
 # Swadesh Lists
 
-[Proto-Indo-European](https://en.wiktionary.org/wiki/Appendix:Proto-Indo-European_Swadesh_list)
-[Proto-Austronesian](https://en.wiktionary.org/wiki/Appendix:Proto-Austronesian_Swadesh_list)
-[Proto-Indo-Iranian](https://en.wiktionary.org/wiki/Appendix:Proto-Indo-Iranian_Swadesh_list)
-[Proto-Balto-Slavic](https://en.wiktionary.org/wiki/Appendix:Proto-Balto-Slavic_Swadesh_list)
-[Proto-Slavic](https://en.wiktionary.org/wiki/Appendix:Proto-Slavic_Swadesh_list)
+1. [Proto-Indo-European](https://en.wiktionary.org/wiki/Appendix:Proto-Indo-European_Swadesh_list)
+
+1. [Proto-Austronesian](https://en.wiktionary.org/wiki/Appendix:Proto-Austronesian_Swadesh_list)
+
+1. [Proto-Indo-Iranian](https://en.wiktionary.org/wiki/Appendix:Proto-Indo-Iranian_Swadesh_list)
+
+1. [Proto-Balto-Slavic](https://en.wiktionary.org/wiki/Appendix:Proto-Balto-Slavic_Swadesh_list)
+
+1. [Proto-Slavic](https://en.wiktionary.org/wiki/Appendix:Proto-Slavic_Swadesh_list)
 
 # Notes
 
