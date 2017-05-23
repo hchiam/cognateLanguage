@@ -1,5 +1,4 @@
 from collections import OrderedDict
-import time
 import re
 
 #------------------------
@@ -15,8 +14,6 @@ words['Pol'] = ''
 outputFilename = 'output.txt'
 
 filename1 = 'data.txt'
-
-localtime = time.asctime(time.localtime(time.time()))
 
 allophones = {
     'aeiou' : 'a',
@@ -279,10 +276,6 @@ def createWord_Alternate():
 with open(filename1,'r') as f1:
     data = f1.readlines()
 
-with open(outputFilename,'a') as f2:
-    f2.write('____________________\n')
-    f2.write(localtime + '\n')
-
 # fill arrays:
 for line in data:
     words['Eng'] = line.split(',')[1]
@@ -295,7 +288,3 @@ for line in data:
         newWord = createWord_Alternate() # here is the major function call!
         with open(outputFilename,'a') as f2:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Ger'] + ',' + originalWords['Por'] + ',' + originalWords['Pol'] + ',\n')
-
-with open(outputFilename,'a') as f2:
-    f2.write('____________________\n')
-
