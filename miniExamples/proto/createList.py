@@ -293,4 +293,5 @@ for line in data:
             entry = newWord.strip()
             for lang in langs:
                 entry += ',' + originalWords[lang]
+            entry += ',\n'
             f2.write(entry)
