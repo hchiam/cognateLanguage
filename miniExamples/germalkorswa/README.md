@@ -8,12 +8,14 @@ Following the same process as that of the ["Cognate Language" project](https://g
 
 # Notes
 
-| Speakers: |   Language    |
-| ---       |   ---         |
-|   127m	|   German*     |
-|   170m    |   Malay       |
-|   67m	    |   Korean      |
-|   50m		|   Swahili     |
+| Speakers:                                                 |   Language    |
+| ---                                                       |   ---         |
+|   [110m](https://en.wikipedia.org/wiki/German_language)	|   German*     |
+|   [200m+](https://en.wikipedia.org/wiki/Malay_language)   |   Malay       |
+|   [77m](https://en.wikipedia.org/wiki/Korean_language)    |   Korean      |
+|   [~100m](https://en.wikipedia.org/wiki/Swahili_language) |   Swahili     |
+
+https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
 
 With respect to [MalKorSwaJapa](https://github.com/hchiam/cognateLanguage/tree/master/miniExamples/malKorSwaJapa) and [GerPorPol](https://github.com/hchiam/cognateLanguage/tree/master/miniExamples/gerPorPol):
 
