@@ -1,4 +1,4 @@
-iaghomyhamzum,I,eghom,iaku,ayham,ezum,
+iaghomzum,I,eghom,iaku,ayham,ezum,
 tuhkas,you,tuh,ikasu,tuh,tu,
 ysia,he,ey,sia,,is,
 weykitmes,we,wey,ikita,wayam,mes,
