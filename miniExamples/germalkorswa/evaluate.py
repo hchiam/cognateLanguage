@@ -176,9 +176,9 @@ for line in data:
     if ',' in line:
         newWord = line.split(',')[0]
         words['Ger'] = line.split(',')[2]
-        words['Mal'] = line.split(',')[2]
-        words['Kor'] = line.split(',')[3]
-        words['Swa'] = line.split(',')[4]
+        words['Mal'] = line.split(',')[3]
+        words['Kor'] = line.split(',')[4]
+        words['Swa'] = line.split(',')[5]
         originalWords = [words['Ger'], words['Mal'], words['Kor'], words['Swa']]
         leastEfficientWord = words['Ger'] + words['Mal'] + words['Kor'] + words['Swa']
         print ('\n')

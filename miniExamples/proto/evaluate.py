@@ -7,10 +7,11 @@ from levenshteinDistance import levenshtein as ld
 
 words = OrderedDict()
 words['Eng'] = ''
-words['Ger'] = ''
-words['Mal'] = ''
-words['Kor'] = ''
-words['Swa'] = ''
+words['pie'] = ''
+words['pa'] = ''
+words['pii'] = ''
+words['pbs'] = ''
+words['ps'] = ''
 
 outputFilename = 'output.txt'
 
@@ -60,27 +61,27 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-def evaluateScore_Levenshtein(word,ger,mal,kor,swa):
+def evaluateScore_Levenshtein(word,a,b,c,d,e):
     score = 0
     
-    for lang in ger,mal,kor,swa:
+    for lang in a,b,c,d,e:
         score += ld(word,lang)
     
     return score
 
 
-def evaluateScore_AlloWithVowels(word,ger,mal,kor,swa):
+def evaluateScore_AlloWithVowels(word,a,b,c,d,e):
     score = 0
-    scoreLangs = [0,0,0,0]
+    scoreLangs = [0,0,0,0,0]
     
-    leastEfficientWord = ger+mal+kor+swa
+    leastEfficientWord = a+b+c+d+e
     
     # ABZDAVG allo w/ vowels
     
     alloWithVowels = respellWithAllophones(word)
     #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
     
-    originalWords = [ger,mal,kor,swa]
+    originalWords = [a,b,c,d,e]
     alloOriginalWords = originalWords
     
     for index, srcWord in enumerate(alloOriginalWords):
@@ -116,13 +117,13 @@ def evaluateScore_AlloWithVowels(word,ger,mal,kor,swa):
     return round(score,2)
 
 
-def evaluateScore_ConsonantsInOrder(word,ger,mal,kor,swa):
+def evaluateScore_ConsonantsInOrder(word,a,b,c,d,e):
     score = 0
     scoreLangs = [0,0,0,0,0]
     
-    leastEfficientWord = ger+mal+kor+swa
+    leastEfficientWord = a+b+c+d+e
     
-    originalWords = [ger,mal,kor,swa]
+    originalWords = [a,b,c,d,e]
     alloConsonants = originalWords
     alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
@@ -175,22 +176,23 @@ with open(outputFilename,'r') as f1:
 for line in data:
     if ',' in line:
         newWord = line.split(',')[0]
-        words['Ger'] = line.split(',')[2]
-        words['Mal'] = line.split(',')[2]
-        words['Kor'] = line.split(',')[3]
-        words['Swa'] = line.split(',')[4]
-        originalWords = [words['Ger'], words['Mal'], words['Kor'], words['Swa']]
-        leastEfficientWord = words['Ger'] + words['Mal'] + words['Kor'] + words['Swa']
+        words['pie'] = line.split(',')[2]
+        words['pa'] = line.split(',')[3]
+        words['pii'] = line.split(',')[4]
+        words['pbs'] = line.split(',')[5]
+        words['ps'] = line.split(',')[6]
+        originalWords = [words['pie'], words['pa'], words['pii'], words['pbs'], words['ps']]
+        leastEfficientWord = words['pie'] + words['pa'] + words['pii'] + words['pbs'] + words['ps']
         print ('\n')
         print (newWord.upper() + ' vs. "' + leastEfficientWord + '":')
         print (originalWords)
-        score1 = evaluateScore_AlloWithVowels(newWord, words['Ger'],words['Mal'],words['Kor'],words['Swa'])
+        score1 = evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
         print ('  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels')
-        score2 = evaluateScore_ConsonantsInOrder(newWord, words['Ger'],words['Mal'],words['Kor'],words['Swa'])
+        score2 = evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
         print ('  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder')
         avgScore = (score1 + score2)/2
         print ('Average score: ' + str(avgScore))
-        score3 = evaluateScore_Levenshtein(newWord, words['Ger'],words['Mal'],words['Kor'],words['Swa'])
+        score3 = evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
         print ('\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein')
 
 print ('\n')
