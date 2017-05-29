@@ -57,7 +57,7 @@ frawsternemke	wife
 mansua	husband
 ibumomut	mother
 fatbapod	father
-tiabinnyamdjim	animal
+timnyambin	animal
 ficamkanul	fish
 fogbursendeg	bird
 hundjinbwage	dog
