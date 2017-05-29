@@ -62,7 +62,7 @@ ficamkanul	fish
 fogbursendeg	bird
 hundjinbwage	dog
 lawkutcaw	louse
-clanyoklarbem	snake
+clarnyokbem	snake
 vurtcatbolfun	worm
 bawpoknamti	tree
 valhutsupmsit	forest
