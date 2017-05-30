@@ -274,7 +274,7 @@ for i in range(popSize):
 updateScoreHistory()
 
 # train
-for i in range(300):
+for i in range(500):
     # sort by score
     sortByScore(population)
     # printOnSepLines(population)
@@ -311,13 +311,14 @@ for i in range(300):
         index = randint(0,len(population)-1)
         instructions_toMutate = list(population[index][2]) # hacky: use list() to make an actual copy, not a reference
         if len(instructions_toMutate) > 0:
-            # mutate instructions
-            index_toMutate = randint(0,len(instructions_toMutate)-1)
-            instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
-            if instruction_toReplace != 'x':
-                instructions_toMutate[index_toMutate] = instruction_toReplace
-            else:
-                instructions_toMutate = instructions_toMutate[index_toMutate-1:]
+            for i in range(3):
+                # mutate instructions
+                index_toMutate = randint(0,len(instructions_toMutate)-1)
+                instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+                if instruction_toReplace != 'x':
+                    instructions_toMutate[index_toMutate] = instruction_toReplace
+                else:
+                    instructions_toMutate = instructions_toMutate[index_toMutate-1:]
         else:
             instructions_toMutate = ''
         instructions = instructions_toMutate
