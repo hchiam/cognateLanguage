@@ -293,8 +293,11 @@ sortByScore(population)
 print('FINAL CANDIDATES:')
 printOnSepLines(population)
 
+# save the best so far
+bestSoFar = getBestAlgo()
+scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
 print('BEST SO FAR:')
-print(getBestAlgo())
+print(bestSoFar)
 
 print('ORIGINALLY:')
 original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
