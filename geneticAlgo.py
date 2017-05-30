@@ -65,27 +65,26 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-# def evaluateScore_Levenshtein(word,a,b,c,d,e):
+# def evaluateScore_Levenshtein(word,originalWords):
 #     score = 0
 #     
-#     for lang in a,b,c,d,e:
+#     for lang in originalWords:
 #         score += ld(word,lang)
 #     
 #     return score
 
 
-def evaluateScore_AlloWithVowels(word,a,b,c,d,e):
+def evaluateScore_AlloWithVowels(word,originalWords):
     score = 0
-    scoreLangs = [0,0,0,0,0]
+    scoreLangs = [0] * len(originalWords)
     
-    leastEfficientWord = a+b+c+d+e
+    leastEfficientWord = ''.join(originalWords)
     
     # ABZDAVG allo w/ vowels
     
     alloWithVowels = respellWithAllophones(word)
     #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
     
-    originalWords = [a,b,c,d,e]
     alloOriginalWords = originalWords
     
     for index, srcWord in enumerate(alloOriginalWords):
@@ -121,13 +120,12 @@ def evaluateScore_AlloWithVowels(word,a,b,c,d,e):
     return round(score,2)
 
 
-def evaluateScore_ConsonantsInOrder(word,a,b,c,d,e):
+def evaluateScore_ConsonantsInOrder(word,originalWords):
     score = 0
-    scoreLangs = [0,0,0,0,0]
+    scoreLangs = [0] * len(originalWords)
     
-    leastEfficientWord = a+b+c+d+e
+    leastEfficientWord = ''.join(originalWords)
     
-    originalWords = [a,b,c,d,e]
     alloConsonants = originalWords
     alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
@@ -168,15 +166,12 @@ def evaluateScore_ConsonantsInOrder(word,a,b,c,d,e):
     
     return round(score,2)
 
-def evaluateScore_LettersFromEachSource(word,a,b,c,d,e):
+def evaluateScore_LettersFromEachSource(word,originalWords):
     score = 0
     for letter in word:
-        # encourage using words with letters found in all source words
-        score += 1 if letter in a else 0
-        score += 1 if letter in b else 0
-        score += 1 if letter in c else 0
-        score += 1 if letter in d else 0
-        score += 1 if letter in e else 0
+        for srcWord in originalWords:
+            # encourage using words with letters found in all source words
+            score += 1 if letter in srcWord else 0
     return score
 
 def penalizeRepeatedLetterSequences(word):
@@ -203,27 +198,12 @@ def evaluate(line):
     originalWords = [words['pie'], words['pa'], words['pii'], words['pbs'], words['ps']]
     
     score = 0
-    score += evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    score += evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    # score -= evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    score += evaluateScore_LettersFromEachSource(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    score += evaluateScore_AlloWithVowels(newWord, originalWords)
+    score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
+    # score -= evaluateScore_Levenshtein(newWord, originalWords)
+    score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
     score += penalizeLength(newWord)
-    return round(score, 2)
-
-def evaluate_OLD(line):
-    newWord = line.split(',')[0]
-    words['pie'] = line.split(',')[2]
-    words['pa'] = line.split(',')[3]
-    words['pii'] = line.split(',')[4]
-    words['pbs'] = line.split(',')[5]
-    words['ps'] = line.split(',')[6]
-    originalWords = [words['pie'], words['pa'], words['pii'], words['pbs'], words['ps']]
-    
-    score = 0
-    score += evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    score += evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    # score -= evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
     return round(score, 2)
 
 def getSourceWords(data):
@@ -366,13 +346,11 @@ bestSoFar = getBestAlgo()
 scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
 print('\nBEST SO FAR:')
 print(bestSoFar)
-print(evaluate(entryBestSoFar),'( old:',evaluate_OLD(entryBestSoFar),')')
 
 print('\nORIGINALLY:')
 original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
 # original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
-print(original)
-print(evaluate(original), '( old:',evaluate_OLD(original),')')
+print(evaluate(original), original)
 
 print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
 data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
@@ -384,12 +362,10 @@ entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7
 score = evaluate(entry)
 individual = [score, entry, instructionsBestSoFar]
 print(individual)
-print(evaluate(entry), '( old:',evaluate_OLD(entry),')')
 
 original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print('vs')
-print(original)
-print(evaluate(original), '( old:',evaluate_OLD(original),')')
+print(evaluate(original), original)
 
 # plot score over generations
 plt.plot(scoreHistory)
