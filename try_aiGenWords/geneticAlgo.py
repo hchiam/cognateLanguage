@@ -276,7 +276,7 @@ for i in range(500):
             instructions_toMutate = ''
         instructions = instructions_toMutate
         newWord = generateNewWord(srcWords, instructions)
-        entry = newWord + ',' + ','.join(srcWords) + ','
+        entry = newWord + ',,' + ','.join(srcWords) + ',' # should have 7 commas
         score = evaluate(entry)
         individual = [score, entry, instructions]
         population.append(individual)
