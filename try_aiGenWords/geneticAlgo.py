@@ -168,6 +168,18 @@ def evaluateScore_ConsonantsInOrder(word,a,b,c,d,e):
     
     return round(score,2)
 
+def evaluateScore_ConsonantsFromEachSource(word,a,b,c,d,e):
+    score = 0
+    for letter in word:
+        # encourage using words with letters found in most source words
+        # penalize letters not in any of the source words
+        score += 1 if letter in a else -1
+        score += 1 if letter in b else -1
+        score += 1 if letter in c else -1
+        score += 1 if letter in d else -1
+        score += 1 if letter in e else -1
+    return score
+
 def evaluate(line):
     newWord = line.split(',')[0]
     words['pie'] = line.split(',')[2]
@@ -182,7 +194,9 @@ def evaluate(line):
     # score3 = evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
     # scoreSum = score1+score2-score3
     # scoreAvg = (score1+score2)/2
-    scoreSum = score1+score2
+    score4 = evaluateScore_ConsonantsFromEachSource(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    scoreSum = score1+score2 + score4
+    # scoreSum = score1+score2
     return round(scoreSum, 2)
 
 def getSourceWords(data):
