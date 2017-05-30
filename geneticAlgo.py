@@ -254,6 +254,9 @@ def updateScoreHistory():
     currentBestScore = population[0][0]
     scoreHistory.append(currentBestScore)
 
+def updateWordHistory():
+    wordHistory.append(population[0][1].split(',',1)[0])
+
 #------------------------
 # main part of the program:
 #------------------------
@@ -266,8 +269,11 @@ srcWords = getSourceWords(data)
 engWord = data.split(',')[1]
 
 popSize = 10
+numGenerations = 1000
+epochMilestone = numGenerations//10
 population = []
 scoreHistory = []
+wordHistory = []
 
 # initialize population
 for i in range(popSize):
@@ -278,16 +284,18 @@ for i in range(popSize):
     individual = [score, entry, instructions]
     population.append(individual)
 
-updateScoreHistory()
-
 # train
-for i in range(1000):
+for i in range(numGenerations):
     # sort by score
     sortByScore(population)
     # printOnSepLines(population)
     
     # update score history after sorting by score
     updateScoreHistory()
+    
+    # update word history after sorting by score
+    if i%epochMilestone == 0:
+        updateWordHistory()
     
     # remove lower scorers
     halfOfPop = popSize//2
@@ -365,6 +373,10 @@ print(individual)
 original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print('vs')
 print(evaluate(original), original)
+
+# show word history
+print('\nWORD HISTORY EVERY '+str(epochMilestone)+' GENERATIONS:')
+print(wordHistory)
 
 # plot score over generations
 plt.plot(scoreHistory)
