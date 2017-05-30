@@ -1,6 +1,6 @@
 from random import randint
 from operator import itemgetter
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 from collections import OrderedDict
 # from levenshteinDistance import levenshtein as ld
@@ -378,10 +378,10 @@ print(evaluate(original), original)
 print('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
 print(wordHistory)
 
-# plot score over generations
-plt.plot(scoreHistory)
-plt.title('Score History')
-plt.show()
+# # plot score over generations
+# plt.plot(scoreHistory)
+# plt.title('Score History')
+# plt.show()
 
 # TODO save best scorer externally
 
