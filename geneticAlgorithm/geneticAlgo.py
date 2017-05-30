@@ -197,8 +197,10 @@ def evaluate(line):
     score += penalizeLength(newWord)
     return round(score, 2)
 
+
 def getSourceWords(data):
     return data.split(',')[2:][:-1]
+
 
 def generateNewIndividual():
     outputInstructions = []
@@ -212,6 +214,7 @@ def generateNewIndividual():
         else:
             outputInstructions.append(instruction)
     return outputInstructions
+
 
 def generateNewWord(srcWords, instructions):
     newWord = []
@@ -229,25 +232,43 @@ def generateNewWord(srcWords, instructions):
     newWord = ''.join(newWord)
     return newWord
 
+
 def sortByScore(population):
     population.sort(key=itemgetter(0), reverse=True)
+
 
 def getBestAlgo():
     # assumes first one is best
     bestSoFar = population[0]
     return bestSoFar
 
+
 def printOnSepLines(arr):
     for line in arr:
         print(line)
+
 
 def updateScoreHistory():
     # assumes first one is best
     currentBestScore = population[0][0]
     scoreHistory.append(currentBestScore)
 
+
 def updateWordHistory():
     wordHistory.append(population[0][1].split(',',1)[0])
+
+
+def getEntryIdentifier(entry):
+    parts = str(entry).split(', ')
+    sourceWordsListStr = parts[1]
+    justSrcWords = sourceWordsListStr.split(',',1)[1]
+    removedFinalApostrophe = justSrcWords[:-1]
+    identifier = removedFinalApostrophe
+    return identifier
+
+
+def getEntryScore(entry):
+    return str(entry).split(', ',1)[0][1:] # [1:] to remove initial '['
 
 #------------------------
 # main part of the program:
@@ -377,7 +398,24 @@ print(wordHistory)
 # plt.title('Score History')
 # plt.show()
 
-# TODO save best scorer externally
+# save best scorer externally
+scorersFile = 'best-scorers.txt'
+scorers = []
+with open(scorersFile,'r') as f:
+    scorers = f.read().splitlines()
+if scorers == []:
+    with open(scorersFile,'w') as f:
+        f.write(str(bestSoFar)+'\n')
+else:
+    bestSoFar_id = getEntryIdentifier(bestSoFar)
+    bestSoFar_scr = getEntryScore(bestSoFar)
+    for scorer in scorers:
+        prevScorer_id = getEntryIdentifier(scorer)
+        if prevScorer_id == bestSoFar_id:
+            prevScorer_scr = getEntryScore(scorer)
+            if bestSoFar_scr > prevScorer_scr:
+                with open(scorersFile,'w') as f:
+                    f.write(str(bestSoFar)+'\n')
 
 # TODO use best scorer saved externally
 
