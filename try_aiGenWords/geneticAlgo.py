@@ -323,6 +323,10 @@ score = evaluate(entry)
 individual = [score, entry, instructionsBestSoFar]
 print(individual)
 
+original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
+print('vs')
+print(evaluate(original), original)
+
 # TODO plot score over generations
 
 
