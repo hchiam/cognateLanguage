@@ -287,8 +287,8 @@ print('FINAL CANDIDATES:')
 printOnSepLines(population)
 
 print('ORIGINALLY:')
-bestSoFar = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
-print(evaluate(bestSoFar), bestSoFar)
+original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
+print(evaluate(original), original)
 # 'tcanlartowdlam' should be 7.1 & 8.3 --> avg=7.7 & sum=15.4
 
 print('AND FOR COMPARISON:')
