@@ -291,21 +291,21 @@ for i in range(500):
 
 # sort by score
 sortByScore(population)
-print('FINAL CANDIDATES:')
+print('\nFINAL CANDIDATES:')
 printOnSepLines(population)
 
 # save the best so far
 bestSoFar = getBestAlgo()
 scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
-print('BEST SO FAR:')
+print('\nBEST SO FAR:')
 print(bestSoFar)
 
-print('ORIGINALLY:')
+print('\nORIGINALLY:')
 original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print(evaluate(original), original)
 # 'tcanlartowdlam' should be 7.1 & 8.3 --> avg=7.7 & sum=15.4
 
-print('AND FOR COMPARISON:')
+print('\nAND FOR COMPARISON:')
 tlam = 'tlam,long,tcan,largo,lamba,towil,dlini,'
 print(evaluate(tlam), tlam)
 # 'tlam' should be 11.3 & 19.3 --> avg=15.3 & sum=30.6
