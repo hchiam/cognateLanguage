@@ -2,20 +2,12 @@ from random import randint
 from operator import itemgetter
 # import matplotlib.pyplot as plt
 
-from collections import OrderedDict
+# from collections import OrderedDict
 # from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
 #------------------------
-
-words = OrderedDict()
-words['Eng'] = ''
-words['pie'] = ''
-words['pa'] = ''
-words['pii'] = ''
-words['pbs'] = ''
-words['ps'] = ''
 
 outputFilename = 'output.txt'
 
