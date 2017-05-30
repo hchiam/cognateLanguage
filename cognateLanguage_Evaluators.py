@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from levenshteinDistance import levenshtein as ld
+# from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -61,13 +61,13 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-def evaluateScore_Levenshtein(word,chi,spa,hin,ara,rus):
-    score = 0
-    
-    for lang in chi,spa,hin,ara,rus:
-        score += ld(word,lang)
-    
-    return score
+# def evaluateScore_Levenshtein(word,chi,spa,hin,ara,rus):
+#     score = 0
+#     
+#     for lang in chi,spa,hin,ara,rus:
+#         score += ld(word,lang)
+#     
+#     return score
 
 
 def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
@@ -164,6 +164,34 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
     
     return score
 
+
+def evaluateScore_LettersFromEachSource(word,a,b,c,d,e):
+    score = 0
+    for letter in word:
+        # encourage using words with letters found in all source words
+        score += 1 if letter in a else 0
+        score += 1 if letter in b else 0
+        score += 1 if letter in c else 0
+        score += 1 if letter in d else 0
+        score += 1 if letter in e else 0
+    return score
+
+
+def penalizeRepeatedLetterSequences(word):
+    score = 0
+    currentLetter = ''
+    for letter in word:
+        if letter == currentLetter:
+            score -= 1
+        else:
+            currentLetter = letter
+    return score
+
+
+def penalizeLength(word):
+    score = -len(word)
+    return score
+
 #------------------------
 # main part of the program:
 #------------------------
@@ -175,6 +203,25 @@ with open(inputFilename,'r') as f1:
 # fill arrays:
 for line in data:
     if ',' in line:
+        # newWord = line.split(',')[0]
+        # words['Chi'] = line.split(',')[2]
+        # words['Spa'] = line.split(',')[3]
+        # words['Hin'] = line.split(',')[4]
+        # words['Ara'] = line.split(',')[5]
+        # words['Rus'] = line.split(',')[6]
+        # originalWords = [words['Chi'], words['Spa'], words['Hin'], words['Ara'], words['Rus']]
+        # leastEfficientWord = words['Chi'] + words['Spa'] + words['Hin'] + words['Ara'] + words['Rus']
+        # print '\n'
+        # print newWord.upper() + ' vs. "' + leastEfficientWord + '":'
+        # print originalWords
+        # score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        # print '  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels'
+        # score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        # print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
+        # avgScore = (score1 + score2)/2
+        # print 'Average score: ' + str(avgScore)
+        # score3 = evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        # print '\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein'
         newWord = line.split(',')[0]
         words['Chi'] = line.split(',')[2]
         words['Spa'] = line.split(',')[3]
@@ -182,24 +229,15 @@ for line in data:
         words['Ara'] = line.split(',')[5]
         words['Rus'] = line.split(',')[6]
         originalWords = [words['Chi'], words['Spa'], words['Hin'], words['Ara'], words['Rus']]
-        leastEfficientWord = words['Chi'] + words['Spa'] + words['Hin'] + words['Ara'] + words['Rus']
-        print '\n'
-        print newWord.upper() + ' vs. "' + leastEfficientWord + '":'
-        print originalWords
-        score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
-        print '  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels'
-        score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
-        print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
-        avgScore = (score1 + score2)/2
-        print 'Average score: ' + str(avgScore)
-        score3 = evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
-        print '\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein'
+        
+        score = 0
+        score += evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        score += evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        # score -= evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        score += evaluateScore_LettersFromEachSource(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        score += penalizeRepeatedLetterSequences(newWord)
+        score += penalizeLength(newWord)
+        score = round(score, 2)
+        print('score = ' + str(score))
 
-print '\n'
-
-
-
-
-
-
-
+print()
