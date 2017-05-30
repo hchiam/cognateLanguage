@@ -258,7 +258,7 @@ for i in range(100):
         individual = [score, entry, instructions]
         population.append(individual)
     
-    # TODO: add variations of existing individuals in population
+    # add variations of existing individuals in population
     for i in range(2):
         index = randint(0,len(population)-1)
         instructions_toMutate = population[index][2]
