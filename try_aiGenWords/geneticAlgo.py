@@ -187,7 +187,7 @@ def getSourceWords(data):
 
 def generateNewIndividual():
     outputInstructions = []
-    possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
+    # possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
     for i in range(25):
         index = randint(0,len(possibleInstructions)-1)
         instruction = possibleInstructions[index]
@@ -213,7 +213,7 @@ def generateNewWord(data, instructions):
     return newWord
 
 def sortByScore(population):
-    population.sort(key=itemgetter(1), reverse=True)
+    population.sort(key=itemgetter(0), reverse=True)
 
 def printOnSepLines(arr):
     for line in arr:
@@ -225,6 +225,8 @@ def printOnSepLines(arr):
 
 data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
 
+possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
+
 population = []
 
 srcWords = getSourceWords(data)
@@ -235,7 +237,7 @@ for i in range(10):
     newWord = generateNewWord(srcWords, instructions)
     entry = newWord + ',' + ','.join(srcWords) + ','
     score = evaluate(entry)
-    individual = [entry, score]
+    individual = [score, entry, instructions]
     population.append(individual)
 
 for i in range(100):
@@ -247,13 +249,34 @@ for i in range(100):
     for i in range(5):
         population.pop()
     
-    # add new individuals to population
-    for i in range(5):
+    # add new random individuals to population
+    for i in range(3):
         instructions = generateNewIndividual()
         newWord = generateNewWord(srcWords, instructions)
         entry = newWord + ',' + ','.join(srcWords) + ','
         score = evaluate(entry)
-        individual = [entry, score]
+        individual = [score, entry, instructions]
+        population.append(individual)
+    
+    # TODO: add variations of existing individuals in population
+    for i in range(2):
+        index = randint(0,len(population)-1)
+        instructions_toMutate = population[index][2]
+        if len(instructions_toMutate) > 0:
+            # mutate instructions
+            index_toMutate = randint(0,len(instructions_toMutate)-1)
+            instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+            if instruction_toReplace != 'x':
+                instructions_toMutate[index_toMutate] = instruction_toReplace
+            else:
+                instructions_toMutate = instructions_toMutate[index_toMutate-1:]
+        else:
+            instructions_toMutate = ''
+        instructions = instructions_toMutate
+        newWord = generateNewWord(srcWords, instructions)
+        entry = newWord + ',' + ','.join(srcWords) + ','
+        score = evaluate(entry)
+        individual = [score, entry, instructions]
         population.append(individual)
 
 # sort by score
