@@ -1,5 +1,6 @@
 from random import randint
 from operator import itemgetter
+import matplotlib.pyplot as plt
 
 from collections import OrderedDict
 from levenshteinDistance import levenshtein as ld
@@ -220,15 +221,18 @@ def sortByScore(population):
     population.sort(key=itemgetter(0), reverse=True)
 
 def getBestAlgo():
-    # sort (just in case) (but don't change the population variable in-place here)
-    populationSorted = sorted(population, key=itemgetter(0), reverse=True)
-    # get first one
-    bestSoFar = populationSorted[0]
+    # assumes first one is best
+    bestSoFar = population[0]
     return bestSoFar
 
 def printOnSepLines(arr):
     for line in arr:
         print(line)
+
+def updateScoreHistory():
+    # assumes first one is best
+    currentBestScore = population[0][0]
+    scoreHistory.append(currentBestScore)
 
 #------------------------
 # main part of the program:
@@ -241,6 +245,7 @@ srcWords = getSourceWords(data)
 engWord = data.split(',')[1]
 
 population = []
+scoreHistory = []
 
 # initialize population
 for i in range(10):
@@ -251,11 +256,16 @@ for i in range(10):
     individual = [score, entry, instructions]
     population.append(individual)
 
+updateScoreHistory()
+
 # train
 for i in range(500):
     # sort by score
     sortByScore(population)
     # printOnSepLines(population)
+    
+    # update score history after sorting by score
+    updateScoreHistory()
     
     # remove lower scorers
     for i in range(5):
@@ -327,8 +337,9 @@ original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
 print('vs')
 print(evaluate(original), original)
 
-# TODO plot score over generations
-
+# plot score over generations
+plt.plot(scoreHistory)
+plt.show()
 
 # TODO check duplicates, mutate duplicates
 
