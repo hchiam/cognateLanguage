@@ -395,4 +395,8 @@ print(evaluate(original), '( old:',evaluate_OLD(original),')')
 plt.plot(scoreHistory)
 plt.show()
 
+# TODO save best scorer externally
+
+# TODO use best scorer saved externally
+
 # TODO train over multiple examples
