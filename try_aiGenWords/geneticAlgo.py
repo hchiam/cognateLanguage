@@ -200,9 +200,9 @@ def generateNewIndividual():
             outputInstructions.append(instruction)
     return outputInstructions
 
-def generateNewWord(data, instructions):
+def generateNewWord(srcWords, instructions):
     newWord = []
-    sourceWords = data
+    sourceWords = srcWords
     i = 0
     for instruction in instructions:
         if instruction == '+':
