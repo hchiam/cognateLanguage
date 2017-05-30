@@ -244,11 +244,12 @@ data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
 srcWords = getSourceWords(data)
 engWord = data.split(',')[1]
 
+popSize = 10
 population = []
 scoreHistory = []
 
 # initialize population
-for i in range(10):
+for i in range(popSize):
     instructions = generateNewIndividual()
     newWord = generateNewWord(srcWords, instructions)
     entry = newWord + ',' + ','.join(srcWords) + ','
@@ -268,11 +269,13 @@ for i in range(300):
     updateScoreHistory()
     
     # remove lower scorers
-    for i in range(5):
+    halfOfPop = popSize//2
+    for i in range(halfOfPop):
         population.pop()
     
     # add new random individuals to population
-    for i in range(3):
+    halfOfHalf = halfOfPop//2
+    for i in range(halfOfHalf):
         instructions = generateNewIndividual()
         newWord = generateNewWord(srcWords, instructions)
         entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
@@ -280,8 +283,17 @@ for i in range(300):
         individual = [score, entry, instructions]
         population.append(individual)
     
+    # remove duplicate individuals
+    mySet = []
+    for indiv in population:
+        if indiv not in mySet:
+            mySet.append(indiv)
+    duplicatesToReplace = len(population) - len(mySet)
+    population = list(mySet)
+    
     # add variations of existing individuals in population
-    for i in range(2):
+    restOfPop = halfOfPop - halfOfHalf + duplicatesToReplace
+    for i in range(restOfPop):
         index = randint(0,len(population)-1)
         instructions_toMutate = list(population[index][2]) # hacky: use list() to make an actual copy, not a reference
         if len(instructions_toMutate) > 0:
@@ -340,8 +352,5 @@ print(evaluate(original), original)
 # plot score over generations
 plt.plot(scoreHistory)
 plt.show()
-
-# TODO check duplicates, mutate duplicates
-
 
 # TODO train over multiple examples
