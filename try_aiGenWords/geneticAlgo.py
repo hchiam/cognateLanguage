@@ -366,14 +366,13 @@ bestSoFar = getBestAlgo()
 scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
 print('\nBEST SO FAR:')
 print(bestSoFar)
-print('scoring, new:',evaluate(entryBestSoFar))
-print('scoring, old:',evaluate_OLD(entryBestSoFar))
+print(evaluate(entryBestSoFar),'( old:',evaluate_OLD(entryBestSoFar),')')
 
 print('\nORIGINALLY:')
 original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
 # original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print(original)
-print(evaluate(original), 'old:',evaluate_OLD(original))
+print(evaluate(original), '( old:',evaluate_OLD(original),')')
 
 print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
 data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
@@ -385,12 +384,12 @@ entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7
 score = evaluate(entry)
 individual = [score, entry, instructionsBestSoFar]
 print(individual)
-print(evaluate(entry), 'old:',evaluate_OLD(entry))
+print(evaluate(entry), '( old:',evaluate_OLD(entry),')')
 
 original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print('vs')
 print(original)
-print(evaluate(original), 'old:',evaluate_OLD(original))
+print(evaluate(original), '( old:',evaluate_OLD(original),')')
 
 # plot score over generations
 plt.plot(scoreHistory)
