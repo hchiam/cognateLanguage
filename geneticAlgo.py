@@ -261,6 +261,8 @@ def updateWordHistory():
 # main part of the program:
 #------------------------
 
+print('\n...Running...')
+
 possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
 
 # data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
