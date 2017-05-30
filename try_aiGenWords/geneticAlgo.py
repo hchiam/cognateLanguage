@@ -205,7 +205,9 @@ def generateNewWord(srcWords, instructions):
     sourceWords = srcWords
     i = 0
     for instruction in instructions:
-        if instruction == '+':
+        if instruction == 'x':
+            break
+        elif instruction == '+':
             i += 1
         else:
             sourceWord = sourceWords[instruction]
