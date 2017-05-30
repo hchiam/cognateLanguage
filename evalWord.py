@@ -206,12 +206,7 @@ def penalizeLength(word):
 def evaluateLine(line):
     if ',' in line:
         newWord = line.split(',')[0]
-        words['Chi'] = line.split(',')[2]
-        words['Spa'] = line.split(',')[3]
-        words['Hin'] = line.split(',')[4]
-        words['Ara'] = line.split(',')[5]
-        words['Rus'] = line.split(',')[6]
-        originalWords = [words['Chi'], words['Spa'], words['Hin'], words['Ara'], words['Rus']]
+        originalWords = line.split(',')[2:]
         
         score = 0
         score += evaluateScore_AlloWithVowels(newWord, originalWords)
