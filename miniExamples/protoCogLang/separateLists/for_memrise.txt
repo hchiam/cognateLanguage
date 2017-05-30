@@ -22,5 +22,5 @@ heldrukidum	other
 hoyedsan	one
 dwohsdiv	two
 treytel	three
-kwetcatsapket	four
+kwetcap	four
 penlimpet	five
