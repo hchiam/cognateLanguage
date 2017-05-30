@@ -3,7 +3,7 @@ from operator import itemgetter
 import matplotlib.pyplot as plt
 
 from collections import OrderedDict
-from levenshteinDistance import levenshtein as ld
+# from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -65,13 +65,13 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-def evaluateScore_Levenshtein(word,a,b,c,d,e):
-    score = 0
-    
-    for lang in a,b,c,d,e:
-        score += ld(word,lang)
-    
-    return score
+# def evaluateScore_Levenshtein(word,a,b,c,d,e):
+#     score = 0
+#     
+#     for lang in a,b,c,d,e:
+#         score += ld(word,lang)
+#     
+#     return score
 
 
 def evaluateScore_AlloWithVowels(word,a,b,c,d,e):
@@ -168,16 +168,29 @@ def evaluateScore_ConsonantsInOrder(word,a,b,c,d,e):
     
     return round(score,2)
 
-def evaluateScore_ConsonantsFromEachSource(word,a,b,c,d,e):
+def evaluateScore_LettersFromEachSource(word,a,b,c,d,e):
     score = 0
     for letter in word:
-        # encourage using words with letters found in most source words
-        # penalize letters not in any of the source words
-        score += 1 if letter in a else -1
-        score += 1 if letter in b else -1
-        score += 1 if letter in c else -1
-        score += 1 if letter in d else -1
-        score += 1 if letter in e else -1
+        # encourage using words with letters found in all source words
+        score += 1 if letter in a else 0
+        score += 1 if letter in b else 0
+        score += 1 if letter in c else 0
+        score += 1 if letter in d else 0
+        score += 1 if letter in e else 0
+    return score
+
+def penalizeRepeatedLetterSequences(word):
+    score = 0
+    currentLetter = ''
+    for letter in word:
+        if letter == currentLetter:
+            score -= 1
+        else:
+            currentLetter = letter
+    return score
+
+def penalizeLength(word):
+    score = -len(word)
     return score
 
 def evaluate(line):
@@ -188,16 +201,30 @@ def evaluate(line):
     words['pbs'] = line.split(',')[5]
     words['ps'] = line.split(',')[6]
     originalWords = [words['pie'], words['pa'], words['pii'], words['pbs'], words['ps']]
-    leastEfficientWord = words['pie'] + words['pa'] + words['pii'] + words['pbs'] + words['ps']
-    score1 = evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    score2 = evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    # score3 = evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    # scoreSum = score1+score2-score3
-    # scoreAvg = (score1+score2)/2
-    score4 = evaluateScore_ConsonantsFromEachSource(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    scoreSum = score1+score2 + score4
-    # scoreSum = score1+score2
-    return round(scoreSum, 2)
+    
+    score = 0
+    score += evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    score += evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    # score -= evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    score += evaluateScore_LettersFromEachSource(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    score += penalizeRepeatedLetterSequences(newWord)
+    score += penalizeLength(newWord)
+    return round(score, 2)
+
+def evaluate_OLD(line):
+    newWord = line.split(',')[0]
+    words['pie'] = line.split(',')[2]
+    words['pa'] = line.split(',')[3]
+    words['pii'] = line.split(',')[4]
+    words['pbs'] = line.split(',')[5]
+    words['ps'] = line.split(',')[6]
+    originalWords = [words['pie'], words['pa'], words['pii'], words['pbs'], words['ps']]
+    
+    score = 0
+    score += evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    score += evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    # score -= evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    return round(score, 2)
 
 def getSourceWords(data):
     return data.split(',')[2:][:-1]
@@ -254,7 +281,8 @@ def updateScoreHistory():
 
 possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
 
-data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+# data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+data = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
 srcWords = getSourceWords(data)
 engWord = data.split(',')[1]
 
@@ -340,18 +368,13 @@ print('\nBEST SO FAR:')
 print(bestSoFar)
 
 print('\nORIGINALLY:')
-original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
+original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
+# original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print(evaluate(original), original)
-# 'tcanlartowdlam' should be 7.1 & 8.3 --> avg=7.7 & sum=15.4
-
-print('\nAND FOR COMPARISON:')
-tlam = 'tlam,long,tcan,largo,lamba,towil,dlini,'
-print(evaluate(tlam), tlam)
-# 'tlam' should be 11.3 & 19.3 --> avg=15.3 & sum=30.6
 
 print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
-# data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
-data = '0,use,yun,usa,istemal,istemal,potrebi,'
+data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
+# data = '0,use,yun,usa,istemal,istemal,potrebi,'
 srcWords = getSourceWords(data)
 engWord = data.split(',')[1]
 newWord = generateNewWord(srcWords, instructionsBestSoFar)
@@ -360,7 +383,7 @@ score = evaluate(entry)
 individual = [score, entry, instructionsBestSoFar]
 print(individual)
 
-original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
+original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
 print('vs')
 print(evaluate(original), original)
 
