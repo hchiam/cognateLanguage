@@ -285,3 +285,13 @@ for i in range(500):
 sortByScore(population)
 print('FINAL CANDIDATES:')
 printOnSepLines(population)
+
+print('ORIGINALLY:')
+bestSoFar = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
+print(evaluate(bestSoFar), bestSoFar)
+# 'tcanlartowdlam' should be 7.1 & 8.3 --> avg=7.7 & sum=15.4
+
+print('AND FOR COMPARISON:')
+tlam = 'tlam,long,tcan,largo,lamba,towil,dlini,'
+print(evaluate(tlam), tlam)
+# 'tlam' should be 11.3 & 19.3 --> avg=15.3 & sum=30.6
