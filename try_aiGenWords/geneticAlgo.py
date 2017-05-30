@@ -225,15 +225,13 @@ def printOnSepLines(arr):
 # main part of the program:
 #------------------------
 
-data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
-
 possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
 
-population = []
-
+data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
 srcWords = getSourceWords(data)
-
 engWord = data.split(',')[1]
+
+population = []
 
 # initialize population
 for i in range(10):
