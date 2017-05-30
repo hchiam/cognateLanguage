@@ -380,6 +380,7 @@ print(wordHistory)
 
 # plot score over generations
 plt.plot(scoreHistory)
+plt.title('Score History')
 plt.show()
 
 # TODO save best scorer externally
