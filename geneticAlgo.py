@@ -375,7 +375,7 @@ print('vs')
 print(evaluate(original), original)
 
 # show word history
-print('\nWORD HISTORY EVERY '+str(epochMilestone)+' GENERATIONS:')
+print('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
 print(wordHistory)
 
 # plot score over generations
