@@ -217,6 +217,13 @@ def generateNewWord(data, instructions):
 def sortByScore(population):
     population.sort(key=itemgetter(0), reverse=True)
 
+def getBestAlgo():
+    # sort (just in case) (but don't change the population variable in-place here)
+    populationSorted = sorted(population, key=itemgetter(0), reverse=True)
+    # get first one
+    bestSoFar = populationSorted[0]
+    return bestSoFar
+
 def printOnSepLines(arr):
     for line in arr:
         print(line)
@@ -285,6 +292,9 @@ for i in range(500):
 sortByScore(population)
 print('FINAL CANDIDATES:')
 printOnSepLines(population)
+
+print('BEST SO FAR:')
+print(getBestAlgo())
 
 print('ORIGINALLY:')
 original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
