@@ -249,6 +249,7 @@ for i in range(10):
     individual = [score, entry, instructions]
     population.append(individual)
 
+# train
 for i in range(500):
     # sort by score
     sortByScore(population)
