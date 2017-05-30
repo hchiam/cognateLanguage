@@ -94,7 +94,7 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
     #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
     
     originalWords = [chi,spa,hin,ara,rus]
-    alloOriginalWords = originalWords
+    alloOriginalWords = list(originalWords) # careful with creating references that overwrite!
     
     for index, srcWord in enumerate(alloOriginalWords):
         alloOriginalWords[index] = respellWithAllophones(srcWord)
@@ -136,7 +136,7 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
     leastEfficientWord = chi+spa+hin+ara+rus
     
     originalWords = [chi,spa,hin,ara,rus]
-    alloConsonants = originalWords
+    alloConsonants = list(originalWords) # careful with creating references that overwrite!
     alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
     #print alloOfNewWord
