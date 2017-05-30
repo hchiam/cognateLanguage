@@ -271,7 +271,7 @@ for i in range(500):
     # add variations of existing individuals in population
     for i in range(2):
         index = randint(0,len(population)-1)
-        instructions_toMutate = population[index][2]
+        instructions_toMutate = list(population[index][2]) # hacky: use list() to make an actual copy, not a reference
         if len(instructions_toMutate) > 0:
             # mutate instructions
             index_toMutate = randint(0,len(instructions_toMutate)-1)
@@ -309,3 +309,22 @@ print('\nAND FOR COMPARISON:')
 tlam = 'tlam,long,tcan,largo,lamba,towil,dlini,'
 print(evaluate(tlam), tlam)
 # 'tlam' should be 11.3 & 19.3 --> avg=15.3 & sum=30.6
+
+print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
+# data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
+data = '0,use,yun,usa,istemal,istemal,potrebi,'
+srcWords = getSourceWords(data)
+engWord = data.split(',')[1]
+newWord = generateNewWord(srcWords, instructionsBestSoFar)
+entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
+score = evaluate(entry)
+individual = [score, entry, instructionsBestSoFar]
+print(individual)
+
+# TODO plot score over generations
+
+
+# TODO check duplicates, mutate duplicates
+
+
+
