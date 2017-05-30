@@ -178,8 +178,10 @@ def evaluate(line):
     leastEfficientWord = words['pie'] + words['pa'] + words['pii'] + words['pbs'] + words['ps']
     score1 = evaluateScore_AlloWithVowels(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
     score2 = evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    score3 = evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
-    scoreSum = score1+score2-score3
+    # score3 = evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
+    # scoreSum = score1+score2-score3
+    scoreSum = (score1+score2)/2
+    scoreSum = score1+score2
     return round(scoreSum, 2)
 
 def getSourceWords(data):
