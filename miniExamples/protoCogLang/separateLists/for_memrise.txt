@@ -20,7 +20,7 @@ kelnekay	some
 pehmal	few
 heldrukidum	other
 hoyedsan	one
-dwohdusduodiv	two
+dwohsdiv	two
 treytel	three
 kwetcatsapket	four
 penlimpet	five
