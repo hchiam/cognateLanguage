@@ -15,3 +15,12 @@ kadkogyan	when
 kug	how
 nedi	not
 qamwisvic	all
+mondou	many
+kelnekay	some
+pehmal	few
+heldrukidum	other
+hoyedsan	one
+dwohdusduodiv	two
+treytel	three
+kwetcatsapket	four
+penlimpet	five
