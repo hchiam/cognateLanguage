@@ -233,6 +233,8 @@ population = []
 
 srcWords = getSourceWords(data)
 
+engWord = data.split(',')[1]
+
 # initialize population
 for i in range(10):
     instructions = generateNewIndividual()
@@ -255,7 +257,7 @@ for i in range(500):
     for i in range(3):
         instructions = generateNewIndividual()
         newWord = generateNewWord(srcWords, instructions)
-        entry = newWord + ',' + ','.join(srcWords) + ','
+        entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
         score = evaluate(entry)
         individual = [score, entry, instructions]
         population.append(individual)
@@ -276,7 +278,7 @@ for i in range(500):
             instructions_toMutate = ''
         instructions = instructions_toMutate
         newWord = generateNewWord(srcWords, instructions)
-        entry = newWord + ',,' + ','.join(srcWords) + ',' # should have 7 commas
+        entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
         score = evaluate(entry)
         individual = [score, entry, instructions]
         population.append(individual)
