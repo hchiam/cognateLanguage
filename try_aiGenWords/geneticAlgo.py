@@ -242,7 +242,7 @@ for i in range(10):
     individual = [score, entry, instructions]
     population.append(individual)
 
-for i in range(100):
+for i in range(500):
     # sort by score
     sortByScore(population)
     # printOnSepLines(population)
