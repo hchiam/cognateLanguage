@@ -180,7 +180,7 @@ def evaluate(line):
     score2 = evaluateScore_ConsonantsInOrder(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
     # score3 = evaluateScore_Levenshtein(newWord, words['pie'], words['pa'], words['pii'], words['pbs'], words['ps'])
     # scoreSum = score1+score2-score3
-    scoreSum = (score1+score2)/2
+    # scoreAvg = (score1+score2)/2
     scoreSum = score1+score2
     return round(scoreSum, 2)
 
