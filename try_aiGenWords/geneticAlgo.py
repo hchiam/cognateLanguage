@@ -259,7 +259,7 @@ for i in range(10):
 updateScoreHistory()
 
 # train
-for i in range(500):
+for i in range(300):
     # sort by score
     sortByScore(population)
     # printOnSepLines(population)
