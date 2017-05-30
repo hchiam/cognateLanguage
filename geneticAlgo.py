@@ -166,6 +166,7 @@ def evaluateScore_ConsonantsInOrder(word,originalWords):
     
     return round(score,2)
 
+
 def evaluateScore_LettersFromEachSource(word,originalWords):
     score = 0
     for letter in word:
@@ -173,6 +174,7 @@ def evaluateScore_LettersFromEachSource(word,originalWords):
             # encourage using words with letters found in all source words
             score += 1 if letter in srcWord else 0
     return score
+
 
 def penalizeRepeatedLetterSequences(word):
     score = 0
@@ -184,9 +186,11 @@ def penalizeRepeatedLetterSequences(word):
             currentLetter = letter
     return score
 
+
 def penalizeLength(word):
     score = -len(word)
     return score
+
 
 def evaluate(line):
     newWord = line.split(',')[0]
