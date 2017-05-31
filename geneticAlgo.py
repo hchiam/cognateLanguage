@@ -413,19 +413,49 @@ def createWord(inputLineEntry):
     scorers = []
     with open(scorersFile,'r') as f:
         scorers = f.read().splitlines()
+    # f = open(scorersFile, 'r')
+    # scorers = f.read().split('\n')
+    # scorers = list(filter(None, scorers)) # remove empty lines
+    # f.close()
     if scorers == []:
+        # just initialize file if nothing there
         with open(scorersFile,'w') as f:
             f.write(str(bestSoFar)+'\n')
     else:
         bestSoFar_id = getEntryIdentifier(bestSoFar)
         bestSoFar_scr = getEntryScore(bestSoFar)
+        
+        all_prevScorer_ids = []
         for scorer in scorers:
-            prevScorer_id = getEntryIdentifier(scorer)
-            if prevScorer_id == bestSoFar_id:
-                prevScorer_scr = getEntryScore(scorer)
-                if bestSoFar_scr > prevScorer_scr:
-                    with open(scorersFile,'w') as f:
-                        f.write(str(bestSoFar)+'\n')
+            all_prevScorer_ids.append(getEntryIdentifier(scorer))
+        
+        newScorers = [] # reset
+        
+        if bestSoFar_id not in all_prevScorer_ids:
+            # retain previous scorers
+            for scorer in scorers:
+                newScorers.append(scorer)
+            # will add if new entry
+            newScorers.append(bestSoFar)
+        else:
+            # check each line
+            for scorer in scorers:
+                prevScorer_id = getEntryIdentifier(scorer)
+                if prevScorer_id == bestSoFar_id:
+                    prevScorer_scr = getEntryScore(scorer)
+                    # include only better scorer
+                    if bestSoFar_scr > prevScorer_scr:
+                        newScorers.append(bestSoFar)
+                    else:
+                        newScorers.append(scorer)
+                else:
+                    if scorer not in newScorers:
+                        # otherwise make sure to include previously existing scorers
+                        newScorers.append(scorer)
+        with open(scorersFile,'w') as f:
+            for scorer in newScorers: 
+                f.write(str(scorer)+'\n')
+            f.close()
     
     # TODO use best scorer saved externally
     
@@ -437,5 +467,11 @@ def createWord(inputLineEntry):
 if __name__ == '__main__': # run the following if running this .py file directly:
     inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     wordCreated = createWord(inputLineEntry)
+    inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+    createWord(inputLineEntry)
+    inputLineEntry = '+,example,lidza,ehemplo,udahran,mital,primer,'
+    createWord(inputLineEntry)
+    inputLineEntry = '0,get,hwod,konsegi,pa,istalama,dostava,'
+    createWord(inputLineEntry)
     print('\nCREATED WORD:')
     print(wordCreated)
