@@ -478,7 +478,7 @@ def createWord(inputLineEntry):
     return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
-    inputLineEntry = '+,mother,mama,madre,ma,om,mama,'
+    inputLineEntry = '+,make,djidzaw,ase,bana,sana,dela,' # this one used to output 'abaaaaaasanlaaaaaaadaa'
     wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     # wordCreated = createWord(inputLineEntry)
