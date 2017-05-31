@@ -19,15 +19,15 @@
 
 **Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like ["en-too-knee"](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk).  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
 
-## Example 2:
+## Example 2: with longer source words
 
-With longer source words:  "queue" = *["paykatcirsafil"](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
+"queue" = *["paykatcirsafil"](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
 
 **Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (The vocab list generator only incorporates the first syllables from each source word because they're usually the most easily recognizable---think abbreviations.  Different languages have different priorities/weights in terms of which overlapping letters are chosen, for highest ROI.)
 
-## Example 3:
+## Example 3: with a more creative mnemonic
 
-Showing more creative mnemonic:  "east" = *["purcarvasdon"](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".
+"east" = *["purcarvasdon"](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".
 
 **Memory compression**:  8 syllables total -> 4 syllables.  5 words -> 1 word.
 
@@ -69,7 +69,7 @@ To create a list of words or vocabulary with maximum "intelligibility" via "(fal
 
 This personal project takes inspiration from zonal conlangs (applied more "globally"), auxlangs, Lojban, and Proto-Indo-European reconstruction, but applied to mnemonics for multiple modern languages by creating words in a way similar to portmanteaus or folk etymologies, in order to increase the effects of partial intelligibility or cognacy.  In a way this makes it more of a worldlang than a zonal conlang, but with the original purpose of learning other languages, not as a "language" itself.
 
-Basically, I created this project as a tool for my personal language learning interests.  Plus I thought it'd be fun to make a program that automatically creates vocabulary for a made-up language!
+But basically, I created this project as a tool for my personal language learning interests.  Plus I thought it'd be fun to make a program that automatically creates vocabulary for a made-up language!
 
     Djyenkonbanstroi!
 
