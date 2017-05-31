@@ -62,9 +62,13 @@ def combineOverlappingWords(shortList):
 
 def evaluateScore_Levenshtein(word,originalWords):
     score = 0
+    score_maximize = 100
+    score_minimize = 0
     
     for lang in originalWords:
-        score += ld(word,lang)
+        score_minimize += ld(word,lang)
+    
+    score = score_maximize - score_minimize
     
     return score
 
@@ -194,7 +198,7 @@ def evaluate(line):
     score = 0
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
-    score -= evaluateScore_Levenshtein(newWord, originalWords)
+    score += evaluateScore_Levenshtein(newWord, originalWords)
     score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
     score += penalizeLength(newWord)

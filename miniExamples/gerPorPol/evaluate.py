@@ -61,9 +61,13 @@ def combineOverlappingWords(shortList):
 
 def evaluateScore_Levenshtein(word,originalWords):
     score = 0
+    score_maximize = 100
+    score_minimize = 0
     
     for lang in originalWords:
-        score += ld(word,lang)
+        score_minimize += ld(word,lang)
+    
+    score = score_maximize - score_minimize
     
     return score
 
