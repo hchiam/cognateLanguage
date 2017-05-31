@@ -430,7 +430,12 @@ def createWord(inputLineEntry):
     # TODO use best scorer saved externally
     
     # TODO train over multiple examples
+    
+    bestSoFar_word = entryBestSoFar.split(',')[0].replace('\'','')
+    return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
     inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
-    createWord(inputLineEntry)
+    wordCreated = createWord(inputLineEntry)
+    print('\nCREATED WORD:')
+    print(wordCreated)
