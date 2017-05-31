@@ -270,7 +270,8 @@ def generateNewWord(srcWords, instructions):
         elif instruction == '+':
             i += 1
         else:
-            sourceWord = sourceWords[instruction]
+            lang = instruction
+            sourceWord = sourceWords[lang]
             if i < len(sourceWord):
                 newWord.append(sourceWord[i])
     newWord = ''.join(newWord)
