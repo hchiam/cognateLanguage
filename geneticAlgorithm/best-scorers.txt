@@ -1,4 +1,4 @@
-[99.4, 'istem,use,yun,usa,istemal,istemal,potrebi,', [2, '+', 3, '+', 3, '+', 3, 1, '+', 3, 1]]
+[99.5, 'pistema,use,yun,usa,istemal,istemal,potrebi,', [4, 2, '+', 1, '+', 2, '+', '+', 4, 3, '+', 2, '+', '+', 0, '+']]
 [89.7, 'ta,be,ca,esta,ho,kana,bi,', ['+', '+', 1, '+', 1]]
 [89.9, 'osta,get,hwod,konsegi,pa,istalama,dostava,', ['+', 1, 3, '+', '+', 4, 3, '+']]
 [89.8, 'haw,want,yaw,kere,tcah,awiz,hote,', [4, 3, '+', 3]]
