@@ -153,7 +153,7 @@ def createWord():
                 else:
                     newWord = newWord.replace(patternOrigCompressed, replacer,1)
     print
-    print newWord
+    print(newWord)
     return newWord
 
 
@@ -217,7 +217,7 @@ def createWord_Alternate():
                 words[lang] = simpNonChiWordMaker(words[lang])
             elif lang == 'Chi':
                 words[lang] = simpChiWordMaker(words[lang])
-            print word
+            print(word)
             removeHForHin(word,lang)
 
     wordsInitSyllables = words.copy()
@@ -266,7 +266,7 @@ def createWord_Alternate():
                 if patternCompressedAllo in respellWithAllophones(newWord): # replace with compressed word in allophone form
                     index = respellWithAllophones(newWord).find(patternCompressedAllo)
                     if index == 0 and (originalWords[language][0] in 'aeiou'):
-                        print "head!!!"
+                        print("head!!!")
                         newWord = originalWords[language][0] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
                     else:
                         newWord = newWord[:index] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
@@ -274,7 +274,7 @@ def createWord_Alternate():
                     pattern = respellWithAllophones(wordsInitSyllables[language])
                     newWord = newWord.replace(pattern, wordsInitSyllables[language])
 
-    print newWord
+    print(newWord)
     return newWord
 
 def createWord_GeneticAlgo(entry):
