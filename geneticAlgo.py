@@ -424,6 +424,7 @@ def createWord(inputLineEntry):
     else:
         bestSoFar_id = getEntryIdentifier(bestSoFar)
         bestSoFar_scr = getEntryScore(bestSoFar)
+        bestSoFar_word = entryBestSoFar.split(',')[0].replace('\'','')
         
         all_prevScorer_ids = []
         for scorer in scorers:
@@ -448,6 +449,8 @@ def createWord(inputLineEntry):
                         newScorers.append(bestSoFar)
                     else:
                         newScorers.append(scorer)
+                        # replace with previously existing scorer as output word
+                        bestSoFar_word = scorer.split(',')[1].replace(' \'','')
                 else:
                     if scorer not in newScorers:
                         # otherwise make sure to include previously existing scorers
@@ -457,11 +460,8 @@ def createWord(inputLineEntry):
                 f.write(str(scorer)+'\n')
             f.close()
     
-    # TODO use best scorer saved externally
-    
     # TODO train over multiple examples
     
-    bestSoFar_word = entryBestSoFar.split(',')[0].replace('\'','')
     return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
