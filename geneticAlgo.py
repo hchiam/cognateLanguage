@@ -3,7 +3,7 @@ from operator import itemgetter
 # import matplotlib.pyplot as plt
 
 # from collections import OrderedDict
-# from levenshteinDistance import levenshtein as ld
+from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -70,13 +70,13 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-# def evaluateScore_Levenshtein(word,originalWords):
-#     score = 0
-#     
-#     for lang in originalWords:
-#         score += ld(word,lang)
-#     
-#     return score
+def evaluateScore_Levenshtein(word,originalWords):
+    score = 0
+    
+    for lang in originalWords:
+        score += ld(word,lang)
+    
+    return score
 
 
 def evaluateScore_AlloWithVowels(word,originalWords):
@@ -204,7 +204,8 @@ def evaluate(line):
     score = 0
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
-    # score -= evaluateScore_Levenshtein(newWord, originalWords)
+     # need all of the following to avoid crazy long words with repeating letters
+    score -= evaluateScore_Levenshtein(newWord, originalWords)
     score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
     score += penalizeLength(newWord)
@@ -478,8 +479,10 @@ def createWord(inputLineEntry):
     return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
-    inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
+    inputLineEntry = '+,mother,mama,madre,ma,om,mama,'
     wordCreated = createWord(inputLineEntry)
+    # inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
+    # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
     # createWord(inputLineEntry)
     # inputLineEntry = '+,example,lidza,ehemplo,udahran,mital,primer,'
