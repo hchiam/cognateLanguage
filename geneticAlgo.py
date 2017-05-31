@@ -36,6 +36,8 @@ wordHistory = []
 
 debugOn = False
 
+count = 0
+
 #------------------------
 # functions:
 #------------------------
@@ -282,9 +284,9 @@ def getEntryScore(entry):
     return str(entry).split(', ',1)[0][1:] # [1:] to remove initial '['
 
 
-def printDebug(string):
+def printDebug(*args):
     if debugOn:
-        print(string)
+        print(args)
 
 #------------------------
 # main part of the program:
@@ -294,8 +296,11 @@ def createWord(inputLineEntry):
     global population
     global scoreHistory
     global wordHistory
+    global count
     
-    print('\n...Running...')
+    printDebug('\n...Running...')
+    count += 1
+    print(count)
     
     # data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
     # data = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
@@ -474,11 +479,11 @@ def createWord(inputLineEntry):
 if __name__ == '__main__': # run the following if running this .py file directly:
     inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     wordCreated = createWord(inputLineEntry)
-    inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
-    createWord(inputLineEntry)
-    inputLineEntry = '+,example,lidza,ehemplo,udahran,mital,primer,'
-    createWord(inputLineEntry)
-    inputLineEntry = '0,get,hwod,konsegi,pa,istalama,dostava,'
-    createWord(inputLineEntry)
+    # inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+    # createWord(inputLineEntry)
+    # inputLineEntry = '+,example,lidza,ehemplo,udahran,mital,primer,'
+    # createWord(inputLineEntry)
+    # inputLineEntry = '0,get,hwod,konsegi,pa,istalama,dostava,'
+    # createWord(inputLineEntry)
     print('\nCREATED WORD:')
     print(wordCreated)
