@@ -201,6 +201,30 @@ def penalizeLength(word):
     return score
 
 
+def penalizeZeroLetters(word):
+    if word == '':
+        return -1
+    return 0
+
+
+def penalizeNoVowels(word):
+    score = 0
+    vowels = 'aeiou'
+    has = False
+    for vowel in vowels:
+        if vowel in word:
+            score = 1
+            return score
+    if len(word) > 1: # don't force a vowel if the word is only 1-letter long
+        score = -1
+    return score
+
+
+def penalizeInstructionComplexity(instruction): # TODO
+    score = 0
+    return score
+
+
 def evaluate(line):
     newWord = line.split(',')[0]
     originalWords = line.split(',')[2:]
@@ -212,6 +236,9 @@ def evaluate(line):
     score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
     score += penalizeLength(newWord)
+    score += penalizeZeroLetters(newWord)
+    score += penalizeNoVowels(newWord)
+    # score += penalizeInstructionComplexity(instruction) # TODO
     return round(score, 2)
 
 
@@ -482,8 +509,10 @@ def createWord(inputLineEntry):
     return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
-    inputLineEntry = '+,make,djidzaw,ase,bana,sana,dela,' # this one used to output 'abaaaaaasanlaaaaaaadaa'
+    inputLineEntry = '+,to,daw,a,ko,le,na,' # this one used to output ''
     wordCreated = createWord(inputLineEntry)
+    # inputLineEntry = '+,make,djidzaw,ase,bana,sana,dela,' # this one used to output 'abaaaaaasanlaaaaaaadaa'
+    # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
