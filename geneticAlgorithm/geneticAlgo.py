@@ -25,6 +25,15 @@ allophones = {
     'y' : 'y'
 }
 
+possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
+
+popSize = 10
+numGenerations = 1000
+epochMilestone = numGenerations//10
+population = []
+scoreHistory = []
+wordHistory = []
+
 #------------------------
 # functions:
 #------------------------
@@ -274,149 +283,154 @@ def getEntryScore(entry):
 # main part of the program:
 #------------------------
 
-print('\n...Running...')
-
-possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
-
-# data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
-data = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
-srcWords = getSourceWords(data)
-engWord = data.split(',')[1]
-
-popSize = 10
-numGenerations = 1000
-epochMilestone = numGenerations//10
-population = []
-scoreHistory = []
-wordHistory = []
-
-# initialize population
-for i in range(popSize):
-    instructions = generateNewIndividual()
-    newWord = generateNewWord(srcWords, instructions)
-    entry = newWord + ',' + ','.join(srcWords) + ','
-    score = evaluate(entry)
-    individual = [score, entry, instructions]
-    population.append(individual)
-
-# train
-for i in range(numGenerations):
-    # sort by score
-    sortByScore(population)
-    # printOnSepLines(population)
+def createWord(inputLineEntry):
+    global population
+    global scoreHistory
+    global wordHistory
     
-    # update score history after sorting by score
-    updateScoreHistory()
+    print('\n...Running...')
     
-    # update word history after sorting by score
-    if i%epochMilestone == 0:
-        updateWordHistory()
+    # data = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+    # data = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
+    data = inputLineEntry
+    srcWords = getSourceWords(data)
+    engWord = data.split(',')[1]
     
-    # remove lower scorers
-    halfOfPop = popSize//2
-    for i in range(halfOfPop):
-        population.pop()
+    population = []
+    scoreHistory = []
+    wordHistory = []
     
-    # add new random individuals to population
-    halfOfHalf = halfOfPop//2
-    for i in range(halfOfHalf):
+    # initialize population
+    for i in range(popSize):
         instructions = generateNewIndividual()
         newWord = generateNewWord(srcWords, instructions)
-        entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
+        entry = newWord + ',' + ','.join(srcWords) + ','
         score = evaluate(entry)
         individual = [score, entry, instructions]
         population.append(individual)
     
-    # remove duplicate individuals
-    mySet = []
-    for indiv in population:
-        if indiv not in mySet:
-            mySet.append(indiv)
-    duplicatesToReplace = len(population) - len(mySet)
-    population = list(mySet)
+    # train
+    for i in range(numGenerations):
+        # sort by score
+        sortByScore(population)
+        # printOnSepLines(population)
+        
+        # update score history after sorting by score
+        updateScoreHistory()
+        
+        # update word history after sorting by score
+        if i%epochMilestone == 0:
+            updateWordHistory()
+        
+        # remove lower scorers
+        halfOfPop = popSize//2
+        for i in range(halfOfPop):
+            population.pop()
+        
+        # add new random individuals to population
+        halfOfHalf = halfOfPop//2
+        for i in range(halfOfHalf):
+            instructions = generateNewIndividual()
+            newWord = generateNewWord(srcWords, instructions)
+            entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
+            score = evaluate(entry)
+            individual = [score, entry, instructions]
+            population.append(individual)
+        
+        # remove duplicate individuals
+        mySet = []
+        for indiv in population:
+            if indiv not in mySet:
+                mySet.append(indiv)
+        duplicatesToReplace = len(population) - len(mySet)
+        population = list(mySet)
+        
+        # add variations of existing individuals in population
+        restOfPop = halfOfPop - halfOfHalf + duplicatesToReplace
+        for i in range(restOfPop):
+            index = randint(0,len(population)-1)
+            instructions_toMutate = list(population[index][2]) # hacky: use list() to make an actual copy, not a reference
+            if len(instructions_toMutate) > 0:
+                for i in range(3):
+                    # mutate instructions
+                    index_toMutate = randint(0,len(instructions_toMutate)-1)
+                    instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+                    if instruction_toReplace != 'x':
+                        instructions_toMutate[index_toMutate] = instruction_toReplace
+                    else:
+                        instructions_toMutate = instructions_toMutate[index_toMutate-1:]
+            else:
+                instructions_toMutate = ''
+            instructions = instructions_toMutate
+            newWord = generateNewWord(srcWords, instructions)
+            entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
+            score = evaluate(entry)
+            individual = [score, entry, instructions]
+            population.append(individual)
     
-    # add variations of existing individuals in population
-    restOfPop = halfOfPop - halfOfHalf + duplicatesToReplace
-    for i in range(restOfPop):
-        index = randint(0,len(population)-1)
-        instructions_toMutate = list(population[index][2]) # hacky: use list() to make an actual copy, not a reference
-        if len(instructions_toMutate) > 0:
-            for i in range(3):
-                # mutate instructions
-                index_toMutate = randint(0,len(instructions_toMutate)-1)
-                instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
-                if instruction_toReplace != 'x':
-                    instructions_toMutate[index_toMutate] = instruction_toReplace
-                else:
-                    instructions_toMutate = instructions_toMutate[index_toMutate-1:]
-        else:
-            instructions_toMutate = ''
-        instructions = instructions_toMutate
-        newWord = generateNewWord(srcWords, instructions)
-        entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
-        score = evaluate(entry)
-        individual = [score, entry, instructions]
-        population.append(individual)
+    # sort by score
+    sortByScore(population)
+    print('\nFINAL CANDIDATES:')
+    printOnSepLines(population)
+    
+    # get the best so far
+    bestSoFar = getBestAlgo()
+    scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
+    print('\nBEST SO FAR:')
+    print(bestSoFar)
+    
+    print('\nORIGINALLY:')
+    original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
+    # original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
+    print(evaluate(original), original)
+    
+    print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
+    data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
+    # data = '0,use,yun,usa,istemal,istemal,potrebi,'
+    srcWords = getSourceWords(data)
+    engWord = data.split(',')[1]
+    newWord = generateNewWord(srcWords, instructionsBestSoFar)
+    entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
+    score = evaluate(entry)
+    individual = [score, entry, instructionsBestSoFar]
+    print(individual)
+    
+    original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
+    print('vs')
+    print(evaluate(original), original)
+    
+    # show word history
+    print('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
+    print(wordHistory)
+    
+    # # plot score over generations
+    # plt.plot(scoreHistory)
+    # plt.title('Score History')
+    # plt.show()
+    
+    # save best scorer externally
+    scorersFile = 'best-scorers.txt'
+    scorers = []
+    with open(scorersFile,'r') as f:
+        scorers = f.read().splitlines()
+    if scorers == []:
+        with open(scorersFile,'w') as f:
+            f.write(str(bestSoFar)+'\n')
+    else:
+        bestSoFar_id = getEntryIdentifier(bestSoFar)
+        bestSoFar_scr = getEntryScore(bestSoFar)
+        for scorer in scorers:
+            prevScorer_id = getEntryIdentifier(scorer)
+            if prevScorer_id == bestSoFar_id:
+                prevScorer_scr = getEntryScore(scorer)
+                if bestSoFar_scr > prevScorer_scr:
+                    with open(scorersFile,'w') as f:
+                        f.write(str(bestSoFar)+'\n')
+    
+    # TODO use best scorer saved externally
+    
+    # TODO train over multiple examples
 
-# sort by score
-sortByScore(population)
-print('\nFINAL CANDIDATES:')
-printOnSepLines(population)
-
-# save the best so far
-bestSoFar = getBestAlgo()
-scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
-print('\nBEST SO FAR:')
-print(bestSoFar)
-
-print('\nORIGINALLY:')
-original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
-# original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
-print(evaluate(original), original)
-
-print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
-data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
-# data = '0,use,yun,usa,istemal,istemal,potrebi,'
-srcWords = getSourceWords(data)
-engWord = data.split(',')[1]
-newWord = generateNewWord(srcWords, instructionsBestSoFar)
-entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
-score = evaluate(entry)
-individual = [score, entry, instructionsBestSoFar]
-print(individual)
-
-original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
-print('vs')
-print(evaluate(original), original)
-
-# show word history
-print('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
-print(wordHistory)
-
-# # plot score over generations
-# plt.plot(scoreHistory)
-# plt.title('Score History')
-# plt.show()
-
-# save best scorer externally
-scorersFile = 'best-scorers.txt'
-scorers = []
-with open(scorersFile,'r') as f:
-    scorers = f.read().splitlines()
-if scorers == []:
-    with open(scorersFile,'w') as f:
-        f.write(str(bestSoFar)+'\n')
-else:
-    bestSoFar_id = getEntryIdentifier(bestSoFar)
-    bestSoFar_scr = getEntryScore(bestSoFar)
-    for scorer in scorers:
-        prevScorer_id = getEntryIdentifier(scorer)
-        if prevScorer_id == bestSoFar_id:
-            prevScorer_scr = getEntryScore(scorer)
-            if bestSoFar_scr > prevScorer_scr:
-                with open(scorersFile,'w') as f:
-                    f.write(str(bestSoFar)+'\n')
-
-# TODO use best scorer saved externally
-
-# TODO train over multiple examples
+if __name__ == '__main__': # run the following if running this .py file directly:
+    inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
+    createWord(inputLineEntry)
