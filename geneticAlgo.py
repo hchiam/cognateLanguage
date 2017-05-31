@@ -34,6 +34,8 @@ population = []
 scoreHistory = []
 wordHistory = []
 
+debugOn = False
+
 #------------------------
 # functions:
 #------------------------
@@ -279,6 +281,11 @@ def getEntryIdentifier(entry):
 def getEntryScore(entry):
     return str(entry).split(', ',1)[0][1:] # [1:] to remove initial '['
 
+
+def printDebug(string):
+    if debugOn:
+        print(string)
+
 #------------------------
 # main part of the program:
 #------------------------
@@ -370,21 +377,21 @@ def createWord(inputLineEntry):
     
     # sort by score
     sortByScore(population)
-    print('\nFINAL CANDIDATES:')
+    printDebug('\nFINAL CANDIDATES:')
     printOnSepLines(population)
     
     # get the best so far
     bestSoFar = getBestAlgo()
     scoreBestSoFar, entryBestSoFar, instructionsBestSoFar = bestSoFar
-    print('\nBEST SO FAR:')
-    print(bestSoFar)
+    printDebug('\nBEST SO FAR:')
+    printDebug(bestSoFar)
     
-    print('\nORIGINALLY:')
+    printDebug('\nORIGINALLY:')
     original = 'yunsastempot,use,yun,usa,istemal,istemal,potrebi,'
     # original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
-    print(evaluate(original), original)
+    printDebug(evaluate(original), original)
     
-    print('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
+    printDebug('\nIF USE BEST SO FAR ON DIFFERENT INPUT:')
     data = '+,long,tcan,largo,lamba,towil,dlini,' # can use this to check still outputs same newWord
     # data = '0,use,yun,usa,istemal,istemal,potrebi,'
     srcWords = getSourceWords(data)
@@ -393,15 +400,15 @@ def createWord(inputLineEntry):
     entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
     score = evaluate(entry)
     individual = [score, entry, instructionsBestSoFar]
-    print(individual)
+    printDebug(individual)
     
     original = 'tcanlartowdlam,long,tcan,largo,lamba,towil,dlini,'
-    print('vs')
-    print(evaluate(original), original)
+    printDebug('vs')
+    printDebug(evaluate(original), original)
     
     # show word history
-    print('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
-    print(wordHistory)
+    printDebug('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
+    printDebug(wordHistory)
     
     # # plot score over generations
     # plt.plot(scoreHistory)
