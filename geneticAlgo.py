@@ -200,11 +200,10 @@ def penalizeLength(word):
 def evaluate(line):
     newWord = line.split(',')[0]
     originalWords = line.split(',')[2:]
-    
     score = 0
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
-     # need all of the following to avoid crazy long words with repeating letters
+    # need all of the following to avoid crazy long words with repeating letters
     score -= evaluateScore_Levenshtein(newWord, originalWords)
     score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
