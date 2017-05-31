@@ -4,11 +4,11 @@
 
 **Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/e6f1b3d0e8?outputOnly=true&runOption=run](https://trinket.io/python3/e6f1b3d0e8?outputOnly=true&runOption=run)
 
-**Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
+**Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
 ## Example 1:
 
-"you" = *"[entuni](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)"*, which is a single word that embeds these words: 
+"you" = *["entuni"](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)*, which is a single word that embeds these words: 
  * "ni" (Chinese), 
  * "tu" (Spanish), 
  * "tum" (Hindi - more conversationally), 
@@ -17,27 +17,27 @@
 
 **Memory compression**:  6 syllables total -> 3 syllables.  5 words -> 1 word.
 
-**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like "[en-too-knee](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)".  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
+**Mnemonic**:  "You are *Anthony*".  *"Entuni"* sounds like "Anthony", but more like ["en-too-knee"](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk).  The mnemonic still helps because "Anthony" is a near homophone---it sounds similar enough to "entuni"---but also because you can connect this memory link to something you know very well already, in this case the first time you met someone named Anthony.
 
 ## Example 2:
 
-With longer source words:  "queue" = *"[paykatcirsafil](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)"* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
+With longer source words:  "queue" = *["paykatcirsafil"](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
 
 **Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (The vocab list generator only incorporates the first syllables from each source word because they're usually the most easily recognizable---think abbreviations.  Different languages have different priorities/weights in terms of which overlapping letters are chosen, for highest ROI.)
 
 ## Example 3:
 
-Showing more creative mnemonic:  "east" = *"[purcarvasdon](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)"*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".
+Showing more creative mnemonic:  "east" = *["purcarvasdon"](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".
 
 **Memory compression**:  8 syllables total -> 4 syllables.  5 words -> 1 word.
 
-**Mnemonic, shortened**:  Sounds like "[Porsche rivers down](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)".  (This one's a near homophone too.)
+**Mnemonic, shortened**:  Sounds like ["Porsche rivers down"](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ).  (This one's a near homophone too.)
 
 **...Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
 
 With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources above also makes it more enjoyable to learn the words, all while also knowing you're packaging multiple words into single words.
 
-> "[Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)"
+> ["Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?"](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)
 
 ^^^ (Click to hear this pronounced by Google Translate!) ^^^
 
@@ -98,9 +98,9 @@ You can try to ensure that the right words from each language are used by "manua
 # 4) How Do I Pronounce the Words?
 
 The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) values, except for these letters:
-* **c** : (pronounced as /[ʃ](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)/ like the "sh" in "[shoe](https://upload.wikimedia.org/wikipedia/commons/4/44/En-us-shoe.ogg)"),
-* **j** : (pronounced as /[ʒ](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)/ like the "s" in "[measure](https://upload.wikimedia.org/wikipedia/commons/3/35/En-us-measure.ogg)", or the "j" in the French word "[je](https://upload.wikimedia.org/wikipedia/commons/c/c4/Fr-je.ogg)"),
-* **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word "[yes](https://upload.wikimedia.org/wikipedia/commons/b/b1/En-us-yes.ogg)"), and 
+* **c** : (pronounced as /[ʃ](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)/ like the "sh" in ["shoe"](https://upload.wikimedia.org/wikipedia/commons/4/44/En-us-shoe.ogg)),
+* **j** : (pronounced as /[ʒ](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)/ like the "s" in ["measure"](https://upload.wikimedia.org/wikipedia/commons/3/35/En-us-measure.ogg), or the "j" in the French word ["je"](https://upload.wikimedia.org/wikipedia/commons/c/c4/Fr-je.ogg)),
+* **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word ["yes"](https://upload.wikimedia.org/wikipedia/commons/b/b1/En-us-yes.ogg)), and 
 * **h** : (pronounced as /[h](https://upload.wikimedia.org/wikipedia/commons/d/da/Voiceless_glottal_fricative.ogg)/ or /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/, but so far /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/ seems easier for me to clearly pronounce when it's next to most other consonants).
 
 This all means that the *rest* of the letters in the English alphabet are represented by the same symbol as they appear in the IPA: "b" is /b/, "d" is /d/, "e" is /e/, etc.  Even "q" is /q/!  (But you can pronounce it as /k/ if you find it hard to do.)  And depending on how your computer's font shows on your screen, "a" is /a/.
@@ -129,7 +129,7 @@ See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](h
 
 Make mnemonics that connect to things you already know well.  The ones [here](http://www.memrise.com/course/1195771/coglang/) typically use (semi-)homophones of English words to create visual scenes, and some make use of the method of loci.  See the next section for more ideas on making automatic sentence translations.
 
-Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.  It might help to google "[Benny Lewis imagination](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/)" and "[Ron White mind palace](https://www.youtube.com/watch?v=3vlpQHJ09do)".
+Despite the optimizations the code can make so far (plus manual optimizations), most words are still long---at least, longer than traditional rote memory techniques can handle.  It might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).
 
 Once you're familiar with the rationale and how the language works in theory, try out the Memrise course here:  [https://www.memrise.com/course/1195771/coglang/](https://www.memrise.com/course/1195771/coglang/)
 
@@ -162,6 +162,6 @@ Some ideas:
 
 -------
 
-> "[Yunsastempot dawkolena cweprentaltsik!](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)"
+> ["Yunsastempot dawkolena cweprentaltsik!"](https://drive.google.com/open?id=0B239lCkYOdXfaVRydEl5NzZhVkk)
 
 ^^^ (Click to hear this pronounced by Google Translate!) ^^^
