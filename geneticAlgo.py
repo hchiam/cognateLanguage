@@ -28,7 +28,7 @@ allophones = {
 possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
 
 popSize = 10
-numGenerations = 1000
+numGenerations = 500
 epochMilestone = numGenerations//10
 population = []
 scoreHistory = []
