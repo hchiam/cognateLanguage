@@ -2,6 +2,8 @@ from collections import OrderedDict
 import time
 import re
 
+import geneticAlgo
+
 #------------------------
 # shared variables:
 #------------------------
@@ -275,6 +277,10 @@ def createWord_Alternate():
     print newWord
     return newWord
 
+def createWord_GeneticAlgo(entry):
+    # use geneticAlgo.py
+    return geneticAlgo.createWord(str(entry))
+
 #------------------------
 # main part of the program:
 #------------------------
@@ -297,18 +303,22 @@ for line in data:
     words['Rus'] = line.split(',')[6]
     originalWords = words.copy()
     originalWords_Alt = words.copy()
-    #if words['Eng'] != 'Eng':
-        #newWord = createWord() # here is the major function call!
-        #with open(outputFilename,'a') as f2:
-            #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
+    # #if words['Eng'] != 'Eng':
+    #     #newWord = createWord() # here is the major function call!
+    #     #with open(outputFilename,'a') as f2:
+    #         #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
+    # if words['Eng'] != 'Eng':
+    #     newWord = createWord_Alternate() # here is the major function call!
+    #     with open(outputFilename,'a') as f2:
+    #         f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
+    # #if words['Eng'] != 'Eng':
+    #     #newWord = createWord_DummyTest() # here is the major function call!
+    #     #with open(outputFilename,'a') as f2:
+    #         #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
     if words['Eng'] != 'Eng':
-        newWord = createWord_Alternate() # here is the major function call!
+        newWord = createWord_GeneticAlgo(line) # here is the major function call!
         with open(outputFilename,'a') as f2:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
-    #if words['Eng'] != 'Eng':
-        #newWord = createWord_DummyTest() # here is the major function call!
-        #with open(outputFilename,'a') as f2:
-            #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')
