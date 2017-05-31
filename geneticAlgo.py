@@ -257,8 +257,9 @@ def getBestAlgo():
 
 
 def printOnSepLines(arr):
-    for line in arr:
-        print(line)
+    if debugOn:
+        for line in arr:
+            print(line)
 
 
 def updateScoreHistory():
