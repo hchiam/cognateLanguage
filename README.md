@@ -1,6 +1,6 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
-**Short Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; use 1 mind palace journey instead of 5.  (Technically, this project a functional conlang consisting of only vocabulary.)  Questions?  Go [here](#questions).
+**Short Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; use 1 mind palace journey instead of 5.  (Like a functional conlang that just has vocabulary.)  Questions?  Go [here](#questions).
 
 **Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/013b0a586a?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/e6f1b3d0e8?outputOnly=true&runOption=run](https://trinket.io/python3/e6f1b3d0e8?outputOnly=true&runOption=run)
 
