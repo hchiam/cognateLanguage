@@ -1,5 +1,5 @@
 from collections import OrderedDict
-# from levenshteinDistance import levenshtein as ld
+from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -60,13 +60,13 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-# def evaluateScore_Levenshtein(word,originalWords):
-#     score = 0
-#     
-#     for lang in originalWords:
-#         score += ld(word,lang)
-#     
-#     return score
+def evaluateScore_Levenshtein(word,originalWords):
+    score = 0
+    
+    for lang in originalWords:
+        score += ld(word,lang)
+    
+    return score
 
 
 def evaluateScore_AlloWithVowels(word,originalWords):
@@ -194,7 +194,7 @@ def evaluate(line):
     score = 0
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
-    # score -= evaluateScore_Levenshtein(newWord, originalWords)
+    score -= evaluateScore_Levenshtein(newWord, originalWords)
     score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
     score += penalizeLength(newWord)
