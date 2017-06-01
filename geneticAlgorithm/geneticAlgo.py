@@ -4,7 +4,7 @@ from operator import itemgetter
 import ast # to convert string of list to actual list
 
 # from collections import OrderedDict
-from levenshteinDistance import levenshtein as ld
+# from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -71,17 +71,17 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-def evaluateScore_Levenshtein(word,originalWords):
-    score = 0
-    score_maximize = 100 # just to keep score positive
-    score_minimize = 0
-    
-    for lang in originalWords:
-        score_minimize += ld(word,lang)
-    
-    score = score_maximize - score_minimize
-    
-    return score
+# def evaluateScore_Levenshtein(word,originalWords):
+#     score = 0
+#     score_maximize = 100 # just to keep score positive
+#     score_minimize = 0
+#     
+#     for lang in originalWords:
+#         score_minimize += ld(word,lang)
+#     
+#     score = score_maximize - score_minimize
+#     
+#     return score
 
 
 def evaluateScore_AlloWithVowels(word,originalWords):
