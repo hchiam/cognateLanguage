@@ -502,19 +502,22 @@ def createWord(inputLineEntry):
                 prevScorer_id = getEntryIdentifier(scorer)
                 if prevScorer_id == bestSoFar_id:
                     prevScorer_scr = getEntryScore(scorer)
+                    prevScorer_word = scorer.split(',')[1].replace(' \'','')
                     # include only better scorer
                     if bestSoFar_scr > prevScorer_scr:
                         newScorers.append(bestSoFar)
+                        print(prevScorer_word + ' -> ')
+                        print(bestSoFar)
                     else:
                         newScorers.append(scorer)
                         # replace with previously existing scorer as output word
-                        bestSoFar_word = scorer.split(',')[1].replace(' \'','')
+                        bestSoFar_word = prevScorer_word
                 else:
                     if scorer not in newScorers:
                         # otherwise make sure to include previously existing scorers
                         newScorers.append(scorer)
         with open(scorersFile,'w') as f:
-            for scorer in newScorers: 
+            for scorer in newScorers:
                 f.write(str(scorer)+'\n')
             f.close()
     
