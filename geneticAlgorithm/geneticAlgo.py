@@ -177,12 +177,13 @@ def evaluateScore_ConsonantsInOrder(word,originalWords):
     return round(score,2)
 
 
-def evaluateScore_LettersFromEachSource(word,originalWords):
+def evaluateScore_ConsonantsFromEachSource(word,originalWords):
     score = 0
     for letter in word:
-        for srcWord in originalWords:
-            # encourage using words with letters found in all source words
-            score += 1 if letter in srcWord else 0
+        if letter not in 'aeiou':
+            for srcWord in originalWords:
+                # encourage using words with letters found in all source words
+                score += 1 if letter in srcWord else 0
     return score
 
 
@@ -234,7 +235,7 @@ def evaluate(line):
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
     # need all of the following to avoid crazy long words with repeating letters
     score += evaluateScore_Levenshtein(newWord, originalWords)
-    score += evaluateScore_LettersFromEachSource(newWord, originalWords)
+    score += evaluateScore_ConsonantsFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
     score += penalizeLength(newWord)
     score += penalizeZeroLetters(newWord)
