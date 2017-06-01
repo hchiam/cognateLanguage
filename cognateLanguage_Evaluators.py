@@ -1,5 +1,5 @@
 from collections import OrderedDict
-# from levenshteinDistance import levenshtein as ld
+from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -61,27 +61,28 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-# def evaluateScore_Levenshtein(word,chi,spa,hin,ara,rus):
-#     score = 0
-#     
-#     for lang in chi,spa,hin,ara,rus:
-#         score += ld(word,lang)
-#     
-#     return score
-
-
-def evaluateScore_AlloWithVowels(word,originalWords):
+def evaluateScore_Levenshtein(word,chi,spa,hin,ara,rus):
     score = 0
-    scoreLangs = [0] * len(originalWords)
     
-    leastEfficientWord = ''.join(originalWords)
+    for lang in chi,spa,hin,ara,rus:
+        score += ld(word,lang)
+    
+    return score
+
+
+def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
+    score = 0
+    scoreLangs = [0,0,0,0,0]
+    
+    leastEfficientWord = chi+spa+hin+ara+rus
     
     # ABZDAVG allo w/ vowels
     
     alloWithVowels = respellWithAllophones(word)
     #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
     
-    alloOriginalWords = list(originalWords) # careful with creating references that overwrite!
+    originalWords = [chi,spa,hin,ara,rus]
+    alloOriginalWords = originalWords
     
     for index, srcWord in enumerate(alloOriginalWords):
         alloOriginalWords[index] = respellWithAllophones(srcWord)
@@ -113,16 +114,17 @@ def evaluateScore_AlloWithVowels(word,originalWords):
     #print 'word length contribution', scoreLen
     score += scoreLen
 
-    return round(score,2)
+    return score
 
 
-def evaluateScore_ConsonantsInOrder(word,originalWords):
+def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
     score = 0
-    scoreLangs = [0] * len(originalWords)
+    scoreLangs = [0,0,0,0,0]
     
-    leastEfficientWord = ''.join(originalWords)
+    leastEfficientWord = chi+spa+hin+ara+rus
     
-    alloConsonants = list(originalWords) # careful with creating references that overwrite!
+    originalWords = [chi,spa,hin,ara,rus]
+    alloConsonants = originalWords
     alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
     #print alloOfNewWord
@@ -160,46 +162,7 @@ def evaluateScore_ConsonantsInOrder(word,originalWords):
     #print 'word length contribution', scoreLen
     score += scoreLen
     
-    return round(score,2)
-
-
-def evaluateScore_LettersFromEachSource(word,originalWords):
-    score = 0
-    for letter in word:
-        for srcWord in originalWords:
-            # encourage using words with letters found in all source words
-            score += 1 if letter in srcWord else 0
     return score
-
-
-def penalizeRepeatedLetterSequences(word):
-    score = 0
-    currentLetter = ''
-    for letter in word:
-        if letter == currentLetter:
-            score -= 1
-        else:
-            currentLetter = letter
-    return score
-
-
-def penalizeLength(word):
-    score = -len(word)
-    return score
-
-
-def evaluate(line):
-    newWord = line.split(',')[0]
-    originalWords = line.split(',')[2:]
-    
-    score = 0
-    score += evaluateScore_AlloWithVowels(newWord, originalWords)
-    score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
-    # score -= evaluateScore_Levenshtein(newWord, originalWords)
-    score += evaluateScore_LettersFromEachSource(newWord, originalWords)
-    score += penalizeRepeatedLetterSequences(newWord)
-    score += penalizeLength(newWord)
-    return round(score, 2)
 
 #------------------------
 # main part of the program:
@@ -212,7 +175,31 @@ with open(inputFilename,'r') as f1:
 # fill arrays:
 for line in data:
     if ',' in line:
-        score = evaluate(line)
-        print('score = ' + str(score))
+        newWord = line.split(',')[0]
+        words['Chi'] = line.split(',')[2]
+        words['Spa'] = line.split(',')[3]
+        words['Hin'] = line.split(',')[4]
+        words['Ara'] = line.split(',')[5]
+        words['Rus'] = line.split(',')[6]
+        originalWords = [words['Chi'], words['Spa'], words['Hin'], words['Ara'], words['Rus']]
+        leastEfficientWord = words['Chi'] + words['Spa'] + words['Hin'] + words['Ara'] + words['Rus']
+        print '\n'
+        print newWord.upper() + ' vs. "' + leastEfficientWord + '":'
+        print originalWords
+        score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        print '  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels'
+        score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
+        avgScore = (score1 + score2)/2
+        print 'Average score: ' + str(avgScore)
+        score3 = evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
+        print '\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein'
 
-print()
+print '\n'
+
+
+
+
+
+
+
