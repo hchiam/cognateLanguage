@@ -192,7 +192,7 @@ def penalizeRepeatedLetterSequences(word):
     currentLetter = ''
     for letter in word:
         if letter == currentLetter:
-            score -= 1
+            score -= 2 # just -= 1 does not prevent words like mmmmmommmmmmmmmm
         else:
             currentLetter = letter
     return score
