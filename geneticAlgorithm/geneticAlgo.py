@@ -1,6 +1,7 @@
 from random import randint
 from operator import itemgetter
 # import matplotlib.pyplot as plt
+import ast # to convert string of list to actual list
 
 # from collections import OrderedDict
 from levenshteinDistance import levenshtein as ld
@@ -354,6 +355,21 @@ def createWord(inputLineEntry):
         individual = [score, entry, instructions]
         population.append(individual)
     
+    # make use of preexisting best-scorer saved externally
+    scorersFile = 'best-scorers.txt'
+    scorers = []
+    with open(scorersFile,'r') as f:
+        scorers = f.read().splitlines()
+    for scorer in scorers:
+        prevScorer_id = getEntryIdentifier(scorer)
+        if prevScorer_id == getEntryIdentifier(population[0]):
+            prevBestScore = float(scorer.split(', ')[0].replace('[',''))
+            prevBestEntry = scorer.split(', ')[1].replace('\'','')
+            prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
+            prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
+            # include preexisting best-scorer saved externally
+            population.append(prevBest)
+    
     # train
     for i in range(numGenerations):
         # sort by score
@@ -458,10 +474,6 @@ def createWord(inputLineEntry):
     scorers = []
     with open(scorersFile,'r') as f:
         scorers = f.read().splitlines()
-    # f = open(scorersFile, 'r')
-    # scorers = f.read().split('\n')
-    # scorers = list(filter(None, scorers)) # remove empty lines
-    # f.close()
     if scorers == []:
         # just initialize file if nothing there
         with open(scorersFile,'w') as f:
