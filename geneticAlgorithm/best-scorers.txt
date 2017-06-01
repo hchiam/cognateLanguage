@@ -2,7 +2,7 @@
 [89.7, 'ta,be,ca,esta,ho,kana,bi,', ['+', '+', 1, '+', 1]]
 [89.9, 'osta,get,hwod,konsegi,pa,istalama,dostava,', ['+', 1, 3, '+', '+', 4, 3, '+']]
 [91.0, 'tcaw,want,yaw,kere,tcah,awiz,hote,', [2, '+', 2, 0, '+', 0, '+']]
-[95.2, 'sana,make,djidzaw,ase,bana,sana,dela,', [3, 1, '+', '+', 3, '+', 1, 4, '+', '+', 1, '+']]
+[97.0, 'dsana,make,djidzaw,ase,bana,sana,dela,', [0, '+', 1, 2, '+', 3, '+', 3, 1, '+']]
 [94.0, 'lagya,language,yuyen,lengwa,bhaca,loga,yazik,', [1, '+', '+', 2, 3, 0, 2]]
 [96.2, 'kaqnot,cognate,tonywentca,kognado,atmiy,qarib,kognat,', [1, 2, 3, '+', '+', '+', 4, '+', '+', '+', 1, '+', 4, 0, 2, 3, '+', 4, 4, '+', '+']]
 [97.3, 'a,hwo,o,ya,aw,ili,', ['+', 2, '+', 3, '+', '+']]
