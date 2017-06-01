@@ -79,7 +79,7 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
     # ABZDAVG allo w/ vowels
     
     alloWithVowels = respellWithAllophones(word)
-    #print 'Allophone Form of Word, with Vowels: ', alloWithVowels
+    #print('Allophone Form of Word, with Vowels: ', alloWithVowels)
     
     originalWords = [chi,spa,hin,ara,rus]
     alloOriginalWords = originalWords
@@ -87,7 +87,7 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
     for index, srcWord in enumerate(alloOriginalWords):
         alloOriginalWords[index] = respellWithAllophones(srcWord)
     
-    #print alloOriginalWords
+    #print(alloOriginalWords)
 
     # get preliminary scores for each language:
     for lang, srcWordAllo in enumerate(alloOriginalWords):
@@ -106,12 +106,12 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
 
     for wt, lang in enumerate(scoreLangs):
         score += lang + lang * ((wt+1)/10.0) # make weightings like these to make gradient of influence:  0.1, 0.2, 0.3, 0.4, 0.5
-    #print 'language score contribution: ', score
+    #print('language score contribution: ', score)
     
     # get preliminary score for word length:
     scoreLen = (len(leastEfficientWord) - len(word)) # score increases with shorter word
     scoreLen *= 1.1 # this is the weighting for length score
-    #print 'word length contribution', scoreLen
+    #print('word length contribution', scoreLen)
     score += scoreLen
 
     return score
@@ -127,12 +127,12 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
     alloConsonants = originalWords
     alloOfNewWord = respellWithAllophones(word).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
-    #print alloOfNewWord
+    #print(alloOfNewWord)
     
     for index, srcWord in enumerate(alloConsonants):
         alloConsonants[index] = respellWithAllophones(srcWord).replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
     
-    #print alloConsonants
+    #print(alloConsonants)
     
     # BZDVG
     
@@ -143,12 +143,12 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
         for i in range(1,len(testPattern)):
             # if that letter is found in new word then update current letter position (= index+1 since list indices start at 0):
             if testPattern[i] in alloOfNewWord:
-                #print testPattern[i]
+                #print(testPattern[i])
                 currentLetterPos = i+1
         # use full word length - the current letter into the test pattern as the score for that language
         scoreLangs[lang] = currentLetterPos - len(originalWords[lang])
         currentLetterPos = 0
-        #print scoreLangs
+        #print(scoreLangs)
 
     # language scores are weighted in reverse order
     scoreLangs.reverse()
@@ -159,7 +159,7 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
     # get preliminary score for word length:
     scoreLen = (len(leastEfficientWord) - len(word)) # score increases with shorter word
     scoreLen *= 1.1 # this is the weighting for length score
-    #print 'word length contribution', scoreLen
+    #print('word length contribution', scoreLen)
     score += scoreLen
     
     return score
@@ -183,19 +183,19 @@ for line in data:
         words['Rus'] = line.split(',')[6]
         originalWords = [words['Chi'], words['Spa'], words['Hin'], words['Ara'], words['Rus']]
         leastEfficientWord = words['Chi'] + words['Spa'] + words['Hin'] + words['Ara'] + words['Rus']
-        print '\n'
-        print newWord.upper() + ' vs. "' + leastEfficientWord + '":'
-        print originalWords
+        print('\n')
+        print(newWord.upper() + ' vs. "' + leastEfficientWord + '":')
+        print(originalWords)
         score1 = evaluateScore_AlloWithVowels(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
-        print '  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels'
+        print('  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels')
         score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
-        print '  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder'
+        print('  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder')
         avgScore = (score1 + score2)/2
-        print 'Average score: ' + str(avgScore)
+        print('Average score: ' + str(avgScore))
         score3 = evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
-        print '\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein'
+        print('\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein')
 
-print '\n'
+print('\n')
 
 
 
