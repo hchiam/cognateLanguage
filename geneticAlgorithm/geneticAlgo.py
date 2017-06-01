@@ -350,7 +350,7 @@ def createWord(inputLineEntry):
     for i in range(popSize):
         instructions = generateNewIndividual()
         newWord = generateNewWord(srcWords, instructions)
-        entry = newWord + ',' + ','.join(srcWords) + ','
+        entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
         score = evaluate(entry)
         individual = [score, entry, instructions]
         population.append(individual)
@@ -523,8 +523,10 @@ def createWord(inputLineEntry):
     return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
-    inputLineEntry = '+,to,daw,a,ko,le,na,' # this one used to output ''
+    inputLineEntry = '+,i,wo,yo,me,ana,ya,' # should NOT be missing English word like this: '[94.5, 'y,wo,yo,me,ana,ya,', [4]]'
     wordCreated = createWord(inputLineEntry)
+    # inputLineEntry = '+,to,daw,a,ko,le,na,' # this one used to output ''
+    # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,make,djidzaw,ase,bana,sana,dela,' # this one used to output 'abaaaaaasanlaaaaaaadaa'
     # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
