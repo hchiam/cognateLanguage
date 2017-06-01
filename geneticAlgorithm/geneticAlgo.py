@@ -360,15 +360,16 @@ def createWord(inputLineEntry):
     scorers = []
     with open(scorersFile,'r') as f:
         scorers = f.read().splitlines()
-    for scorer in scorers:
-        prevScorer_id = getEntryIdentifier(scorer)
-        if prevScorer_id == getEntryIdentifier(population[0]):
-            prevBestScore = float(scorer.split(', ')[0].replace('[',''))
-            prevBestEntry = scorer.split(', ')[1].replace('\'','')
-            prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
-            prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
-            # include preexisting best-scorer saved externally
-            population.append(prevBest)
+    if scorers != []:
+        for scorer in scorers:
+            prevScorer_id = getEntryIdentifier(scorer)
+            if prevScorer_id == getEntryIdentifier(population[0]):
+                prevBestScore = float(scorer.split(', ')[0].replace('[',''))
+                prevBestEntry = scorer.split(', ')[1].replace('\'','')
+                prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
+                prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
+                # include preexisting best-scorer saved externally
+                population.append(prevBest)
     
     # train
     for i in range(numGenerations):
