@@ -495,19 +495,19 @@ def createWord(inputLineEntry):
     return bestSoFar_word
 
 if __name__ == '__main__': # run the following if running this .py file directly:
-    inputLineEntry = '+,i,wo,yo,me,ana,ya,' # should NOT be missing English word like this: '[94.5, 'y,wo,yo,me,ana,ya,', [4]]'
-    wordCreated = createWord(inputLineEntry)
+    # inputLineEntry = '+,i,wo,yo,me,ana,ya,' # should NOT be missing English word like this: '[94.5, 'y,wo,yo,me,ana,ya,', [4]]'
+    # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,to,daw,a,ko,le,na,' # this one used to output ''
     # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,make,djidzaw,ase,bana,sana,dela,' # this one used to output 'abaaaaaasanlaaaaaaadaa'
     # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     # wordCreated = createWord(inputLineEntry)
-    # inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
-    # createWord(inputLineEntry)
+    inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+    wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,example,lidza,ehemplo,udahran,mital,primer,'
-    # createWord(inputLineEntry)
+    # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '0,get,hwod,konsegi,pa,istalama,dostava,'
-    # createWord(inputLineEntry)
+    # wordCreated = createWord(inputLineEntry)
     print('\nCREATED WORD:')
     print(wordCreated)
