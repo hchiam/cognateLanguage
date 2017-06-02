@@ -30,9 +30,10 @@ numGenerations = 500
 epochMilestone = numGenerations//10
 population = []
 scoreHistory = []
+scoreHistory2 = []
 wordHistory = []
 
-debugOn = False
+debugOn = True
 
 count = 0
 
@@ -270,7 +271,9 @@ def printOnSepLines(arr):
 def updateScoreHistory():
     # assumes first one is best
     currentBestScore = population[0][0]
+    secondBestScore = population[2][0]
     scoreHistory.append(currentBestScore)
+    scoreHistory2.append(secondBestScore)
 
 
 def updateWordHistory():
@@ -301,6 +304,7 @@ def printDebug(*args):
 def createWord(inputLineEntry):
     global population
     global scoreHistory
+    global scoreHistory2
     global wordHistory
     global count
     global creatingFromScratch
@@ -317,6 +321,7 @@ def createWord(inputLineEntry):
     
     population = []
     scoreHistory = []
+    scoreHistory2 = []
     wordHistory = []
     
     # initialize population
@@ -534,9 +539,11 @@ if __name__ == '__main__': # run the following if running this .py file directly
     print(wordCreated)
     if debugOn:
         title = 'Score History'
-        if not creatingFromScratch:
-            title += ' - USING PREVIOUS BEST SCORER'
         # plot score over generations:
         plt.plot(scoreHistory)
+        # show second-bests if external scorer was put in population
+        if not creatingFromScratch:
+            title += ' - USING PREVIOUS BEST SCORER'
+            plt.plot(scoreHistory2)
         plt.title(title)
         plt.show()
