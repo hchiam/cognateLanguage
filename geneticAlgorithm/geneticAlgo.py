@@ -211,15 +211,21 @@ def evaluate(line):
     newWord = line.split(',')[0]
     originalWords = line.split(',')[2:]
     score = 0
+    
+    # evaluators with different weighting priorities for different source languages:
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
-    # need all of the following to avoid crazy long words with repeating letters
-    # levensthein --> more like MOST words, but does not encourage using letters from ALL words
+    
+    # (levenshtein --> shorter and more like MOST src words,
+    # but does not encourage using letters from ALL src words)
     score += evaluateScore_Levenshtein(newWord, originalWords)
     score += evaluateScore_ConsonantsFromEachSource(newWord, originalWords)
+    
+    # avoid words with 0 letters and 0 vowels
     score += penalizeZeroLetters(newWord)
     score += penalizeNoVowels(newWord)
     # score += penalizeConsonantClustersMoreThan2(newWord) # TODO
+    
     return round(score, 2)
 
 
