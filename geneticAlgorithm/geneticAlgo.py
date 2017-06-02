@@ -1,6 +1,5 @@
 from random import randint
 from operator import itemgetter
-# import matplotlib.pyplot as plt
 import ast # to convert string of list to actual list
 import collections
 
@@ -33,9 +32,12 @@ population = []
 scoreHistory = []
 wordHistory = []
 
-debugOn = False
+debugOn = True
 
 count = 0
+
+if debugOn:
+    import matplotlib.pyplot as plt
 
 #------------------------
 # functions:
@@ -526,7 +528,8 @@ if __name__ == '__main__': # run the following if running this .py file directly
     # wordCreated = createWord(inputLineEntry)
     print('\nCREATED WORD:')
     print(wordCreated)
-    # plot score over generations:
-    # plt.plot(scoreHistory)
-    # plt.title('Score History')
-    # plt.show()
+    if debugOn:
+        # plot score over generations:
+        plt.plot(scoreHistory)
+        plt.title('Score History')
+        plt.show()
