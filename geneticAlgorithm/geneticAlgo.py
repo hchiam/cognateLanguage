@@ -33,7 +33,7 @@ scoreHistory = []
 scoreHistory2 = []
 wordHistory = []
 
-debugOn = True
+debugOn = False
 
 count = 0
 
