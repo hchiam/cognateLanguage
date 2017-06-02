@@ -4,9 +4,6 @@ from operator import itemgetter
 import ast # to convert string of list to actual list
 import collections
 
-# from collections import OrderedDict
-from levenshteinDistance import levenshtein as ld
-
 #------------------------
 # shared variables:
 #------------------------
@@ -70,19 +67,6 @@ def combineOverlappingWords(shortList):
                         shortList[otherlanguage] = ''
                         shortList[language] = a+b[i:]
     return shortList
-
-
-def evaluateScore_Levenshtein(word,originalWords):
-    score = 0
-    score_maximize = 100 # just to keep score positive
-    score_minimize = 0
-    
-    for lang in originalWords:
-        score_minimize += ld(word,lang)
-    
-    score = score_maximize - score_minimize
-    
-    return score
 
 
 def evaluateScore_AlloWithVowels(word,originalWords):
@@ -178,32 +162,31 @@ def evaluateScore_ConsonantsInOrder(word,originalWords):
     return round(score,2)
 
 
-def evaluateScore_ConsonantsFromEachSource(word,originalWords):
+def evaluateScore_LettersFromEachSource(word,originalWords):
     score = 0
+    consonantsAlreadyUsed = []
     for letter in word:
-        if letter not in 'aeiou':
+        # avoid using the same letter again anywhere in the same word:
+        if letter not in consonantsAlreadyUsed:
+            consonantsAlreadyUsed.append(letter)
+            # encourage using words with letters found in all source words:
             for srcWord in originalWords:
-                # encourage using words with letters found in all source words
                 score += 1 if letter in srcWord else 0
     return score
 
 
-def penalizeZeroLetters(word):
-    if word == '':
-        return -1
-    return 0
-
-
-def penalizeNoVowels(word):
+def penalizeConsonantClusters(word):
     score = 0
-    vowels = 'aeiou'
-    has = False
-    for vowel in vowels:
-        if vowel in word:
-            score = 1
-            return score
-    if len(word) > 1: # don't force a vowel if the word is only 1-letter long
-        score = -1
+    consonantClusterLength = 0
+    for letter in word:
+        if letter not in 'aeiou':
+            consonantClusterLength += 1
+        else:
+            if consonantClusterLength > 1:
+                score -= consonantClusterLength
+            consonantClusterLength = 0
+    # in case the word ends with a consonant:
+    score -= consonantClusterLength
     return score
 
 
@@ -216,15 +199,11 @@ def evaluate(line):
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
     
-    # (levenshtein --> shorter and more like MOST src words,
-    # but does not encourage using letters from ALL src words)
-    score += evaluateScore_Levenshtein(newWord, originalWords)
-    score += evaluateScore_ConsonantsFromEachSource(newWord, originalWords)
+    # encourage using letters from ALL src words, but avoid repeating letters like in "mmmmmmommmmmmm":
+    score += evaluateScore_LettersFromEachSource(newWord, originalWords)
     
-    # avoid words with 0 letters and 0 vowels
-    score += penalizeZeroLetters(newWord)
-    score += penalizeNoVowels(newWord)
-    # score += penalizeConsonantClustersMoreThan2(newWord) # TODO
+    # avoid consonant clusters like in "htkyowaz" or "kdyspgunwa"
+    score += penalizeConsonantClusters(newWord)
     
     return round(score, 2)
 
