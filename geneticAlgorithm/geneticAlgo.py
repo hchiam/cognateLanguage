@@ -288,7 +288,7 @@ def getEntryScore(entry):
 
 def printDebug(*args):
     if debugOn:
-        print(args)
+        print(' '.join([str(arg) for arg in args]))
 
 #------------------------
 # main part of the program:
