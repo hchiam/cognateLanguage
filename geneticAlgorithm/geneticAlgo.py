@@ -460,6 +460,7 @@ def createWord(inputLineEntry):
         # just initialize file if nothing there
         with open(scorersFile,'w') as f:
             f.write(str(bestSoFar)+'\n')
+        bestSoFar_word = entryBestSoFar.split(',')[0].replace('\'','')
     else:
         bestSoFar_id = getEntryIdentifier(bestSoFar)
         bestSoFar_scr = getEntryScore(bestSoFar)
