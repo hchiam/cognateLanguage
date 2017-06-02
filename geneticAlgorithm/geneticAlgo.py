@@ -226,18 +226,21 @@ def generateNewIndividual():
     return outputInstructions
 
 
-def constructWord(srcWords, instructions):
+def constructWord(sourceWords, instructions):
     newWord = []
-    sourceWords = srcWords
     i = 0
+    lang = 0
+    wordIndices = [0] * len(sourceWords)
     for instruction in instructions:
         if instruction == 'x':
             break
         elif instruction == '+':
-            i += 1
-        else:
+            # make '+' per language, so don't lose out on initial letters in different words
+            wordIndices[lang] += 1
+        else: # instruction = lang 0,1,2,3,4
             lang = instruction
             sourceWord = sourceWords[lang]
+            i = wordIndices[lang]
             if i < len(sourceWord):
                 newWord.append(sourceWord[i])
     newWord = ''.join(newWord)
