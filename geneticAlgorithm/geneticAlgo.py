@@ -5,7 +5,7 @@ import ast # to convert string of list to actual list
 import collections
 
 # from collections import OrderedDict
-# from levenshteinDistance import levenshtein as ld
+from levenshteinDistance import levenshtein as ld
 
 #------------------------
 # shared variables:
@@ -72,17 +72,17 @@ def combineOverlappingWords(shortList):
     return shortList
 
 
-# def evaluateScore_Levenshtein(word,originalWords):
-#     score = 0
-#     score_maximize = 100 # just to keep score positive
-#     score_minimize = 0
-#     
-#     for lang in originalWords:
-#         score_minimize += ld(word,lang)
-#     
-#     score = score_maximize - score_minimize
-#     
-#     return score
+def evaluateScore_Levenshtein(word,originalWords):
+    score = 0
+    score_maximize = 100 # just to keep score positive
+    score_minimize = 0
+    
+    for lang in originalWords:
+        score_minimize += ld(word,lang)
+    
+    score = score_maximize - score_minimize
+    
+    return score
 
 
 def evaluateScore_AlloWithVowels(word,originalWords):
@@ -188,31 +188,6 @@ def evaluateScore_ConsonantsFromEachSource(word,originalWords):
     return score
 
 
-def penalizeRepeatedLetterSequences(word):
-    score = 0
-    currentLetter = ''
-    for letter in word:
-        if letter == currentLetter:
-            score -= 2 # just -= 1 does not prevent words like mmmmmommmmmmmmmm
-        else:
-            currentLetter = letter
-    return score
-
-def penalizeRepeatedLettersMoreThan2(word):
-    # need to prevent words like sikanndnndndnndn
-    # (penalizeRepeatedLetterSequences(word) does not)
-    score = 0
-    counts = collections.Counter(word)
-    for key in counts:
-        if counts[key] > 2:
-            score -= 1
-    return score
-
-def penalizeLength(word):
-    score = -len(word)
-    return score
-
-
 def penalizeZeroLetters(word):
     if word == '':
         return -1
@@ -232,11 +207,6 @@ def penalizeNoVowels(word):
     return score
 
 
-def penalizeInstructionComplexity(instruction): # TODO
-    score = 0
-    return score
-
-
 def evaluate(line):
     newWord = line.split(',')[0]
     originalWords = line.split(',')[2:]
@@ -244,15 +214,12 @@ def evaluate(line):
     score += evaluateScore_AlloWithVowels(newWord, originalWords)
     score += evaluateScore_ConsonantsInOrder(newWord, originalWords)
     # need all of the following to avoid crazy long words with repeating letters
-    # score += evaluateScore_Levenshtein(newWord, originalWords) # levenshtein shortens words but then also removes having letters from all words
+    # levensthein --> more like MOST words, but does not encourage using letters from ALL words
+    score += evaluateScore_Levenshtein(newWord, originalWords)
     score += evaluateScore_ConsonantsFromEachSource(newWord, originalWords)
-    score += penalizeRepeatedLetterSequences(newWord)
-    score += penalizeRepeatedLettersMoreThan2(newWord)
-    score += penalizeLength(newWord)
     score += penalizeZeroLetters(newWord)
     score += penalizeNoVowels(newWord)
     # score += penalizeConsonantClustersMoreThan2(newWord) # TODO
-    # score += penalizeInstructionComplexity(instruction) # TODO
     return round(score, 2)
 
 
