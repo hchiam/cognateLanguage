@@ -36,6 +36,8 @@ debugOn = True
 
 count = 0
 
+creatingFromScratch = True
+
 if debugOn:
     import matplotlib.pyplot as plt
 
@@ -301,6 +303,7 @@ def createWord(inputLineEntry):
     global scoreHistory
     global wordHistory
     global count
+    global creatingFromScratch
     
     printDebug('\n...Running...')
     count += 1
@@ -328,8 +331,9 @@ def createWord(inputLineEntry):
     # randomize whether initialization includes previous best-scorer in this session's population
     # (later will still compare to it anyways to check for improved score)
     cointoss = randint(0,1)
-    creatingFromScratch = True
-    if cointoss == 1:
+    if cointoss == 0:
+        creatingFromScratch = True
+    elif cointoss == 1:
         # make use of preexisting best-scorer saved externally
         scorersFile = 'best-scorers.txt'
         scorers = []
@@ -529,7 +533,10 @@ if __name__ == '__main__': # run the following if running this .py file directly
     print('\nCREATED WORD:')
     print(wordCreated)
     if debugOn:
+        title = 'Score History'
+        if not creatingFromScratch:
+            title += ' - USING PREVIOUS BEST SCORER'
         # plot score over generations:
         plt.plot(scoreHistory)
-        plt.title('Score History')
+        plt.title(title)
         plt.show()
