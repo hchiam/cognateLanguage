@@ -32,7 +32,7 @@ population = []
 scoreHistory = []
 wordHistory = []
 
-debugOn = True
+debugOn = False
 
 count = 0
 
