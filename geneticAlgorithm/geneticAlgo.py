@@ -251,6 +251,7 @@ def evaluate(line):
     score += penalizeLength(newWord)
     score += penalizeZeroLetters(newWord)
     score += penalizeNoVowels(newWord)
+    # score += penalizeConsonantClustersMoreThan2(newWord) # TODO
     # score += penalizeInstructionComplexity(instruction) # TODO
     return round(score, 2)
 
