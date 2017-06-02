@@ -326,10 +326,12 @@ def createWord(inputLineEntry):
     # randomize whether initialization includes previous best-scorer in this session's population
     # (later will still compare to it anyways to check for improved score)
     cointoss = randint(0,1)
+    creatingFromScratch = True
     if cointoss == 1:
         # make use of preexisting best-scorer saved externally
         scorersFile = 'best-scorers.txt'
         scorers = []
+        creatingFromScratch = False
         with open(scorersFile,'r') as f:
             scorers = f.read().splitlines()
         if scorers != []:
@@ -343,8 +345,13 @@ def createWord(inputLineEntry):
                     # include preexisting best-scorer saved externally
                     population.append(prevBest)
     
+    # starting "from scratch"? allow more generations before comparing with best scorer
+    adjustForFromScratch = 1
+    if creatingFromScratch:
+        adjustForFromScratch = 2
+    
     # train
-    for i in range(numGenerations):
+    for i in range(numGenerations * adjustForFromScratch):
         # sort by score
         sortByScore(population)
         # printOnSepLines(population)
@@ -446,11 +453,6 @@ def createWord(inputLineEntry):
     printDebug('\nBEST SCORERS AT EVERY '+str(epochMilestone)+' GENERATIONS:')
     printDebug(wordHistory)
     
-    # # plot score over generations
-    # plt.plot(scoreHistory)
-    # plt.title('Score History')
-    # plt.show()
-    
     # save best scorer externally
     scorersFile = 'best-scorers.txt'
     scorers = []
@@ -514,13 +516,17 @@ if __name__ == '__main__': # run the following if running this .py file directly
     # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,make,djidzaw,ase,bana,sana,dela,' # this one used to output 'abaaaaaasanlaaaaaaadaa'
     # wordCreated = createWord(inputLineEntry)
-    # inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
-    # wordCreated = createWord(inputLineEntry)
-    inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+    inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     wordCreated = createWord(inputLineEntry)
+    # inputLineEntry = '+,long,tcan,largo,lamba,towil,dlini,' # tcanlartowdlam
+    # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '+,example,lidza,ehemplo,udahran,mital,primer,'
     # wordCreated = createWord(inputLineEntry)
     # inputLineEntry = '0,get,hwod,konsegi,pa,istalama,dostava,'
     # wordCreated = createWord(inputLineEntry)
     print('\nCREATED WORD:')
     print(wordCreated)
+    # plot score over generations:
+    # plt.plot(scoreHistory)
+    # plt.title('Score History')
+    # plt.show()
