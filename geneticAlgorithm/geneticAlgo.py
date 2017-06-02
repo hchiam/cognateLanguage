@@ -387,12 +387,19 @@ def createWord(inputLineEntry):
             if len(instructions_toMutate) > 0:
                 for i in range(3):
                     # mutate instructions
-                    index_toMutate = randint(0,len(instructions_toMutate)-1)
-                    instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
-                    if instruction_toReplace != 'x':
-                        instructions_toMutate[index_toMutate] = instruction_toReplace
+                    index_toMutate = randint(0,len(instructions_toMutate))
+                    if index_toMutate == len(instructions_toMutate):
+                        # add instruction
+                        instruction_toAdd = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+                        if instruction_toAdd != 'x':
+                            instructions_toMutate.append(instruction_toAdd)
                     else:
-                        instructions_toMutate = instructions_toMutate[index_toMutate-1:]
+                        # modify instruction
+                        instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+                        if instruction_toReplace != 'x':
+                            instructions_toMutate[index_toMutate] = instruction_toReplace
+                        else:
+                            instructions_toMutate = instructions_toMutate[index_toMutate-1:]
             else:
                 instructions_toMutate = ''
             instructions = instructions_toMutate
