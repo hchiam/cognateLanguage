@@ -388,6 +388,8 @@ def createWord(inputLineEntry):
                 for i in range(3):
                     # mutate instructions
                     index_toMutate = randint(0,len(instructions_toMutate))
+                    # TODO: make "add instruction" a coin toss and be able to insert at any index
+                    # TODO: add "delete instruction", so then a 3-way coin toss of sorts
                     if index_toMutate == len(instructions_toMutate):
                         # add instruction
                         instruction_toAdd = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
