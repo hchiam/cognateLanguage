@@ -226,7 +226,7 @@ def generateNewIndividual():
     return outputInstructions
 
 
-def generateNewWord(srcWords, instructions):
+def constructWord(srcWords, instructions):
     newWord = []
     sourceWords = srcWords
     i = 0
@@ -314,7 +314,7 @@ def createWord(inputLineEntry):
     # initialize population
     for i in range(popSize):
         instructions = generateNewIndividual()
-        newWord = generateNewWord(srcWords, instructions)
+        newWord = constructWord(srcWords, instructions)
         entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
         score = evaluate(entry)
         individual = [score, entry, instructions]
@@ -362,7 +362,7 @@ def createWord(inputLineEntry):
         halfOfHalf = halfOfPop//2
         for i in range(halfOfHalf):
             instructions = generateNewIndividual()
-            newWord = generateNewWord(srcWords, instructions)
+            newWord = constructWord(srcWords, instructions)
             entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
             score = evaluate(entry)
             individual = [score, entry, instructions]
@@ -393,7 +393,7 @@ def createWord(inputLineEntry):
             else:
                 instructions_toMutate = ''
             instructions = instructions_toMutate
-            newWord = generateNewWord(srcWords, instructions)
+            newWord = constructWord(srcWords, instructions)
             entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
             score = evaluate(entry)
             individual = [score, entry, instructions]
@@ -420,7 +420,7 @@ def createWord(inputLineEntry):
     # data = '0,use,yun,usa,istemal,istemal,potrebi,'
     srcWords = getSourceWords(data)
     engWord = data.split(',')[1]
-    newWord = generateNewWord(srcWords, instructionsBestSoFar)
+    newWord = constructWord(srcWords, instructionsBestSoFar)
     entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
     score = evaluate(entry)
     individual = [score, entry, instructionsBestSoFar]
