@@ -2,6 +2,7 @@ from random import randint
 from operator import itemgetter
 # import matplotlib.pyplot as plt
 import ast # to convert string of list to actual list
+import collections
 
 # from collections import OrderedDict
 # from levenshteinDistance import levenshtein as ld
@@ -197,6 +198,15 @@ def penalizeRepeatedLetterSequences(word):
             currentLetter = letter
     return score
 
+def penalizeRepeatedLettersMoreThan2(word):
+    # need to prevent words like sikanndnndndnndn
+    # (penalizeRepeatedLetterSequences(word) does not)
+    score = 0
+    counts = collections.Counter(word)
+    for key in counts:
+        if counts[key] > 2:
+            score -= 1
+    return score
 
 def penalizeLength(word):
     score = -len(word)
@@ -237,6 +247,7 @@ def evaluate(line):
     # score += evaluateScore_Levenshtein(newWord, originalWords) # levenshtein shortens words but then also removes having letters from all words
     score += evaluateScore_ConsonantsFromEachSource(newWord, originalWords)
     score += penalizeRepeatedLetterSequences(newWord)
+    score += penalizeRepeatedLettersMoreThan2(newWord)
     score += penalizeLength(newWord)
     score += penalizeZeroLetters(newWord)
     score += penalizeNoVowels(newWord)
