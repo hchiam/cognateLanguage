@@ -409,7 +409,7 @@ def createWord(inputLineEntry):
                     # mutate instructions (replace/add/delete) at index_toMutate:
                     decide1replace2add3delete = randint(1,3)
                     index_toMutate = randint(0,len(instructions_toMutate)) # not -1 so that can add at end
-                    atEnd = len(index_toMutate) == len(instructions_toMutate)
+                    atEnd = index_toMutate == len(instructions_toMutate)
                     if decide1replace2add3delete == 1:
                         if atEnd: # check if 1 out of range
                             index_toMutate -= 1
