@@ -26,7 +26,7 @@ allophones = {
 possibleInstructions = [0,1,2,3,4,'+','+','x'] # make '+' more likely (heuristically seems good)
 
 popSize = 10
-numGenerations = 250
+numGenerations = 500
 epochMilestone = numGenerations//10
 population = []
 scoreHistory = []
@@ -526,8 +526,8 @@ def createWord(inputLineEntry):
 if __name__ == '__main__': # run the following if running this .py file directly:
     inputLineEntry = '0,use,yun,usa,istemal,istemal,potrebi,' # yunsastempot
     wordCreated = createWord(inputLineEntry)
-    inputLineEntry = '0,be,ca,esta,ho,kana,bi,' # castahokanbi
-    wordCreated = createWord(inputLineEntry)
+    # inputLineEntry = '0,be,ca,esta,ho,kana,bi,' # castahokanbi
+    # wordCreated = createWord(inputLineEntry)
     print('\nCREATED WORD:')
     print(wordCreated)
     if debugOn:
