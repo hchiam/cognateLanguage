@@ -402,26 +402,29 @@ def createWord(inputLineEntry):
         for i in range(restOfPop):
             index = randint(0,len(population)-1)
             instructions_toMutate = list(population[index][2]) # hacky: use list() to make an actual copy, not a reference
-            if len(instructions_toMutate) > 0:
-                for i in range(3):
-                    # mutate instructions
-                    index_toMutate = randint(0,len(instructions_toMutate))
-                    # TODO: make "add instruction" a coin toss and be able to insert at any index
-                    # TODO: add "delete instruction", so then a 3-way coin toss of sorts
-                    if index_toMutate == len(instructions_toMutate):
-                        # add instruction
-                        instruction_toAdd = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
-                        if instruction_toAdd != 'x':
-                            instructions_toMutate.append(instruction_toAdd)
-                    else:
-                        # modify instruction
-                        instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
-                        if instruction_toReplace != 'x':
-                            instructions_toMutate[index_toMutate] = instruction_toReplace
-                        else:
-                            instructions_toMutate = instructions_toMutate[index_toMutate-1:]
-            else:
+            if len(instructions_toMutate) == 0:
                 instructions_toMutate = ''
+            else:
+                for mutation in range(3):
+                    # mutate instructions (replace/add/delete) at index_toMutate:
+                    decide1replace2add3delete = randint(1,3)
+                    index_toMutate = randint(0,len(instructions_toMutate)) # not -1 so that can add at end
+                    atEnd = len(index_toMutate) == len(instructions_toMutate)
+                    if decide1replace2add3delete == 1:
+                        if atEnd: # check if 1 out of range
+                            index_toMutate -= 1
+                        # replace instruction at index_toMutate
+                        instruction_toReplace = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+                        instructions_toMutate[index_toMutate] = instruction_toReplace
+                    elif decide1replace2add3delete == 2:
+                        # add instruction at index_toMutate
+                        instruction_toAdd = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
+                        instructions_toMutate.insert(index_toMutate, instruction_toAdd)
+                    elif decide1replace2add3delete == 3:
+                        if atEnd: # check if 1 out of range
+                            index_toMutate -= 1
+                        # delete instruction at index_toMutate
+                        del instructions_toMutate[index_toMutate]
             instructions = instructions_toMutate
             newWord = constructWord(srcWords, instructions)
             entry = newWord + ',' + engWord + ',' + ','.join(srcWords) + ',' # should have 7 commas
