@@ -36,6 +36,7 @@ wordHistory = []
 debugOn = False
 
 count = 0
+countNew = 0
 
 creatingFromScratch = True
 
@@ -307,6 +308,7 @@ def createWord(inputLineEntry):
     global scoreHistory2
     global wordHistory
     global count
+    global countNew
     global creatingFromScratch
     
     printDebug('\n...Running...')
@@ -494,6 +496,8 @@ def createWord(inputLineEntry):
                 newScorers.append(scorer)
             # will add if new entry
             newScorers.append(bestSoFar)
+            countNew += 1
+            print('NEW WORDS:',countNew)
         else:
             # check each line
             for scorer in scorers:
@@ -506,6 +510,8 @@ def createWord(inputLineEntry):
                         newScorers.append(bestSoFar)
                         print(prevScorer_word + ' -> ')
                         print(bestSoFar)
+                        countNew += 1
+                        print('NEW WORDS:',countNew)
                     else:
                         newScorers.append(scorer)
                         # replace with previously existing scorer as output word
