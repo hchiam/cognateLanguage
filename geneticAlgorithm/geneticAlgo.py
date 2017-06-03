@@ -410,7 +410,7 @@ def createWord(inputLineEntry):
                     decide1replace2add3delete = randint(1,3)
                     index_toMutate = randint(0,len(instructions_toMutate)) # not -1 so that can add at end
                     atEnd = index_toMutate == len(instructions_toMutate)
-                    if decide1replace2add3delete == 1:
+                    if decide1replace2add3delete == 1 and instructions_toMutate:
                         if atEnd: # check if 1 out of range
                             index_toMutate -= 1
                         # replace instruction at index_toMutate
@@ -420,7 +420,7 @@ def createWord(inputLineEntry):
                         # add instruction at index_toMutate
                         instruction_toAdd = possibleInstructions[ randint(0,len(possibleInstructions)-1) ]
                         instructions_toMutate.insert(index_toMutate, instruction_toAdd)
-                    elif decide1replace2add3delete == 3:
+                    elif decide1replace2add3delete == 3 and instructions_toMutate:
                         if atEnd: # check if 1 out of range
                             index_toMutate -= 1
                         # delete instruction at index_toMutate
