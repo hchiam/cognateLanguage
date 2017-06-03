@@ -335,28 +335,28 @@ def createWord(inputLineEntry):
         individual = [score, entry, instructions]
         population.append(individual)
     
-    # randomize whether initialization includes previous best-scorer in this session's population
-    # (later will still compare to it anyways to check for improved score)
-    cointoss = randint(0,1)
-    if cointoss == 0:
-        creatingFromScratch = True
-    elif cointoss == 1:
-        # make use of preexisting best-scorer saved externally
-        scorersFile = 'best-scorers.txt'
-        scorers = []
-        creatingFromScratch = False
-        with open(scorersFile,'r') as f:
-            scorers = f.read().splitlines()
-        if scorers != []:
-            for scorer in scorers:
-                prevScorer_id = getEntryIdentifier(scorer)
-                if prevScorer_id == getEntryIdentifier(population[0]):
-                    prevBestScore = float(scorer.split(', ')[0].replace('[',''))
-                    prevBestEntry = scorer.split(', ')[1].replace('\'','')
-                    prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
-                    prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
-                    # include preexisting best-scorer saved externally
-                    population.append(prevBest)
+    # # randomize whether initialization includes previous best-scorer in this session's population
+    # # (later will still compare to it anyways to check for improved score)
+    # cointoss = randint(0,1)
+    # if cointoss == 0:
+    #     creatingFromScratch = True
+    # elif cointoss == 1:
+    # make use of preexisting best-scorer saved externally
+    scorersFile = 'best-scorers.txt'
+    scorers = []
+    creatingFromScratch = False
+    with open(scorersFile,'r') as f:
+        scorers = f.read().splitlines()
+    if scorers != []:
+        for scorer in scorers:
+            prevScorer_id = getEntryIdentifier(scorer)
+            if prevScorer_id == getEntryIdentifier(population[0]):
+                prevBestScore = float(scorer.split(', ')[0].replace('[',''))
+                prevBestEntry = scorer.split(', ')[1].replace('\'','')
+                prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
+                prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
+                # include preexisting best-scorer saved externally
+                population.append(prevBest)
     
     # starting "from scratch"? allow more generations before comparing with best scorer
     adjustForFromScratch = 1
