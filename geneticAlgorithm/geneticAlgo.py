@@ -341,22 +341,22 @@ def createWord(inputLineEntry):
     # if cointoss == 0:
     #     creatingFromScratch = True
     # elif cointoss == 1:
-    # make use of preexisting best-scorer saved externally
-    scorersFile = 'best-scorers.txt'
-    scorers = []
-    creatingFromScratch = False
-    with open(scorersFile,'r') as f:
-        scorers = f.read().splitlines()
-    if scorers != []:
-        for scorer in scorers:
-            prevScorer_id = getEntryIdentifier(scorer)
-            if prevScorer_id == getEntryIdentifier(population[0]):
-                prevBestScore = float(scorer.split(', ')[0].replace('[',''))
-                prevBestEntry = scorer.split(', ')[1].replace('\'','')
-                prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
-                prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
-                # include preexisting best-scorer saved externally
-                population.append(prevBest)
+    #     # make use of preexisting best-scorer saved externally
+    #     scorersFile = 'best-scorers.txt'
+    #     scorers = []
+    #     creatingFromScratch = False
+    #     with open(scorersFile,'r') as f:
+    #         scorers = f.read().splitlines()
+    #     if scorers != []:
+    #         for scorer in scorers:
+    #             prevScorer_id = getEntryIdentifier(scorer)
+    #             if prevScorer_id == getEntryIdentifier(population[0]):
+    #                 prevBestScore = float(scorer.split(', ')[0].replace('[',''))
+    #                 prevBestEntry = scorer.split(', ')[1].replace('\'','')
+    #                 prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
+    #                 prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
+    #                 # include preexisting best-scorer saved externally
+    #                 population.append(prevBest)
     
     # starting "from scratch"? allow more generations before comparing with best scorer
     adjustForFromScratch = 1
