@@ -82,7 +82,7 @@ def evaluateScore_UsesFirstSyllablesAllophones(newWord, originalWords):
     srcSyllables = [getFirstSyllable(srcWord) for srcWord in originalWords if srcWord!=None]
     for syllable in srcSyllables:
         if respellWithAllophones(syllable) in respellWithAllophones(newWord):
-            score += len(syllable)*2 # *2 to make it more worth it
+            score += len(syllable)
     return score
 
 
@@ -93,7 +93,7 @@ def penalizeConsonantClusters(word):
         if letter not in 'aeiou':
             consonantClusterLength += 1
         else:
-            if consonantClusterLength > 1:
+            if consonantClusterLength > 2: # CC is ok (esp. from src words and may favour shorter words)
                 score -= consonantClusterLength
             consonantClusterLength = 0
     # in case the word ends with a consonant:
@@ -256,8 +256,9 @@ def createWord(inputLineEntry):
             for scorer in scorers:
                 prevScorer_id = getEntryIdentifier(scorer)
                 if prevScorer_id == getEntryIdentifier(population[0]):
-                    prevBestScore = int(float(scorer.split(', ')[0].replace('[','')))
+                    # prevBestScore = int(float(scorer.split(', ')[0].replace('[','')))
                     prevBestEntry = scorer.split(', ')[1].replace('\'','')
+                    prevBestScore = evaluate(prevBestEntry)
                     prevBestInstruction = ast.literal_eval(scorer.split(', ',2)[2][:-1]) # [:-1] to remove final ']'
                     prevBest = [prevBestScore,prevBestEntry,prevBestInstruction]
                     # include preexisting best-scorer saved externally
