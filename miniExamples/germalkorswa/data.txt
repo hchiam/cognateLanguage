@@ -119,3 +119,6 @@
 +,hear,her,denar,dud,sikia,
 +,know,vis,tahu,al,fahamu,
 +,think,denk,fikir,sengakha,fikiri,
++,smell,rih,bau,nemse,nukilia,
++,fear,firht,takut,turyom,ogopa,
++,sleep,claf,tidur,tca,lala,
