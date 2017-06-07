@@ -428,3 +428,6 @@
 +,thursday,ca,hweves,guru,hamis,tciverk,
 +,friday,wu,byernes,cukra,goma,pyatnitsa,
 +,saturday,lyo,sabado,cani,sabt,subota,
++,will,hwe,re,ga,sa,bu,
++,outside,way,fwera,bahar,haridj,naruju,
++,take,na,toma,le,had,bra,

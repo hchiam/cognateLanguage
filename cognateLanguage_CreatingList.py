@@ -2,7 +2,7 @@ from collections import OrderedDict
 import time
 import re
 
-import geneticAlgo
+# import geneticAlgo
 
 #------------------------
 # shared variables:
