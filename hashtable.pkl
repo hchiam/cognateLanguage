@@ -733,7 +733,7 @@ S'grwesmotehowtol'
 p366
 sS'open'
 p367
-S'kaybrikholfatkri'
+S'fatkaylbri'
 p368
 sS'tomorrow'
 p369
@@ -1013,7 +1013,7 @@ S'samarbahay'
 p506
 sS'close'
 p507
-S'serbadqafzagwan'
+S'sergwanbadqaf'
 p508
 sS'bark'
 p509
@@ -1249,7 +1249,7 @@ S'woyome'
 p624
 sS'colour'
 p625
-S'sakolaglawtsvet'
+S'tsvatkolawg'
 p626
 sS'floor'
 p627
@@ -1545,7 +1545,7 @@ S'dadpelarhar'
 p772
 sS'start'
 p773
-S'kaympesurbadnat'
+S'kaycurmpednat'
 p774
 sS'forward'
 p775
