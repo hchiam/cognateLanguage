@@ -2164,3 +2164,11 @@ hweregasabu,will,hwe,re,ga,sa,bu,
 wayfwerbaharnar,outside,way,fwera,bahar,haridj,naruju,
 hatonable,take,na,toma,le,had,bra,
 ____________________
+____________________
+Sun Jun 11 14:38:42 2017
+sakolaglawtsvet,colour,sa,kolor,rag,lawn,tsvet,
+kaympesurbadnat,start,kayca,empesa,curu,bada,natca,
+parukwaqstin,stop,tin,para,ruk,waqafa,ostanovi,
+kaybrikholfatkri,open,kay,abri,khol,fatah,atkri,
+serbadqafzagwan,close,gwan,sera,bad,qafala,zakri,
+____________________

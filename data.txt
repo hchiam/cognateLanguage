@@ -431,3 +431,8 @@
 +,will,hwe,re,ga,sa,bu,
 +,outside,way,fwera,bahar,haridj,naruju,
 +,take,na,toma,le,had,bra,
++,colour,sa,kolor,rag,lawn,tsvet,
++,start,kayca,empesa,curu,bada,natca,
++,stop,tin,para,ruk,waqafa,ostanovi,
++,open,kay,abri,khol,fatah,atkri,
++,close,gwan,sera,bad,qafala,zakri,

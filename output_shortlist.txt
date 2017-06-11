@@ -430,3 +430,8 @@ lyosabn,saturday,lyo,sabado,cani,sabt,subota,d
 hweregsabu,will,hwe,re,ga,sa,bu,a
 fwayrbaharnar,outside,way,fwera,bahar,haridj,naruju,d
 hatonable,take,na,toma,le,had,bra,a
+sakolaglawtsvet,colour,sa,kolor,rag,lawn,tsvet,t
+kaympesurbadnat,start,kayca,empesa,curu,bada,natca,a
+parukwaqstin,stop,tin,para,ruk,waqafa,ostanovi,a
+kaybrikholfatkri,open,kay,abri,khol,fatah,atkri,a
+serbadqafzagwan,close,gwan,sera,bad,qafala,zakri,a
