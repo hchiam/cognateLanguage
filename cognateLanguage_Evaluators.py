@@ -192,7 +192,7 @@ for line in data:
         print('  ' + str(score1) + '\t<- evaluateScore_AlloWithVowels')
         score2 = evaluateScore_ConsonantsInOrder(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
         print('  ' + str(score2) + '\t<- evaluateScore_ConsonantsInOrder')
-        avgScore = (score1 + score2)/2
+        avgScore = round((score1 + score2)/2)
         print('Average score: ' + str(avgScore))
         score3 = evaluateScore_Levenshtein(newWord, words['Chi'],words['Spa'],words['Hin'],words['Ara'],words['Rus'])
         print('\n  ' + str(score3) + '\t<- evaluateScore_Levenshtein')
