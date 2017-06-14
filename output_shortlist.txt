@@ -454,7 +454,7 @@ brasderuk,arm,bi,braso,bah,dera,ruka,t
 gowbarskefdas,enough,gow,bastante,paryapt,kefaya,dastatatcna,d
 qutcyamfrenper,front,tcyen,frente,samne,qudam,perit,d
 cowbaldedugli,finger,cowdja,dedo,ugli,soba,palits,t
-dedjyawglisobal,toe,djyawdja,dedo,ugli,soba,palits,t
+djyawdoglisobal,toe,djyawdja,dedo,ugli,soba,palits,t
 wantakahlatob,ankle,wandza,tobiyo,takhna,kahil,ladicka,t
 wanunasapkal,wrist,wandza,munyeka,kalai,masim,zapastye,t
 ambryenbhukaldjaw,hungry,a,ambryento,bhukka,djawan,galodni,d
