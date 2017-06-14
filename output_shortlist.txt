@@ -435,3 +435,11 @@ kaycurmpednat,start,kayca,empesa,curu,bada,natca,a
 parukwaqstin,stop,tin,para,ruk,waqafa,ostanovi,a
 fatkaylbri,open,kay,abri,khol,fatah,atkri,a
 sergwanbadqaf,close,gwan,sera,bad,qafala,zakri,a
+incyonkaybatgirwe,hero,incyon,erwe,kayak,batal,giroy,t
+bawboykahburot,bun,baw,boyo,roti,kahka,bulatcka,t
+sapacgacyedjut,shoe,cyedza,sapato,djuta,gazma,bacmak,t
+kolitchatqafon,hive,fontcaw,kolmena,tchata,qafir,uli,t
+tyenibsyelsvargan,heaven,tyengwo,syelo,svarg,gana,nibisa,t
+manporpatbawvar,gate,manko,porton,patak,bawaba,varota,t
+falambriytcamsiy,shine,falyan,briya,tcamak,lama,siya,a
+garinarmatcaw,den,tcawcwe,garida,mad,arin,nara,t

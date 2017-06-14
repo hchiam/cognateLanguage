@@ -2172,3 +2172,14 @@ parukwaqstin,stop,tin,para,ruk,waqafa,ostanovi,
 kaybrikholfatkri,open,kay,abri,khol,fatah,atkri,
 serbadqafzagwan,close,gwan,sera,bad,qafala,zakri,
 ____________________
+____________________
+Tue Jun 13 20:36:15 2017
+incyonkaybatgirwe,hero,incyon,erwe,kayak,batal,giroy,
+bawboykahburot,bun,baw,boyo,roti,kahka,bulatcka,
+sapacgacyedjut,shoe,cyedza,sapato,djuta,gazma,bacmak,
+kolitchatqafon,hive,fontcaw,kolmena,tchata,qafir,uli,
+tyenibsyelsvargan,heaven,tyengwo,syelo,svarg,gana,nibisa,
+manporpatbawvar,gate,manko,porton,patak,bawaba,varota,
+falambriytcamsiy,shine,falyan,briya,tcamak,lama,siya,
+garinarmatcaw,den,tcawcwe,garida,mad,arin,nara,
+____________________
