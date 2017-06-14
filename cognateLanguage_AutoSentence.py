@@ -45,7 +45,7 @@ def getWord(wordType='d',fullWords=True):
         word = data[i].split(',')[0]
         translation = data[i].split(',')[1]
     elif wordType=='c':
-        connectorIndices = [7,8,231,232,233,234,235,236,237,238,239,240,241,242,243,312,369,370,371,377,421]
+        connectorIndices = [7,8,231,232,233,234,235,236,237,238,239,240,241,242,243,312,369,370,371,377,421,449]
         i = random.choice(connectorIndices)
         word = data[i].split(',')[0]
         translation = data[i].split(',')[1]
