@@ -445,7 +445,7 @@ falambriytcamsiy,shine,falyan,briya,tcamak,lama,siya,a
 garinarmatcaw,den,tcawcwe,garida,mad,arin,nara,t
 alredspashaweyvak,around,weyraw,alredor,aspas,hawla,vakruk,d
 antcweminsurbiseg,safe,antcwen,seguro,surakcit,amin,bizapasnasni,d
-dzonsyemhamdayfsig,always,dzonca,syempre,hameca,dayman,fsigda,d
+dzyemphamdayfsig,always,dzonca,syempre,hameca,dayman,fsigda,d
 ranlgunkoylyub,any,ranha,alguna,koy,ay,lyuboy,d
 bidjadbentremej,between,djadjyen,entre,bitc,ben,mejdu,c
 daytraegabrin,bring,daylay,trae,la,gab,prinasi,a
