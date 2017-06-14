@@ -447,7 +447,7 @@ alredspashaweyvak,around,weyraw,alredor,aspas,hawla,vakruk,d
 antcweminsurbiseg,safe,antcwen,seguro,surakcit,amin,bizapasnasni,d
 dzyemphamdayfsig,always,dzonca,syempre,hameca,dayman,fsigda,d
 ralgunkolyub,any,ranha,alguna,koy,ay,lyuboy,d
-bidjadbentremej,between,djadjyen,entre,bitc,ben,mejdu,c
+bendjadmej,between,djadjyen,entre,bitc,ben,mejdu,c
 daytraegabrin,bring,daylay,trae,la,gab,prinasi,a
 meykadharkolkaj,each,mey,kada,har,kol,kajdi,d
 brasbihderuk,arm,bi,braso,bah,dera,ruka,t
