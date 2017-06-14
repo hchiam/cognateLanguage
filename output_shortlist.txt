@@ -444,7 +444,7 @@ manpawrtvar,gate,manko,porton,patak,bawaba,varota,t
 falambriytcamsiy,shine,falyan,briya,tcamak,lama,siya,a
 garinarmatcaw,den,tcawcwe,garida,mad,arin,nara,t
 alredspashaweyvak,around,weyraw,alredor,aspas,hawla,vakruk,d
-antcweninsurbiseg,safe,antcwen,seguro,surakcit,amin,bizapasnasni,d
+antcweminsurbiseg,safe,antcwen,seguro,surakcit,amin,bizapasnasni,d
 dzonsyemhamdayfsig,always,dzonca,syempre,hameca,dayman,fsigda,d
 ranlgunkoylyub,any,ranha,alguna,koy,ay,lyuboy,d
 bidjadbentremej,between,djadjyen,entre,bitc,ben,mejdu,c
