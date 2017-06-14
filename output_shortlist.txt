@@ -449,7 +449,7 @@ dzyemphamdayfsig,always,dzonca,syempre,hameca,dayman,fsigda,d
 ralgunkolyub,any,ranha,alguna,koy,ay,lyuboy,d
 bendjadmej,between,djadjyen,entre,bitc,ben,mejdu,c
 daytragaprin,bring,daylay,trae,la,gab,prinasi,a
-meykadharkolkaj,each,mey,kada,har,kol,kajdi,d
+meykajdharkol,each,mey,kada,har,kol,kajdi,d
 brasbihderuk,arm,bi,braso,bah,dera,ruka,t
 gowbasparkefdas,enough,gow,bastante,paryapt,kefaya,dastatatcna,d
 frensamqutcyenper,front,tcyen,frente,samne,qudam,perit,d
