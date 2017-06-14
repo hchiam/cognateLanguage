@@ -452,7 +452,7 @@ daytragaprin,bring,daylay,trae,la,gab,prinasi,a
 meykajdharkol,each,mey,kada,har,kol,kajdi,d
 brasderuk,arm,bi,braso,bah,dera,ruka,t
 gowbarskefdas,enough,gow,bastante,paryapt,kefaya,dastatatcna,d
-frensamqutcyenper,front,tcyen,frente,samne,qudam,perit,d
+qutcyamfrenper,front,tcyen,frente,samne,qudam,perit,d
 cowdedglisobal,finger,cowdja,dedo,ugli,soba,palits,t
 dedjyawglisobal,toe,djyawdja,dedo,ugli,soba,palits,t
 wantakahlatob,ankle,wandza,tobiyo,takhna,kahil,ladicka,t
