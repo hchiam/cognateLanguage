@@ -88,7 +88,7 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
         alloOriginalWords[index] = respellWithAllophones(srcWord)
     
     #print(alloOriginalWords)
-
+    
     # get preliminary scores for each language:
     for lang, srcWordAllo in enumerate(alloOriginalWords):
         for i in range(len(srcWordAllo)):
@@ -100,10 +100,10 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
     # adjust language scores by number of characters in original words:
     for lang, srcWordAllo in enumerate(alloOriginalWords):
         scoreLangs[lang] -= len(srcWordAllo)
-
+    
     # language scores are weighted in reverse order
     scoreLangs.reverse()
-
+    
     for wt, lang in enumerate(scoreLangs):
         score += lang + lang * ((wt+1)/10.0) # make weightings like these to make gradient of influence:  0.1, 0.2, 0.3, 0.4, 0.5
     #print('language score contribution: ', score)
@@ -113,7 +113,8 @@ def evaluateScore_AlloWithVowels(word,chi,spa,hin,ara,rus):
     scoreLen *= 1.1 # this is the weighting for length score
     #print('word length contribution', scoreLen)
     score += scoreLen
-
+    
+    score = round(score,2)
     return score
 
 
@@ -149,19 +150,20 @@ def evaluateScore_ConsonantsInOrder(word,chi,spa,hin,ara,rus):
         scoreLangs[lang] = currentLetterPos - len(originalWords[lang])
         currentLetterPos = 0
         #print(scoreLangs)
-
+    
     # language scores are weighted in reverse order
     scoreLangs.reverse()
-
+    
     for wt, lang in enumerate(scoreLangs):
         score += lang + lang * ((wt+1)/10.0) # make weightings like these to make gradient of influence:  0.1, 0.2, 0.3, 0.4, 0.5
-
+    
     # get preliminary score for word length:
     scoreLen = (len(leastEfficientWord) - len(word)) # score increases with shorter word
     scoreLen *= 1.1 # this is the weighting for length score
     #print('word length contribution', scoreLen)
     score += scoreLen
     
+    score = round(score,2)
     return score
 
 #------------------------
