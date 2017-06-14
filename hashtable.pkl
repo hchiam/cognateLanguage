@@ -225,7 +225,7 @@ S'cawkemharjedjal'
 p112
 sS'hero'
 p113
-S'incyonkaybatgirwe'
+S'incyonkarwebat'
 p114
 sS'leg'
 p115
@@ -597,7 +597,7 @@ S'cakomlyid'
 p298
 sS'safe'
 p299
-S'antcweninsurbiseg'
+S'antcweminsurbiseg'
 p300
 sS'break'
 p301
@@ -633,7 +633,7 @@ S'nims'
 p316
 sS'always'
 p317
-S'dzonsyemhamdayfsig'
+S'dzyemphamdayfsig'
 p318
 sS'ashes'
 p319
@@ -645,7 +645,7 @@ S'tyenostaqpag'
 p322
 sS'each'
 p323
-S'meykadharkolkaj'
+S'meykajdharkol'
 p324
 sS'bone'
 p325
@@ -813,7 +813,7 @@ S'panigmitruksad'
 p406
 sS'toe'
 p407
-S'dedjyawglisobal'
+S'djyawdoglisobal'
 p408
 sS'hug'
 p409
@@ -893,7 +893,7 @@ S'neciyzarhtad'
 p446
 sS'any'
 p447
-S'ranlgunkoylyub'
+S'ralgunkolyub'
 p448
 sS'triangle'
 p449
@@ -977,7 +977,7 @@ S'yenamalsal'
 p488
 sS'bring'
 p489
-S'daytraegabrin'
+S'daytragaprin'
 p490
 sS'shoe'
 p491
@@ -997,11 +997,11 @@ S'ardwodrehakan'
 p498
 sS'front'
 p499
-S'frensamqutcyenper'
+S'qutcyamfrenper'
 p500
 sS'enough'
 p501
-S'gowbasparkefdas'
+S'gowbarskefdas'
 p502
 sS'should'
 p503
@@ -1101,7 +1101,7 @@ S'cupkorgetchal'
 p550
 sS'arm'
 p551
-S'brasbihderuk'
+S'brasderuk'
 p552
 sS'closet'
 p553
@@ -1117,11 +1117,11 @@ S'fwayrbaharnar'
 p558
 sS'finger'
 p559
-S'cowdedglisobal'
+S'cowbaldedugli'
 p560
 sS'between'
 p561
-S'bidjadbentremej'
+S'bendjadmej'
 p562
 sS'email'
 p563
