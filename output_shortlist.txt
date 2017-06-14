@@ -435,7 +435,7 @@ kaycurmpednat,start,kayca,empesa,curu,bada,natca,a
 parukwaqstin,stop,tin,para,ruk,waqafa,ostanovi,a
 fatkaylbri,open,kay,abri,khol,fatah,atkri,a
 sergwanbadqaf,close,gwan,sera,bad,qafala,zakri,a
-incyonkaybatgirwe,hero,incyon,erwe,kayak,batal,giroy,t
+incyonkarwebat,hero,incyon,erwe,kayak,batal,giroy,t
 bawboyburotkah,bun,baw,boyo,roti,kahka,bulatcka,t
 sapacgacyedjut,shoe,cyedza,sapato,djuta,gazma,bacmak,t
 koliqafontchat,hive,fontcaw,kolmena,tchata,qafir,uli,t
