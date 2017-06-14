@@ -458,7 +458,7 @@
 +,toe,djyawdja,dedo,ugli,soba,palits,
 +,ankle,wandza,tobiyo,takhna,kahil,ladicka,
 +,wrist,wandza,munyeka,kalai,masim,zapastye,
-+,hungry,a,ambryento,bhukka,djawan,galodni,
++,hungry,a,ambryento,bhukha,djawan,galodni,
 +,thirsty,ka,sedyento,pyasa,atcan,jajduci,
 +,bug,tcon,insekto,kira,hacara,bukacka,
 +,never,tsonwe,nunka,kabhinahi,abadan,nikagda,

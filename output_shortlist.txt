@@ -457,7 +457,7 @@ cowbaldedugli,finger,cowdja,dedo,ugli,soba,palits,t
 djyawdoglisobal,toe,djyawdja,dedo,ugli,soba,palits,t
 wantakahlatob,ankle,wandza,tobiyo,takhna,kahil,ladicka,t
 wanunasapkal,wrist,wandza,munyeka,kalai,masim,zapastye,t
-ambryenbhukaldjaw,hungry,a,ambryento,bhukka,djawan,galodni,d
+ambryenbhukaldjaw,hungry,a,ambryento,bhukha,djawan,galodni,d
 kapyasedcanjaj,thirsty,ka,sedyento,pyasa,atcan,jajduci,d
 tconsekirhacbuk,bug,tcon,insekto,kira,hacara,bukacka,t
 tsonunikabad,never,tsonwe,nunka,kabhinahi,abadan,nikagda,d
