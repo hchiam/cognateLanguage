@@ -144,15 +144,17 @@ if input != "":
             if word in data:
                 translatedWord = data[word]
                 shortTranslatedWord = justTwoInitSylls(translatedWord)
-                trackLastLetterOfLastWord = shortTranslatedWord[-1]
+                # trackLastLetterOfLastWord = shortTranslatedWord[-1] # THIS GOES WITH ADDING FINAL LETTER AT END OF SENTENCE
                 numVowelsInTranslatedWord = countVowels(translatedWord)
-                if numVowelsInTranslatedWord == 1:
-                    shortTranslation += translatedWord
-                    trackLastLetterOfLastWord = ''
-                elif trackLastLetterOfLastWord in 'aeiou':
-                    shortTranslation += shortTranslatedWord
-                else:
-                    shortTranslation += shortTranslatedWord[:-1]
+                shortTranslation += ' ' + shortTranslatedWord
+                # if numVowelsInTranslatedWord == 1:
+                #     shortTranslation += translatedWord
+                #     trackLastLetterOfLastWord = ''
+                # elif trackLastLetterOfLastWord in 'aeiou':
+                #     shortTranslation += shortTranslatedWord
+                # else:
+                #     # shortTranslation += shortTranslatedWord[:-1] # THIS GOES WITH ADDING FINAL LETTER AT END OF SENTENCE
+                #     shortTranslation += shortTranslatedWord
                 translation += translatedWord + ' '
                 translationFound = True
                 
@@ -162,8 +164,8 @@ if input != "":
 
 # remove final space ' '
 translation = translation[:-1]
-# add final letter
-shortTranslation += trackLastLetterOfLastWord
+# # add final letter
+# shortTranslation += trackLastLetterOfLastWord # THIS GOES WITH REMOVING FINAL LETTER FROM EACH WORD
 
 print 'Long Translation:\n\t' + '"' + translation.capitalize()+'.' + '"'
 print 'Short Translation:\n\t' + shortTranslation

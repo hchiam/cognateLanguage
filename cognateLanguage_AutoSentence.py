@@ -64,21 +64,22 @@ def buildSentence(pattern,fullWords=True):
         if fullWords:
             sentence += newword + ' '
         else: # if short word translation:
-            trackLastLetterOfLastWord = newword[-1]
+            # trackLastLetterOfLastWord = newword[-1]
             numVowelsInTranslatedWord = countVowels(newword)
-            if numVowelsInTranslatedWord == 1:
-                sentence += newword
-                trackLastLetterOfLastWord = ''
-            elif trackLastLetterOfLastWord in 'aeiou':
-                sentence += newword
-            else:
-                sentence += newword[:-1]
+            sentence += ' ' + newword
+            # if numVowelsInTranslatedWord == 1:
+            #     sentence += newword
+            #     trackLastLetterOfLastWord = ''
+            # elif trackLastLetterOfLastWord in 'aeiou':
+            #     sentence += newword
+            # else:
+            #     sentence += newword[:-1]
         translation += newwordtrans + ' '
     # remove last space, capitalize first letter, add period at end:
     if fullWords:
-        sentence, translation = sentence.rstrip().capitalize()+'.', translation.rstrip().capitalize()+'.'
+        sentence, translation = sentence.strip().capitalize()+'.', translation.strip().capitalize()+'.'
     else:
-        sentence, translation = sentence.rstrip()+trackLastLetterOfLastWord, translation.rstrip().capitalize()+'.'
+        sentence, translation = sentence.strip()+trackLastLetterOfLastWord, translation.strip().capitalize()+'.'
     return sentence, translation
 
 
