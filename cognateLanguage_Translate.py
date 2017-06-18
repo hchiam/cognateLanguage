@@ -114,7 +114,7 @@ if input != "":
                     if word == line[0:len(word)]:
                         translatedWord = line.split(',')[1]
                         if translatedWord != '?':
-                            shortTranslatedWord = justTwoInitSylls(translatedWord)
+                            shortTranslatedWord = justTwoInitSylls_CVC(translatedWord)
                             numVowelsInTranslatedWord = countVowels(translatedWord)
                             translation += translatedWord + ' '
                         else:
@@ -144,7 +144,7 @@ if input != "":
             # search for word translation in data ("data" is a hashtable/dictionary)
             if word in data:
                 translatedWord = data[word]
-                shortTranslatedWord = justTwoInitSylls(translatedWord)
+                shortTranslatedWord = justTwoInitSylls_CVC(translatedWord)
                 # trackLastLetterOfLastWord = shortTranslatedWord[-1] # THIS GOES WITH ADDING FINAL LETTER AT END OF SENTENCE
                 numVowelsInTranslatedWord = countVowels(translatedWord)
                 shortTranslation += ' ' + shortTranslatedWord
