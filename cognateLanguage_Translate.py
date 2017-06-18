@@ -3,7 +3,7 @@ import re # example use here:  to be able to remove repeating spaces
 
 from dictAsFile_wrapper import *
 
-def justTwoInitSylls(word):
+def justTwoInitSylls_CVC(word):
     beforeThisIndex = 0
     for vowel1 in word:
         if vowel1 in 'aeiou':
@@ -49,6 +49,24 @@ def vowelGroupCount(myStr):
 def isEven(num):
     return num%2 == 0
 
+def formatInput(input):
+    # remove punctuation from input, except for '?'
+    exclude = set(string.punctuation)
+    input = ''.join(ch for ch in input if (ch not in exclude or ch == '?'))
+    
+    # add space before '?' to enable replacing with question particle word
+    input = input.replace('?',' ?')
+    
+    # make input all lowercase
+    input = input.lower()
+    
+    # remove repeating spaces from what remains
+    input = re.sub(' +', ' ', input)
+    
+    # print (input) # debug output
+    
+    return input
+
 filename = 'hashtable.pkl' # 'output_shortlist.txt'
 data = {}
 input = ''
@@ -56,30 +74,13 @@ translation = '< Translation Not Found. >'
 
 input = raw_input('Enter English word or sentence gloss to translate:\n\t')
 
-# remove punctuation from input, except for '?'
-exclude = set(string.punctuation)
-input = ''.join(ch for ch in input if (ch not in exclude or ch == '?'))
-
-# add space before '?' to enable replacing with question particle word
-input = input.replace('?',' ?')
-
-# make input all lowercase
-input = input.lower()
-
-# remove repeating spaces from what remains
-input = re.sub(' +', ' ', input)
-
-# print input # debug output
+input = formatInput(input)
 
 if input != "":
     
     translation = ''
     shortTranslation = ''
     trackLastLetterOfLastWord = ''
-    
-    # # get lines of file into a list
-    # with open(filename,'r') as f:
-    #     data = f.readlines()
     
     # get hashtable file into a dictionary
     data = readFileToDict(filename)
@@ -167,5 +168,5 @@ translation = translation[:-1]
 # # add final letter
 # shortTranslation += trackLastLetterOfLastWord # THIS GOES WITH REMOVING FINAL LETTER FROM EACH WORD
 
-print 'Long Translation:\n\t' + '"' + translation.capitalize()+'.' + '"'
-print 'Short Translation:\n\t' + shortTranslation
+print ('Long Translation:\n\t' + '"' + translation.capitalize()+'.' + '"')
+print ('Short Translation:\n\t' + shortTranslation)
