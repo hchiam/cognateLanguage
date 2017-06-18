@@ -26,5 +26,5 @@ if __name__ == '__main__':
     fileName = 'myfile.pkl'
     writeDictToFile(myDict,fileName)
     dictBack = readFileToDict(fileName)
-    print myDict
-    print dictBack
+    print (myDict)
+    print (dictBack)
