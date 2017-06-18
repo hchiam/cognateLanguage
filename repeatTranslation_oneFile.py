@@ -85,6 +85,10 @@ while keepGoing:
             
             translationFound = False
             
+            # account for plural nouns or 2nd person singular verbs
+            if word not in data and word[-1] == 's' and word[:-1] in data:
+                word = word[:-1]
+            
             # search for word translation in list
             for line in data:
                 if line != '\n' and ',' in line:
