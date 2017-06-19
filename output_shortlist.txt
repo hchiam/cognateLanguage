@@ -462,3 +462,5 @@ kapyasedcanjaj,thirsty,ka,sedyento,pyasa,atcan,jajduci,d
 tconsekirhacbuk,bug,tcon,insekto,kira,hacara,bukacka,t
 tsonunikabad,never,tsonwe,nunka,kabhinahi,abadan,nikagda,d
 kadjyenbrot,shoulder,djyen,ombro,kadha,kataf,plitco,t
+orasvakumpridjid,sentence,djidza,orasyon,vakya,gumla,pridlajeniye,t
+mizibhudzadnaf,self,dzadji,mizmo,hud,nafs,siba,t

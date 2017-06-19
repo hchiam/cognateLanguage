@@ -2205,3 +2205,8 @@ tconsekirhacbuk,bug,tcon,insekto,kira,hacara,bukacka,
 tsonunikabad,never,tsonwe,nunka,kabhinahi,abadan,nikagda,
 kadjyenbrot,shoulder,djyen,ombro,kadha,kataf,plitco,
 ____________________
+____________________
+Sun Jun 18 22:21:40 2017
+orasvakumpridjid,sentence,djidza,orasyon,vakya,gumla,pridlajeniye,
+mizibhudzadnaf,self,dzadji,mizmo,hud,nafs,siba,
+____________________

@@ -463,3 +463,5 @@
 +,bug,tcon,insekto,kira,hacara,bukacka,
 +,never,tsonwe,nunka,kabhinahi,abadan,nikagda,
 +,shoulder,djyen,ombro,kadha,kataf,plitco,
++,sentence,djidza,orasyon,vakya,gumla,pridlajeniye,
++,self,dzadji,mizmo,hud,nafs,siba,
