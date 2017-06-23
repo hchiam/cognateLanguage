@@ -481,3 +481,4 @@ tricandukrushaz,sad,can,triste,dukhi,hazin,grusni,d
 syutcamadcahgor,city,tcanca,syudad,cahar,madina,gorat,t
 djyemardifzdamab,building,djyendju,edifisyo,imarat,mabna,zdaniye,t
 pincaskrin,screen,pinmu,pantaya,skrin,caca,ikran,t
+bahanuygedcin,very,han,muy,bahut,gedan,otcin,d

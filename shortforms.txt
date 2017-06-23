@@ -481,3 +481,4 @@ trican,sad
 syutcam,city
 djyemar,building
 pincas,screen
+bahan,very
