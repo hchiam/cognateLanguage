@@ -479,5 +479,5 @@ gucanfadgadzlit,angry,cantci,enfadado,gusa,gadib,zlitsa,d
 gawfelkhucasaid,happy,gawcin,felis,khuc,said,casliv,d
 tricandukrushaz,sad,can,triste,dukhi,hazin,grusni,d
 syutcamadcahgor,city,tcanca,syudad,cahar,madina,gorat,t
-djyenardifzdamab,building,djyendju,edifisyo,imarat,mabna,zdaniye,t
+djyemardifzdamab,building,djyendju,edifisyo,imarat,mabna,zdaniye,t
 pincaskrin,screen,pinmu,pantaya,skrin,caca,ikran,t
