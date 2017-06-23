@@ -468,7 +468,7 @@ djinethatfil,metal,djincu,metal,dhatu,filiz,mital,t
 plasulbil,plastic,sulyaw,plastiko,plastik,bilastik,plastik,t
 djyatfamparasim,family,djyatin,familya,parivar,ela,simya,t
 adirnemducvrak,enemy,diran,enemigo,ducman,adu,vrak,t
-syersadjansahprav,true,djan,syerto,satc,sahih,pravdivi,d
+syerdjansahprav,true,djan,syerto,satc,sahih,pravdivi,d
 falojdjhudjya,false,djya,falso,djhutha,hati,lojni,d
 tondolimbal,hurt,ton,dole,dard,alima,bale,a
 kaydivismazmar,fun,kaywancyaw,divertido,maza,marih,visoli,d
