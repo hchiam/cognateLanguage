@@ -2210,3 +2210,24 @@ Sun Jun 18 22:21:40 2017
 orasvakumpridjid,sentence,djidza,orasyon,vakya,gumla,pridlajeniye,
 mizibhudzadnaf,self,dzadji,mizmo,hud,nafs,siba,
 ____________________
+____________________
+Thu Jun 22 23:44:10 2017
+djinethatfil,metal,djincu,metal,dhatu,filiz,mital,
+plasulbil,plastic,sulyaw,plastiko,plastik,bilastik,plastik,
+djyatfamparasim,family,djyatin,familya,parivar,ela,simya,
+adirnemducvrak,enemy,diran,enemigo,ducman,adu,vrak,
+syersadjansahprav,true,djan,syerto,satc,sahih,pravdivi,
+falojdjhudjya,false,djya,falso,djhutha,hati,lojni,
+tondolimbal,hurt,ton,dole,dard,alima,bale,
+kaydivismazmar,fun,kaywancyaw,divertido,maza,marih,visoli,
+gracyawmadsmic,funny,cyaw,grasyoso,madjedar,mudhik,smicnoy,
+tonacahglup,silly,ca,tonto,nasamadjh,sahif,glupi,
+tcigstrandjib,weird,tcigway,ekstranyo,adjib,adjib,strani,
+kapmyedarmuhstrac,scary,kapa,myedo,daravna,muhif,stracni,
+gucanfadgadzlit,angry,cantci,enfadado,gusa,gadib,zlitsa,
+gawfelkhucaicas,happy,gawcin,felis,khuc,said,casliv,
+tricandukrushaz,sad,can,triste,dukhi,hazin,grusni,
+syutcanadcahgor,city,tcanca,syudad,cahar,madina,gorat,
+djyenardifzdamab,building,djyendju,edifisyo,imarat,mabna,zdaniye,
+pincaskrin,screen,pinmu,pantaya,skrin,caca,ikran,
+____________________
