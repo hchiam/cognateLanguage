@@ -482,3 +482,5 @@ syutcamadcahgor,city,tcanca,syudad,cahar,madina,gorat,t
 djyemardifzdamab,building,djyendju,edifisyo,imarat,mabna,zdaniye,t
 pincaskrin,screen,pinmu,pantaya,skrin,caca,ikran,t
 bahanuygedcin,very,han,muy,bahut,gedan,otcin,d
+bukoydenfwanpaj,yourewelcome,bukatci,denada,koybatnahi,afwan,pajalsta,d
+etasoyahow,it,ta,eso,yah,howa,eta,t

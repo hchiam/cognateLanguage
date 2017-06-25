@@ -484,3 +484,5 @@
 +,building,djyendju,edifisyo,imarat,mabna,zdaniye,
 +,screen,pinmu,pantaya,skrin,caca,ikran,
 +,very,han,muy,bahut,gedan,otcin,
++,yourewelcome,bukatci,denada,koybatnahi,afwan,pajalsta,
++,it,ta,eso,yah,howa,eta,

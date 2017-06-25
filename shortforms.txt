@@ -482,3 +482,5 @@ syutcam,city
 djyemar,building
 pincas,screen
 bahan,very
+bukoy,yourewelcome
+etas,it
