@@ -2239,3 +2239,10 @@ ____________________
 bukoydenfwanpaj,yourewelcome,bukatci,denada,koybatnahi,afwan,pajalsta,
 etasoyahow,it,ta,eso,yah,howa,eta,
 ____________________
+____________________
+tcanaranbur,orange,tcansa,anaranhado,narangi,burtuqali,aranjivi,
+dzasmordjwanbegfyal,purple,dzasa,morado,begni,ardjwani,fyaletavi,
+dzonarbhurbunkar,brown,dzonsa,maron,bhura,buna,karitcnivi,
+hweygriseramdhus,gray,hweysa,gris,dhusar,ramadi,seri,
+fangurosah,pink,fanhonsa,rosado,gulabi,zahri,rozavi,
+____________________

@@ -486,3 +486,8 @@
 +,very,han,muy,bahut,gedan,otcin,
 +,yourewelcome,bukatci,denada,koybatnahi,afwan,pajalsta,
 +,it,ta,eso,yah,howa,eta,
++,orange,tcansa,anaranhado,narangi,burtuqali,aranjivi,
++,purple,dzasa,morado,begni,ardjwani,fyaletavi,
++,brown,dzonsa,maron,bhura,buna,karitcnivi,
++,gray,hweysa,gris,dhusar,ramadi,seri,
++,pink,fanhonsa,rosado,gulabi,zahri,rozavi,
