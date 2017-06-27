@@ -485,7 +485,7 @@ bahanuygedcin,very,han,muy,bahut,gedan,otcin,d
 bukoydenfwanpaj,yourewelcome,bukatci,denada,koybatnahi,afwan,pajalsta,d
 etasoyahow,it,ta,eso,yah,howa,eta,t
 tcanaranbur,orange,tcansa,anaranhado,narangi,burtuqali,aranjivi,d
-dzasmordjwanbegfyal,purple,dzasa,morado,begni,ardjwani,fyaletavi,d
+mordzwanbegfyal,purple,dzasa,morado,begni,ardjwani,fyaletavi,d
 dzonarbhurbunkar,brown,dzonsa,maron,bhura,buna,karitcnivi,d
-hweygriseramdhus,gray,hweysa,gris,dhusar,ramadi,seri,d
+griseramdhweys,gray,hweysa,gris,dhusar,ramadi,seri,d
 fangurosah,pink,fanhonsa,rosado,gulabi,zahri,rozavi,d
