@@ -484,3 +484,8 @@ pincas,screen
 bahan,very
 bukoy,yourewelcome
 etas,it
+tcanar,orange
+mordzwan,purple
+dzonar,brown
+griser,gray
+fangur,pink
