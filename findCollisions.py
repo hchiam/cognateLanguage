@@ -56,8 +56,8 @@ if __name__ == '__main__': # if running this .py file directly
     fileName = 'output_shortlist.txt'
     print('\n--- whole words: ---')
     countCollisionsInFile(fileName)
-    print('\n--- cv: ---')
+    print('\n--- cv: 1st 2 syllables: ---')
     countCollisionsInFile(fileName,cv=True)
-    print('\n--- cvc: ---')
+    print('\n--- cvc: 1st 2 syllables: ---')
     countCollisionsInFile(fileName,cvc=True)
     
