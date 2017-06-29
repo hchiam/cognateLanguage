@@ -495,5 +495,5 @@ gwansobar,about,gwanyu,sobre,bare,an,o,c
 cahaywada,yeah,ca,si,ha,aywa,da,d
 reabigdisadjan,actually,djanda,realmente,satcmutc,bigad,distvitilna,d
 tcinabdaykardob,nice,tcintcye,amable,daya,karim,dobri,d
-kabkruenirgayzloy,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,d
-yisenanrznat,meaning,yi,sentido,arth,mana,znatceniye,t
+kaybkruenirzloy,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,d
+yisenanznart,meaning,yi,sentido,arth,mana,znatceniye,t
