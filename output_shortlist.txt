@@ -489,3 +489,11 @@ mordzwanbegfyal,purple,dzasa,morado,begni,ardjwani,fyaletavi,d
 dzonarbhurbunkar,brown,dzonsa,maron,bhura,buna,karitcnivi,d
 griseramdhweys,gray,hweysa,gris,dhusar,ramadi,seri,d
 fangurosah,pink,fanhonsa,rosado,gulabi,zahri,rozavi,d
+welparkeldle,for,wela,para,kelie,le,dla,c
+buynola,dont,buyaw,no,na,la,ne,d
+gwansobar,about,gwanyu,sobre,bare,an,o,c
+cahaywada,yeah,ca,si,ha,aywa,da,d
+reabigdisadjan,actually,djanda,realmente,satcmutc,bigad,distvitilna,d
+tcinabdaykardob,nice,tcintcye,amable,daya,karim,dobri,d
+kabkruenirgayzloy,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,d
+yisenanrznat,meaning,yi,sentido,arth,mana,znatceniye,t

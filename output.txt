@@ -2246,3 +2246,14 @@ dzonarbhurbunkar,brown,dzonsa,maron,bhura,buna,karitcnivi,
 hweygriseramdhus,gray,hweysa,gris,dhusar,ramadi,seri,
 fangurosah,pink,fanhonsa,rosado,gulabi,zahri,rozavi,
 ____________________
+____________________
+Wed Jun 28 19:43:54 2017
+welparkeldle,for,wela,para,kelie,le,dla,
+buynola,dont,buyaw,no,na,la,ne,
+gwansobar,about,gwanyu,sobre,bare,an,o,
+cahaywada,yeah,ca,si,ha,aywa,da,
+reabigdisadjan,actually,djanda,realmente,satcmutc,bigad,distvitilna,
+tcinabdaykardob,nice,tcintcye,amable,daya,karim,dobri,
+kabkruenirgayzloy,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,
+yisenanrznat,meaning,yi,sentido,arth,mana,znatceniye,
+____________________
