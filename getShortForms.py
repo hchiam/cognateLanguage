@@ -8,6 +8,9 @@ def justTwoInitSylls_CVC(word):
     for vowel2 in word[afterThisIndex+1:]:
         if vowel2 in 'aeiou':
             beforeThisIndex = word[afterThisIndex+1:].index(vowel2)+1 + afterThisIndex+1
+            # if second syllable has two vowels, then ignore that final vowel to preserve two vowels/syllables per word
+            if beforeThisIndex < len(word) and word[beforeThisIndex] in 'aeiou':
+                beforeThisIndex -= 1
             break
     if beforeThisIndex!=0:
         word = word[:beforeThisIndex+1]

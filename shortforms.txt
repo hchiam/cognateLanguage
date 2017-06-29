@@ -495,5 +495,5 @@ gwansob,about
 cahay,yeah
 reab,actually
 tcinab,nice
-kaybkrue,mean
+kaybkru,mean
 yisen,meaning
