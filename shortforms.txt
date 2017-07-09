@@ -497,3 +497,6 @@ reab,actually
 tcinab,nice
 kaybkru,mean
 yisen,meaning
+degwan,care
+dcinfor,information
+cyanan,believe
