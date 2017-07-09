@@ -497,3 +497,6 @@ reabigdisadjan,actually,djanda,realmente,satcmutc,bigad,distvitilna,d
 tcinabdaykardob,nice,tcintcye,amable,daya,karim,dobri,d
 kaybkruenirzloy,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,d
 yisenanznart,meaning,yi,sentido,arth,mana,znatceniye,t
+degwanporhtamzab,care,gwancin,importa,dekhbhal,ehtam,zaboti,a
+dcinformal,information,cinci,informasyon,djankari,maluma,infarmatsiya,t
+cyanankresadver,believe,cyancin,kre,man,sadaqa,veri,a

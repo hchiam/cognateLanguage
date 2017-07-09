@@ -499,3 +499,6 @@
 +,nice,tcintcye,amable,daya,karim,dobri,
 +,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,
 +,meaning,yi,sentido,arth,mana,znatceniye,
++,care,gwancin,importa,dekhbhal,ehtam,zaboti,
++,information,cinci,informasyon,djankari,maluma,infarmatsiya,
++,believe,cyancin,kre,man,sadaqa,veri,
