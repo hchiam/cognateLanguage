@@ -3,7 +3,7 @@ from collections import Counter
 def countCollisions(entries):
     collisions = [k for k,v in Counter(entries).items() if v>1]
     num_collisions = len(collisions)
-    print('word collisions:',num_collisions,'\n',collisions)
+    print('word collisions:' + str(num_collisions) + '\n' + str(collisions))
     return num_collisions
 
 def countCollisionsInFile(filename,cv=False,cvc=False):
@@ -60,4 +60,3 @@ if __name__ == '__main__': # if running this .py file directly
     countCollisionsInFile(fileName,cv=True)
     print('\n--- cvc: 1st 2 syllables: ---')
     countCollisionsInFile(fileName,cvc=True)
-    
