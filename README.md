@@ -1,5 +1,7 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
+[ Inspired: [cognateLanguage2](https://github.com/hchiam/cognateLanguage2). ]
+
 **Short Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; use 1 mind palace journey instead of 5.  (Like a functional conlang that just has vocabulary.)  Questions?  Go [here](#questions).
 
 **Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run)
@@ -8,11 +10,11 @@
 
 ## Example 1:
 
-"you" = *["entuni"](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)*, which is a single word that embeds these words: 
- * "ni" (Chinese), 
- * "tu" (Spanish), 
- * "tum" (Hindi - more conversationally), 
- * "enta" (Arabic), and 
+"you" = *["entuni"](https://drive.google.com/open?id=0B239lCkYOdXfbHpwZjZfamNoelk)*, which is a single word that embeds these words:
+ * "ni" (Chinese),
+ * "tu" (Spanish),
+ * "tum" (Hindi - more conversationally),
+ * "enta" (Arabic), and
  * "ti" (Russian - with simplified sounds).
 
 **Memory compression**:  6 syllables total -> 3 syllables.  5 words -> 1 word.
@@ -90,7 +92,7 @@ Each word can be evaluated for optimizing word length against rough measures of 
 Sometimes I see repeating patterns and can think of shorter ways to combine the source words than the program outputs.  You can test your own "manually-created" words by entering them into `output_shortlist.txt`, along with the words from all the source languages, and then you can see the output score to see if it does better than the automatically-generated word using the same source words.  Use the following format of ordering the languages when you enter the words:  "**yournewword**,English,Chinese,Spanish,Hindi,Arabic,Russian,".
 
 For example:  (Don't forget that last comma!)
-    
+
     bwentchawrtay,good,haw,bweno,atcha,tayeb,horoci,
 
 You can try to ensure that the right words from each language are used by "manually" checking for higher-frequency words, meaning matches, using most common registers, and using only roots of words.  However, an automated search can be done with my [multiWebScraper.py](https://github.com/hchiam/webScraper/blob/master/multiWebScraper.py) to save on time, but at the cost of not double-checking for appropriate translations of intended meaning(s).
@@ -100,7 +102,7 @@ You can try to ensure that the right words from each language are used by "manua
 The spellings of the words (for all the languages) in the data/output files use approximate phonetic spellings, with all letters retaining their [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) values, except for these letters:
 * **c** : (pronounced as /[ʃ](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)/ like the "sh" in ["shoe"](https://upload.wikimedia.org/wikipedia/commons/4/44/En-us-shoe.ogg)),
 * **j** : (pronounced as /[ʒ](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)/ like the "s" in ["measure"](https://upload.wikimedia.org/wikipedia/commons/3/35/En-us-measure.ogg), or the "j" in the French word ["je"](https://upload.wikimedia.org/wikipedia/commons/c/c4/Fr-je.ogg)),
-* **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word ["yes"](https://upload.wikimedia.org/wikipedia/commons/b/b1/En-us-yes.ogg)), and 
+* **y** : (pronounced as /[j](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)/ like the "y" in the English word ["yes"](https://upload.wikimedia.org/wikipedia/commons/b/b1/En-us-yes.ogg)), and
 * **h** : (pronounced as /[h](https://upload.wikimedia.org/wikipedia/commons/d/da/Voiceless_glottal_fricative.ogg)/ or /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/, but so far /[x](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/ seems easier for me to clearly pronounce when it's next to most other consonants).
 
 This all means that the *rest* of the letters in the English alphabet are represented by the same symbol as they appear in the IPA: "b" is /b/, "d" is /d/, "e" is /e/, etc.  Even "q" is /q/!  (But you can pronounce it as /k/ if you find it hard to do.)  And depending on how your computer's font shows on your screen, "a" is /a/.
@@ -117,7 +119,7 @@ See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](h
 * `levenshteinDistance.py` is a copy of code from [https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python](https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python) from which I plan to import the function in other Python files.
 * `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
-* `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types": 
+* `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types":
  * `a` = Action/verb,
  * `d` = Descriptor/adjective/adverb,
  * `t` = Thing/noun/pronoun,
@@ -143,7 +145,7 @@ I personally use Terminal (a.k.a. command-line) to run the .py files.  For examp
 
 2. Run `cognateLanguage_CreatingList.py` (make sure `data.txt` is in the same folder).
 
-3. You can edit `output_shortlist.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. (Note:  I've added a letter at the end of each entry to identify word types for `cognateLanguage_AutoSentence.py`.) 
+3. You can edit `output_shortlist.txt` to add in your "manual" attempts at word creation, so you can compare it with the automatically-generated words. (Note:  I've added a letter at the end of each entry to identify word types for `cognateLanguage_AutoSentence.py`.)
 
 4. Run `cognateLanguage_Evaluators.py` to check out the scoring of the words in `output_shortlist.txt`.
 
