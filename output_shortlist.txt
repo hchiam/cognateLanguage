@@ -500,3 +500,6 @@ yisenanznart,meaning,yi,sentido,arth,mana,znatceniye,t
 degwanporhtamzab,care,gwancin,importa,dekhbhal,ehtam,zaboti,a
 dcinformal,information,cinci,informasyon,djankari,maluma,infarmatsiya,t
 cyanankresadver,believe,cyancin,kre,man,sadaqa,veri,a
+fanponraklasda,put,fan,pone,rakh,da,klas,a
+dikradjanospak,show,djanca,mostra,dikha,arada,pakaza,a
+eskontchipryatsankaf,hide,tsan,eskonde,tchipa,kafa,pryat,a

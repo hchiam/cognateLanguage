@@ -502,3 +502,6 @@
 +,care,gwancin,importa,dekhbhal,ehtam,zaboti,
 +,information,cinci,informasyon,djankari,maluma,infarmatsiya,
 +,believe,cyancin,kre,man,sadaqa,veri,
++,put,fan,pone,rakh,da,klas,
++,show,djanca,mostra,dikha,arada,pakaza,
++,hide,tsan,eskonde,tchipa,kafa,pryat,
