@@ -500,3 +500,6 @@ yisen,meaning
 degwan,care
 dcinfor,information
 cyanan,believe
+fanpon,put
+dikrad,show
+eskon,hide
