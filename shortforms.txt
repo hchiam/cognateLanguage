@@ -503,3 +503,6 @@ cyanan,believe
 fanpon,put
 dikrad,show
 eskon,hide
+cadun,world
+adiv,guess
+inkor,wrong

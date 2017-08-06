@@ -503,3 +503,6 @@ cyanankresadver,believe,cyancin,kre,man,sadaqa,veri,a
 fanponraklasda,put,fan,pone,rakh,da,klas,a
 dikradjanospak,show,djanca,mostra,dikha,arada,pakaza,a
 eskontchipryatsankaf,hide,tsan,eskonde,tchipa,kafa,pryat,a
+cadunilamun,world,cadjye,mundo,duniya,alam,mir,t
+adivhanumgatsay,guess,tsay,adivina,anuman,hamana,ugada,a
+inkorhatswonip,wrong,tswo,inkorekto,galat,hata,nipravilni,d

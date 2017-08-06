@@ -505,3 +505,6 @@
 +,put,fan,pone,rakh,da,klas,
 +,show,djanca,mostra,dikha,arada,pakaza,
 +,hide,tsan,eskonde,tchipa,kafa,pryat,
++,world,cadjye,mundo,duniya,alam,mir,
++,guess,tsay,adivina,anuman,hamana,ugada,
++,wrong,tswo,inkorekto,galat,hata,nipravilni,
