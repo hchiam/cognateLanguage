@@ -512,5 +512,5 @@ djyawprip,teach
 meynad,nothing
 moctot,something
 koyor,someone
-tcyanpar,wall
+stcyanpar,wall
 saqpat,ceiling

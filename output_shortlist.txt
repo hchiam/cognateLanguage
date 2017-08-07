@@ -512,5 +512,5 @@ djyawpriparansen,teach,djyaw,ensenya,parha,alama,pripada,a
 meynadkutlac,nothing,meycanma,nada,kutchnahi,lacay,nitcivo,t
 moctothalgot,something,moca,algo,kutch,haga,ctota,t
 koyorgyencahktot,someone,yoran,algyen,koy,cahsan,ktota,t
-tcyanpardivhaystin,wall,tcyan,pared,divar,hayt,stina,t
-saqpatchatetyen,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,t
+stcyanpardivhay,wall,tcyan,pared,divar,hayt,stina,t
+saqpatetchatyen,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,t
