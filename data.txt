@@ -514,3 +514,5 @@
 +,nothing,meycanma,nada,kutchnahi,lacay,nitcivo,
 +,something,moca,algo,kutch,haga,ctota,
 +,someone,yoran,algyen,koy,cahsan,ktota,
++,wall,tcyan,pared,divar,hayt,stina,
++,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,
