@@ -507,8 +507,8 @@ cadunilamun,world,cadjye,mundo,duniya,alam,mir,t
 adivhanumgatsay,guess,tsay,adivina,anuman,hamana,ugada,a
 inkorhatswonip,wrong,tswo,inkorekto,galat,hata,nipravilni,d
 klastaleynawtip,type,ley,klase,tarah,naw,tip,t
-mawhser,brain,naw,serebro,mastick,muh,mosk, t
+mawhser,brain,naw,serebro,mastick,muh,mosk,t
 djyawpriparansen,teach,djyaw,ensenya,parha,alama,pripada,a
 meynadkutlac,nothing,meycanma,nada,kutchnahi,lacay,nitcivo,t
-moctothalgot,something,moca,algo,kutch,haga,ctota, t
+moctothalgot,something,moca,algo,kutch,haga,ctota,t
 koyorgyencahktot,someone,yoran,algyen,koy,cahsan,ktota,t
