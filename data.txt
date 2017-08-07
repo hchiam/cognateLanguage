@@ -517,3 +517,4 @@
 +,wall,tcyan,pared,divar,hayt,stina,
 +,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,
 +,become,tcan,volve,ban,asbaha,stanavi,
++,shape,cin,forma,akar,cakl,forma,

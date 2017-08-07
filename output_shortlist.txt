@@ -515,3 +515,4 @@ koyorgyencahktot,someone,yoran,algyen,koy,cahsan,ktota,t
 stcyanpardivhay,wall,tcyan,pared,divar,hayt,stina,t
 saqpatetchatyen,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,t
 stcanvolesban,become,tcan,volve,ban,asbaha,stanavi,a
+cinforcakar,shape,cin,forma,akar,cakl,forma,t

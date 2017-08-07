@@ -515,3 +515,4 @@ koyor,someone
 stcyanpar,wall
 saqpat,ceiling
 stcanvol,become
+cinfor,shape
