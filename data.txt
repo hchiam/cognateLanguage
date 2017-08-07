@@ -516,3 +516,4 @@
 +,someone,yoran,algyen,koy,cahsan,ktota,
 +,wall,tcyan,pared,divar,hayt,stina,
 +,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,
++,become,tcan,volve,ban,asbaha,stanavi,

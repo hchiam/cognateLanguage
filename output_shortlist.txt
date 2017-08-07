@@ -514,3 +514,4 @@ moctothalgot,something,moca,algo,kutch,haga,ctota,t
 koyorgyencahktot,someone,yoran,algyen,koy,cahsan,ktota,t
 stcyanpardivhay,wall,tcyan,pared,divar,hayt,stina,t
 saqpatetchatyen,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,t
+stcanvolesban,become,tcan,volve,ban,asbaha,stanavi,a
