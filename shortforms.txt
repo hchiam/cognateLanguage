@@ -507,7 +507,7 @@ cadun,world
 adiv,guess
 inkor,wrong
 klastal,type
-nawmas,brain
+mawhser,brain
 djyawprip,teach
 meynad,nothing
 moctot,something
