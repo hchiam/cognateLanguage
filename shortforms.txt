@@ -514,3 +514,4 @@ moctot,something
 koyor,someone
 stcyanpar,wall
 saqpat,ceiling
+stcanvol,become
