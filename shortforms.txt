@@ -516,3 +516,6 @@ stcyanpar,wall
 saqpat,ceiling
 stcanvol,become
 cinfor,shape
+gweykar,expensive
+pyenbar,cheap
+ermos,beautiful

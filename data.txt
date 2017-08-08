@@ -518,3 +518,6 @@
 +,ceiling,tyenhwaban,tetco,tchat,saqf,patalok,
 +,become,tcan,volve,ban,asbaha,stanavi,
 +,shape,cin,forma,akar,cakl,forma,
++,expensive,gwey,karo,mahaga,gali,daragoy,
++,cheap,pyenyi,barato,sasta,rihis,dicovi,
++,beautiful,mey,ermoso,sundar,gamil,krasivi,
