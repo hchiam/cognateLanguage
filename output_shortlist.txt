@@ -518,4 +518,4 @@ stcanvolesban,become,tcan,volve,ban,asbaha,stanavi,a
 cinforcakar,shape,cin,forma,akar,cakl,forma,t
 gweykarmahdar,expensive,gwey,karo,mahaga,gali,daragoy,d
 pyenbarihdisas,cheap,pyenyi,barato,sasta,rihis,dicovi,d
-ermosungameykras,beautiful,mey,ermoso,sundar,gamil,krasivi,d
+gamermeykrasun,beautiful,mey,ermoso,sundar,gamil,krasivi,d

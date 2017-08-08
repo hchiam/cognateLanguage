@@ -518,4 +518,4 @@ stcanvol,become
 cinfor,shape
 gweykar,expensive
 pyenbar,cheap
-ermos,beautiful
+gamer,beautiful
