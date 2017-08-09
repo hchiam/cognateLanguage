@@ -530,7 +530,7 @@ panbegakbubey,bagel,beygwo,panesiyo,begalroti,kak,bublik,t
 cyanozbankel,banana,cyandjyaw,banana,kela,moza,banan,t
 dowfrihfasembop,bean,dow,frihol,sem,fasuliya,bop,t
 monyorbakargav,beef,nyorow,karnedevaka,momas,baqar,gavadina,t
-pidserbiybirpiv,beer,pidjyow,servesa,biyar,bira,piva,t
+pidserbirv,beer,pidjyow,servesa,biyar,bira,piva,t
 rotchlepamyen,bread,myenbaw,pan,roti,ec,hlep,t
 hwananakmazeb,butter,hwanyow,mantekiya,makhan,zebda,masla,t
 danpaskektor,cake,dangaw,pastel,kek,keka,tort,t
