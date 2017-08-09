@@ -526,7 +526,7 @@ tcakud,knife
 tretwop,tray
 tsaymen,menu
 sepin,apple
-panbeg,bagel
+bupan,bagel
 cyanoz,banana
 dowfrih,bean
 monyor,beef

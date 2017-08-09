@@ -526,7 +526,7 @@ tcakudawnoc,knife,daw,kutciyo,tcaqu,sikina,noc,t
 tretwopansin,tray,twopan,bandeha,tre,siniya,latok,t
 tsaymenqai,menu,tsaydan,menu,menu,qaima,minu,t
 sepinantufyab,apple,pingwo,mansana,seb,tufaha,yablaka,t
-panbegakbubey,bagel,beygwo,panesiyo,begalroti,kak,bublik,t
+bupanbeygak,bagel,beygwo,panesiyo,begalroti,kak,bublik,t
 cyanozbankel,banana,cyandjyaw,banana,kela,moza,banan,t
 dowfrihfasembop,bean,dow,frihol,sem,fasuliya,bop,t
 monyorbakargav,beef,nyorow,karnedevaka,momas,baqar,gavadina,t
