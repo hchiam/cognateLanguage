@@ -689,7 +689,7 @@ S'adyoslalvidzaypak'
 p344
 sS'sauce'
 p345
-S'tcadjyansosalsou'
+S'tcadjyansols'
 p346
 sS'split'
 p347
@@ -1317,7 +1317,7 @@ S'fankosihay'
 p658
 sS'nut'
 p659
-S'akhrodjyenwesdjawreh'
+S'akhrehdjyawnwes'
 p660
 sS'freeze'
 p661
@@ -2129,7 +2129,7 @@ S'dznovphirtan'
 p1064
 sS'spice'
 p1065
-S'especyanastawpran'
+S'pramaspecyantaw'
 p1066
 sS'no'
 p1067

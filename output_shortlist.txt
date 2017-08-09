@@ -544,14 +544,14 @@ binutismalad,icecream,bintcilin,elado,aiskrim,mutaladjat,marojinaya,t
 djarasokhug,juice,dja,hugo,ras,asir,sok,t
 fanked,ketchup,fantcyedjyan,kedtcub,ketcap,katcab,ketcup,t
 yankorzigmem,lamb,yan,kordero,memna,uzi,ignonak,t
-akhrodjyenwesdjawreh,nut,djyengwo,nwes,akhrot,djawza,areh,t
+akhrehdjyawnwes,nut,djyengwo,nwes,akhrot,djawza,areh,t
 bispit,pizza,bisa,pitsa,piza,bitza,pitsa,t
 djursuahinsvin,pork,djurow,serdo,suar,hinzir,svinina,t
 malupapatkar,potato,malincu,papa,alu,batatis,kartofil,t
 mirostcav,rice,mi,aros,tcaval,ruz,ris,t
-tcadjyansosalsou,sauce,djyan,salsa,tcatni,sos,sous,t
+tcadjyansols,sauce,djyan,salsa,tcatni,sos,sous,t
 cyadjikamkriv,shrimp,cya,kamaron,djiga,gambari,krivetka,t
 tanhasop,soup,tan,sopa,sup,hasa,sup,t
-especyanastawpran,spice,cyanlyaw,espesya,masala,tawabel,pranast,t
+pramaspecyantaw,spice,cyanlyaw,espesya,masala,tawabel,pranast,t
 viniputcar,wine,putawdjyow,vino,carab,nibit,vino,t
 swanyogdahzab,yogurt,swanay,yogur,dahi,zabadi,yogurt,t

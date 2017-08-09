@@ -544,7 +544,7 @@ binut,icecream
 djaras,juice
 fanked,ketchup
 yankor,lamb
-akhrod,nut
+akhreh,nut
 bispit,pizza
 djursu,pork
 malup,potato
@@ -552,6 +552,6 @@ miros,rice
 tcadjyan,sauce
 cyadjik,shrimp
 tanhas,soup
-espec,spice
+pramas,spice
 vinip,wine
 swanyog,yogurt
