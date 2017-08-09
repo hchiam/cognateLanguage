@@ -519,3 +519,5 @@ cinfor,shape
 gweykar,expensive
 pyenbar,cheap
 gamer,beautiful
+feoq,ugly
+tihked,scissors
