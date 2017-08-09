@@ -869,7 +869,7 @@ S'ispan'
 p434
 sS'scissors'
 p435
-S'tihkedjyenaqnoj'
+S'tihmakedjyenoj'
 p436
 sS'thick'
 p437

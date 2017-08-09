@@ -520,4 +520,4 @@ gweykarmahdar,expensive,gwey,karo,mahaga,gali,daragoy,d
 pyenbarihdisas,cheap,pyenyi,barato,sasta,rihis,dicovi,d
 gamermeykrasun,beautiful,mey,ermoso,sundar,gamil,krasivi,d
 feoqabatcowrod,ugly,tcow,feo,badsurat,qabih,urodlivi,d
-tihkedjyenaqnoj,scissors,djyendaw,tihera,ketci,maqas,nojnitsi,t
+tihmakedjyenoj,scissors,djyendaw,tihera,ketci,maqas,nojnitsi,t
