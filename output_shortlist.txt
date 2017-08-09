@@ -537,7 +537,7 @@ danpaskektor,cake,dangaw,pastel,kek,keka,tort,t
 tcyawtcok,chocolate,tcyawkali,tcokolate,tcaklet,cokolata,cikalat,t
 kesilawgepan,cheese,law,keso,panir,gebna,sir,t
 kafqah,coffee,kafey,kafe,kofi,qahwa,kofe,t
-umiimakukdur,corn,umi,mais,maka,dura,kukuruza,t
+umaikukdur,corn,umi,mais,maka,dura,kukuruza,t
 tyenrosdonpon,donut,tyentyentcwen,roskiya,donat,dunat,pontcik,t
 ragpanuqhat,hotdog,ragow,pantco,hatdag,nuqaniq,hodok,t
 binutismalad,icecream,bintcilin,elado,aiskrim,mutaladjat,marojinaya,t

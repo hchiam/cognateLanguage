@@ -1885,7 +1885,7 @@ S'frotakmarowtir'
 p942
 sS'corn'
 p943
-S'umiimakukdur'
+S'umaikukdur'
 p944
 sS'night'
 p945

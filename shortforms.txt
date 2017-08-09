@@ -537,7 +537,7 @@ danpas,cake
 tcyawtcok,chocolate
 kesil,cheese
 kafqah,coffee
-umi,corn
+uma,corn
 tyenros,donut
 ragpan,hotdog
 binut,icecream
