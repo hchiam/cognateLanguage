@@ -555,3 +555,4 @@ tanhasop,soup,tan,sopa,sup,hasa,sup,t
 pramaspecyantaw,spice,cyanlyaw,espesya,masala,tawabel,pranast,t
 viniputcar,wine,putawdjyow,vino,carab,nibit,vino,t
 swanyogdahzab,yogurt,swanay,yogur,dahi,zabadi,yogurt,t
+famantarspos,way,fanfa,manera,tarah,tariqa,sposap,t

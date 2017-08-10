@@ -555,3 +555,4 @@ tanhas,soup
 pramas,spice
 vinip,wine
 swanyog,yogurt
+faman,way
