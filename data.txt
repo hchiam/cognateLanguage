@@ -557,3 +557,4 @@
 +,spice,cyanlyaw,espesya,masala,tawabel,pranast,
 +,wine,putawdjyow,vino,carab,nibit,vino,
 +,yogurt,swanay,yogur,dahi,zabadi,yogurt,
++,way,fanfa,manera,tarah,tariqa,sposap,
