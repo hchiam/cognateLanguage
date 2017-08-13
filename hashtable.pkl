@@ -2033,7 +2033,7 @@ S'perekacno'
 p1016
 sS'idea'
 p1017
-S'ideavidjuyfikmis'
+S'vidjeyfikmis'
 p1018
 sS'hi'
 p1019
