@@ -556,3 +556,5 @@ pramas,spice
 vinip,wine
 swanyog,yogurt
 faman,way
+ide,idea
+guctor,story
