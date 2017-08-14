@@ -1,6 +1,7 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
 [ Inspired: [cognateLanguage2](https://github.com/hchiam/cognateLanguage2). ]
+
 [ Inspired: [cogLang-geneticAlgo](https://github.com/hchiam/cogLang-geneticAlgo). ]
 
 **Plain English Description**:  The goal of this project's code is to generate a list of words that allow you to learn words from 5 languages, by learning words from just 1 list instead of 5 separate lists.  If you just want to get the gist of a sentence in any of those 5 languages, you could get there more efficiently with simple *recognition* (of root words), not *production* (of grammatically-correct words/sentences).  Proper memory techniques should apply the same way as if you were learning any other language, and can compensate for any longer words (but there are also short forms for each word in this "cognate language").
