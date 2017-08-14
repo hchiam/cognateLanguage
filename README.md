@@ -2,11 +2,13 @@
 
 [ Inspired: [cognateLanguage2](https://github.com/hchiam/cognateLanguage2). ]
 
-**Short Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; use 1 mind palace journey instead of 5.  (Like a functional conlang that just has vocabulary.)  Questions?  Go [here](#questions).
+**Plain English Description**:  The goal of this project's code is to generate a list of words that allow you to learn words from 5 languages, by learning words from just 1 list instead of 5 separate lists.  If you just want to get the gist of a sentence in any of those 5 languages, you could get there more efficiently with simple *recognition* (of root words), not *production* (of grammatically-correct words/sentences).  Proper memory techniques should apply the same way as if you were learning any other language, and can compensate for any longer words (but there are also short forms for each word in this "cognate language").
+
+**Technical Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; for example, use 1 mind palace journey instead of 5.  This "cognate language" is like a functional conlang that just has vocabulary.  Got questions?  Go [here](#questions).
 
 **Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run)
 
-**Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  It might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
+**Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  To get an idea of what visual/emotional/well-connected mnemonics are like, it might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
 ## Example 1:
 
@@ -23,21 +25,11 @@
 
 ## Example 2: with longer source words
 
-"queue" = *["paykatcirsafil"](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)* (sounds like "*pie catchers of Phil*"), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
+"queue" = *["paykatcirsafil"](https://drive.google.com/open?id=0B239lCkYOdXfaWVnTFdfek1iaVE)* (sounds like "*pie catchers of Phil*", as if people are in line to watch some strange food circus), which corresponds to "paydwe", "fila", "katar", "saf", and "otcirit", in their respective languages, with the simplified [pronunciation](#4-how-do-i-pronounce-the-words) used by this project.
 
 **Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (The vocab list generator only incorporates the first syllables from each source word because they're usually the most easily recognizable---think abbreviations.  Different languages have different priorities/weights in terms of which overlapping letters are chosen, for highest ROI.)
 
-## Example 3: with a more creative mnemonic
-
-"east" = *["purcarvasdon"](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ)*, which compresses these 5 words and serves to aid recognition of words by their beginning sounds:  "don", "este", "purva", "carq", and "vastok".
-
-**Memory compression**:  8 syllables total -> 4 syllables.  5 words -> 1 word.
-
-**Mnemonic, shortened**:  Sounds like ["Porsche rivers down"](https://drive.google.com/open?id=0B239lCkYOdXfdjZETnpVVDVKazQ).  (This one's a near homophone too.)
-
-**...Or more concretely**:  Imagine Eurus the robber driving a *Porsche* (east-ward), crashing through a few *rivers* before finally sinking *down*---I guess it was a bad decision to drive *east* that day.  *"Porsche rivers down"*.
-
-With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources above also makes it more enjoyable to learn the words, all while also knowing you're packaging multiple words into single words.
+With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources linked above also makes it more enjoyable to learn the words, all while also knowing you're packing multiple words into single words.
 
 > ["Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?"](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)
 
@@ -120,10 +112,10 @@ See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](h
 * `levenshteinDistance.pyc` is the compiled that might be used to make the code compile faster.  (This file isn't really required to run the other files as it's automatically generated anyways.)
 * `levenshteinDistance_Test.py` lets you do quick tests:  import the Levenshtein distance function, and test calculation inputs.
 * `cognateLanguage_AutoSentence.py` automatically creates sentences based on very simple word "types":
- * `a` = Action/verb,
- * `d` = Descriptor/adjective/adverb,
- * `t` = Thing/noun/pronoun,
- * `c` = Connector/preposition.
+  * `a` = Action/verb,
+  * `d` = Descriptor/adjective/adverb,
+  * `t` = Thing/noun/pronoun,
+  * `c` = Connector/preposition.
 * `repeatTranslation.py` is the code behind [the trinket.io interface](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run).  It also lets you run translations just like `cognateLanguage_Translate.py` in Terminal/CommandLine.  This .py file also accounts for different Python versions (e.g. 3.0 versus 2.7).
 * `geneticAlgo.py` uses a genetic algorithm to generate words. See it [here](https://github.com/hchiam/cognateLanguage/blob/master/geneticAlgorithm/geneticAlgo.py).
 
