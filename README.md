@@ -117,7 +117,7 @@ See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](h
   * `t` = Thing/noun/pronoun,
   * `c` = Connector/preposition.
 * `repeatTranslation.py` is the code behind [the trinket.io interface](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run).  It also lets you run translations just like `cognateLanguage_Translate.py` in Terminal/CommandLine.  This .py file also accounts for different Python versions (e.g. 3.0 versus 2.7).
-* `geneticAlgo.py` uses a genetic algorithm to generate words. See it [here](https://github.com/hchiam/cognateLanguage/blob/master/geneticAlgorithm/geneticAlgo.py).
+* `geneticAlgo.py` uses a genetic algorithm to generate words. See it [here](https://github.com/hchiam/cogLang-geneticAlgo).
 
 # 6) How Do I Remember Such Long Words?
 
