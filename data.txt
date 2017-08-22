@@ -559,3 +559,5 @@
 +,way,fanfa,manera,tarah,tariqa,sposap,
 +,idea,djuyi,idea,vitcar,fikra,misli,
 +,story,guca,istorya,kahani,qisa,istoriya,
++,source,ganywen,fwente,srot,masdar,istotcnik,
++,special,tabye,espesyal,vicec,has,asobi,

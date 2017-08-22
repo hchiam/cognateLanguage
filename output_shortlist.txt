@@ -558,3 +558,5 @@ swanyogdahzab,yogurt,swanay,yogur,dahi,zabadi,yogurt,t
 famantarspos,way,fanfa,manera,tarah,tariqa,sposap,t
 vidjeyfikmis,idea,djuyi,idea,vitcar,fikra,misli,t
 guctorkah,story,guca,istorya,kahani,qisa,istoriya,t
+gamastotfwensrot,source,ganywen,fwente,srot,masdar,istotcnik,t
+tabvispesobhas,special,tabye,espesyal,vicec,has,asobi,d

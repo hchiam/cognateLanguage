@@ -558,3 +558,5 @@ swanyog,yogurt
 faman,way
 vidjey,idea
 guctor,story
+gamas,source
+tabvis,special
