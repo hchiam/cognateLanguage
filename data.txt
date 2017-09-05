@@ -561,3 +561,4 @@
 +,story,guca,istorya,kahani,qisa,istoriya,
 +,source,ganywen,fwente,srot,masdar,istotcnik,
 +,special,tabye,espesyal,vicec,has,asobi,
++,dot,dyen,punto,bindu,nuqta,totcka,

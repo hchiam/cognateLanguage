@@ -560,3 +560,4 @@ vidjey,idea
 guctor,story
 gamas,source
 tabvis,special
+puntod,dot
