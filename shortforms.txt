@@ -561,3 +561,4 @@ guctor,story
 gamas,source
 tabvis,special
 puntod,dot
+hayiz,still
