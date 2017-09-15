@@ -562,3 +562,9 @@ gamas,source
 tabvis,special
 puntod,dot
 hayiz,still
+castah,am
+castah,is
+castah,are
+dzwosek,does
+cabuk,literal
+biyfig,figurative
