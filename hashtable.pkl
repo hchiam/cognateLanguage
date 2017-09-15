@@ -369,7 +369,7 @@ S'ardvostnen'
 p184
 sS'figurative'
 p185
-S'biyfigmagpilak'
+S'biyfiglakmagbraz'
 p186
 sS'few'
 p187
@@ -2009,7 +2009,7 @@ S'vihentanal'
 p1004
 sS'literal'
 p1005
-S'cabukhalidzam'
+S'harbukcalidzam'
 p1006
 sS'fast'
 p1007

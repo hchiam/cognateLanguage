@@ -566,5 +566,5 @@ castah,am
 castah,is
 castah,are
 dzwosek,does
-cabuk,literal
+harbuk,literal
 biyfig,figurative

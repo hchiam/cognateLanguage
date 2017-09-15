@@ -563,5 +563,5 @@
 +,special,tabye,espesyal,vicec,has,asobi,
 +,dot,dyen,punto,bindu,nuqta,totcka,
 +,still,hay,todavia,abtak,zala,yico,
-+,literal,dzamyen,literal,cabdik,harfi,bukvalni,
-+,figurative,biyu,figurativo,lakcanik,magazi,pirinosni,
++,literal,dzamyen,literal,akcarik,harfi,bukvalni,
++,figurative,biyu,figurativo,lakcanik,magazi,obrazna,
