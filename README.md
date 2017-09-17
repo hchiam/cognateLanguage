@@ -6,7 +6,7 @@
 
 **Technical Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; for example, use 1 mind palace journey instead of 5.  This "cognate language" is like a functional conlang that just has vocabulary.  Got questions?  Go [here](#questions).
 
-**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run)
+**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run)
 
 **Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  To get an idea of what visual/emotional/well-connected mnemonics are like, it might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
@@ -116,7 +116,7 @@ See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](h
   * `d` = Descriptor/adjective/adverb,
   * `t` = Thing/noun/pronoun,
   * `c` = Connector/preposition.
-* `repeatTranslation.py` is the code behind [the trinket.io interface](https://trinket.io/python3/0db63b65e6?outputOnly=true&runOption=run).  It also lets you run translations just like `cognateLanguage_Translate.py` in Terminal/CommandLine.  This .py file also accounts for different Python versions (e.g. 3.0 versus 2.7).
+* `repeatTranslation.py` is the code behind [the trinket.io interface](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run).  It also lets you run translations just like `cognateLanguage_Translate.py` in Terminal/CommandLine.  This .py file also accounts for different Python versions (e.g. 3.0 versus 2.7).
 * `geneticAlgo.py` uses a genetic algorithm to generate words. See it [here](https://github.com/hchiam/cogLang-geneticAlgo).
 
 # 6) How Do I Remember Such Long Words?
