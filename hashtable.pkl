@@ -2133,7 +2133,7 @@ S'danpaskektor'
 p1066
 sS'problem'
 p1067
-S'wanusamprob'
+S'wamusamprob'
 p1068
 sS'grass'
 p1069

@@ -371,7 +371,7 @@ biket,than
 dznovphir,again
 kencto,thats
 dzwemas,most
-wanus,problem
+wamus,problem
 djyedsol,solution
 wanput,ask
 hwetved,answer

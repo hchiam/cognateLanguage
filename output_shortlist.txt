@@ -371,7 +371,7 @@ biketsemen,than,bi,ke,se,men,tcem,c
 dznovphirtan,again,dzay,denwevo,phir,tani,snova,c
 kencto,thats,,ke,ki,in,cto,c
 dzwemasabnayl,most,dzwe,mas,sabse,al,nay,d
-wanusamprob,problem,wanti,problema,samasya,muckila,prablema,t
+wamusamprob,problem,wanti,problema,samasya,muckila,prablema,t
 djyedsolicpayhal,solution,djyeda,solusyon,upay,hal,ricenye,t
 wanputspragsal,ask,wan,pregunta,putch,sala,sprasi,a
 hwetvedjabres,answer,hweda,responde,djavab,adjaba,atveti,a
