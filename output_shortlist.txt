@@ -284,7 +284,7 @@ dibisfardiypol,floor,diban,piso,farc,ardiya,pol,t
 djinirspehdarzer,mirror,djindza,espeho,darpan,miraya,zerkala,t
 cwetsinifregbal,sink,cwetsaw,fregadero,sink,baluwa,umivalnik,t
 iyanizabvahtaj,same,iyan,mizmo,vahi,cabah,taje,d
-gracyecukdhanspas,thankyou,cyecye,grasyas,dhanyavad,cukran,spasiba,d
+gracyecukdhanspas,thanks,cyecye,grasyas,dhanyavad,cukran,spasiba,d
 tcumsar,feel,tcumo,senti,masus,cara,tcustva,a
 masdjyadwoktarbol,more,dwo,mas,djyada,aktar,bolci,d
 cawkamenqal,less,caw,menos,kam,aqal,menci,d
