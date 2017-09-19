@@ -284,7 +284,7 @@ dibis,floor
 djinir,mirror
 cwetsin,sink
 iyan,same
-gracyec,thankyou
+gracyec,thank
 tcumsar,feel
 masdjyad,more
 cawkam,less
