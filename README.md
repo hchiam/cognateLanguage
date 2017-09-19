@@ -8,6 +8,8 @@
 
 **Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run)
 
+Web API version: [https://github.com/hchiam/coglang-translator](https://github.com/hchiam/coglang-translator)
+
 **Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  To get an idea of what visual/emotional/well-connected mnemonics are like, it might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
 ## Example 1:
