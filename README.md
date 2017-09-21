@@ -8,7 +8,7 @@
 
 **Just want to test out some translations?**  Go to [this website](https://codepen.io/hchiam/full/JrKBgZ) to run the code in your browser:  [https://codepen.io/hchiam/full/JrKBgZ](https://codepen.io/hchiam/full/JrKBgZ)
 
-Web API version: [https://github.com/hchiam/coglang-translator](https://github.com/hchiam/coglang-translator)
+Web API version: [https://codepen.io/hchiam/full/JrKBgZ](https://codepen.io/hchiam/full/JrKBgZ)
 
 **Learning Prereq**:  Effective mnemonics, i.e. memory aids (see the ones on Memrise for the kinds described under [http://www.memrise.com/science/](http://www.memrise.com/science/)).  I'm not talking about things like acrostics and first-letter memory aids.  To get an idea of what visual/emotional/well-connected mnemonics are like, it might help to google ["Benny Lewis imagination"](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/) and ["Ron White mind palace"](https://www.youtube.com/watch?v=3vlpQHJ09do).  These are the kinds of memory techniques also described in Barbara Oakley's "A Mind for Numbers" and Cal Newport's "Deep Work".
 
