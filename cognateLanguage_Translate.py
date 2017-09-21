@@ -53,18 +53,18 @@ def formatInput(input):
     # remove punctuation from input, except for '?'
     exclude = set(string.punctuation)
     input = ''.join(ch for ch in input if (ch not in exclude or ch == '?'))
-    
+
     # add space before '?' to enable replacing with question particle word
     input = input.replace('?',' ?')
-    
+
     # make input all lowercase
     input = input.lower()
-    
+
     # remove repeating spaces from what remains
     input = re.sub(' +', ' ', input)
-    
+
     # print (input) # debug output
-    
+
     return input
 
 filename = 'hashtable.pkl' # 'output_shortlist.txt'
@@ -72,22 +72,22 @@ data = {}
 input = ''
 translation = '< Translation Not Found. >'
 
-input = raw_input('Enter English word or sentence gloss to translate:\n\t')
+input = raw_input('Enter English word or sentence gloss to translate [and then hit Enter key]:\n\t')
 
 input = formatInput(input)
 
 if input != "":
-    
+
     translation = ''
     shortTranslation = ''
     trackLastLetterOfLastWord = ''
-    
+
     # get hashtable file into a dictionary
     data = readFileToDict(filename)
-    
+
     # detect CogLang as input by checking if input is one abnormally long 'word' (and isn't found to be an English entry) and other indicators
     if (' ' not in input and input not in data and len(input) >= 9 and isEven(vowelGroupCount(input))):
-        
+
         # split input into words by every 2nd vowel (and final consonant of sentence-word)
         newInput = []
         while len(input) > 1:
@@ -97,17 +97,17 @@ if input != "":
             else:
                 newInput.append(input)
             input = input[nextIndex+1:]
-        
+
         # get .txt file file into a dictionary
         filename = 'output_shortlist.txt'
         with open(filename,'r') as f:
             data = f.readlines()
         data = [line.strip() for line in data]
-        
+
         for word in newInput:
-            
+
             translationFound = False
-            
+
             # search list for reverse word translation to English
             for line in data:
                 if line != '\n' and ',' in line:
@@ -120,27 +120,27 @@ if input != "":
                         else:
                             translation = translation[:-1] + translatedWord + '?'
                         translationFound = True
-            
+
             # add in '?' for words not found
             if translationFound == False:
                 translation += '[?]' + ' '
         shortTranslation = "(N/A for English.)"
-        
+
     else: # otherwise English sentence detected --> translate to Coglang
-        
+
         # split input into words
         input = input.split(' ')
-        
+
         for word in input:
-            
+
             translationFound = False
-            
+
             # # search for word translation in list
-            
+
             # account for plural nouns or 2nd person singular verbs
             if word not in data and word[-1] == 's' and word[:-1] in data:
                 word = word[:-1]
-            
+
             # search for word translation in data ("data" is a hashtable/dictionary)
             if word in data:
                 translatedWord = data[word]
@@ -149,7 +149,7 @@ if input != "":
                 shortTranslation += ' ' + shortTranslatedWord
                 translation += translatedWord + ' '
                 translationFound = True
-                
+
             # add in '?' for words not found
             if translationFound == False:
                 translation += '[?]' + ' '

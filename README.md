@@ -6,7 +6,7 @@
 
 **Technical Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; for example, use 1 mind palace journey instead of 5.  This "cognate language" is like a functional conlang that just has vocabulary.  Got questions?  Go [here](#questions).
 
-**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run)
+**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run](https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run)
 
 Web API version: [https://github.com/hchiam/coglang-translator](https://github.com/hchiam/coglang-translator)
 
@@ -118,7 +118,7 @@ See [https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants](h
   * `d` = Descriptor/adjective/adverb,
   * `t` = Thing/noun/pronoun,
   * `c` = Connector/preposition.
-* `repeatTranslation.py` is the code behind [the trinket.io interface](https://trinket.io/python3/145adcb330?outputOnly=true&runOption=run).  It also lets you run translations just like `cognateLanguage_Translate.py` in Terminal/CommandLine.  This .py file also accounts for different Python versions (e.g. 3.0 versus 2.7).
+* `repeatTranslation.py` is the code behind [the trinket.io interface](https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run).  It also lets you run translations just like `cognateLanguage_Translate.py` in Terminal/CommandLine.  This .py file also accounts for different Python versions (e.g. 3.0 versus 2.7).
 * `geneticAlgo.py` uses a genetic algorithm to generate words. See it [here](https://github.com/hchiam/cogLang-geneticAlgo).
 
 # 6) How Do I Remember Such Long Words?

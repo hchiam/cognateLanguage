@@ -54,9 +54,9 @@ while keepGoing:
     shortTranslation = '< Translation Not Found. >'
 
     if (sys.version_info > (3, 0)):
-        inputData = input('Enter English word or sentence gloss to translate:\n\t')
+        inputData = input('Enter English word or sentence gloss to translate [and then hit Enter key]:\n\t')
     else:
-        inputData = raw_input('Enter English word or sentence gloss to translate:\n\t')
+        inputData = raw_input('Enter English word or sentence gloss to translate [and then hit Enter key]:\n\t')
 
     # remove punctuation from inputData, except for '?'
     exclude = set(string.punctuation)
@@ -122,7 +122,7 @@ while keepGoing:
     print ('Short Translation:\n\t' + shortTranslation)
 
     if (sys.version_info > (3, 0)):
-        userResponse = input('Another sentence? (y/n):\n\t').lower()
+        userResponse = input('Another sentence? (y/n) [and then hit Enter key]:\n\t').lower()
     else:
-        userResponse = raw_input('Another sentence? (y/n):\n\t').lower()
+        userResponse = raw_input('Another sentence? (y/n) [and then hit Enter key]:\n\t').lower()
     keepGoing = ('y' == userResponse) or ('yes' == userResponse)
