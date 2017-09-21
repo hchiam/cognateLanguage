@@ -6,7 +6,7 @@
 
 **Technical Description**:  Expand your [receptive vocabulary](https://en.wikipedia.org/wiki/Vocabulary#Productive_and_receptive) in multiple languages at the same time by using a vocab list generated to maximize multi-lingual "cognacy" while compressing/chunking memory usage; for example, use 1 mind palace journey instead of 5.  This "cognate language" is like a functional conlang that just has vocabulary.  Got questions?  Go [here](#questions).
 
-**Just want to test out some translations?**  Go to [this website](https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run) to run the code in your browser:  [https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run](https://trinket.io/python3/80ac3c35c6?outputOnly=true&runOption=run)
+**Just want to test out some translations?**  Go to [this website](https://codepen.io/hchiam/full/JrKBgZ) to run the code in your browser:  [https://codepen.io/hchiam/full/JrKBgZ](https://codepen.io/hchiam/full/JrKBgZ)
 
 Web API version: [https://github.com/hchiam/coglang-translator](https://github.com/hchiam/coglang-translator)
 
