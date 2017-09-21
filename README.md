@@ -31,6 +31,12 @@ Web API version: [https://codepen.io/hchiam/full/JrKBgZ](https://codepen.io/hchi
 
 **Memory compression:**  10 syllables total -> 5 syllables.  5 words -> 1 word.  (The vocab list generator only incorporates the first syllables from each source word because they're usually the most easily recognizable---think abbreviations.  Different languages have different priorities/weights in terms of which overlapping letters are chosen, for highest ROI.)
 
+## Example 3:
+
+"heal" = "yidcankuritcaf" (sounds like "itchin', cure it chef!").
+
+...
+
 With the right preparation, the memorization process is faster to do than to explain.  The visual imagination bit described in the various sources linked above also makes it more enjoyable to learn the words, all while also knowing you're packing multiple words into single words.
 
 > ["Entuni yawizkertcahot djidjansabrefzna yuyazlenbhaclog tonkogartmiy?"](https://drive.google.com/open?id=0B239lCkYOdXfdDJRVlpsb3BFTE0)
