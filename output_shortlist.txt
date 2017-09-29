@@ -561,7 +561,7 @@ guctorkah,story,guca,istorya,kahani,qisa,istoriya,t
 gamastotfwensrot,source,ganywen,fwente,srot,masdar,istotcnik,t
 tabvispesobhas,special,tabye,espesyal,vicec,has,asobi,d
 puntodyenuq,dot,dyen,punto,bindu,nuqta,totcka,t
-hayizaltodbtak,still,hay,todavia,abtak,zala,yico,d
+hayizaltodabtak,still,hay,todavia,abtak,zala,yico,d
 castahokanbi,am,ca,esta,ho,kana,bi,a
 castahokanbi,is,ca,esta,ho,kana,bi,a
 castahokanbi,are,ca,esta,ho,kana,bi,a
