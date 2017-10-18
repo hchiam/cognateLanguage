@@ -568,5 +568,5 @@ castah,are
 dzwosek,does
 harbuk,literal
 biyfig,figurative
-lasub,garbage
-bawbol,bag
+katmuz,garbage
+balsum,bag

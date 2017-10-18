@@ -1317,7 +1317,7 @@ S'hatnakitcutvit'
 p658
 sS'bag'
 p659
-S'bawbolbegisum'
+S'balsumki'
 p660
 sS'bad'
 p661
@@ -1989,7 +1989,7 @@ S'sofbarwanprag'
 p994
 sS'garbage'
 p995
-S'lasubaskatmus'
+S'katmuzubalas'
 p996
 sS'float'
 p997
