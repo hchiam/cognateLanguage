@@ -565,3 +565,5 @@
 +,still,hay,todavia,abtak,zala,yico,
 +,literal,dzamyen,literal,akcarik,harfi,bukvalni,
 +,figurative,biyu,figurativo,lakcanik,magazi,obrazna,
++,garbage,lasa,basura,katcra,zubala,musar,
++,bag,baw,bolsa,beg,kisa,sumka,
