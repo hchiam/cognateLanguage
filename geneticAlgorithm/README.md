@@ -1,3 +1,3 @@
 # Genetic Algorithm
 
-This project has moved! Go here: https://github.com/hchiam/cogLang-geneticAlgo
+This sub-project has moved! Go here: https://github.com/hchiam/cogLang-geneticAlgo
