@@ -6,7 +6,7 @@ def countCollisions(entries):
     print('word collisions:' + str(num_collisions) + '\n' + str(collisions))
     return num_collisions
 
-def countCollisionsInFile(filename,cv=False,cvc=False):
+def countCollisionsInFile(filename,cv=False,cvc=False,allofinal=False):
     entries = []
     with open(filename,'r') as f:
         for line in f:
@@ -16,6 +16,8 @@ def countCollisionsInFile(filename,cv=False,cvc=False):
                 entry = justTwoInitSylls_CV(entry)
             elif cvc:
                 entry = justTwoInitSylls_CVC(entry)
+            elif allofinal:
+                entry = justTwoInitSylls_CVC_AlloFinal(entry)
             entries.append(entry)
     return countCollisions(entries)
 
@@ -52,6 +54,23 @@ def justTwoInitSylls_CVC(word):
         word = word[:beforeThisIndex+1]
     return word
 
+def justTwoInitSylls_CVC_AlloFinal(word):
+    word = list(justTwoInitSylls_CVC(word))
+    allophones = {
+        'e':'a', 'i':'a', 'o':'a', 'u':'a',
+        'p':'b',
+        'c':'z', 'j':'z', 's':'z',
+        't':'d',
+        'f':'v',
+        'k':'g', 'q':'g',
+        'x':'h',
+        'r':'l',
+        'n':'m'
+    }
+    if word[-1] in allophones:
+        word[-1] = allophones[word[-1]]
+    return ''.join(word)
+
 if __name__ == '__main__': # if running this .py file directly
     fileName = 'output_shortlist.txt'
     print('\n--- whole words: ---')
@@ -60,3 +79,5 @@ if __name__ == '__main__': # if running this .py file directly
     countCollisionsInFile(fileName,cv=True)
     print('\n--- cvc: 1st 2 syllables: ---')
     countCollisionsInFile(fileName,cvc=True)
+    print('\n--- cvc : 1st 2 syllables + ALLO FINAL: ---')
+    countCollisionsInFile(fileName,allofinal=True)
