@@ -1,9 +1,17 @@
 from collections import Counter
 
-def countCollisions(entries):
+def countCollisions(entries,filename='output_shortlist.txt'):
     collisions = [k for k,v in Counter(entries).items() if v>1]
     num_collisions = len(collisions)
-    print('word collisions:' + str(num_collisions) + '\n' + str(collisions))
+    print('number of collisions: ' + str(num_collisions))
+
+    with open(filename,'r') as f:
+        for i, l in enumerate(f):
+            pass
+    numLines = i+1
+    print('rate of collisions: ' + str(round(num_collisions * 100.0 / numLines, 2)) + ' %')
+
+    print('word collisions: ' + str(collisions))
     return num_collisions
 
 def countCollisionsInFile(filename,cv=False,cvc=False,allofinal=False,justCons=False):
@@ -21,7 +29,7 @@ def countCollisionsInFile(filename,cv=False,cvc=False,allofinal=False,justCons=F
             elif justCons:
                 entry = justConsonants(entry)
             entries.append(entry)
-    return countCollisions(entries)
+    return countCollisions(entries,filename)
 
 def countCollisionsInList(entries):
     return countCollisions(entries)
