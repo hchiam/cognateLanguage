@@ -570,3 +570,17 @@ harbuk,literal
 biyfig,figurative
 katmuz,garbage
 balsum,bag
+wanir,file
+mulkar,folder
+cyenkab,wire
+awdyin,audio
+capid,video
+ricin,message
+hwevol,return
+tcactil,query
+bacud,database
+byenut,variable
+tcanir,constant
+kolyes,column
+cinpan,row
+anyoz,button

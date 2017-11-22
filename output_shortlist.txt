@@ -570,3 +570,17 @@ harbukcalidzam,literal,dzamyen,literal,akcarik,harfi,bukvalni,d
 biyfiglakmagbraz,figurative,biyu,figurativo,lakcanik,magazi,obrazna,d
 katmuzubalas,garbage,lasa,basura,katcra,zubala,musar,t
 balsumki,bag,baw,bolsa,beg,kisa,sumka,t
+wanirtcivay,file,wandjyen,artcivo,fayl,milaf,fayl,t
+mulkarfolmudpap,folder,mulu,karpeta,foldar,mudjalad,papka,t
+cyenkabrovtarsil,wire,cyen,kable,tar,silk,provat,t
+awdyinsot,audio,yinpin,awdyo,odyo,sot,awdyo,t
+capidvid,video,capin,bideo,vidiyo,fidiyu,vidio,t
+ricinensap,message,cinci,mensahe,sandec,risala,sapceniye,t
+hwevolotreg,return,hwe,volve,lot,rege,vernu,a
+tcactilkonkverzap,query,tcacin,konsulta,kveri,istilam,zapros,t
+bacudetqai,database,cudjiku,bazededatos,detabes,qaidatubayanat,bazadanih,t
+byenutcarvarpir,variable,byencu,variable,tcar,mutagayir,pirimenaya,t
+tcanirkontab,constant,tcanlyan,konstante,nirantar,tabt,kanstanta,t
+kolyestamud,column,lye,kolumna,stambh,amud,kalonka,t
+cinpansafilyat,row,cin,fila,pankti,saf,ryat,t
+anyozurknobot,button,anyo,boton,batan,zur,knopka,t
