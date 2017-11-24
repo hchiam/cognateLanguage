@@ -584,3 +584,14 @@ tcanir,constant
 kolyes,column
 cinpan,row
 anyoz,button
+gyarhid,eleven
+docar,twelve
+trecas,thirteen
+caskat,fourteen
+cawkin,fifteen
+cisid,sixteen
+catyes,seventeen
+dyecab,eighteen
+unic,nineteen
+arcab,twenty
+diva,th

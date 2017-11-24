@@ -584,3 +584,14 @@ tcanirkontab,constant,tcanlyan,konstante,nirantar,tabt,kanstanta,t
 kolyestamud,column,lye,kolumna,stambh,amud,kalonka,t
 cinpansafilyat,row,cin,fila,pankti,saf,ryat,t
 anyozurknobot,button,anyo,boton,batan,zur,knopka,t
+gyarhidincay,eleven,cayi,onse,gyarah,hidacar,adinatsat,d
+docarbartnacdvin,twelve,car,dose,barah,itnacar,dvinatsat,d
+trecastertrin,thirteen,casan,trese,terah,talatacar,trinatsat,d
+caskatcodrbat,fourteen,casa,katorse,tcodah,arbatacar,tcitirnatsat,d
+cawkinpanhampit,fifteen,cawu,kinse,pandrah,hamastacar,pitnatsat,d
+cisidyecal,sixteen,calyow,dyesiseis,solah,sitacar,cisnatsat,d
+catyesabsim,seventeen,catci,dyesisyete,satrah,sabatacar,simnatsat,d
+dyecabthartamvas,eighteen,caba,dyesyotco,atharah,tamantacar,vasimnatsat,d
+unicadyestisdiv,nineteen,cadjyow,dyesinweve,unis,tisatavar,divitnatsat,d
+arcabeibisrindvat,twenty,arca,beinte,bis,ecrin,dvatsat,d
+diva,th,di,o,va,,i,d
