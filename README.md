@@ -163,7 +163,7 @@ Feel free to message me on the [conlang reddit](https://www.reddit.com/r/conlang
 
 Some ideas:
  * (Done) ~~Create browser-runnable version of the `cognateLanguage_Translate.py` file, so no download is needed for demonstration or for other people to try out low-commitment.  Then I can link to it in this README file.~~
- * Use ML:  take source letter per language group + extra neurons for "logic" layers + knowledge of which letters to prioritize + knowledge of the letters (a-z minus x) in the network.
+ * (Kinda done [here](https://github.com/hchiam/cogLang-geneticAlgo)) ~~Use ML:  take source letter per language group + extra neurons for "logic" layers + knowledge of which letters to prioritize + knowledge of the letters (a-z minus x) in the network.~~
  * Some way to automate the raw data compilation of source words but while still ensuring the right translations are being used.  Also need to extract the IPA of each source word and map to the simplified pronunciation used in this project.  Preferably also taking only the roots of source words.  Maybe some kind of smart web scraper.
 
 -------
