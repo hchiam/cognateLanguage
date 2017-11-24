@@ -590,5 +590,5 @@
 +,seventeen,catci,dyesisyete,satrah,sabatacar,simnatsat,
 +,eighteen,caba,dyesyotco,atharah,tamantacar,vasimnatsat,
 +,nineteen,cadjyow,dyesinweve,unis,tisatavar,divitnatsat,
-+,twenty,arca,beinte,bis,ecrin,dvatsat,
++,twenty,arca,beinte,bis,icirin,dvatsat,
 +,th,di,o,va,,i,

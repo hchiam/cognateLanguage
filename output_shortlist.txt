@@ -593,5 +593,5 @@ sidyecicol,sixteen,calyow,dyesiseis,solah,sitacar,cisnatsat,d
 sadyesimb,seventeen,catci,dyesisyete,satrah,sabatacar,simnatsat,d
 athamdyecabvas,eighteen,caba,dyesyotco,atharah,tamantacar,vasimnatsat,d
 undicadiv,nineteen,cadjyow,dyesinweve,unis,tisatavar,divitnatsat,d
-bicrarcadvat,twenty,arca,beinte,bis,ecrin,dvatsat,d
+arcarbisdvat,twenty,arca,beinte,bis,icirin,dvatsat,d
 diva,th,di,o,va,,i,d

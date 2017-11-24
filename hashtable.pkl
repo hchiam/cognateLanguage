@@ -1017,7 +1017,7 @@ S'adivhanumgatsay'
 p508
 sS'twenty'
 p509
-S'bicrarcadvat'
+S'arcarbisdvat'
 p510
 sS'bite'
 p511

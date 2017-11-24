@@ -593,5 +593,5 @@ sidyec,sixteen
 sadyes,seventeen
 atham,eighteen
 undic,nineteen
-bicrar,twenty
+arcar,twenty
 diva,th
