@@ -86,6 +86,7 @@ Currently the source languages are:  Mandarin Chinese, Spanish, Hindi, Egyptian 
 I started building the vocab by first using words from the Swadesh lists for each of the sources languages.  I know there are more "updated" versions of the Swadesh list (such as the Leipzig–Jakarta list), but words in the corresponding Swadesh lists seem to be easier to find for each source language.  After that, I expanded the list to include words I found useful for making simple sentences for basic sentences (like "want", "use", "able", "must", "or", "hi", ...), based on imaginary conversations with would-be speakers of such a language, or based on notes I would want to translate for fun.  Other words could be used to paraphrase ideas to make the most of the limited vocabulary (like "person", "thing", "time", "place").  Some words I added were oddly missing in the Swadesh list.  For example, "who", "what", "where", etc. were already there, but "why" was missing.  I don't know why.
 
     Nanodjyenkotsapal!
+    Nanot djenkon tsapal!
 
 # 3) How is the Vocabulary Generated?
 
