@@ -309,7 +309,7 @@ S'tcyanadfwerqawsil'
 p154
 sS'fifteen'
 p155
-S'cawkinpanhampit'
+S'kincawpamt'
 p156
 sS'change'
 p157
@@ -457,7 +457,7 @@ S'tenaspakdir'
 p228
 sS'nineteen'
 p229
-S'unicadyestisdiv'
+S'undicadiv'
 p230
 sS'folder'
 p231
@@ -509,7 +509,7 @@ S'tyenrosdonpon'
 p254
 sS'eighteen'
 p255
-S'dyecabthartamvas'
+S'athamdyecabvas'
 p256
 sS'nine'
 p257
@@ -857,7 +857,7 @@ S'sanyerbudsrid'
 p428
 sS'thirteen'
 p429
-S'trecastertrin'
+S'terincas'
 p430
 sS'year'
 p431
@@ -901,7 +901,7 @@ S'guctorkah'
 p450
 sS'fourteen'
 p451
-S'caskatcodrbat'
+S'katorbatcosd'
 p452
 sS'ask'
 p453
@@ -1017,7 +1017,7 @@ S'adivhanumgatsay'
 p508
 sS'twenty'
 p509
-S'arcabeibisrindvat'
+S'bicrarcadvat'
 p510
 sS'bite'
 p511
@@ -1397,7 +1397,7 @@ S'fankosihay'
 p698
 sS'seventeen'
 p699
-S'catyesabsim'
+S'sadyesimb'
 p700
 sS'nut'
 p701
@@ -1921,7 +1921,7 @@ S'stcanvolesban'
 p960
 sS'twelve'
 p961
-S'docarbartnacdvin'
+S'docarbaritin'
 p962
 sS'right'
 p963
@@ -1997,7 +1997,7 @@ S'castahokanbi'
 p998
 sS'sixteen'
 p999
-S'cisidyecal'
+S'sidyecicol'
 p1000
 sS'rub'
 p1001
