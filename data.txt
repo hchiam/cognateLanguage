@@ -619,5 +619,5 @@
 +,august,baye,agosto,agast,agustus,avgust,
 +,september,djyowye,septyembre,sitambar,sibtimbir,sintyabr,
 +,october,caye,oktubre,aktubar,uktubir,aktyabr,
-+,november,carye,novyembre,navambar,nufimbir,nayabr,
-+,december,casaye,disyembre,disambar,disimbri,dikabr,
++,november,caiye,novyembre,navambar,nufimbir,nayabr,
++,december,carye,disyembre,disambar,disimbri,dikabr,

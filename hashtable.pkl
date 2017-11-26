@@ -313,7 +313,7 @@ S'tcankanpe'
 p156
 sS'november'
 p157
-S'carnav'
+S'cainovnay'
 p158
 sS'strong'
 p159
@@ -573,7 +573,7 @@ S'geyda'
 p286
 sS'december'
 p287
-S'dicasdik'
+S'dicardik'
 p288
 sS'drawer'
 p289

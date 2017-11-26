@@ -622,5 +622,5 @@ tciyulhul,july,tciye,hulyo,djulai,yuliyu,iyul,t
 bayagus,august,baye,agosto,agast,agustus,avgust,t
 sipdjyow,september,djyowye,septyembre,sitambar,sibtimbir,sintyabr,t
 caktub,october,caye,oktubre,aktubar,uktubir,aktyabr,t
-carnav,november,carye,novyembre,navambar,nufimbir,nayabr,t
-dicasdik,december,casaye,disyembre,disambar,disimbri,dikabr,t
+cainovnay,november,caiye,novyembre,navambar,nufimbir,nayabr,t
+dicardik,december,carye,disyembre,disambar,disimbri,dikabr,t

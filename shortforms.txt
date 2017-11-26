@@ -622,5 +622,5 @@ tciyul,july
 bayag,august
 sipdjyow,september
 caktub,october
-carnav,november
-dicas,december
+cain,november
+dicar,december
