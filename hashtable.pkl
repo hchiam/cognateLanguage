@@ -969,7 +969,7 @@ S'djyawpriparansen'
 p484
 sS'seventy'
 p485
-S'tcicetsabsem'
+S'tcisetsabsem'
 p486
 sS'care'
 p487

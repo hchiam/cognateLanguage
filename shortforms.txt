@@ -609,7 +609,7 @@ tretis,thirty
 sackwar,forty
 wucin,fifty
 lyowses,sixty
-tcicet,seventy
+tciset,seventy
 batcam,eighty
 djyownov,ninety
 djyaner,january

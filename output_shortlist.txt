@@ -609,7 +609,7 @@ tretisan,thirty,sanca,treinta,tis,talatin,tritsit,d
 sackwarbaitcal,forty,saca,kwarenta,tcalis,arbain,sorak,d
 wucinpatham,fifty,wuca,sinkwenta,patcas,hamsin,pidisyat,d
 lyowsesat,sixty,lyowca,sesenta,sath,sitin,cizdisyat,d
-tcicetsabsem,seventy,tcica,setenta,satar,sabin,semdisit,d
+tcisetsabsem,seventy,tcica,setenta,satar,sabin,semdisit,d
 batcamvosi,eighty,baca,otcenta,asi,tamanin,vosimdisit,d
 djyownovnabtisdiv,ninety,djyowca,noventa,nabe,tisin,divinosta,d
 djyaner,january,yiye,enero,djanvari,yanayir,yinvar,t
