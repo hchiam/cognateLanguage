@@ -597,7 +597,7 @@ arcarbisdvat,twenty,arca,beinte,bis,icirin,dvatsat,d
 diva,th,di,o,va,,i,d
 yinetgidvad,lead,yindaw,gi,netritva,qada,vadi,a
 swesegpitabsled,follow,swe,segi,pitcha,tabia,sledava,a
-djuytentabdhyanvnim,attention,djuyi,atensyon,dhyan,intaba,vnimaniye,t
+adjyentabvnim,attention,djuyi,atensyon,dhyan,intaba,vnimaniye,t
 lyenprakbhyaspratad,practice,lyenci,praktika,abhyas,tadrib,pratika,a
 dzanadhvalabrac,praise,dzanyan,alaba,pracansa,madaha,hvali,a
 dawprarsalmal,pray,daw,ora,prarthana,sala,mali,a
