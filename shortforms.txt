@@ -624,3 +624,5 @@ sipdjyow,september
 caktub,october
 cain,november
 dicar,december
+gameh,improve
+mubmet,goal

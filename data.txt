@@ -621,3 +621,5 @@
 +,october,caye,oktubre,aktubar,uktubir,aktyabr,
 +,november,caiye,novyembre,navambar,nufimbir,nayabr,
 +,december,carye,disyembre,disambar,disimbri,dikabr,
++,improve,gaycan,mehora,sudhar,hasana,ulutca,
++,goal,mubyaw,meta,lakcya,hadaf,tsel,
