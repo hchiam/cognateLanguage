@@ -1945,7 +1945,7 @@ S'yoynaderplav'
 p972
 sS'march'
 p973
-S'samar'
+S'marsan'
 p974
 sS'around'
 p975

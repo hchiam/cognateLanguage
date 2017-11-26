@@ -614,7 +614,7 @@ batcam,eighty
 djyownov,ninety
 djyaner,january
 fibfar,february
-samar,march
+marsan,march
 saybril,april
 wuymay,may
 lyowhun,june
