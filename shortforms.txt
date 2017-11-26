@@ -605,7 +605,7 @@ baypud,worship
 kondjul,connect
 cyorim,repair
 binfer,sick
-tisan,thirty
+tretis,thirty
 sackwar,forty
 wucin,fifty
 lyowses,sixty

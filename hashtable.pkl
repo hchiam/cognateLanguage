@@ -341,7 +341,7 @@ S'buskadjaw'
 p170
 sS'thirty'
 p171
-S'tisantret'
+S'tretisan'
 p172
 sS'my'
 p173
