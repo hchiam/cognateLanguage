@@ -626,3 +626,5 @@ cainovnay,november,caiye,novyembre,navambar,nufimbir,nayabr,t
 dicardik,december,carye,disyembre,disambar,disimbri,dikabr,t
 gamehasudlut,improve,gaycan,mehora,sudhar,hasana,ulutca,a
 mubmetselakhad,goal,mubyaw,meta,lakcya,hadaf,tsel,t
+kwalkonaykat,which,na,kwal,konsa,ay,katori,d
+meynadmahnikoy,noone,meyran,nadye,koynahi,mahadic,nikto,t

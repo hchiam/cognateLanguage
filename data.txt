@@ -623,3 +623,5 @@
 +,december,carye,disyembre,disambar,disimbri,dikabr,
 +,improve,gaycan,mehora,sudhar,hasana,ulutca,
 +,goal,mubyaw,meta,lakcya,hadaf,tsel,
++,which,na,kwal,konsa,ay,katori,
++,noone,meyran,nadye,koynahi,mahadic,nikto,

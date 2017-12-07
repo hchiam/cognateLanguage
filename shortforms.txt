@@ -626,3 +626,5 @@ cain,november
 dicar,december
 gameh,improve
 mubmet,goal
+kwalkon,which
+meynad,noone
