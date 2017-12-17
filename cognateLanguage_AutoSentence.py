@@ -35,7 +35,7 @@ def countVowels(word):
 
 def getWord(wordType='d',fullWords=True):
     global data # needed to access data without constantly re-getting data first
-    
+
     if wordType!='c':
         i = random.randrange(0,len(data))
         label = data[i].split(',')[-1].strip() # need .strip() to remove whitespace character(s)
@@ -44,15 +44,15 @@ def getWord(wordType='d',fullWords=True):
             label = data[i].split(',')[-1].strip() # need .strip() to remove whitespace character(s)
         word = data[i].split(',')[0]
         translation = data[i].split(',')[1]
-    elif wordType=='c':
-        connectorIndices = [7,8,231,232,233,234,235,236,237,238,239,240,241,242,243,312,369,370,371,377,421,449,491,493]
+    elif wordType=='c': # ,c
+        connectorIndices = [7,8,231,232,233,234,235,236,237,238,239,240,241,242,243,312,369,370,371,377,421,449,491,493,631]
         i = random.choice(connectorIndices)
         word = data[i].split(',')[0]
         translation = data[i].split(',')[1]
 
     if fullWords==False:
         word = justTwoInitSylls(word)
-    
+
     return word, translation
 
 def buildSentence(pattern,fullWords=True):
@@ -90,35 +90,35 @@ if __name__ == '__main__':
     print('')
     print('WARNING: Words are chosen at random within word types and may produce unexpected sentences.')
     print('')
-    
+
     pattern = 'tat'
     print('AUTO-GENERATED SENTENCE 1: ***1***, with pattern "'+pattern+'":')
     sentence, translation = buildSentence(pattern,False)
     print(sentence)
     print(translation)
-    
+
     print('')
-    
+
     pattern = 'tact'
     print('AUTO-GENERATED SENTENCE 2: ***2***, with pattern "'+pattern+'":')
     sentence, translation = buildSentence(pattern,False)
     print(sentence)
     print(translation)
-    
+
     print('')
-    
+
     pattern = 'dtadtcdt'
     print('AUTO-GENERATED SENTENCE 3: ***3***, with pattern "'+pattern+'":')
     sentence, translation = buildSentence(pattern,False)
     print(sentence)
     print(translation)
-    
+
     print('')
-    
+
     pattern = 'tat'
     print('AUTO-GENERATED SENTENCE 4: ***1***, with pattern "'+pattern+'" and full words:')
     sentence, translation = buildSentence(pattern,True)
     print(sentence)
     print(translation)
-    
+
     print('')

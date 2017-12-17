@@ -629,3 +629,7 @@ mubmetselakhad,goal,mubyaw,meta,lakcya,hadaf,tsel,t
 kwalkonaykat,which,na,kwal,konsa,ay,katori,d
 meynadmahnikoy,noone,meyran,nadye,koynahi,mahadic,nikto,t
 thila,was,la,ido,tha,kan,bil,a
+sweragunhalhat,though,sweran,aunke,halaki,raganan,hatya,c
+randejampaz,let,ran,deja,de,samaha,pazvoli,a
+tcyenamutsmil,humble,tcyenbey,umilde,namra,mutawadi,smireni,d
+wrogbhimutvis,arrogant,aw,arogante,abhimani,mutakabir,visakamerni,d

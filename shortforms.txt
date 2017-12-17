@@ -629,3 +629,7 @@ mubmet,goal
 kwalkon,which
 meynad,noone
 thila,was
+swerag,though
+randej,let
+tcyenam,humble
+wrogbhim,arrogant

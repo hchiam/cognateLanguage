@@ -626,3 +626,7 @@
 +,which,na,kwal,konsa,ay,katori,
 +,noone,meyran,nadye,koynahi,mahadic,nikto,
 +,was,la,ido,tha,kan,bil,
++,though,sweran,aunke,halaki,raganan,hatya,
++,let,ran,deja,de,samaha,pazvoli,
++,humble,tcyenbey,umilde,namra,mutawadi,smireni,
++,arrogant,aw,arogante,abhimani,mutakabir,visakamerni,
