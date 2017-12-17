@@ -625,3 +625,4 @@
 +,goal,mubyaw,meta,lakcya,hadaf,tsel,
 +,which,na,kwal,konsa,ay,katori,
 +,noone,meyran,nadye,koynahi,mahadic,nikto,
++,was,la,ido,tha,kan,bil,

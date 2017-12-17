@@ -628,3 +628,4 @@ gamehasudlut,improve,gaycan,mehora,sudhar,hasana,ulutca,a
 mubmetselakhad,goal,mubyaw,meta,lakcya,hadaf,tsel,t
 kwalkonaykat,which,na,kwal,konsa,ay,katori,d
 meynadmahnikoy,noone,meyran,nadye,koynahi,mahadic,nikto,t
+thila,was,la,ido,tha,kan,bil,a
