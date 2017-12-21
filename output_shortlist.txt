@@ -634,6 +634,6 @@ randesampaz,let,ran,deja,de,samaha,pazvoli,a
 smilnamutcyen,humble,tcyenbey,umilde,namra,mutawadi,smireni,d
 arogabhimutvis,arrogant,aw,arogante,abhimani,mutakabir,visakamerni,d
 wasredjoned,middle,djon,medio,madhya,wasat,sredni,d
-gomet,metre,gontca,metro,mitar,metr,metr,t
+gometr,metre,gontca,metro,mitar,metr,metr,t
 temdjalanbadzaw,early,dzaw,temprano,djaldi,badri,rani,d
 wantarhirpoz,late,wan,tarde,der,ahir,pozni,d

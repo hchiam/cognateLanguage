@@ -353,7 +353,7 @@ S'wodmoyr'
 p176
 sS'metre'
 p177
-S'gomet'
+S'gometr'
 p178
 sS'queue'
 p179
