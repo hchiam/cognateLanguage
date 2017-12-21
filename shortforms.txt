@@ -633,3 +633,7 @@ swerag,though
 randes,let
 smilnam,humble
 arog,arrogant
+wasred,middle
+gomet,metre
+temdjal,early
+wantar,late

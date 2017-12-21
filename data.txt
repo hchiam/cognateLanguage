@@ -630,3 +630,7 @@
 +,let,ran,deja,de,samaha,pazvoli,
 +,humble,tcyenbey,umilde,namra,mutawadi,smireni,
 +,arrogant,aw,arogante,abhimani,mutakabir,visakamerni,
++,middle,djon,medio,madhya,wasat,sredni,
++,metre,gontca,metro,mitar,metr,metr,
++,early,dzaw,temprano,djaldi,badri,rani,
++,late,wan,tarde,der,ahir,pozni,
