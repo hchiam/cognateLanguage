@@ -636,4 +636,4 @@ arogabhimutvis,arrogant,aw,arogante,abhimani,mutakabir,visakamerni,d
 wasredjoned,middle,djon,medio,madhya,wasat,sredni,d
 gometr,metre,gontca,metro,mitar,metr,metr,t
 temdjalanbadzaw,early,dzaw,temprano,djaldi,badri,rani,d
-wantarhirpoz,late,wan,tarde,der,ahir,pozni,d
+tahirpozwan,late,wan,tarde,der,ahir,pozni,d

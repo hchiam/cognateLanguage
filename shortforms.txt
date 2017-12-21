@@ -636,4 +636,4 @@ arog,arrogant
 wasred,middle
 gomet,metre
 temdjal,early
-wantar,late
+tahir,late
