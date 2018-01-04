@@ -637,3 +637,10 @@ wasredjoned,middle,djon,medio,madhya,wasat,sredni,d
 gometr,metre,gontca,metro,mitar,metr,metr,t
 temdjalanbadzaw,early,dzaw,temprano,djaldi,badri,rani,d
 tahirpozwan,late,wan,tarde,der,ahir,pozni,d
+karepafdohtcon,repeat,tconfu,repeti,dohra,karara,paftari,a
+danlispisqai,list,dandza,lista,list,qaima,spisak,t
+orancadjad,schedule,cadjyenbyaw,orario,anusutci,djadwal,raspisaniye,t
+canfuripar,up,can,ariba,upar,fuq,vyerh,c
+vnitcyasfalbah,down,cya,abaho,nitce,asfal,vnis,c
+altcovisgaw,high,gaw,alto,utca,ali,visoki,d
+nwitsibah,low,di,baho,nitca,wati,niski,d

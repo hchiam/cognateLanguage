@@ -637,3 +637,10 @@ wasred,middle
 gomet,metre
 temdjal,early
 tahir,late
+karep,repeat
+danlis,list
+oran,schedule
+canfur,up
+vnitcyas,down
+altcov,high
+nwitsib,low
