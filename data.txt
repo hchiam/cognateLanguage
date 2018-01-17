@@ -641,3 +641,7 @@
 +,down,cya,abaho,nitce,asfal,vnis,
 +,high,gaw,alto,utca,ali,visoki,
 +,low,di,baho,nitca,wati,niski,
++,key,yawca,yave,tcabi,mutfah,klyutc,
++,lock,swo,seradura,tala,qafla,zamok,
++,mix,hunha,meskla,micran,halata,smica,
++,pure,tcun,puro,cudh,naqi,tcisti,

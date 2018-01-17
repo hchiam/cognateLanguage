@@ -644,3 +644,7 @@ canfuripar,up,can,ariba,upar,fuq,vyerh,c
 vnitcyasfalbah,down,cya,abaho,nitce,asfal,vnis,c
 altcovisgaw,high,gaw,alto,utca,ali,visoki,d
 nwitsibah,low,di,baho,nitca,wati,niski,d
+klyawvtcabmut,key,yawca,yave,tcabi,mutfah,klyutc,t
+swertalqafzam,lock,swo,seradura,tala,qafla,zamok,t
+smeshunhal,mix,hunha,meskla,micran,halata,smica,a
+tcudnaqpur,pure,tcun,puro,cudh,naqi,tcisti,d

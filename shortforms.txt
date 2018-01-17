@@ -644,3 +644,7 @@ canfur,up
 vnitcyas,down
 altcov,high
 nwitsib,low
+klyawvtcab,key
+swertal,lock
+smeshun,mix
+tcudnaq,pure
