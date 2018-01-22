@@ -937,7 +937,7 @@ S'yiripezamat'
 p468
 sS'hard'
 p469
-S'yindurkarsultvyor'
+S'tvyornkarsul'
 p470
 sS'yeah'
 p471
@@ -1661,7 +1661,7 @@ S'djonsazaroplan'
 p830
 sS'fluffy'
 p831
-S'roeraqpuspan'
+S'pecpanroeq'
 p832
 sS'wall'
 p833
@@ -1873,7 +1873,7 @@ S'cweyfrutphalfakplot'
 p936
 sS'unicorn'
 p937
-S'unikharyidudag'
+S'dyudiniktaghar'
 p938
 sS'dust'
 p939
@@ -2093,7 +2093,7 @@ S'stcanvolesban'
 p1046
 sS'soft'
 p1047
-S'rwanaiblanyahkom'
+S'brankonamyah'
 p1048
 sS'twelve'
 p1049

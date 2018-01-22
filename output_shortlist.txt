@@ -648,8 +648,8 @@ klyawvtcabmut,key,yawca,yave,tcabi,mutfah,klyutc,t
 swertalqafzam,lock,swo,seradura,tala,qafla,zamok,t
 smeshunhal,mix,hunha,meskla,micran,halata,smica,a
 tcudnaqpur,pure,tcun,puro,cudh,naqi,tcisti,d
-yindurkarsultvyor,hard,yin,duro,kara,sulb,tvyordi,d
-rwanaiblanyahkom,soft,rwan,blando,komal,naim,myahki,d
+tvyornkarsul,hard,yin,duro,kara,sulb,tvyordi,d
+brankonamyah,soft,rwan,blando,komal,naim,myahki,d
 samatsay,material,tsaylyaw,materyal,samagri,mada,matiryal,t
-roeraqpuspan,fluffy,panson,esponhoso,roedar,raqiq,pucisti,d
-unikharyidudag,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,t
+pecpanroeq,fluffy,panson,esponhoso,roedar,raqiq,pucisti,d
+dyudiniktaghar,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,t
