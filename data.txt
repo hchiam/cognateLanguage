@@ -645,3 +645,8 @@
 +,lock,swo,seradura,tala,qafla,zamok,
 +,mix,hunha,meskla,micran,halata,smica,
 +,pure,tcun,puro,cudh,naqi,tcisti,
++,hard,yin,duro,kara,sulb,tvyordi,
++,soft,rwan,blando,komal,naim,myahki,
++,material,tsaylyaw,materyal,samagri,mada,matiryal,
++,fluffy,panson,esponhoso,roedar,raqiq,pucisti,
++,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,

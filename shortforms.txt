@@ -648,3 +648,8 @@ klyawvtcab,key
 swertal,lock
 smeshun,mix
 tcudnaq,pure
+yindur,hard
+rwana,soft
+samat,material
+roer,fluffy
+unik,unicorn
