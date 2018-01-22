@@ -652,4 +652,4 @@ tvyornkar,hard
 brankon,soft
 samat,material
 pecpan,fluffy
-dyudin,unicorn
+dyutag,unicorn

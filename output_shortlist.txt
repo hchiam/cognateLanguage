@@ -652,4 +652,4 @@ tvyornkarsul,hard,yin,duro,kara,sulb,tvyordi,d
 brankonamyah,soft,rwan,blando,komal,naim,myahki,d
 samatsay,material,tsaylyaw,materyal,samagri,mada,matiryal,t
 pecpanroeq,fluffy,panson,esponhoso,roedar,raqiq,pucisti,d
-dyudiniktaghar,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,t
+dyutagunikhar,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,t
