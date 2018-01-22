@@ -653,3 +653,4 @@ brankon,soft
 samat,material
 pecpan,fluffy
 dyutag,unicorn
+patnam,pattern

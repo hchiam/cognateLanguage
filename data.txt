@@ -650,3 +650,4 @@
 +,material,tsaylyaw,materyal,samagri,mada,matiryal,
 +,fluffy,panson,esponhoso,roedar,raqiq,pucisti,
 +,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,
++,pattern,moca,patron,petarn,namata,uzor,
