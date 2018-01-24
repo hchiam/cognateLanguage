@@ -654,3 +654,5 @@ samatsay,material,tsaylyaw,materyal,samagri,mada,matiryal,t
 pecpanroeq,fluffy,panson,esponhoso,roedar,raqiq,pucisti,d
 dyutagunikhar,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,t
 patnamocor,pattern,moca,patron,petarn,namata,uzor,t
+fpustkholn,empty,kon,vasio,khali,fadi,pustoy,d
+faskrinatvrat,gross,acin,askeroso,ghrinaspad,fazi,atvratitilni,d

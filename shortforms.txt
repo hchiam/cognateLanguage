@@ -654,3 +654,5 @@ samat,material
 pecpan,fluffy
 dyutag,unicorn
 patnam,pattern
+fpustkhol,empty
+faskrin,gross
