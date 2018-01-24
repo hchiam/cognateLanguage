@@ -2145,7 +2145,7 @@ S'ogharbidjyadom'
 p1072
 sS'gross'
 p1073
-S'faskrinatvrat'
+S'atfacgirn'
 p1074
 sS'leaf'
 p1075
