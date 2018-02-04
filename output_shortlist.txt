@@ -662,6 +662,6 @@ tcigas,gas,tci,gas,ges,gaz,gas,t
 guthosoltvyor,solid,guti,solido,thos,sulb,tvyord,t
 camansubtra,morning,canwu,manyana,subeh,sabah,utra,t
 wumedopoldoh,noon,wu,medyodia,dopehr,dohr,poldin,t
-dopatarpocyaw,afternoon,cyawu,tarde,dopehr,badaldohr,poslepaludnya,
+dopatarpocyaw,afternoon,cyawu,tarde,dopehr,badaldohr,poslepaludnya,t
 wanacamvitar,evening,wancan,tarde,cam,masa,vitcir,t
 banedhirmunpol,midnight,banye,medyanotce,adhirat,muntasafalayl,polnatc,t
