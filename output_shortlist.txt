@@ -656,3 +656,12 @@ dyutagunikhar,unicorn,dudjyawcow,unikornyo,tagavala,haric,yidinarok,t
 patnamocor,pattern,moca,patron,petarn,namata,uzor,t
 fpustkholn,empty,kon,vasio,khali,fadi,pustoy,d
 atfacgirn,gross,acin,askeroso,ghrinaspad,fazi,atvratitilni,d
+konirhawvoz,air,kontci,aire,hava,hawa,vozduh,t
+jyedravsailik,liquid,yeti,likido,drav,sail,jitkast,t
+tcigas,gas,tci,gas,ges,gaz,gas,t
+guthosoltvyor,solid,guti,solido,thos,sulb,tvyord,t
+camansubtra,morning,canwu,manyana,subeh,sabah,utra,t
+wumedopoldoh,noon,wu,medyodia,dopehr,dohr,poldin,t
+dopatarpocyaw,afternoon,cyawu,tarde,dopehr,badaldohr,poslepaludnya,
+wanacamvitar,evening,wancan,tarde,cam,masa,vitcir,t
+banedhirmunpol,midnight,banye,medyanotce,adhirat,muntasafalayl,polnatc,t

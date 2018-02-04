@@ -656,3 +656,12 @@ dyutag,unicorn
 patnam,pattern
 fpustkhol,empty
 atfac,gross
+konir,air
+jyedrav,liquid
+tcigas,gas
+guthos,solid
+caman,morning
+wumed,noon
+dopat,afternoon
+wanac,evening
+baned,midnight
