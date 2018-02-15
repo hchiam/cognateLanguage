@@ -665,3 +665,11 @@ wumed,noon
 dopat,afternoon
 wanac,evening
 baned,midnight
+hiltris,shake
+rekhat,line
+tcankam,shirt
+futic,tshirt
+bryukud,pants
+sombur,hat
+pirtcod,glove
+sudjak,jacket

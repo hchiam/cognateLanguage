@@ -665,3 +665,11 @@ wumedopoldoh,noon,wu,medyodia,dopehr,dohr,poldin,t
 dopatarpocyaw,afternoon,cyawu,tarde,dopehr,badaldohr,poslepaludnya,t
 wanacamvitar,evening,wancan,tarde,cam,masa,vitcir,t
 banedhirmunpol,midnight,banye,medyanotce,adhirat,muntasafalayl,polnatc,t
+hiltrishazyaw,shake,yaw,ahita,hilana,haza,tris,a
+rekhatclen,line,cyen,linea,rekha,hat,liniya,t
+tcankamrub,shirt,tcancan,kamisa,qamiz,qamis,rubacka,t
+futicarkam,tshirt,ticican,kamiseta,ticart,tecert,fudbolka,t
+bryukudpant,pants,kudza,pantalones,pent,bantalun,bryuki,t
+somburmawtclop,hat,mawdza,sombrero,topi,burneta,clapa,t
+pirtcodasgwan,glove,cotaw,gwante,dastana,guwanti,pirtcatka,t
+sudjakur,jacket,djyaka,tcaketa,djeket,sutra,kurtka,t
