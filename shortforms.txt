@@ -675,11 +675,11 @@ pirtcod,glove
 sudjak,jacket
 hanbur,hamburger
 harbuk,letter
-lakas,almost
-cwenskoh,choose
-yepah,page
+pataq,almost
+eskih,choose
+pristran,page
 cudat,data
-refdjat,refresh
-gangtwal,update
+djataz,refresh
+tahag,update
 djyentcek,check
 djihsag,activate

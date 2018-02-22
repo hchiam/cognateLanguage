@@ -841,7 +841,7 @@ S'djihsagtiv'
 p420
 sS'choose'
 p421
-S'cwenskohtartcunvib'
+S'eskihtcwernvib'
 p422
 sS'orange'
 p423
@@ -933,7 +933,7 @@ S'dzyemphamdayfsig'
 p466
 sS'refresh'
 p467
-S'refdjatacwacbnav'
+S'djatazwacabnavref'
 p468
 sS'ashes'
 p469
@@ -1853,7 +1853,7 @@ S'syetcabsem'
 p926
 sS'almost'
 p927
-S'lakastaqpadjih'
+S'pataqlakasdjih'
 p928
 sS'is'
 p929
@@ -2189,7 +2189,7 @@ S'brankonamyah'
 p1094
 sS'page'
 p1095
-S'yepahpricafstran'
+S'pristranpyahsaf'
 p1096
 sS'twelve'
 p1097
@@ -2301,7 +2301,7 @@ S'kidwockolkwam'
 p1150
 sS'update'
 p1151
-S'gangtwaldyatahbnav'
+S'tahagdyabnavganc'
 p1152
 sS'sixty'
 p1153

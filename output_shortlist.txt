@@ -675,11 +675,11 @@ pirtcodasgwan,glove,cotaw,gwante,dastana,guwanti,pirtcatka,t
 sudjakur,jacket,djyaka,tcaketa,djeket,sutra,kurtka,t
 hanburgam,hamburger,hanbaw,amburgesa,hembargar,hamburgar,gamburgir,t
 harbukcaledzam,letter,dzamu,letra,akcar,harf,bukva,t
-lakastaqpadjih,almost,djihu,kasi,lagbhag,taqriban,patcti,d
-cwenskohtartcunvib,choose,cwen,eskoher,tcun,ihtara,vibra,a
-yepahpricafstran,page,ye,pahina,pricth,safha,stranitsa,t
+pataqlakasdjih,almost,djihu,kasi,lagbhag,taqriban,patcti,d
+eskihtcwernvib,choose,cwen,eskoher,tcun,ihtara,vibra,a
+pristranpyahsaf,page,ye,pahina,pricth,safha,stranitsa,t
 cudatanbay,data,cudji,datos,deta,bayanat,daniye,t
-refdjatacwacbnav,refresh,cwacin,refreska,taza,djadada,abnavla,a
-gangtwaldyatahbnav,update,gancin,agtwalisa,adyatan,tahadi,abnavla,a
+djatazwacabnavref,refresh,cwacin,refreska,taza,djadada,abnavla,a
+tahagdyabnavganc,update,gancin,agtwalisa,adyatan,tahadi,abnavla,a
 djyentcekomprafah,check,djyentca,komproba,tcek,fahas,pravira,a
 djihsagtiv,activate,djihwo,agtiva,sakriy,tafail,aktivirava,a
