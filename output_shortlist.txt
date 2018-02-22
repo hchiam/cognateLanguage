@@ -682,4 +682,4 @@ cudatanbay,data,cudji,datos,deta,bayanat,daniye,t
 djatazwacabnavref,refresh,cwacin,refreska,taza,djadada,abnavla,a
 tahagdyabnavganc,update,gancin,agtwalisa,adyatan,tahadi,abnavla,a
 djyentcekomprafah,check,djyentca,komproba,tcek,fahas,pravira,a
-djihsagtiv,activate,djihwo,agtiva,sakriy,tafail,aktivirava,a
+djihsagtaf,activate,djihwo,agtiva,sakriy,tafail,aktivirava,a

@@ -837,7 +837,7 @@ S'tcwanvenkhircebkno'
 p418
 sS'activate'
 p419
-S'djihsagtiv'
+S'djihsagtaf'
 p420
 sS'choose'
 p421
