@@ -670,3 +670,4 @@
 +,hat,mawdza,sombrero,topi,burneta,clapa,
 +,glove,cotaw,gwante,dastana,guwanti,pirtcatka,
 +,jacket,djyaka,tcaketa,djeket,sutra,kurtka,
++,hamburger,hanbaw,amburgesa,hembargar,hamburgar,gamburgir,

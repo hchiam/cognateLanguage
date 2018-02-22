@@ -673,3 +673,4 @@ bryukudpant,pants,kudza,pantalones,pent,bantalun,bryuki,t
 somburmawtclop,hat,mawdza,sombrero,topi,burneta,clapa,t
 pirtcodasgwan,glove,cotaw,gwante,dastana,guwanti,pirtcatka,t
 sudjakur,jacket,djyaka,tcaketa,djeket,sutra,kurtka,t
+hanburgam,hamburger,hanbaw,amburgesa,hembargar,hamburgar,gamburgir,t

@@ -673,3 +673,4 @@ bryukud,pants
 sombur,hat
 pirtcod,glove
 sudjak,jacket
+hanbur,hamburger

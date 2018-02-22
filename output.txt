@@ -669,3 +669,7 @@ panbryukud,pants,kudza,pantalones,pent,bantalun,bryuki,
 somawtopurclap,hat,mawdza,sombrero,topi,burneta,clapa,
 cotasgwanguwpir,glove,cotaw,gwante,dastana,guwanti,pirtcatka,
 tcaksudjyakur,jacket,djyaka,tcaketa,djeket,sutra,kurtka,
+____________________
+Wed Feb 21 20:20:07 2018
+hanburgam,hamburger,hanbaw,amburgesa,hembargar,hamburgar,gamburgir,
+____________________
