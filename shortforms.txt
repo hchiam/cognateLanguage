@@ -674,3 +674,12 @@ sombur,hat
 pirtcod,glove
 sudjak,jacket
 hanbur,hamburger
+harbuk,letter
+lakas,almost
+cwenskoh,choose
+yepah,page
+cudat,data
+refdjat,refresh
+gangtwal,update
+djyentcek,check
+djihsag,activate
