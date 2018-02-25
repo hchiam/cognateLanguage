@@ -57,7 +57,7 @@ S'ditsegalfomkav'
 p28
 sS'electricity'
 p29
-S'elekahbidyenlit'
+S'ilekahbidyen'
 p30
 sS'father'
 p31
@@ -1369,7 +1369,7 @@ S'swoysiklitok'
 p684
 sS'soap'
 p685
-S'fedhabsabmil'
+S'fedsabumil'
 p686
 sS'play'
 p687
@@ -1477,7 +1477,7 @@ S'temdarhafpay'
 p738
 sS'find'
 p739
-S'djawadnkonahpa'
+S'wadjadpenkonah'
 p740
 sS'ear'
 p741
@@ -1601,7 +1601,7 @@ S'sadyesimb'
 p800
 sS'shampoo'
 p801
-S'ciftcam'
+S'ciftcampun'
 p802
 sS'nut'
 p803
@@ -1753,7 +1753,7 @@ S'stcyanpardivhay'
 p876
 sS'royal'
 p877
-S'wanaradkarea'
+S'wamaradjkaral'
 p878
 sS'tuesday'
 p879
@@ -2185,7 +2185,7 @@ S'kadjyenbrot'
 p1092
 sS'towel'
 p1093
-S'mawtolfutoapal'
+S'futoylmawpal'
 p1094
 sS'like'
 p1095
@@ -2297,7 +2297,7 @@ S'yeluntcadqam'
 p1148
 sS'pen'
 p1149
-S'ywenbolekalut'
+S'ywenboleqarut'
 p1150
 sS'fog'
 p1151

@@ -683,12 +683,12 @@ djataz,refresh
 tahag,update
 djyentcek,check
 djihsag,activate
-wanar,royal
+wamar,royal
 djitrob,robot
-djawad,find
-elek,electricity
+wadjad,find
+ilek,electricity
 tcyenqal,pencil
 ywenbol,pen
-fedhab,soap
+fedsab,soap
 ciftcam,shampoo
-mawtol,towel
+futoy,towel

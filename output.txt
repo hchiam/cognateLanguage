@@ -700,3 +700,7 @@ fedhabsabmil,soap,fedzaw,habon,sabun,sabuna,mila,
 ciftcam,shampoo,cifacwey,tcampu,cempu,cambu,campun,
 mawtolfutoapal,towel,mawdjin,toaya,toliya,futa,palatyentsa,
 ____________________
+____________________
+Sun Feb 25 18:10:02 2018
+ilekahbidyen,electricity,dyen,elektrisidad,bidjli,kahraba,iliktritcistva,
+____________________

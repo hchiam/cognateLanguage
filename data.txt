@@ -683,7 +683,7 @@
 +,royal,wancada,real,radjasee,malaki,karalyefski,
 +,robot,djitciran,robot,yantramanav,robot,robat,
 +,find,djawdaw,enkontra,pa,wadjada,nahadi,
-+,electricity,dyen,elektrisidad,bidjli,kahraba,ilitritcistva,
++,electricity,dyen,elektrisidad,bidjli,kahraba,iliktritcistva,
 +,pencil,tcyenbi,lapis,pensil,qalam,karandac,
 +,pen,ywendjubi,boli,lekhni,qalam,rutcka,
 +,soap,fedzaw,habon,sabun,sabuna,mila,
