@@ -704,3 +704,8 @@ ____________________
 Sun Feb 25 18:10:02 2018
 ilekahbidyen,electricity,dyen,elektrisidad,bidjli,kahraba,iliktritcistva,
 ____________________
+____________________
+deronsahpigtay,melt,ronhwa,dereti,pighal,insahara,taya,
+sompardeltyin,shadow,yinyin,sombra,partchai,del,tyen,
+gwodectranpaibal,country,gwodjya,pais,dec,balad,strana,
+____________________

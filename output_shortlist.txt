@@ -692,3 +692,6 @@ ywenboleqarut,pen,ywendjubi,boli,lekhni,qalam,rutcka,t
 fedsabumil,soap,fedzaw,habon,sabun,sabuna,mila,t
 ciftcampun,shampoo,cifacwey,tcampu,cempu,cambu,campun,t
 futoylmawpal,towel,mawdjin,toaya,toliya,futa,palatyentsa,t
+deronsahpigtay,melt,ronhwa,dereti,pighal,insahara,taya,a
+sompardeltyin,shadow,yinyin,sombra,partchai,del,tyen,t
+gwodectranpaibal,country,gwodjya,pais,dec,balad,strana,t

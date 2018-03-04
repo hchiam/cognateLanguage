@@ -689,3 +689,6 @@
 +,soap,fedzaw,habon,sabun,sabuna,mila,
 +,shampoo,cifacwey,tcampu,cempu,cambu,campun,
 +,towel,mawdjin,toaya,toliya,futa,palatyentsa,
++,melt,ronhwa,dereti,pighal,insahara,taya,
++,shadow,yinyin,sombra,partchai,del,tyen,
++,country,gwodjya,pais,dec,balad,strana,

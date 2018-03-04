@@ -692,3 +692,6 @@ ywenbol,pen
 fedsab,soap
 ciftcam,shampoo
 futoy,towel
+deron,melt
+sompar,shadow
+gwodec,country
