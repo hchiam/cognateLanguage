@@ -961,7 +961,7 @@ S'romtudapkasraz'
 p480
 sS'giraffe'
 p481
-S'tcanhirdjir'
+S'tcandjhir'
 p482
 sS'vomit'
 p483
@@ -1025,7 +1025,7 @@ S'meykajdharkol'
 p512
 sS'iguana'
 p513
-S'lyecgwangodgua'
+S'lyecgwangod'
 p514
 sS'tray'
 p515
@@ -1305,7 +1305,7 @@ S'yonaqbraslinbnim'
 p652
 sS'starfish'
 p653
-S'haystreystarnadmar'
+S'nadjmarestrhay'
 p654
 sS'that'
 p655
@@ -1525,7 +1525,7 @@ S'yatyendatsenzup'
 p762
 sS'narwhal'
 p763
-S'dudnarnaukar'
+S'dudnarvkar'
 p764
 sS'pineapple'
 p765
@@ -1833,7 +1833,7 @@ S'bayteradim'
 p916
 sS'zebra'
 p917
-S'sebanhimzyeb'
+S'zebanhim'
 p918
 sS'wear'
 p919
@@ -1869,7 +1869,7 @@ S'djonsazaroplan'
 p934
 sS'eggplant'
 p935
-S'berbenbetcyedbak'
+S'berenbetcyedbak'
 p936
 sS'fluffy'
 p937
@@ -1941,7 +1941,7 @@ S'fpustkholn'
 p970
 sS'fig'
 p971
-S'wuhgotindjirnjir'
+S'wuhigotindjir'
 p972
 sS'box'
 p973
@@ -2569,7 +2569,7 @@ S'lendcablesyiz'
 p1284
 sS'octopus'
 p1285
-S'djanctapulhtubsmin'
+S'ahcdjanpulsmin'
 p1286
 sS'or'
 p1287
@@ -2761,7 +2761,7 @@ S'canfuripar'
 p1380
 sS'strawberry'
 p1381
-S'tsamfrestrobfarklub'
+S'tsamfrestrobklub'
 p1382
 sS'below'
 p1383

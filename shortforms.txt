@@ -697,8 +697,8 @@ sompar,shadow
 gwodec,country
 yedjaw,coconut
 dulyol,durian
-berben,eggplant
-wuhgot,fig
+beren,eggplant
+wuhig,fig
 enap,grape
 hamig,honeydew
 tciykiw,kiwi
@@ -721,7 +721,7 @@ byenkam,chameleon
 delsun,dolphin
 cyanlef,elephant
 hulom,fox
-tcanhir,giraffe
+tcandjhir,giraffe
 fankol,hummingbird
 lyecgwan,iguana
 cweman,jellyfish
@@ -729,14 +729,14 @@ daykan,kangaroo
 djhigal,lobster
 hayhur,manatee
 dudnar,narwhal
-djanctap,octopus
+ahcdjan,octopus
 pinbat,penguin
 antcun,quail
 tudkon,rabbit
-haystrey,starfish
+nadjmar,starfish
 bayter,termite
 bwitud,vulture
 haymor,walrus
 songir,xerus
 mawyak,yak
-seban,zebra
+zeban,zebra
