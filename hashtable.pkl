@@ -2309,7 +2309,7 @@ S'paleqartcidu'
 p1154
 sS'big'
 p1155
-S'dagrankebar'
+S'grandakebar'
 p1156
 sS'vulture'
 p1157

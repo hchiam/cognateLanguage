@@ -55,7 +55,7 @@ ardvos,two
 tresan,three
 kwatsar,four
 wusin,five
-dagran,big
+grandak,big
 tcanlar,long
 kwantcor,wide
 grwesmot,thick
