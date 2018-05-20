@@ -737,3 +737,5 @@
 +,xerus,soncu,ardiya,gilehri,sindjab,byelka,
 +,yak,mawnyo,yak,yak,tor,yak,
 +,zebra,banma,sebra,zebra,himaralwahciy,zyebra,
++,smart,tsonmin,listo,tcatur,duki,umni,
++,watch,cobyaw,reloh,ghari,sa,tcisi,

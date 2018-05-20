@@ -756,4 +756,6 @@ haymorvalfaz,walrus,haycyan,morsa,valras,faz,morc,
 songirdiybyel,xerus,soncu,ardiya,gilehri,sindjab,byelka,
 mawyaktor,yak,mawnyo,yak,yak,tor,yak,
 sebanhimzyeb,zebra,banma,sebra,zebra,himaralwahciy,zyebra,
+listcatsonniduk,smart,tsonmin,listo,tcatur,duki,umni,
+ghareltcicob,watch,cobyaw,reloh,ghari,sa,tcisi,
 ____________________

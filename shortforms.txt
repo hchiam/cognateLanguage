@@ -740,3 +740,5 @@ haymor,walrus
 songir,xerus
 mawyak,yak
 zeban,zebra
+tsumnil,smart
+gharel,watch
