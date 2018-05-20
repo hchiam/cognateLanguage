@@ -742,3 +742,4 @@ mawyak,yak
 zeban,zebra
 tsumnil,smart
 gharel,watch
+pindzez,bottle

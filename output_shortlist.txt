@@ -742,3 +742,4 @@ mawyaktor,yak,mawnyo,yak,yak,tor,yak,t
 zebanhim,zebra,banma,sebra,zebra,himaralwahciy,zyebra,t
 tsumnilistcaduk,smart,tsonmin,listo,tcatur,duki,umni,d
 ghareltcicob,watch,cobyaw,reloh,ghari,sa,tcisi,t
+pindzezbot,bottle,pindza,boteya,botal,izeza,butilka,t
