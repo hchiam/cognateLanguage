@@ -204,7 +204,7 @@ ahmalarohunkras,red,hun,roho,lal,ahmar,krasni,d
 veliharhdarzil,green,li,verde,hara,ahdar,ziloni,d
 hwanarpilsfarjol,yellow,hwan,amariyo,pila,asfar,jolti,d
 baydblansaf,white,bay,blanko,safed,abyad,beli,d
-heynegalswedcor,black,hey,negro,kala,eswed,tcorni,d
+swheytcornekal,black,hey,negro,kala,eswed,tcorni,d
 yewnotlerat,night,yewan,notce,rat,lela,notc,t
 bayomdiadin,day,baytyen,dia,din,yom,den,t
 salsanyengot,year,nyen,anyo,sal,sana,got,t

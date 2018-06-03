@@ -1617,7 +1617,7 @@ S'djiysolfaqtol'
 p808
 sS'black'
 p809
-S'heynegalswedcor'
+S'swheytcornekal'
 p810
 sS'circle'
 p811

@@ -204,7 +204,7 @@ ahmal,red
 velih,green
 hwanar,yellow
 baydblan,white
-heyneg,black
+swheytcor,black
 yewnot,night
 bayom,day
 salsan,year
