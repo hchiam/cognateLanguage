@@ -743,3 +743,9 @@ zebanhim,zebra,banma,sebra,zebra,himaralwahciy,zyebra,t
 tsumnilistcaduk,smart,tsonmin,listo,tcatur,duki,umni,d
 ghareltcicob,watch,cobyaw,reloh,ghari,sa,tcisi,t
 pindzezbot,bottle,pindza,boteya,botal,izeza,butilka,t
+ywemesahmah,month,ywe,mes,mahina,cahr,mesits,t
+pagbhugpladafu,pay,fu,paga,bhugtan,dafa,plati,a
+desafedzawnac,breakfast,dzawfan,desayuno,nacta,fetar,zaftrak,t
+wuflmwergadopet,lunch,wufan,almwerso,dopharkakhana,gada,abet,t
+wansenrat,dinner,wanfan,sena,ratkakhana,aca,uzin,t
+linacakbokwad,snack,linca,bokadiyo,nacta,wadjbaxafifa,zakuska,t

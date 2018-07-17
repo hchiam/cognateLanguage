@@ -743,3 +743,9 @@ zeban,zebra
 tsumnil,smart
 gharel,watch
 pindzez,bottle
+ywemes,month
+pagbhug,pay
+desaf,breakfast
+wuflmwer,lunch
+wansen,dinner
+linac,snack
