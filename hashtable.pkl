@@ -2041,7 +2041,7 @@ S'kaydivismazmar'
 p1020
 sS'snack'
 p1021
-S'linacakbokwad'
+S'lincakwadjbok'
 p1022
 sS'seven'
 p1023

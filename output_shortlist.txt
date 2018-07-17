@@ -748,4 +748,4 @@ plagdaf,pay,fu,paga,bhugtan,dafa,plati,a
 nacdzawfet,breakfast,dzawfan,desayuno,nacta,fetar,zaftrak,t
 wufalmwergadobet,lunch,wufan,almwerso,dopharkakhana,gada,abet,t
 uswanrat,dinner,wanfan,sena,ratkakhana,aca,uzin,t
-linacakbokwad,snack,linca,bokadiyo,nacta,wadjbaxafifa,zakuska,t
+lincakwadjbok,snack,linca,bokadiyo,nacta,wadjbaxafifa,zakuska,t
