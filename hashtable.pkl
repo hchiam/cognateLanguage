@@ -21,7 +21,7 @@ S'hwanarpilsfarjol'
 p10
 sS'month'
 p11
-S'ywemesahmah'
+S'mehcahywe'
 p12
 sS'four'
 p13

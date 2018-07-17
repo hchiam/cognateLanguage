@@ -743,7 +743,7 @@ zeban,zebra
 tsumnil,smart
 gharel,watch
 pindzez,bottle
-ywemes,month
+mehcah,month
 pagbhug,pay
 desaf,breakfast
 wuflmwer,lunch
