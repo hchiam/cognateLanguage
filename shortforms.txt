@@ -746,6 +746,6 @@ pindzez,bottle
 mehcah,month
 plagdaf,pay
 nacdzaw,breakfast
-wuflmwer,lunch
+wufal,lunch
 wansen,dinner
 linac,snack

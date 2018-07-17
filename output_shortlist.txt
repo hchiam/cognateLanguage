@@ -746,6 +746,6 @@ pindzezbot,bottle,pindza,boteya,botal,izeza,butilka,t
 mehcahywe,month,ywe,mes,mahina,cahr,mesits,t
 plagdaf,pay,fu,paga,bhugtan,dafa,plati,a
 nacdzawfet,breakfast,dzawfan,desayuno,nacta,fetar,zaftrak,t
-wuflmwergadopet,lunch,wufan,almwerso,dopharkakhana,gada,abet,t
+wufalmwergadobet,lunch,wufan,almwerso,dopharkakhana,gada,abet,t
 wansenrat,dinner,wanfan,sena,ratkakhana,aca,uzin,t
 linacakbokwad,snack,linca,bokadiyo,nacta,wadjbaxafifa,zakuska,t
