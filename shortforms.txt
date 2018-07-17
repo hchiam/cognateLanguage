@@ -745,7 +745,7 @@ gharel,watch
 pindzez,bottle
 mehcah,month
 plagdaf,pay
-desaf,breakfast
+nacdzaw,breakfast
 wuflmwer,lunch
 wansen,dinner
 linac,snack

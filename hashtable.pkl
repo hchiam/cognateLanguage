@@ -1421,7 +1421,7 @@ S'neciyzarhtad'
 p710
 sS'breakfast'
 p711
-S'desafedzawnac'
+S'nacdzawfet'
 p712
 sS'any'
 p713
