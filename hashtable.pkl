@@ -2589,7 +2589,7 @@ S'cyadjikamkriv'
 p1294
 sS'dinner'
 p1295
-S'wansenrat'
+S'uswanrat'
 p1296
 sS'stand'
 p1297

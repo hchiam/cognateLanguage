@@ -747,5 +747,5 @@ mehcah,month
 plagdaf,pay
 nacdzaw,breakfast
 wufal,lunch
-wansen,dinner
+uswan,dinner
 linac,snack
