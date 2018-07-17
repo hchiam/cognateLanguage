@@ -1,5 +1,4 @@
 from collections import OrderedDict
-import time
 import re
 
 # import geneticAlgo
@@ -8,19 +7,9 @@ import re
 # shared variables:
 #------------------------
 
-words = OrderedDict()
-words['Eng'] = ''
-words['Chi'] = ''
-words['Spa'] = ''
-words['Hin'] = ''
-words['Ara'] = ''
-words['Rus'] = ''
-
 outputFilename = 'output.txt'
 
 filename1 = 'data.txt'
-
-localtime = time.asctime(time.localtime(time.time()))
 
 allophones = {
     'aeiou' : 'a',
@@ -40,250 +29,84 @@ allophones = {
 # functions:
 #------------------------
 
-def respellWithInitialVowelAndConsonants(word):
-    for char in word[1:]:
-        if char in 'aeiou':
-            word = word[0] + word[1:].replace(char,'')
-    return word
+def getFirstConsonantClusterAndVowel(word):
+    output = ''
+    for i in range(len(word)):
+        char = word[i]
+        if char not in 'aeiou':
+            output += char
+        elif i > 0:
+            output += char
+            return output
+    if output == '' and len(word) > 0:
+        output = word[0]
+    return output
 
-
-def respellWithAllophones(word):
-    for char in word:
-        for allo in allophones:
-            if char in allo:
-                word = word.replace(char,allophones[allo])
-    return word
-
-
-def combineOverlappingWords(shortList):
-    for language in shortList:
-        for otherlanguage in shortList:
-            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
-                a = shortList[language]
-                b = shortList[otherlanguage]
-                for i in range(1, len(b)):
-                    if a.endswith(b[:i]):
-                        shortList[otherlanguage] = ''
-                        shortList[language] = a+b[i:]
-    return shortList
-
-
-def createWord():
-    
-    # function variables:
-
-    wordsMinusNoninitialVowels = words
-    shortList = []
-    newWord = ''
-    
-    # the words spelt with just the initial vowel and consonants:
-
+def getFirstConsonantClusterAndVowel_ofEachWord(words):
     for language in words:
         if language != 'Eng':
-            words[language] = respellWithInitialVowelAndConsonants(words[language])
+            words[language] = getFirstConsonantClusterAndVowel(words[language])
+    return words
 
-    wordsMinusNoninitialVowels = words.copy() # must explicitly make copy of dictionary in Python (instead of a reference)
+def getOrder(lang):
+    if lang == 'Chi':
+        return 1
+    elif lang == 'Spa':
+        return 2
+    elif lang == 'Hin':
+        return 3
+    elif lang == 'Ara':
+        return 4
+    elif lang == 'Rus':
+        return 5
 
-    # the words with allophonic spelling:
-
-    for language in words:
-        if language != 'Eng':
-            words[language] = respellWithAllophones(words[language])
-
-    # ignore repeats:
-
-    shortList = words
-
-    for language in shortList:
-        for otherlanguage in shortList:
-            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
-                if shortList[language] == shortList[otherlanguage]:
-                    shortList[otherlanguage] = ''
-
-    # ignore words embedded in other words:
-
-    for language in shortList:
-        for otherlanguage in shortList:
-            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
-                if shortList[language] in shortList[otherlanguage]:
-                    shortList[language] = ''
-
-    # find overlaps in words:
-
-    for tries in range(5):
-        shortList = combineOverlappingWords(shortList)
-
-    # append remaining words:
-
-    for language in shortList:
-        if language != 'Eng':
-            newWord += shortList[language]
-
-    # put original consonants back in, using 1st letters of higher-priority words:
-
-    for language in reversed(words.keys()):
-        if language != 'Eng':
-            patternCompressedAllo = respellWithAllophones(wordsMinusNoninitialVowels[language])
-            if wordsMinusNoninitialVowels[language] not in newWord:
-                if patternCompressedAllo in respellWithAllophones(newWord): # replace with compressed word in allophone form
-                    index = respellWithAllophones(newWord).find(patternCompressedAllo)
-                    newWord = newWord[:index] + wordsMinusNoninitialVowels[language] + newWord[index+len(patternCompressedAllo):]
-                else:
-                    pattern = respellWithAllophones(wordsMinusNoninitialVowels[language])
-                    newWord = newWord.replace(pattern, wordsMinusNoninitialVowels[language])
-
-    # put original vowels (& consonants) back in, favouring higher-priority words:
-
-    for language in reversed(words.keys()):
-        if language != 'Eng':
-            if originalWords[language] not in newWord:
-                replacer = originalWords[language]
-                # types of patterns:  (priorities: original word in allophonic form > compressed word in allophonic form > compressed original word, to enable vowel overwrites)
-                patternOrigAllo = respellWithAllophones(originalWords[language])
-                patternCompressedAllo = respellWithAllophones(wordsMinusNoninitialVowels[language])
-                patternOrigCompressed = wordsMinusNoninitialVowels[language]
-                tempWord = newWord
-                # check if allophones exist that can be replaced, before checking for replacing compressed original word:
-                if patternOrigAllo in respellWithAllophones(newWord):
-                    index = respellWithAllophones(newWord).find(patternOrigAllo)
-                    newWord = newWord[:index] + replacer + newWord[index+len(patternOrigAllo):]
-                elif patternCompressedAllo in respellWithAllophones(newWord):
-                    index = respellWithAllophones(newWord).find(patternCompressedAllo)
-                    newWord = newWord[:index] + replacer + newWord[index+len(patternCompressedAllo):]
-                else:
-                    newWord = newWord.replace(patternOrigCompressed, replacer,1)
-    print
-    print(newWord)
-    return newWord
-
-
-def simpNonChiWordMaker(word):
-    indexVowel = -1
-    # find (next) vowel:
+def getAlloWord(word):
+    alloWord = ''
     for letter in word:
-        if letter in 'aeiou':
-            indexVowel = word.find(letter)
-            break
-    # if still have next letter after get first vowel, then get first one (consonant) after it:
-    if indexVowel < len(word)-1:
-        indexVowelConsonant = indexVowel + 1
-        word = word[:1+indexVowelConsonant] # CVC - syllable can end in consonant
-        # word = word[:indexVowelConsonant] # CV - syllable ends in a vowel
-    return word
+        for allophoneGroup in allophones:
+            if letter in allophoneGroup:
+                alloWord += allophones[allophoneGroup]
+    return alloWord
 
+def removeRepeatingAlloWords(words):
+    for lang1 in words:
+        for lang2 in words:
+            notSameWord = lang1 != lang2
+            notEng = lang1 != 'Eng' and lang2 != 'Eng'
+            notCompareWithNone = words[lang1] != '' and words[lang2] != ''
+            if notSameWord and notEng and notCompareWithNone:
+                if getOrder(lang2) > getOrder(lang1):
+                    allo1 = getAlloWord(words[lang1])
+                    allo2 = getAlloWord(words[lang2])
+                    if allo2 in allo1:
+                        words[lang2] = ''
+    return words
 
-def simpChiWordMaker(word):
-    word = simpNonChiWordMaker(word)
-    if word: # account for if no translation for Chinese word
-        #print word,'before'
-        patterns = [r'[dt](\_[cjsz]){1}',r'(\_[^aeiou])+[wy]']
-        replacers = ['','']
-        if word[0] in 'aeiou':
-            word = word[1:]
-        for i, pattern in enumerate(patterns):
-            word = re.sub(pattern,replacers[i],word,1)
-            #print word,'after',pattern
-    return word
-
-
-def removeHForHin(word,lang):
-    if lang == 'Hin':
-        word = re.sub(r'(\_[^aeiou])+h','',word)
-    return word
-
-
-def createWord_DummyTest():
-    return 'abcd'
-
-
-def createWord_Alternate():
-    
-    # function variables:
-    
-    words = originalWords.copy()
-    shortList = []
+def concatShortenedWords(words):
     newWord = ''
-    indexVowel = -1
-    indexVowelConsonant = -1
-    
-    # use only 1 (simplified) syllable of each word (only one ending consonant if any), with no intial vowel
-    # CCCVC if not Chi. / CVC if Chi.
-    for lang in words:
-        if lang != 'Eng':
-            word = words[lang]
-            if word != '' and (word[0] in 'aeiou'): # no initial vowel
-                words[lang] = word[1:]
-            if lang != 'Chi': # get first, simplified syllable
-                words[lang] = simpNonChiWordMaker(words[lang])
-            elif lang == 'Chi':
-                words[lang] = simpChiWordMaker(words[lang])
-            print(word)
-            removeHForHin(word,lang)
-
-    wordsInitSyllables = words.copy()
-    
-    # the words with allophonic spelling:
-
     for language in words:
         if language != 'Eng':
-            words[language] = respellWithAllophones(words[language])
-
-    # ignore repeats:
-
-    shortList = words
-
-    for language in shortList:
-        for otherlanguage in shortList:
-            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
-                if shortList[language] == shortList[otherlanguage]:
-                    shortList[otherlanguage] = ''
-
-    # ignore words embedded in other words:
-
-    for language in shortList:
-        for otherlanguage in shortList:
-            if language != otherlanguage and language != 'Eng' and otherlanguage != 'Eng':
-                if shortList[language] in shortList[otherlanguage]:
-                    shortList[language] = ''
-
-    # find overlaps in words:
-
-    for tries in range(5):
-        shortList = combineOverlappingWords(shortList)
-    
-    # append remaining words:
-    
-    for language in shortList:
-        if language != 'Eng':
-            newWord += shortList[language]
-
-    # put original consonants back in, using 1st letters of higher-priority words:
-
-    for language in reversed(words.keys()):
-        if language != 'Eng':
-            patternCompressedAllo = respellWithAllophones(wordsInitSyllables[language])
-            if wordsInitSyllables[language] not in newWord:
-                if patternCompressedAllo in respellWithAllophones(newWord): # replace with compressed word in allophone form
-                    index = respellWithAllophones(newWord).find(patternCompressedAllo)
-                    if index == 0 and (originalWords[language][0] in 'aeiou'):
-                        print("head!!!")
-                        newWord = originalWords[language][0] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
-                    else:
-                        newWord = newWord[:index] + wordsInitSyllables[language] + newWord[index+len(patternCompressedAllo):]
-                else:
-                    pattern = respellWithAllophones(wordsInitSyllables[language])
-                    newWord = newWord.replace(pattern, wordsInitSyllables[language])
-
-    print(newWord)
+            newWord += words[language]
     return newWord
 
-def createWord_GeneticAlgo(entry):
-    # use geneticAlgo.py
-    return geneticAlgo.createWord(str(entry))
+def createWord(words):
+    newWord = ''
+    words = getFirstConsonantClusterAndVowel_ofEachWord(words)
+    words = removeRepeatingAlloWords(words)
+    newWord = concatShortenedWords(words)
+    return newWord
 
 #------------------------
 # main part of the program:
 #------------------------
+
+words = OrderedDict()
+words['Eng'] = ''
+words['Chi'] = ''
+words['Spa'] = ''
+words['Hin'] = ''
+words['Ara'] = ''
+words['Rus'] = ''
 
 # get lines of file into a list:
 with open(filename1,'r') as f1:
@@ -291,7 +114,6 @@ with open(filename1,'r') as f1:
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')
-    f2.write(localtime + '\n')
 
 # fill arrays:
 for line in data:
@@ -302,27 +124,10 @@ for line in data:
     words['Ara'] = line.split(',')[5]
     words['Rus'] = line.split(',')[6]
     originalWords = words.copy()
-    originalWords_Alt = words.copy()
-    # #if words['Eng'] != 'Eng':
-    #     #newWord = createWord() # here is the major function call!
-    #     #with open(outputFilename,'a') as f2:
-    #         #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
-    
     if words['Eng'] != 'Eng':
-        newWord = createWord_Alternate() # here is the major function call!
+        newWord = createWord(words) # here is the major function call!
         with open(outputFilename,'a') as f2:
             f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
-    
-    # #if words['Eng'] != 'Eng':
-    #     #newWord = createWord_DummyTest() # here is the major function call!
-    #     #with open(outputFilename,'a') as f2:
-    #         #f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + #originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
-    
-    # if words['Eng'] != 'Eng':
-    #     newWord = createWord_GeneticAlgo(line) # here is the major function call!
-    #     with open(outputFilename,'a') as f2:
-    #         f2.write(newWord + ',' + originalWords['Eng'] + ',' + originalWords['Chi'] + ',' + originalWords['Spa'] + ',' + originalWords['Hin'] + ',' + originalWords['Ara'] + ',' + originalWords['Rus'] + ',\n')
 
 with open(outputFilename,'a') as f2:
     f2.write('____________________\n')
-
