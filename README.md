@@ -101,7 +101,7 @@ To help support the decisions made, here are some test results as of September 3
 | 13805.7 | Using all of the automated optimizations/trade-offs discussed in this README.md
 | 14845.9 | "Curating" the automatically-generated output (i.e. the list includes manually-improved words).
 
-(Scores were calculated by first generating different outputs in output.txt and then evaluating the score each time with `py cognateLanguage_OverallEvaluator.py output.txt`.)
+(Scores were calculated by first generating different outputs in output.txt and then evaluating the score each time with `py cognateLanguage_OverallEvaluator.py output.txt`. The scoring algorithm isn't perfect, but it does seem that I'm onto something.)
 
 Basically, each word is created by combining words from the source languages, while trying to minimize output word length.  This is done by detecting "overlaps" between words with matching letters or consonant patterns.  The matching letters/consonants are ideally identical or are at least "allophones" (treated as similar sounds for our purposes).  To simplify pattern-matching, one basic dictionary of "allophones" is used, as well as the use of "abjad-like" spellings of words (retaining only consonants and initial vowel).  I focus on consonants because, from my own observations, consonants seem to be preserved better than vowels despite language changes/differences.  I currently use the initial syllables of source words to help limit word length.  The first syllable of a (root) word is also typically the minimum easily-recognizable part of words.  For example, think of common short forms like co., freq., com., ca., approx., cert., etc.  Abbreviations seem to tend to use the first syllable or so of their respective words.  
 
