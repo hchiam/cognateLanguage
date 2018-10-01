@@ -98,8 +98,8 @@ To help support the decisions made, here are some test results as of September 3
 | ------- | ----------------------------------------
 | -381.5  | Whole words appended together (no optimizations used). Like learning 5 vocab lists the normal way.
 | 8466.3  | Appending initial syllables but ignoring obvious overlaps (so you get things like "mammadmammam").
-| 13805.7 | Using all of the automated optimizations/trade-offs discussed in this README.md
-| 14845.9 | "Curating" the automatically-generated output (i.e. the list includes manually-improved words).
+| 13805.7 | Using all of the automated optimizations/trade-offs discussed in this README.md (e.g.: "mamad" and "bwentchawtayhor")
+| 14845.9 | "Curating" the automatically-generated output with manually-improved words (e.g.: "bwentchawrtay").
 
 (Scores were calculated by first generating different outputs in output.txt and then evaluating the score each time with `py cognateLanguage_OverallEvaluator.py output.txt`. The scoring algorithm isn't perfect, but it does seem that I'm onto something.)
 
