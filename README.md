@@ -1,7 +1,5 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
-[![HitCount](http://hits.dwyl.io/hchiam/cognateLanguage.svg)](http://hits.dwyl.io/hchiam/cognateLanguage)
-
 A language with special properties.
 
 [ Inspired: [cognateLanguage2](https://github.com/hchiam/cognateLanguage2) and [cogLang-geneticAlgo](https://github.com/hchiam/cogLang-geneticAlgo) and [coglang-translator](https://github.com/hchiam/coglang-translator).]
