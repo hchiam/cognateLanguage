@@ -752,3 +752,13 @@ nacdzawfet,breakfast,dzawfan,desayuno,nacta,fetar,zaftrak,t
 wufalmwergadobet,lunch,wufan,almwerso,dopharkakhana,gada,abet,t
 uswanrat,dinner,wanfan,sena,ratkakhana,aca,uzin,t
 lincakwadjbok,snack,linca,bokadiyo,nacta,wadjbaxafifa,zakuska,t
+pincanhadspakal,calm,pindjin,kalmado,cant,hadi,spakoyni,d
+adapricaynukay,adapt,cayin,adapta,anukulit,kayafa,prisposobi,a
+ciglasletal,next,cyayiga,sigwente,agla,talin,sleduyuci,d
+dantcinbispreqal,worry,dancin,preokupa,tcinta,qaliqa,bispakoy,a
+bulignandedj,ignore,buli,ignora,andekha,tadjahala,ignariru,a
+cayamalprakvyav,practical,cayonda,praktiko,vyavharik,amali,praktitciski,d
+konwadavicyan,trust,cyancin,konfia,vicvas,watiqa,daviryay,a
+balotcwamarkact,boat,tcwan,barko,kacti,markeb,lotka,t
+druhatmespirdjin,spirit,djincan,espiritu,atma,ruh,duh,t
+lyehbakedastay,stay,lyo,keda,reha,baqi,astaya,a

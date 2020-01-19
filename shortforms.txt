@@ -752,3 +752,13 @@ nacdzaw,breakfast
 wufal,lunch
 uswan,dinner
 lincak,snack
+pincan,calm
+adap,adapt
+ciglas,next
+dantcin,worry
+bulig,ignore
+cayam,practical
+konwad,trust
+balot,boat
+druhat,spirit
+lyehbak,stay
