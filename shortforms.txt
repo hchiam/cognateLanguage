@@ -269,7 +269,7 @@ tcanham,silence
 gerhar,war
 hapas,peace
 planap,plant
-cahay,yes
+cihay,yes
 bunoh,no
 djapap,paper
 telhad,telephone
@@ -492,7 +492,7 @@ fangur,pink
 welpar,for
 buynol,dont
 gwansob,about
-cahay,yeah
+cihay,yeah
 reab,actually
 tcinab,nice
 kaybkru,mean
