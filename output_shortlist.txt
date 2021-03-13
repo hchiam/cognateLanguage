@@ -269,7 +269,7 @@ tcanhamsuktisil,silence,tcanmo,silensyo,hamoc,sukut,ticina,t
 gerharvayudjan,war,djandjan,gera,yudh,harb,vayna,t
 hapasanirsal,peace,hapin,pas,canti,salam,mir,t
 planapodjawras,plant,djawu,planta,podha,nabat,rasteniye,t
-cahaywada,yes,ca,si,ha,aywa,da,d
+cihaywada,yes,ca,si,ha,aywa,da,d
 bunohlanyet,no,bu,no,nahi,la,nyet,d
 djapapumkagwar,paper,dja,papel,kagaz,waraq,bumaga,t
 telhadyen,telephone,dyenhwa,telefono,durbhas,hatif,telefon,t
@@ -492,7 +492,7 @@ fangurosah,pink,fanhonsa,rosado,gulabi,zahri,rozavi,d
 welparkeldle,for,wela,para,kelie,le,dla,c
 buynola,dont,buyaw,no,na,la,ne,d
 gwansobar,about,gwanyu,sobre,bare,an,o,c
-cahaywada,yeah,ca,si,ha,aywa,da,d
+cihaywada,yeah,ci,si,ha,aywa,da,d
 reabigdisadjan,actually,djanda,realmente,satcmutc,bigad,distvitilna,d
 tcinabdaykardob,nice,tcintcye,amable,daya,karim,dobri,d
 kaybkruenirzloy,mean,kabwo,kruel,nirdayi,gayrkarim,zloy,d
