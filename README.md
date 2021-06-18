@@ -2,7 +2,7 @@
 
 [![HitCount](http://hits.dwyl.com/hchiam/cognateLanguage.svg)](http://hits.dwyl.com/hchiam/cognateLanguage) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-A language with special properties.
+A language with special mnemonic properties.
 
 This project inspired these repos: [cognateLanguage2](https://github.com/hchiam/cognateLanguage2) and [cogLang-geneticAlgo](https://github.com/hchiam/cogLang-geneticAlgo) and [coglang-translator](https://github.com/hchiam/coglang-translator) and [text-similarity-test which uses TensorFlow.js Machine Learning](https://github.com/hchiam/text-similarity-test).
 
