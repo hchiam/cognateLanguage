@@ -1,6 +1,6 @@
 # ["Cognate Language" Project](https://hchiam.github.io/cognateLanguage/)
 
-[![HitCount](http://hits.dwyl.com/hchiam/cognateLanguage.svg)](http://hits.dwyl.com/hchiam/cognateLanguage) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 A language with special mnemonic properties.
 
