@@ -524,7 +524,7 @@ tihmakedjyenoj,scissors,djyendaw,tihera,ketci,maqas,nojnitsi,t
 tsanepserman,napkin,tsandjin,serviyeta,nepkin,mandil,salfetka,t
 tcakudawnoc,knife,daw,kutciyo,tcaqu,sikina,noc,t
 tretwopansin,tray,twopan,bandeha,tre,siniya,latok,t
-tsaymenqai,menu,tsaydan,menu,menu,qaima,minu,t
+tsayqaimen,menu,tsaydan,menu,menu,qaima,minu,t
 sepinantufyab,apple,pingwo,mansana,seb,tufaha,yablaka,t
 bupanbeygak,bagel,beygwo,panesiyo,begalroti,kak,bublik,t
 cyanozbankel,banana,cyandjyaw,banana,kela,moza,banan,t

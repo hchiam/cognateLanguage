@@ -524,7 +524,7 @@ tihmak,scissors
 tsanep,napkin
 tcakud,knife
 tretwop,tray
-tsaymen,menu
+tsayqa,menu
 sepin,apple
 bupan,bagel
 cyanoz,banana
