@@ -7,7 +7,8 @@ with open(inputFile,'r') as f1:
 langs = ['Chi','Spa','Hin','Ara','Rus']
 for i,lang in enumerate(langs):
     outputFile = 'just' + lang + '.txt'
-    for line in data:
-        entry = line.split(',')
-        with open(outputFile,'a') as f2:
+    with open(outputFile,'a') as f2:
+        f2.truncate(0)
+        for line in data:
+            entry = line.split(',')
             f2.write(entry[i+2] + ',' + entry[1] + ' (' + lang + ')' + '\n') # i+2 because item 0=CogLang and 1=Eng
