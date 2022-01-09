@@ -400,7 +400,7 @@ inwangles,english,inwan,ingles,angrezi,ingiliziya,angliski,t
 lidahemitprim,example,lidza,ehemplo,udahran,mital,primer,t
 tadsuskahuyiv,his,tada,su,uska,hu,yivo,d
 tadsuskahayiy,her,tada,su,uska,ha,yiyo,d
-tamkasuyihum,their,tamada,su,unka,hum,yih,d
+tamkasuyihum,their,tamanda,su,unka,hum,yih,d
 wonweshamac,our,womanda,nwestro,hamara,na,nac,d
 nitumak,your,nida,tu,tumhara,ak,tvoy,d
 nimvwecapku,yours,nimanda,vwestro,apka,ku,vac,d

@@ -400,7 +400,7 @@
 +,example,lidza,ehemplo,udahran,mital,primer,
 +,his,tada,su,uska,hu,yivo,
 +,her,tada,su,uska,ha,yiyo,
-+,their,tamada,su,unka,hum,yih,
++,their,tamanda,su,unka,hum,yih,
 +,our,womanda,nwestro,hamara,na,nac,
 +,your,nida,tu,tumhara,ak,tvoy,
 +,yours,nimanda,vwestro,apka,ku,vac,
