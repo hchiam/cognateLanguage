@@ -762,3 +762,4 @@ konwadavicyan,trust,cyancin,konfia,vicvas,watiqa,daviryay,a
 balotcwamarkact,boat,tcwan,barko,kacti,markeb,lotka,t
 druhatmespirdjin,spirit,djincan,espiritu,atma,ruh,duh,t
 lyehbakedastay,stay,lyo,keda,reha,baqi,astaya,a
+ovarchutsabz,vegetable,cutsay,verdura,sabzi,hudar,ovac,t

@@ -759,3 +759,4 @@
 +,boat,tcwan,barko,kacti,markeb,lotka,
 +,spirit,djincan,espiritu,atma,ruh,duh,
 +,stay,lyo,keda,reha,baqi,astaya,
++,vegetable,cutsay,verdura,sabzi,hudar,ovac,
