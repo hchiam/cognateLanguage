@@ -763,3 +763,4 @@ balot,boat
 druhat,spirit
 lyehbak,stay
 ovar,vegetable
+nyenal,young

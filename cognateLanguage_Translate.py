@@ -69,14 +69,14 @@ def formatInput(input):
 
 filename = 'hashtable.pkl' # 'output_shortlist.txt'
 data = {}
-input = ''
+user_input = ''
 translation = '< Translation Not Found. >'
 
-input = raw_input('Enter English word or sentence gloss to translate [and then hit Enter key]:\n\t')
+user_input = input('Enter English word or sentence gloss to translate [and then hit Enter key]:\n\t')
 
-input = formatInput(input)
+user_input = formatInput(user_input)
 
-if input != "":
+if user_input != "":
 
     translation = ''
     shortTranslation = ''
@@ -85,18 +85,18 @@ if input != "":
     # get hashtable file into a dictionary
     data = readFileToDict(filename)
 
-    # detect CogLang as input by checking if input is one abnormally long 'word' (and isn't found to be an English entry) and other indicators
-    if (' ' not in input and input not in data and len(input) >= 9 and isEven(vowelGroupCount(input))):
+    # detect CogLang as input by checking if user_input is one abnormally long 'word' (and isn't found to be an English entry) and other indicators
+    if (' ' not in user_input and user_input not in data and len(user_input) >= 9 and isEven(vowelGroupCount(user_input))):
 
-        # split input into words by every 2nd vowel (and final consonant of sentence-word)
+        # split user_input into words by every 2nd vowel (and final consonant of sentence-word)
         newInput = []
-        while len(input) > 1:
-            nextIndex = indexOfNthInstanceOfVowel(input,2)
-            if nextIndex != len(input)-2:
-                newInput.append(input[:nextIndex+1])
+        while len(user_input) > 1:
+            nextIndex = indexOfNthInstanceOfVowel(user_input,2)
+            if nextIndex != len(user_input)-2:
+                newInput.append(user_input[:nextIndex+1])
             else:
-                newInput.append(input)
-            input = input[nextIndex+1:]
+                newInput.append(user_input)
+            user_input = user_input[nextIndex+1:]
 
         # get .txt file file into a dictionary
         filename = 'output_shortlist.txt'
@@ -128,10 +128,10 @@ if input != "":
 
     else: # otherwise English sentence detected --> translate to Coglang
 
-        # split input into words
-        input = input.split(' ')
+        # split user_input into words
+        user_input = user_input.split(' ')
 
-        for word in input:
+        for word in user_input:
 
             translationFound = False
 
